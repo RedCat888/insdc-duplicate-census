@@ -1,0 +1,44 @@
+{
+  "label": "EXPLORATORY events",
+  "n_runs_with_key": 279612,
+  "n_md5_keys": 367987,
+  "n_groups_multi_run": 627,
+  "n_groups_same_submission_dropped": 1,
+  "n_groups_cross_study_surviving": 181,
+  "n_runs_in_dup_group": 811,
+  "n_runs_in_cross_study_event": 243,
+  "frac_runs_in_dup_group": [
+    0.0029004477633291846,
+    0.0027078284000943255,
+    0.0031067262785558977
+  ],
+  "frac_runs_in_cross_study_event": [
+    0.0008690614136732329,
+    0.0007664814613615635,
+    0.0009853563357999258
+  ],
+  "n_events": 15,
+  "n_studies_involved": 33,
+  "events_cross_center": 3,
+  "frac_events_cross_center": [
+    0.2,
+    0.07047420643610414,
+    0.4518593533465045
+  ],
+  "events_cross_taxon": 3,
+  "frac_events_cross_taxon": [
+    0.2,
+    0.07047420643610414,
+    0.4518593533465045
+  ],
+  "events_cross_strategy": 2,
+  "events_cross_platform": 0,
+  "gap_days_median": 215,
+  "gap_days_max": 1533,
+  "events_size_hist": {
+    "2": 14,
+    "5": 1
+  },
+  "files_per_event_median": 2,
+  "files_per_event_max": 64
+}

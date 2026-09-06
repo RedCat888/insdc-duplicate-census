@@ -1,0 +1,48 @@
+{
+  "label": "EXPLORATORY md5 channel (first_public < 2014-09-01)",
+  "keys_file": "out/keys_md5_exploratory.sorted.tsv",
+  "n_runs_with_key": 279612,
+  "keys": 367987,
+  "groups_multi_run": 627,
+  "groups_within_study": 445,
+  "groups_cross_study": 182,
+  "groups_surviving": 181,
+  "surv_cross_center": 33,
+  "size_2": 177,
+  "surv_cross_tax": 58,
+  "groups_same_submission": 1,
+  "size_3": 3,
+  "surv_cross_strategy": 2,
+  "size_6": 1,
+  "frac_runs_in_dup_group": [
+    0.0029004477633291846,
+    0.0027078284000943255,
+    0.0031067262785558977
+  ],
+  "frac_runs_in_cross_study_group": [
+    0.0008762141825100497,
+    0.0007731868539989468,
+    0.0009929562842945453
+  ],
+  "n_runs_in_dup_group": 811,
+  "n_runs_in_cross_study_group": 245,
+  "frac_cross_study_surviving": [
+    0.9945054945054945,
+    0.9695373289628527,
+    0.9990294504880345
+  ],
+  "frac_surv_cross_center": [
+    0.18232044198895028,
+    0.13286978560440893,
+    0.24497589415599136
+  ],
+  "frac_surv_cross_tax": [
+    0.32044198895027626,
+    0.25679682805695614,
+    0.3915507300684874
+  ],
+  "gap_days_median": 97,
+  "gap_days_p90": 525,
+  "gap_days_max": 1533,
+  "gap_days_zero_frac": 0.0
+}

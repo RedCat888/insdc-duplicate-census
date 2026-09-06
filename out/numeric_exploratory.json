@@ -1,0 +1,453 @@
+{
+  "n_numeric_groups_multi_run": 7506,
+  "n_numeric_groups_cross_study": 5185,
+  "n_numeric_pairs": 37463,
+  "n_md5_pairs": 435,
+  "labelled_region": "both runs ERR (submitted_md5 present for 100% of ERR)",
+  "all_pairs": {
+    "tp": 286,
+    "fp": 5668,
+    "fn": 149,
+    "precision": [
+      0.048034934497816595,
+      0.042888534716074594,
+      0.053764185960487196
+    ],
+    "recall": [
+      0.6574712643678161,
+      0.611670750430453,
+      0.7005147853072711
+    ]
+  },
+  "cross_study_pairs": {
+    "tp": 119,
+    "fp": 2055,
+    "fn": 2,
+    "precision": [
+      0.054737810487580495,
+      0.04593749261398075,
+      0.06510896733058087
+    ],
+    "recall": [
+      0.9834710743801653,
+      0.9417321024498186,
+      0.9954555016821374
+    ]
+  },
+  "example_fp_cross_study": [
+    {
+      "pair": [
+        "ERR296666",
+        "ERR326475"
+      ],
+      "a": {
+        "study_accession": "PRJEB3980",
+        "read_count": "2532937",
+        "base_count": "506587400",
+        "center_name": "University Of Oxford;United Kingdom;OXF",
+        "library_strategy": "WGS"
+      },
+      "b": {
+        "study_accession": "PRJEB3084",
+        "read_count": "2532937",
+        "base_count": "506587400",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      }
+    },
+    {
+      "pair": [
+        "ERR325664",
+        "ERR451111"
+      ],
+      "a": {
+        "study_accession": "PRJEB4478",
+        "read_count": "7",
+        "base_count": "700",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB5758",
+        "read_count": "7",
+        "base_count": "700",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR345242",
+        "ERR451241"
+      ],
+      "a": {
+        "study_accession": "PRJEB4630",
+        "read_count": "3",
+        "base_count": "300",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB5758",
+        "read_count": "3",
+        "base_count": "300",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR345242",
+        "ERR451413"
+      ],
+      "a": {
+        "study_accession": "PRJEB4630",
+        "read_count": "3",
+        "base_count": "300",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB5758",
+        "read_count": "3",
+        "base_count": "300",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR325545",
+        "ERR451300"
+      ],
+      "a": {
+        "study_accession": "PRJEB4478",
+        "read_count": "3",
+        "base_count": "300",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB5758",
+        "read_count": "3",
+        "base_count": "300",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR180684",
+        "ERR347814"
+      ],
+      "a": {
+        "study_accession": "PRJEB2720",
+        "read_count": "1654157",
+        "base_count": "330831400",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      },
+      "b": {
+        "study_accession": "PRJEB4640",
+        "read_count": "1654157",
+        "base_count": "330831400",
+        "center_name": "University of Oxford;Oxford;UK;UNIVERISTY OF OXFORD",
+        "library_strategy": "WGS"
+      }
+    },
+    {
+      "pair": [
+        "ERR022117",
+        "ERR392414"
+      ],
+      "a": {
+        "study_accession": "PRJEB2326",
+        "read_count": "23620903",
+        "base_count": "850352508",
+        "center_name": "European Bioinformatics Institute;CRUK-CRI",
+        "library_strategy": "ChIP-Seq"
+      },
+      "b": {
+        "study_accession": "PRJEB1247",
+        "read_count": "23620903",
+        "base_count": "850352508",
+        "center_name": "European Bioinformatics Institute;EMBL-EBI",
+        "library_strategy": "ChIP-Seq"
+      }
+    },
+    {
+      "pair": [
+        "ERR200328",
+        "ERR338178"
+      ],
+      "a": {
+        "study_accession": "PRJEB2846",
+        "read_count": "1150743",
+        "base_count": "230148600",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      },
+      "b": {
+        "study_accession": "PRJEB3259",
+        "read_count": "1150743",
+        "base_count": "230148600",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      }
+    }
+  ],
+  "example_fn_cross_study": [
+    {
+      "pair": [
+        "ERR007661",
+        "ERR499394"
+      ],
+      "a": {
+        "study_accession": "PRJEB2029",
+        "read_count": "29657",
+        "base_count": "3439099",
+        "center_name": "Wellcome Sanger Institute;SC"
+      },
+      "b": {
+        "study_accession": "PRJEB6285",
+        "read_count": "493236",
+        "base_count": "53777852",
+        "center_name": "Wellcome Sanger Institute;SC"
+      }
+    },
+    {
+      "pair": [
+        "ERR016531",
+        "ERR024102"
+      ],
+      "a": {
+        "study_accession": "PRJEB2264",
+        "read_count": "1222730",
+        "base_count": "595849249",
+        "center_name": "University of Liverpool;UOL_CGR"
+      },
+      "b": {
+        "study_accession": "PRJEB2338",
+        "read_count": "672776",
+        "base_count": "332280492",
+        "center_name": "University of Dundee;DUNDEE"
+      }
+    }
+  ],
+  "oversized_numeric_keys": [
+    {
+      "key": "100000000:10100000000",
+      "n_runs": 86,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA208503"
+      ]
+    },
+    {
+      "key": "16000000:3200000000",
+      "n_runs": 115,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA178784",
+        "PRJNA227205"
+      ]
+    },
+    {
+      "key": "16000000:576000000",
+      "n_runs": 836,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA189955",
+        "PRJNA203121",
+        "PRJNA34535",
+        "PRJNA63443",
+        "PRJNA63447",
+        "PRJNA63471"
+      ]
+    },
+    {
+      "key": "1:50",
+      "n_runs": 88,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB2926"
+      ]
+    },
+    {
+      "key": "24489796:1200000004",
+      "n_runs": 90,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA230561",
+        "PRJNA235960"
+      ]
+    },
+    {
+      "key": "2611112:470000160",
+      "n_runs": 74,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA168337"
+      ]
+    },
+    {
+      "key": "2933334:528000120",
+      "n_runs": 107,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA187550"
+      ]
+    },
+    {
+      "key": "4000000:144000000",
+      "n_runs": 330,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA175822",
+        "PRJNA175842",
+        "PRJNA178579",
+        "PRJNA186696",
+        "PRJNA34535",
+        "PRJNA63471"
+      ]
+    },
+    {
+      "key": "4000000:192000000",
+      "n_runs": 103,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA191143",
+        "PRJNA225915"
+      ]
+    },
+    {
+      "key": "4000000:200000000",
+      "n_runs": 1145,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA182732",
+        "PRJNA191143",
+        "PRJNA205296",
+        "PRJNA210764",
+        "PRJNA211259",
+        "PRJNA215375",
+        "PRJNA219406",
+        "PRJNA225915"
+      ]
+    },
+    {
+      "key": "4000000:204000000",
+      "n_runs": 741,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB4011",
+        "PRJNA138597",
+        "PRJNA151499",
+        "PRJNA177076",
+        "PRJNA211259",
+        "PRJNA217719",
+        "PRJNA217799",
+        "PRJNA218220"
+      ]
+    },
+    {
+      "key": "4000000:208000000",
+      "n_runs": 83,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA179206",
+        "PRJNA244101"
+      ]
+    },
+    {
+      "key": "4000000:236000000",
+      "n_runs": 86,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA179206"
+      ]
+    },
+    {
+      "key": "4000000:304000000",
+      "n_runs": 1041,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA177678",
+        "PRJNA206070",
+        "PRJNA219729",
+        "PRJNA232649",
+        "PRJNA251425"
+      ]
+    },
+    {
+      "key": "4000000:400000000",
+      "n_runs": 72,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA171703",
+        "PRJNA20583",
+        "PRJNA211849",
+        "PRJNA229675"
+      ]
+    },
+    {
+      "key": "4000000:404000000",
+      "n_runs": 83,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB4978",
+        "PRJEB5853",
+        "PRJEB5867",
+        "PRJNA196121",
+        "PRJNA235153",
+        "PRJNA255338"
+      ]
+    },
+    {
+      "key": "4000000:408000000",
+      "n_runs": 150,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA245468"
+      ]
+    },
+    {
+      "key": "4000000:800000000",
+      "n_runs": 410,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA173077",
+        "PRJNA192697",
+        "PRJNA215145",
+        "PRJNA215146",
+        "PRJNA224158",
+        "PRJNA239759"
+      ]
+    },
+    {
+      "key": "4000000:808000000",
+      "n_runs": 921,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB4368",
+        "PRJEB4500",
+        "PRJEB4737",
+        "PRJEB6594",
+        "PRJNA184710",
+        "PRJNA203514",
+        "PRJNA208774",
+        "PRJNA217719"
+      ]
+    },
+    {
+      "key": "5000000:250000000",
+      "n_runs": 112,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJNA176560",
+        "PRJNA246388"
+      ]
+    }
+  ],
+  "n_oversized_numeric_keys": 20
+}

@@ -1,0 +1,396 @@
+[
+ {
+  "studies": [
+   "PRJEB1347",
+   "PRJEB1416"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 64,
+  "n_runs": 32,
+  "n_centers_norm": 1,
+  "taxa": [
+   "943925"
+  ],
+  "date_first": "2013-01-29",
+  "date_last": "2013-02-08",
+  "studies_with_indexed_paper": 0,
+  "distinct_pmids": 0,
+  "different_papers": false,
+  "papers": {
+   "PRJEB1347": [],
+   "PRJEB1416": []
+  }
+ },
+ {
+  "studies": [
+   "PRJEB1720",
+   "PRJEB4562"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 56,
+  "n_runs": 112,
+  "n_centers_norm": 1,
+  "taxa": [
+   "256318",
+   "408170"
+  ],
+  "date_first": "2013-06-03",
+  "date_last": "2013-09-08",
+  "studies_with_indexed_paper": 2,
+  "distinct_pmids": 1,
+  "different_papers": false,
+  "papers": {
+   "PRJEB1720": [
+    {
+     "pmid": "26861660",
+     "doi": "10.1093/database/bav126",
+     "year": "2016",
+     "title": "Value, but high costs in post-deposition data curation.",
+     "journal": "Database (Oxford)"
+    }
+   ],
+   "PRJEB4562": [
+    {
+     "pmid": "26861660",
+     "doi": "10.1093/database/bav126",
+     "year": "2016",
+     "title": "Value, but high costs in post-deposition data curation.",
+     "journal": "Database (Oxford)"
+    }
+   ]
+  }
+ },
+ {
+  "studies": [
+   "PRJEB2786",
+   "PRJEB2788"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 16,
+  "n_runs": 16,
+  "n_centers_norm": 1,
+  "taxa": [
+   "9606"
+  ],
+  "date_first": "2011-12-09",
+  "date_last": "2012-02-08",
+  "studies_with_indexed_paper": 0,
+  "distinct_pmids": 0,
+  "different_papers": false,
+  "papers": {
+   "PRJEB2786": [],
+   "PRJEB2788": []
+  }
+ },
+ {
+  "studies": [
+   "PRJEB2461",
+   "PRJEB3235"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 16,
+  "n_runs": 16,
+  "n_centers_norm": 1,
+  "taxa": [
+   "9606"
+  ],
+  "date_first": "2012-03-01",
+  "date_last": "2013-08-08",
+  "studies_with_indexed_paper": 1,
+  "distinct_pmids": 1,
+  "different_papers": false,
+  "papers": {
+   "PRJEB2461": [],
+   "PRJEB3235": [
+    {
+     "pmid": "31214250",
+     "doi": "10.3389/fgene.2019.00527",
+     "year": "2019",
+     "title": "Revisiting Non-BRCA1/2 Familial Whole Exome Sequencing Datasets Implicates <i>NCK1</i> as a Cancer Gene.",
+     "journal": "Front Genet"
+    }
+   ]
+  }
+ },
+ {
+  "studies": [
+   "PRJEB1198",
+   "PRJEB2072"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 11,
+  "n_runs": 22,
+  "n_centers_norm": 2,
+  "taxa": [
+   "444079"
+  ],
+  "date_first": "2010-05-07",
+  "date_last": "2012-12-23",
+  "studies_with_indexed_paper": 0,
+  "distinct_pmids": 0,
+  "different_papers": false,
+  "papers": {
+   "PRJEB1198": [],
+   "PRJEB2072": []
+  }
+ },
+ {
+  "studies": [
+   "PRJEB1564",
+   "PRJEB2610",
+   "PRJEB2887",
+   "PRJEB4020",
+   "PRJEB4235"
+  ],
+  "n_studies": 5,
+  "n_shared_files": 11,
+  "n_runs": 13,
+  "n_centers_norm": 1,
+  "taxa": [
+   "9606"
+  ],
+  "date_first": "2011-12-16",
+  "date_last": "2014-04-17",
+  "studies_with_indexed_paper": 0,
+  "distinct_pmids": 0,
+  "different_papers": false,
+  "papers": {
+   "PRJEB1564": [],
+   "PRJEB2610": [],
+   "PRJEB2887": [],
+   "PRJEB4020": [],
+   "PRJEB4235": []
+  }
+ },
+ {
+  "studies": [
+   "PRJEB2356",
+   "PRJEB2592"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 3,
+  "n_runs": 6,
+  "n_centers_norm": 1,
+  "taxa": [
+   "408170"
+  ],
+  "date_first": "2011-06-14",
+  "date_last": "2011-08-31",
+  "studies_with_indexed_paper": 0,
+  "distinct_pmids": 0,
+  "different_papers": false,
+  "papers": {
+   "PRJEB2356": [],
+   "PRJEB2592": []
+  }
+ },
+ {
+  "studies": [
+   "",
+   "PRJEB4210"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 2,
+  "n_runs": 4,
+  "n_centers_norm": 1,
+  "taxa": [
+   "9606"
+  ],
+  "date_first": "2013-06-28",
+  "date_last": "2013-07-14",
+  "studies_with_indexed_paper": 1,
+  "distinct_pmids": 1,
+  "different_papers": false,
+  "papers": {
+   "": [],
+   "PRJEB4210": [
+    {
+     "pmid": "24009664",
+     "doi": "10.1371/journal.pone.0071554",
+     "year": "2013",
+     "title": "Systematic pharmacogenomics analysis of a Malay whole genome: proof of concept for personalized medicine.",
+     "journal": "PLoS One"
+    }
+   ]
+  }
+ },
+ {
+  "studies": [
+   "PRJEB2155",
+   "PRJEB2316"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 2,
+  "n_runs": 4,
+  "n_centers_norm": 1,
+  "taxa": [
+   "9606"
+  ],
+  "date_first": "2010-06-11",
+  "date_last": "2010-12-16",
+  "studies_with_indexed_paper": 0,
+  "distinct_pmids": 0,
+  "different_papers": false,
+  "papers": {
+   "PRJEB2155": [],
+   "PRJEB2316": []
+  }
+ },
+ {
+  "studies": [
+   "PRJEB2326",
+   "PRJEB2329"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 1,
+  "n_runs": 2,
+  "n_centers_norm": 1,
+  "taxa": [
+   "10090"
+  ],
+  "date_first": "2011-03-01",
+  "date_last": "2011-11-01",
+  "studies_with_indexed_paper": 0,
+  "distinct_pmids": 0,
+  "different_papers": false,
+  "papers": {
+   "PRJEB2326": [],
+   "PRJEB2329": []
+  }
+ },
+ {
+  "studies": [
+   "PRJEB2029",
+   "PRJEB6285"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 1,
+  "n_runs": 2,
+  "n_centers_norm": 1,
+  "taxa": [
+   "696370",
+   "90370"
+  ],
+  "date_first": "2010-02-26",
+  "date_last": "2014-05-09",
+  "studies_with_indexed_paper": 0,
+  "distinct_pmids": 0,
+  "different_papers": false,
+  "papers": {
+   "PRJEB2029": [],
+   "PRJEB6285": []
+  }
+ },
+ {
+  "studies": [
+   "PRJEB1955",
+   "PRJEB4877"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 1,
+  "n_runs": 2,
+  "n_centers_norm": 1,
+  "taxa": [
+   "9606"
+  ],
+  "date_first": "2013-05-16",
+  "date_last": "2013-12-17",
+  "studies_with_indexed_paper": 1,
+  "distinct_pmids": 2,
+  "different_papers": false,
+  "papers": {
+   "PRJEB1955": [],
+   "PRJEB4877": [
+    {
+     "pmid": "39175940",
+     "doi": "10.1016/j.cellin.2024.100184",
+     "year": "2024",
+     "title": "Transcriptomic analysis of mouse TRAMP cell lines and tumors provide insights into shared pathways and therapeutic targets.",
+     "journal": "Cell Insight"
+    },
+    {
+     "pmid": "24587179",
+     "doi": "10.1371/journal.pone.0090002",
+     "year": "2014",
+     "title": "Comparative genomic and transcriptomic analyses of LNCaP and C4-2B prostate cancer cell lines.",
+     "journal": "PLoS One"
+    }
+   ]
+  }
+ },
+ {
+  "studies": [
+   "PRJEB2264",
+   "PRJEB2338"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 1,
+  "n_runs": 2,
+  "n_centers_norm": 2,
+  "taxa": [
+   "172790",
+   "4565"
+  ],
+  "date_first": "2010-08-31",
+  "date_last": "2011-01-11",
+  "studies_with_indexed_paper": 0,
+  "distinct_pmids": 0,
+  "different_papers": false,
+  "papers": {
+   "PRJEB2264": [],
+   "PRJEB2338": []
+  }
+ },
+ {
+  "studies": [
+   "PRJEB2583",
+   "PRJEB3363"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 1,
+  "n_runs": 2,
+  "n_centers_norm": 1,
+  "taxa": [
+   "410658"
+  ],
+  "date_first": "2011-06-17",
+  "date_last": "2012-11-01",
+  "studies_with_indexed_paper": 0,
+  "distinct_pmids": 0,
+  "different_papers": false,
+  "papers": {
+   "PRJEB2583": [],
+   "PRJEB3363": []
+  }
+ },
+ {
+  "studies": [
+   "PRJEB3209",
+   "PRJEB3242"
+  ],
+  "n_studies": 2,
+  "n_shared_files": 1,
+  "n_runs": 8,
+  "n_centers_norm": 2,
+  "taxa": [
+   "9606"
+  ],
+  "date_first": "2013-07-16",
+  "date_last": "2014-04-29",
+  "studies_with_indexed_paper": 1,
+  "distinct_pmids": 1,
+  "different_papers": false,
+  "papers": {
+   "PRJEB3209": [
+    {
+     "pmid": "25182477",
+     "doi": "10.1038/ncomms5767",
+     "year": "2014",
+     "title": "Genome dynamics of the human embryonic kidney 293 lineage in response to cell biology manipulations.",
+     "journal": "Nat Commun"
+    }
+   ],
+   "PRJEB3242": []
+  }
+ }
+]

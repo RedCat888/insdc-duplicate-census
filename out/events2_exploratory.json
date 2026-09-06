@@ -1,0 +1,106 @@
+{
+  "label": "EXPLORATORY (post-Amendment-2)",
+  "n_runs_with_key": 278484,
+  "n_md5_keys": 308473,
+  "n_groups_multi_run": 622,
+  "n_groups_cross_study": 177,
+  "n_groups_same_submission_dropped": 1,
+  "n_runs_in_dup_group": 795,
+  "n_runs_in_cross_study_event": 229,
+  "frac_runs_in_dup_group": [
+    0.002854742103675615,
+    0.0026633215175474625,
+    0.0030598784284282033
+  ],
+  "frac_runs_in_cross_study_event": [
+    0.0008223093606814036,
+    0.0007225114678626387,
+    0.0009358790649038014
+  ],
+  "redundant_bytes": 700729408814,
+  "redundant_TB": 0.701,
+  "bytes_in_dup_groups_TB": 1.399,
+  "n_events": 12,
+  "n_studies_involved": 27,
+  "events_cross_center": 2,
+  "events_cross_taxon": 2,
+  "events_cross_strategy": 1,
+  "events_cross_platform": 0,
+  "largest_event_studies": 5,
+  "largest_event_files": 64,
+  "event_size_hist": {
+    "2": 11,
+    "5": 1
+  },
+  "group_size_hist": {
+    "2": 619,
+    "3": 3
+  },
+  "shuffle_null": {
+    "observed_cross_study_groups": 178,
+    "null_draws": [
+      621,
+      620,
+      616,
+      616,
+      621
+    ],
+    "null_mean": 618.8,
+    "n_multi_run_groups": 622
+  },
+  "events_by_year_of_last_deposit": {
+    "2010": 1,
+    "2011": 3,
+    "2012": 3,
+    "2013": 4,
+    "2014": 1
+  },
+  "top_organisms": [
+    [
+      "Homo sapiens",
+      5
+    ],
+    [
+      "human gut metagenome",
+      2
+    ],
+    [
+      "Drosophila mojavensis sonorensis",
+      1
+    ],
+    [
+      "metagenome",
+      1
+    ],
+    [
+      "fossil metagenome",
+      1
+    ],
+    [
+      "Mus musculus",
+      1
+    ],
+    [
+      "Solanum phureja",
+      1
+    ],
+    [
+      "Triticum aestivum",
+      1
+    ],
+    [
+      "soil metagenome",
+      1
+    ]
+  ],
+  "frac_events_cross_center": [
+    0.16666666666666666,
+    0.04696414761482223,
+    0.44803635738467273
+  ],
+  "frac_events_cross_taxon": [
+    0.16666666666666666,
+    0.04696414761482223,
+    0.44803635738467273
+  ]
+}

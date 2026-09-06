@@ -1,0 +1,188 @@
+[
+  {
+    "target_md5": "ca9481ab9c2bba10b7e4f29642aab5b6",
+    "runs": [
+      "ERR248843",
+      "ERR338688"
+    ],
+    "studies": [
+      "PRJEB1720",
+      "PRJEB4562"
+    ],
+    "files": {
+      "ERR248843": {
+        "computed_md5": "ca9481ab9c2bba10b7e4f29642aab5b6",
+        "computed_bytes": 434764,
+        "secs": 1.9,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR248/ERR248843/v46_CYD_2.fq.gz",
+        "claimed_md5": "ca9481ab9c2bba10b7e4f29642aab5b6",
+        "claimed_bytes": 434764
+      },
+      "ERR338688": {
+        "computed_md5": "ca9481ab9c2bba10b7e4f29642aab5b6",
+        "computed_bytes": 434764,
+        "secs": 3.2,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR338/ERR338688/v46_D_2.fq.gz",
+        "claimed_md5": "ca9481ab9c2bba10b7e4f29642aab5b6",
+        "claimed_bytes": 434764
+      }
+    },
+    "identical_verified": true,
+    "matches_ena_claim": true
+  },
+  {
+    "target_md5": "793ee62567ff253b261c9ce41469a3c8",
+    "runs": [
+      "ERR248826",
+      "ERR338671"
+    ],
+    "studies": [
+      "PRJEB1720",
+      "PRJEB4562"
+    ],
+    "files": {
+      "ERR248826": {
+        "computed_md5": "793ee62567ff253b261c9ce41469a3c8",
+        "computed_bytes": 447384,
+        "secs": 5.3,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR248/ERR248826/v46_CYA_6.fq.gz",
+        "claimed_md5": "793ee62567ff253b261c9ce41469a3c8",
+        "claimed_bytes": 447384
+      },
+      "ERR338671": {
+        "computed_md5": "793ee62567ff253b261c9ce41469a3c8",
+        "computed_bytes": 447384,
+        "secs": 1.4,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR338/ERR338671/v46_A_6.fq.gz",
+        "claimed_md5": "793ee62567ff253b261c9ce41469a3c8",
+        "claimed_bytes": 447384
+      }
+    },
+    "identical_verified": true,
+    "matches_ena_claim": true
+  },
+  {
+    "target_md5": "78ab6d102d426f6307889dc1f03f01f8",
+    "runs": [
+      "ERR248859",
+      "ERR338648"
+    ],
+    "studies": [
+      "PRJEB1720",
+      "PRJEB4562"
+    ],
+    "files": {
+      "ERR248859": {
+        "computed_md5": "78ab6d102d426f6307889dc1f03f01f8",
+        "computed_bytes": 843042,
+        "secs": 5.8,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR248/ERR248859/v6_CYB_4.fq.gz",
+        "claimed_md5": "78ab6d102d426f6307889dc1f03f01f8",
+        "claimed_bytes": 843042
+      },
+      "ERR338648": {
+        "computed_md5": "78ab6d102d426f6307889dc1f03f01f8",
+        "computed_bytes": 843042,
+        "secs": 2.0,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR338/ERR338648/v6_B_4.fq.gz",
+        "claimed_md5": "78ab6d102d426f6307889dc1f03f01f8",
+        "claimed_bytes": 843042
+      }
+    },
+    "identical_verified": true,
+    "matches_ena_claim": true
+  },
+  {
+    "target_md5": "979fe1e334e9b5221723df081e42ce78",
+    "runs": [
+      "ERR248866",
+      "ERR338655"
+    ],
+    "studies": [
+      "PRJEB1720",
+      "PRJEB4562"
+    ],
+    "files": {
+      "ERR248866": {
+        "computed_md5": "979fe1e334e9b5221723df081e42ce78",
+        "computed_bytes": 684836,
+        "secs": 1.6,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR248/ERR248866/v6_CYC_4.fq.gz",
+        "claimed_md5": "979fe1e334e9b5221723df081e42ce78",
+        "claimed_bytes": 684836
+      },
+      "ERR338655": {
+        "computed_md5": "979fe1e334e9b5221723df081e42ce78",
+        "computed_bytes": 684836,
+        "secs": 1.7,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR338/ERR338655/v6_C_4.fq.gz",
+        "claimed_md5": "979fe1e334e9b5221723df081e42ce78",
+        "claimed_bytes": 684836
+      }
+    },
+    "identical_verified": true,
+    "matches_ena_claim": true
+  },
+  {
+    "target_md5": "b81300c0b515bd2b377075e9b0316555",
+    "runs": [
+      "ERR248833",
+      "ERR338678"
+    ],
+    "studies": [
+      "PRJEB1720",
+      "PRJEB4562"
+    ],
+    "files": {
+      "ERR248833": {
+        "computed_md5": "b81300c0b515bd2b377075e9b0316555",
+        "computed_bytes": 413417,
+        "secs": 4.8,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR248/ERR248833/v46_CYB_6.fq.gz",
+        "claimed_md5": "b81300c0b515bd2b377075e9b0316555",
+        "claimed_bytes": 413417
+      },
+      "ERR338678": {
+        "computed_md5": "b81300c0b515bd2b377075e9b0316555",
+        "computed_bytes": 413417,
+        "secs": 2.0,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR338/ERR338678/v46_B_6.fq.gz",
+        "claimed_md5": "b81300c0b515bd2b377075e9b0316555",
+        "claimed_bytes": 413417
+      }
+    },
+    "identical_verified": true,
+    "matches_ena_claim": true
+  },
+  {
+    "target_md5": "517ff29396bbedcc41e5d74b6c300939",
+    "runs": [
+      "ERR248871",
+      "ERR338660"
+    ],
+    "studies": [
+      "PRJEB1720",
+      "PRJEB4562"
+    ],
+    "files": {
+      "ERR248871": {
+        "computed_md5": "517ff29396bbedcc41e5d74b6c300939",
+        "computed_bytes": 1195986,
+        "secs": 2.2,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR248/ERR248871/v6_CYD_2.fq.gz",
+        "claimed_md5": "517ff29396bbedcc41e5d74b6c300939",
+        "claimed_bytes": 1195986
+      },
+      "ERR338660": {
+        "computed_md5": "517ff29396bbedcc41e5d74b6c300939",
+        "computed_bytes": 1195986,
+        "secs": 2.6,
+        "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR338/ERR338660/v6_D_2.fq.gz",
+        "claimed_md5": "517ff29396bbedcc41e5d74b6c300939",
+        "claimed_bytes": 1195986
+      }
+    },
+    "identical_verified": true,
+    "matches_ena_claim": true
+  }
+]
