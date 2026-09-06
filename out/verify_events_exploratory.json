@@ -1,0 +1,70 @@
+{
+  "results": [
+    {
+      "event_studies": [
+        "PRJEB2583",
+        "PRJEB3363"
+      ],
+      "target_md5": "b783fc06d0588a997e876dca0158c4dd",
+      "files": [
+        {
+          "run": "ERR037074",
+          "study": "PRJEB2583",
+          "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR037/ERR037074/RMgR8_I.sff",
+          "claimed_md5": "b783fc06d0588a997e876dca0158c4dd",
+          "computed_md5": "b783fc06d0588a997e876dca0158c4dd",
+          "bytes": 11209944,
+          "secs": 88.0,
+          "matches_ena": true
+        },
+        {
+          "run": "ERR186225",
+          "study": "PRJEB3363",
+          "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR186/ERR186225/RMgR_16S.sff",
+          "claimed_md5": "b783fc06d0588a997e876dca0158c4dd",
+          "computed_md5": "b783fc06d0588a997e876dca0158c4dd",
+          "bytes": 11209944,
+          "secs": 94.6,
+          "matches_ena": true
+        }
+      ],
+      "identical_verified": true,
+      "ena_field_correct": true
+    },
+    {
+      "event_studies": [
+        "PRJEB2356",
+        "PRJEB2592"
+      ],
+      "target_md5": "153a83039d269e9a01fbf4f49c2bf522",
+      "files": [
+        {
+          "run": "ERR022895",
+          "study": "PRJEB2356",
+          "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR022/ERR022895/C18.sff",
+          "claimed_md5": "153a83039d269e9a01fbf4f49c2bf522",
+          "computed_md5": "153a83039d269e9a01fbf4f49c2bf522",
+          "bytes": 23737520,
+          "secs": 162.8,
+          "matches_ena": true
+        },
+        {
+          "run": "ERR037360",
+          "study": "PRJEB2592",
+          "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR037/ERR037360/C_0.sff",
+          "claimed_md5": "153a83039d269e9a01fbf4f49c2bf522",
+          "computed_md5": "153a83039d269e9a01fbf4f49c2bf522",
+          "bytes": 23737520,
+          "secs": 201.2,
+          "matches_ena": true
+        }
+      ],
+      "identical_verified": true,
+      "ena_field_correct": true
+    }
+  ],
+  "skipped_too_big": 8,
+  "skipped_no_pair": 2,
+  "n_verified": 2,
+  "n_attempted": 2
+}

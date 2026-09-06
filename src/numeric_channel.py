@@ -33,8 +33,11 @@ def main():
     dump = []
     for key, rows in groups(a.numkeys):
         runs = sorted({r["run_accession"] for r in rows})
-        for r in rows: meta.setdefault(r["run_accession"], r)
         if len(runs) < 2: continue
+        # memory guard for archive scale: only keep metadata for runs we will actually pair,
+        # and never expand a runaway key (round subsample counts are shared by 100k+ runs)
+        if len(runs) <= 60:
+            for r in rows: meta.setdefault(r["run_accession"], r)
         numgroups += 1
         if len({r["study_accession"] for r in rows}) > 1:
             numgroups_x += 1

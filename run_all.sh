@@ -9,6 +9,18 @@ echo "[1/6] pull all ENA read_run metadata (43.8M runs, chunked by first_public 
 xargs -P 5 -n 3 ./src/pull_one.sh < src/chunks.txt
 ./src/pull_one.sh pre2014 1990-01-01 2013-12-31 || true
 
+echo "[1b/6] validate every chunk against ENA's own count and re-download any that are short"
+for pass in 1 2 3; do
+  python3 src/validate_chunks.py --only-present --out out/chunk_validation.json
+  BAD=$(python3 -c "import json;print(' '.join(json.load(open('out/chunk_validation.json'))['bad']))")
+  [[ -z "$BAD" ]] && break
+  echo "  re-downloading: $BAD"
+  for L in $BAD; do rm -f data/ena/$L.tsv.gz; done
+  grep -E "^($(echo $BAD | tr ' ' '|')) " src/chunks.txt > /tmp/redo.txt
+  xargs -P 4 -n 3 ./src/pull_one.sh < /tmp/redo.txt
+done
+python3 src/validate_chunks.py --out out/chunk_validation.json   # final, includes MISSING
+
 echo "[2/6] build key streams (exploratory = first_public < 2014-09-01, heldout = rest)"
 for S in exploratory heldout all; do
   python3 src/build_keys.py --set $S
@@ -29,6 +41,7 @@ python3 src/numeric_channel.py --numkeys out/keys_num_all.sorted.tsv \
 echo "[5/6] ground-truth verification: download the actual files and hash them"
 python3 src/verify_events.py --events out/events2_all.jsonl --n 25 --out out/verify_events.json
 
+python3 src/within_study.py --keys out/keys_md5_all.sorted.tsv --out out/within_study_all.json --dump out/within_study_all.jsonl --label all
 echo "[6/6] publication linkage via Europe PMC accession index"
 python3 src/pub_links.py --events out/events2_all.jsonl --out out/publinks_all.json
 echo "done - see out/ and log/"

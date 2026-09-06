@@ -18,6 +18,8 @@ def main():
     edges = collections.Counter()
     studymeta = collections.defaultdict(lambda: dict(centers=set(), taxa=set(), sci=set(),
                         strat=set(), broker=set(), plat=set(), dates=set(), runs=set()))
+    global _xbytes, _wbytes
+    _xbytes = [0]; _wbytes = [0]
     dupbytes = 0          # bytes stored redundantly (all copies beyond the first)
     totbytes = 0
     n_keys = n_multi = n_x = n_samesub = 0
@@ -41,10 +43,14 @@ def main():
             continue
         n_multi += 1; runs_dup.update(runs); grp_sizes.append(len(runs))
         all_groups_studies.append(runs)
-        # redundant bytes: (#copies - 1) * size
+        # redundant bytes: (#copies - 1) * size, split within- vs cross-study
         sz = max((r["_b"] for r in rows), default=0)
         dupbytes += sz * (len(runs) - 1); totbytes += sz * len(runs)
         studies = {r["study_accession"] for r in rows}
+        if len(studies) > 1:
+            globals().setdefault("_x", [0]); _xbytes[0] += sz * (len(runs) - 1)
+        else:
+            _wbytes[0] += sz * (len(runs) - 1)
         if len(studies) < 2: continue
         subs = {r["submission_accession"] for r in rows if r["submission_accession"]}
         if subs and len(subs) <= 1:
@@ -102,6 +108,8 @@ def main():
         frac_runs_in_dup_group=wilson(len(runs_dup), len(runs_seen)),
         frac_runs_in_cross_study_event=wilson(len(runs_x), len(runs_seen)),
         redundant_bytes=dupbytes, redundant_TB=round(dupbytes/1e12, 3),
+        redundant_cross_study_TB=round(_xbytes[0]/1e12, 4),
+        redundant_within_study_TB=round(_wbytes[0]/1e12, 4),
         bytes_in_dup_groups_TB=round(totbytes/1e12, 3),
         n_events=n_ev, n_studies_involved=len(studymeta),
         events_cross_center=sum(1 for e in events if e["n_centers_norm"] > 1),

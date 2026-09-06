@@ -1,0 +1,183 @@
+{
+  "label": "partial-data smoke test",
+  "n_runs_with_key": 1363785,
+  "n_md5_keys": 1927007,
+  "n_groups_multi_run": 11362,
+  "n_groups_cross_study": 9978,
+  "n_groups_same_submission_dropped": 1,
+  "n_runs_in_dup_group": 15232,
+  "n_runs_in_cross_study_event": 13314,
+  "frac_runs_in_dup_group": [
+    0.01116891592149789,
+    0.010993907623243105,
+    0.011346678155604492
+  ],
+  "frac_runs_in_cross_study_event": [
+    0.00976253588358869,
+    0.009598892205329411,
+    0.009928941420846521
+  ],
+  "redundant_bytes": 3986407189441,
+  "redundant_TB": 3.986,
+  "redundant_cross_study_TB": 2.4606,
+  "redundant_within_study_TB": 1.5258,
+  "bytes_in_dup_groups_TB": 7.873,
+  "n_events": 142,
+  "n_studies_involved": 357,
+  "events_cross_center": 23,
+  "events_cross_taxon": 42,
+  "events_cross_strategy": 15,
+  "events_cross_platform": 1,
+  "largest_event_studies": 18,
+  "largest_event_files": 2046,
+  "event_size_hist": {
+    "10": 2,
+    "3": 15,
+    "2": 113,
+    "9": 1,
+    "5": 5,
+    "4": 6
+  },
+  "group_size_hist": {
+    "2": 11120,
+    "3": 232,
+    "4": 4,
+    "5": 3,
+    "6": 2,
+    "10": 1
+  },
+  "shuffle_null": {
+    "observed_cross_study_groups": 9979,
+    "null_draws": [
+      11291,
+      11274,
+      11286,
+      11313,
+      11275
+    ],
+    "null_mean": 11287.8,
+    "n_multi_run_groups": 11362
+  },
+  "events_by_year_of_last_deposit": {
+    "2010": 1,
+    "2011": 1,
+    "2012": 1,
+    "2014": 6,
+    "2015": 12,
+    "2016": 34,
+    "2017": 34,
+    "2018": 53
+  },
+  "top_organisms": [
+    [
+      "Homo sapiens",
+      21
+    ],
+    [
+      "metagenome",
+      15
+    ],
+    [
+      "Mus musculus",
+      14
+    ],
+    [
+      "Escherichia coli",
+      8
+    ],
+    [
+      "Listeria monocytogenes",
+      5
+    ],
+    [
+      "gut metagenome",
+      4
+    ],
+    [
+      "soil metagenome",
+      4
+    ],
+    [
+      "human gut metagenome",
+      3
+    ],
+    [
+      "",
+      3
+    ],
+    [
+      "Salmonella enterica",
+      3
+    ],
+    [
+      "Bos indicus",
+      3
+    ],
+    [
+      "Hordeum vulgare",
+      2
+    ],
+    [
+      "Staphylococcus aureus",
+      2
+    ],
+    [
+      "Mycobacterium tuberculosis",
+      2
+    ],
+    [
+      "Mycobacterium tuberculosis complex sp.",
+      2
+    ],
+    [
+      "mouse gut metagenome",
+      2
+    ],
+    [
+      "feces metagenome",
+      2
+    ],
+    [
+      "Streptococcus equi",
+      2
+    ],
+    [
+      "Streptococcus equi subsp. equi",
+      2
+    ],
+    [
+      "bioreactor sludge metagenome",
+      2
+    ],
+    [
+      "Saccharomyces cerevisiae",
+      2
+    ],
+    [
+      "Pseudomonas aeruginosa",
+      2
+    ],
+    [
+      "Sus scrofa",
+      2
+    ],
+    [
+      "Escherichia coli str. K-12 substr. MG1655",
+      2
+    ],
+    [
+      "uncultured eukaryote",
+      2
+    ]
+  ],
+  "frac_events_cross_center": [
+    0.1619718309859155,
+    0.11042155900083112,
+    0.231330039994243
+  ],
+  "frac_events_cross_taxon": [
+    0.29577464788732394,
+    0.2268874530870216,
+    0.37542080463916894
+  ]
+}

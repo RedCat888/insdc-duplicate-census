@@ -1,0 +1,661 @@
+{
+ "n_confirmed_pairs": 21,
+ "pairs_where_both_studies_have_an_indexed_paper": 3,
+ "pairs_cited_by_different_papers": 0,
+ "rows": [
+  {
+   "runs": [
+    "SRR088821",
+    "SRR1264697"
+   ],
+   "studies": [
+    "PRJNA79879",
+    "PRJNA245544"
+   ],
+   "taxa": [
+    "4081",
+    "4081"
+   ],
+   "centers": [
+    "Boyce Thompson Institute",
+    "Boyce Thompson Institute"
+   ],
+   "dates": [
+    "2011-01-05",
+    "2014-05-02"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR070588",
+    "SRR071318"
+   ],
+   "studies": [
+    "PRJNA53779",
+    "PRJNA53745"
+   ],
+   "taxa": [
+    "904352",
+    "904331"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "dates": [
+    "2010-11-02",
+    "2010-11-21"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR1182639",
+    "SRR585833"
+   ],
+   "studies": [
+    "PRJNA240064",
+    "PRJNA175445"
+   ],
+   "taxa": [
+    "7460",
+    "7460"
+   ],
+   "centers": [
+    "USDA-ARS",
+    "USDA-ARS"
+   ],
+   "dates": [
+    "2014-03-14",
+    "2013-08-12"
+   ],
+   "papers_a": [
+    {
+     "pmid": "30923646",
+     "year": "2019",
+     "journal": "PeerJ",
+     "title": "Relative abundance and molecular evolution of Lake Sinai Virus (Sinaivirus) clades."
+    }
+   ],
+   "papers_b": [
+    {
+     "pmid": "30923646",
+     "year": "2019",
+     "journal": "PeerJ",
+     "title": "Relative abundance and molecular evolution of Lake Sinai Virus (Sinaivirus) clades."
+    }
+   ],
+   "both_have_papers": true,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR1039550",
+    "SRR1161542"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR492421",
+    "SRR507824"
+   ],
+   "studies": [
+    "PRJNA63475",
+    "PRJNA63471"
+   ],
+   "taxa": [
+    "10090",
+    "10090"
+   ],
+   "centers": [
+    "GEO",
+    "GEO"
+   ],
+   "dates": [
+    "2012-05-07",
+    "2012-06-21"
+   ],
+   "papers_a": [],
+   "papers_b": [
+    {
+     "pmid": "33775205",
+     "year": "2022",
+     "journal": "Epigenetics",
+     "title": "Cell type-specific chromatin accessibility analysis in the mouse and human brain."
+    }
+   ],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR088823",
+    "SRR1264702"
+   ],
+   "studies": [
+    "PRJNA79879",
+    "PRJNA245544"
+   ],
+   "taxa": [
+    "4081",
+    "4081"
+   ],
+   "centers": [
+    "Boyce Thompson Institute",
+    "Boyce Thompson Institute"
+   ],
+   "dates": [
+    "2011-01-05",
+    "2014-05-02"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR617951",
+    "SRR617983"
+   ],
+   "studies": [
+    "PRJNA181178",
+    "PRJNA181179"
+   ],
+   "taxa": [
+    "410658",
+    "410658"
+   ],
+   "centers": [
+    "Department of Animal Science and Technology, Hebei",
+    "College of Life Sciences of Hebei University"
+   ],
+   "dates": [
+    "2013-02-28",
+    "2013-11-22"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR634519",
+    "SRR646616"
+   ],
+   "studies": [
+    "PRJNA183510",
+    "PRJNA183860"
+   ],
+   "taxa": [
+    "938273",
+    "1169740"
+   ],
+   "centers": [
+    "University of calgary in Canada",
+    "University of British Columbia"
+   ],
+   "dates": [
+    "2013-02-28",
+    "2014-01-21"
+   ],
+   "papers_a": [
+    {
+     "pmid": "32302368",
+     "year": "2020",
+     "journal": "PLoS One",
+     "title": "Identification of a novel archaea virus, detected in hydrocarbon polluted Hungarian and Canadian samples."
+    }
+   ],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR389263",
+    "SRR516862"
+   ],
+   "studies": [
+    "PRJNA61297",
+    "PRJNA73829"
+   ],
+   "taxa": [
+    "686",
+    "666"
+   ],
+   "centers": [
+    "PacBio",
+    "PacBio"
+   ],
+   "dates": [
+    "2012-01-02",
+    "2012-06-29"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR000855",
+    "SRR089562"
+   ],
+   "studies": [
+    "PRJNA74617",
+    "PRJNA60217"
+   ],
+   "taxa": [
+    "502869",
+    "502869"
+   ],
+   "centers": [
+    "WUGSC",
+    "WUGSC"
+   ],
+   "dates": [
+    "2010-02-26",
+    "2011-01-23"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR543504",
+    "SRR578255"
+   ],
+   "studies": [
+    "PRJNA173018",
+    "PRJNA176307"
+   ],
+   "taxa": [
+    "9606",
+    "9606"
+   ],
+   "centers": [
+    "GEO",
+    "GEO"
+   ],
+   "dates": [
+    "2012-09-03",
+    "2013-02-11"
+   ],
+   "papers_a": [
+    {
+     "pmid": "41699006",
+     "year": "2026",
+     "journal": "Sci Rep",
+     "title": "Dysregulated expression of cell cycle regulators CDC20, PLK1, BUB1, CDC45, CDCA5 in pancreatic ductal adenocarcinoma."
+    }
+   ],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR389262",
+    "SRR516895"
+   ],
+   "studies": [
+    "PRJNA61297",
+    "PRJNA73829"
+   ],
+   "taxa": [
+    "686",
+    "666"
+   ],
+   "centers": [
+    "PacBio",
+    "PacBio"
+   ],
+   "dates": [
+    "2012-01-02",
+    "2012-07-02"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR634605",
+    "SRR646612"
+   ],
+   "studies": [
+    "PRJNA183510",
+    "PRJNA183860"
+   ],
+   "taxa": [
+    "938273",
+    "1169740"
+   ],
+   "centers": [
+    "University of calgary in Canada",
+    "University of British Columbia"
+   ],
+   "dates": [
+    "2013-02-28",
+    "2014-01-21"
+   ],
+   "papers_a": [
+    {
+     "pmid": "32302368",
+     "year": "2020",
+     "journal": "PLoS One",
+     "title": "Identification of a novel archaea virus, detected in hydrocarbon polluted Hungarian and Canadian samples."
+    }
+   ],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR063729",
+    "SRR063733"
+   ],
+   "studies": [
+    "PRJNA51081",
+    "PRJNA49437"
+   ],
+   "taxa": [
+    "866779",
+    "768724"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "dates": [
+    "2010-08-08",
+    "2010-08-08"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR1040516",
+    "SRR1324852"
+   ],
+   "studies": [
+    "PRJNA230239",
+    "PRJNA249058"
+   ],
+   "taxa": [
+    "66189",
+    "66189"
+   ],
+   "centers": [
+    "CNRS",
+    "Universit\u00e9 Montpellier 2"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-08-12"
+   ],
+   "papers_a": [
+    {
+     "pmid": "28356154",
+     "year": "2017",
+     "journal": "BMC Biol",
+     "title": "Patterns of cross-contamination in a multispecies population genomic project: detection, quantification, impact, and solutions."
+    },
+    {
+     "pmid": "24342523",
+     "year": "2013",
+     "journal": "Genome Biol",
+     "title": "Population genomics of the endangered giant Gal\u00e1pagos tortoise."
+    }
+   ],
+   "papers_b": [
+    {
+     "pmid": "37347755",
+     "year": "2023",
+     "journal": "PLoS One",
+     "title": "CryoEM structure and Alphafold molecular modelling of a novel molluscan hemocyanin."
+    },
+    {
+     "pmid": "33804177",
+     "year": "2021",
+     "journal": "Mar Drugs",
+     "title": "Chitin Synthesis and Degradation in Crustaceans: A Genomic View and Application."
+    },
+    {
+     "pmid": "31905955",
+     "year": "2019",
+     "journal": "Viruses",
+     "title": "Infection Load and Prevalence of Novel Viruses Identified from the Bank Vole Do Not Associate with Exposure to Environmental Radioactivity."
+    },
+    {
+     "pmid": "28356154",
+     "year": "2017",
+     "journal": "BMC Biol",
+     "title": "Patterns of cross-contamination in a multispecies population genomic project: detection, quantification, impact, and solutions."
+    }
+   ],
+   "both_have_papers": true,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR1182579",
+    "SRR584172"
+   ],
+   "studies": [
+    "PRJNA240064",
+    "PRJNA175445"
+   ],
+   "taxa": [
+    "7460",
+    "7460"
+   ],
+   "centers": [
+    "USDA-ARS",
+    "USDA-ARS"
+   ],
+   "dates": [
+    "2014-03-11",
+    "2013-08-12"
+   ],
+   "papers_a": [
+    {
+     "pmid": "30923646",
+     "year": "2019",
+     "journal": "PeerJ",
+     "title": "Relative abundance and molecular evolution of Lake Sinai Virus (Sinaivirus) clades."
+    }
+   ],
+   "papers_b": [
+    {
+     "pmid": "30923646",
+     "year": "2019",
+     "journal": "PeerJ",
+     "title": "Relative abundance and molecular evolution of Lake Sinai Virus (Sinaivirus) clades."
+    }
+   ],
+   "both_have_papers": true,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR927294",
+    "SRR945822"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR389280",
+    "SRR516882"
+   ],
+   "studies": [
+    "PRJNA61297",
+    "PRJNA73829"
+   ],
+   "taxa": [
+    "686",
+    "666"
+   ],
+   "centers": [
+    "PacBio",
+    "PacBio"
+   ],
+   "dates": [
+    "2012-01-02",
+    "2012-07-02"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR088776",
+    "SRR1264695"
+   ],
+   "studies": [
+    "PRJNA79879",
+    "PRJNA245544"
+   ],
+   "taxa": [
+    "4081",
+    "4081"
+   ],
+   "centers": [
+    "Boyce Thompson Institute",
+    "Boyce Thompson Institute"
+   ],
+   "dates": [
+    "2011-01-05",
+    "2014-05-02"
+   ],
+   "papers_a": [],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR492447",
+    "SRR507860"
+   ],
+   "studies": [
+    "PRJNA63475",
+    "PRJNA63471"
+   ],
+   "taxa": [
+    "10090",
+    "10090"
+   ],
+   "centers": [
+    "GEO",
+    "GEO"
+   ],
+   "dates": [
+    "2012-05-07",
+    "2012-06-21"
+   ],
+   "papers_a": [],
+   "papers_b": [
+    {
+     "pmid": "33775205",
+     "year": "2022",
+     "journal": "Epigenetics",
+     "title": "Cell type-specific chromatin accessibility analysis in the mouse and human brain."
+    }
+   ],
+   "both_have_papers": false,
+   "different_papers": false
+  },
+  {
+   "runs": [
+    "SRR1133375",
+    "SRR628476"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "papers_a": [
+    {
+     "pmid": "28778895",
+     "year": "2017",
+     "journal": "Appl Environ Microbiol",
+     "title": "Salt Marsh Bacterial Communities before and after the Deepwater Horizon Oil Spill."
+    }
+   ],
+   "papers_b": [],
+   "both_have_papers": false,
+   "different_papers": false
+  }
+ ]
+}

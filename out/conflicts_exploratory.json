@@ -1,0 +1,5848 @@
+{
+ "n_candidate_pairs": 417,
+ "tax_relation_counts": {
+  "same_taxid": 217,
+  "metagenome_type_conflict": 133,
+  "same_higher_depth7": 1,
+  "metagenome_vs_organism": 2,
+  "same_species": 36,
+  "same_genus": 5,
+  "unknown": 9,
+  "refinement": 3,
+  "same_higher_depth9": 6,
+  "same_higher_depth1": 1,
+  "same_higher_depth6": 2,
+  "same_higher_depth3": 2
+ },
+ "n_identity_conflicts": 152,
+ "n_numeric_conflicts": 95,
+ "n_numeric_confirmed": 38,
+ "n_numeric_refuted": 0,
+ "n_numeric_no_fingerprint": 2,
+ "numeric_confirmation_rate": [
+  1.0,
+  0.90818706741616,
+  0.9999999999999999
+ ],
+ "conflicts": [
+  {
+   "channel": "md5",
+   "key": "076edb211f694ec8f7fe09f041d4c5f3",
+   "runs": [
+    "ERR248855",
+    "ERR338644"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "07e0940369e6ad641c8032736dbb3c97",
+   "runs": [
+    "ERR248853",
+    "ERR338642"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "0aa83323d836fc8eb668cf6461e91c50",
+   "runs": [
+    "ERR248850",
+    "ERR338639"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "185865e07818b9d8e85ba0b23a01ed14",
+   "runs": [
+    "ERR248834",
+    "ERR338679"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "18c68330c87bcd5f63483250445cf4d0",
+   "runs": [
+    "ERR248837",
+    "ERR338682"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "195096dcb4c85cc21f6fcbbb1d5c2b9d",
+   "runs": [
+    "ERR248831",
+    "ERR338676"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "287141741b4d1ff4f9c80bfba3280be6",
+   "runs": [
+    "ERR248836",
+    "ERR338681"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "2978816f4f7fd295f32ff3dff78dfc5f",
+   "runs": [
+    "ERR248825",
+    "ERR338670"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "2dd01e2991356c1710cb13cb5c19e50c",
+   "runs": [
+    "ERR248828",
+    "ERR338673"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "342e4bcc86f8c68c9fab35fa455263e0",
+   "runs": [
+    "ERR248846",
+    "ERR338691"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "3b2ffec9896e8289bb45121675f76256",
+   "runs": [
+    "ERR248875",
+    "ERR338664"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "408ea1d71a2c96a61acc30776c762af5",
+   "runs": [
+    "ERR248845",
+    "ERR338690"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "45df0d53684fe38693361db9c1fd8737",
+   "runs": [
+    "ERR248839",
+    "ERR338684"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "4b11ade06c057f932fe55481c7b5fd38",
+   "runs": [
+    "ERR248860",
+    "ERR338649"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "4f22736d08981917f54e2b656dcce43f",
+   "runs": [
+    "ERR248841",
+    "ERR338686"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "517ff29396bbedcc41e5d74b6c300939",
+   "runs": [
+    "ERR248871",
+    "ERR338660"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "53964340214e9e1e38c6dee54fc6bfa1",
+   "runs": [
+    "ERR248829",
+    "ERR338674"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "5f647d53ed0ab937fa0e806576af689f",
+   "runs": [
+    "ERR248821",
+    "ERR338666"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "6b5262eac9fa0f632e274084b2f47383",
+   "runs": [
+    "ERR248864",
+    "ERR338653"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "74b0345aeea2d4af9be71b2fbfcbdbfb",
+   "runs": [
+    "ERR248822",
+    "ERR338667"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "77a043c8c13f57d2863abc713a89228e",
+   "runs": [
+    "ERR248861",
+    "ERR338650"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "78ab6d102d426f6307889dc1f03f01f8",
+   "runs": [
+    "ERR248859",
+    "ERR338648"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "793ee62567ff253b261c9ce41469a3c8",
+   "runs": [
+    "ERR248826",
+    "ERR338671"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "83fb9076d75fbff406cc08ce56d9c6bf",
+   "runs": [
+    "ERR248858",
+    "ERR338647"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "85f908391d82288b9fe5f61d1c1360ea",
+   "runs": [
+    "ERR248873",
+    "ERR338662"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "86b0092b52a8cd3c93d0c7d83cab44e0",
+   "runs": [
+    "ERR248854",
+    "ERR338643"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "8842afd5386e492a1e86849cf5d99259",
+   "runs": [
+    "ERR248844",
+    "ERR338689"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "890ad6b0e7b97e15b82cec1d45440ad8",
+   "runs": [
+    "ERR248870",
+    "ERR338659"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "8e81243a03c50c2bbd2b85469b895d00",
+   "runs": [
+    "ERR248840",
+    "ERR338685"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "928ecb3c31b38c024097dee762c1148b",
+   "runs": [
+    "ERR248842",
+    "ERR338687"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "92c4caf0b1e1e96843430319c92ea472",
+   "runs": [
+    "ERR248824",
+    "ERR338669"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "979fe1e334e9b5221723df081e42ce78",
+   "runs": [
+    "ERR248866",
+    "ERR338655"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "97bece38cb4b015ea5016a726242993e",
+   "runs": [
+    "ERR248857",
+    "ERR338646"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "9c7b9ccb5339a8f7aacc4e94a49ae64f",
+   "runs": [
+    "ERR248823",
+    "ERR338668"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "a2915bf0a2d7f8c6749d7ac67b069ab6",
+   "runs": [
+    "ERR248847",
+    "ERR338692"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "a545eefa1fbe3940ba11a130e2747992",
+   "runs": [
+    "ERR248848",
+    "ERR338693"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "a9e6c6731844348275fdcf28a72847a0",
+   "runs": [
+    "ERR248830",
+    "ERR338675"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "aab383dc74a0d6ff3ab7531cc0416648",
+   "runs": [
+    "ERR016531",
+    "ERR024102"
+   ],
+   "studies": [
+    "PRJEB2264",
+    "PRJEB2338"
+   ],
+   "taxa": [
+    "4565",
+    "172790"
+   ],
+   "names": [
+    "Triticum aestivum",
+    "Solanum phureja"
+   ],
+   "centers": [
+    "University of Liverpool;UOL_CGR",
+    "University of Dundee;DUNDEE"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-08-31",
+    "2011-01-11"
+   ],
+   "tax_relation": "same_higher_depth7",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "b4eeaf58c2134b93db58b6409f02cf14",
+   "runs": [
+    "ERR248863",
+    "ERR338652"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "b81300c0b515bd2b377075e9b0316555",
+   "runs": [
+    "ERR248833",
+    "ERR338678"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "b8b7e7e482851a485b078fbd26b084e5",
+   "runs": [
+    "ERR248874",
+    "ERR338663"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "c2d08d494ea5a1cb449f897047c2da40",
+   "runs": [
+    "ERR248872",
+    "ERR338661"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "c6f3753a48536f338bc8c208e5efb647",
+   "runs": [
+    "ERR248827",
+    "ERR338672"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "ca9481ab9c2bba10b7e4f29642aab5b6",
+   "runs": [
+    "ERR248843",
+    "ERR338688"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "cb82ad97f1821e17d1290601b5c6e303",
+   "runs": [
+    "ERR248832",
+    "ERR338677"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "ceb8b93b0f6188761bb53206f6792d55",
+   "runs": [
+    "ERR248838",
+    "ERR338683"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "cf483e9ace01db9f5a42727122edda71",
+   "runs": [
+    "ERR248865",
+    "ERR338654"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "cff071b269266350b110cb0fed39764d",
+   "runs": [
+    "ERR248856",
+    "ERR338645"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "d1886a5dd0f296679cfb3fba754a742d",
+   "runs": [
+    "ERR248869",
+    "ERR338658"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "da99bd89e047c13ab05d37bf6fc313c3",
+   "runs": [
+    "ERR248867",
+    "ERR338656"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "e188db51d956b13087ea234334fec42e",
+   "runs": [
+    "ERR248851",
+    "ERR338640"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "e47e02b3c5636aff27905ec8cbc0ab0a",
+   "runs": [
+    "ERR248876",
+    "ERR338665"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "e6d6b73252f2697ce40f76a6266774a9",
+   "runs": [
+    "ERR248835",
+    "ERR338680"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "eb0bc03eef3d958a968f5f3c08e3675d",
+   "runs": [
+    "ERR248868",
+    "ERR338657"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "f7ff7374235eb2c262e056f83bb26464",
+   "runs": [
+    "ERR248852",
+    "ERR338641"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "fc42491e39d0b6983e9b6d525dea95ce",
+   "runs": [
+    "ERR248849",
+    "ERR338638"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "md5",
+   "key": "ff1c245c45f0ef2f0d4a309b7ef8be8d",
+   "runs": [
+    "ERR248862",
+    "ERR338651"
+   ],
+   "studies": [
+    "PRJEB1720",
+    "PRJEB4562"
+   ],
+   "taxa": [
+    "408170",
+    "256318"
+   ],
+   "names": [
+    "human gut metagenome",
+    "metagenome"
+   ],
+   "centers": [
+    "Southern Medical University;SMU",
+    "Southern Medical University;SMU"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-06-03",
+    "2013-09-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "EXACT_md5"
+  },
+  {
+   "channel": "numeric",
+   "key": "106289:10263469",
+   "runs": [
+    "ERR440851",
+    "ERR526375"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "408170",
+    "496924"
+   ],
+   "names": [
+    "human gut metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "1096:268412",
+   "runs": [
+    "SRR927293",
+    "SRR945821"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "109883:10826529",
+   "runs": [
+    "ERR440882",
+    "ERR526372"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "410658",
+    "496924"
+   ],
+   "names": [
+    "soil metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "111627:11026142",
+   "runs": [
+    "ERR440858",
+    "ERR526371"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "556184",
+    "496924"
+   ],
+   "names": [
+    "Amytornis merrotsyi merrotsyi",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_vs_organism"
+  },
+  {
+   "channel": "numeric",
+   "key": "113590:10587911",
+   "runs": [
+    "ERR440952",
+    "ERR526388"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "408170",
+    "496924"
+   ],
+   "names": [
+    "human gut metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "ERR440952": [
+     113590,
+     2080925,
+     2347330,
+     3763823,
+     2395833,
+     0
+    ],
+    "ERR526388": [
+     113590,
+     2080925,
+     2347330,
+     3763823,
+     2395833,
+     0
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "12332:5962890",
+   "runs": [
+    "SRR1021875",
+    "SRR871382"
+   ],
+   "studies": [
+    "PRJNA222380",
+    "PRJNA183180"
+   ],
+   "taxa": [
+    "749906",
+    "1163772"
+   ],
+   "names": [
+    "gut metagenome",
+    "sponge metagenome"
+   ],
+   "centers": [
+    "The University of Auckland",
+    "University of auckland"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-11-13",
+    "2013-06-08"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "12836:6033215",
+   "runs": [
+    "SRR1021859",
+    "SRR871386"
+   ],
+   "studies": [
+    "PRJNA222380",
+    "PRJNA183180"
+   ],
+   "taxa": [
+    "749906",
+    "1163772"
+   ],
+   "names": [
+    "gut metagenome",
+    "sponge metagenome"
+   ],
+   "centers": [
+    "The University of Auckland",
+    "University of auckland"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-11-13",
+    "2013-06-08"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "1306:312409",
+   "runs": [
+    "SRR927294",
+    "SRR945822"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "13162:2922067",
+   "runs": [
+    "SRR340034",
+    "SRR346135"
+   ],
+   "studies": [
+    "PRJNA72625",
+    "PRJNA80143"
+   ],
+   "taxa": [
+    "3634",
+    "29729"
+   ],
+   "names": [
+    "Gossypium barbadense",
+    "Gossypium arboreum"
+   ],
+   "centers": [
+    "Alabama A&M University",
+    "UOKNOR"
+   ],
+   "strategies": [
+    "FL-cDNA",
+    "POOLCLONE"
+   ],
+   "dates": [
+    "2011-11-01",
+    "2011-10-27"
+   ],
+   "tax_relation": "same_genus",
+   "confirm": "no_fingerprint",
+   "ncbi_keys": {
+    "SRR340034": null,
+    "SRR346135": [
+     13162,
+     827544,
+     656238,
+     757678,
+     679155,
+     54100
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "1317:334786",
+   "runs": [
+    "SRR927295",
+    "SRR945823"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR927295": [
+     1317,
+     74159,
+     91027,
+     101998,
+     72406,
+     464
+    ],
+    "SRR945823": [
+     1317,
+     74159,
+     91027,
+     101998,
+     72406,
+     464
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "137914:72069887",
+   "runs": [
+    "SRR1038393",
+    "SRR945530"
+   ],
+   "studies": [
+    "PRJNA227067",
+    "PRJNA213652"
+   ],
+   "taxa": [
+    "539655",
+    "9606"
+   ],
+   "names": [
+    "human skin metagenome",
+    "Homo sapiens"
+   ],
+   "centers": [
+    "Chung-Ang university",
+    "Chung-Ang university"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2014-01-17",
+    "2013-08-07"
+   ],
+   "tax_relation": "metagenome_vs_organism"
+  },
+  {
+   "channel": "numeric",
+   "key": "14031:3169058",
+   "runs": [
+    "SRR340033",
+    "SRR346324"
+   ],
+   "studies": [
+    "PRJNA72625",
+    "PRJNA80145"
+   ],
+   "taxa": [
+    "29729",
+    "3634"
+   ],
+   "names": [
+    "Gossypium arboreum",
+    "Gossypium barbadense"
+   ],
+   "centers": [
+    "Alabama A&M University",
+    "UOKNOR"
+   ],
+   "strategies": [
+    "FL-cDNA",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2011-11-01",
+    "2011-10-24"
+   ],
+   "tax_relation": "same_genus"
+  },
+  {
+   "channel": "numeric",
+   "key": "1517589:695431319",
+   "runs": [
+    "SRR090139",
+    "SRR090222"
+   ],
+   "studies": [
+    "PRJNA53813",
+    "PRJNA53793"
+   ],
+   "taxa": [
+    "904789",
+    "904779"
+   ],
+   "names": [
+    "Staphylococcus epidermidis IS-250",
+    "Staphylococcus aureus subsp. aureus IS-91"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2011-01-10",
+    "2011-01-10"
+   ],
+   "tax_relation": "same_genus"
+  },
+  {
+   "channel": "numeric",
+   "key": "1517589:695431319",
+   "runs": [
+    "SRR090139",
+    "SRR090228"
+   ],
+   "studies": [
+    "PRJNA53813",
+    "PRJNA53795"
+   ],
+   "taxa": [
+    "904789",
+    "904780"
+   ],
+   "names": [
+    "Staphylococcus epidermidis IS-250",
+    "Staphylococcus aureus subsp. aureus IS-99"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2011-01-10",
+    "2011-01-10"
+   ],
+   "tax_relation": "same_genus"
+  },
+  {
+   "channel": "numeric",
+   "key": "15486:7298116",
+   "runs": [
+    "SRR1021871",
+    "SRR869805"
+   ],
+   "studies": [
+    "PRJNA222380",
+    "PRJNA183180"
+   ],
+   "taxa": [
+    "749906",
+    "1163772"
+   ],
+   "names": [
+    "gut metagenome",
+    "sponge metagenome"
+   ],
+   "centers": [
+    "The University of Auckland",
+    "University of auckland"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-11-13",
+    "2013-06-05"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "1553:395136",
+   "runs": [
+    "SRR927287",
+    "SRR945813"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "158788:15376523",
+   "runs": [
+    "ERR440896",
+    "ERR526363"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "408170",
+    "496924"
+   ],
+   "names": [
+    "human gut metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "no_fingerprint",
+   "ncbi_keys": {
+    "ERR440896": null,
+    "ERR526363": [
+     158788,
+     3715773,
+     2772341,
+     5312695,
+     3575714,
+     0
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "166679:15948522",
+   "runs": [
+    "ERR440920",
+    "ERR526315"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "539655",
+    "496924"
+   ],
+   "names": [
+    "human skin metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "ERR440920": [
+     166679,
+     3648222,
+     3110506,
+     5364489,
+     3825305,
+     0
+    ],
+    "ERR526315": [
+     166679,
+     3648222,
+     3110506,
+     5364489,
+     3825305,
+     0
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "170779:16721680",
+   "runs": [
+    "ERR440914",
+    "ERR526379"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "408170",
+    "496924"
+   ],
+   "names": [
+    "human gut metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "ERR440914": [
+     170779,
+     4213971,
+     2962350,
+     5740578,
+     3804781,
+     0
+    ],
+    "ERR526379": [
+     170779,
+     4213971,
+     2962350,
+     5740578,
+     3804781,
+     0
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "1725:424156",
+   "runs": [
+    "SRR927292",
+    "SRR945820"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "1730:436596",
+   "runs": [
+    "SRR927285",
+    "SRR945808"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR927285": [
+     1730,
+     105131,
+     105346,
+     127493,
+     104928,
+     618
+    ],
+    "SRR945808": [
+     1730,
+     105131,
+     105346,
+     127493,
+     104928,
+     618
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "176707:102421415",
+   "runs": [
+    "SRR1039549",
+    "SRR1161541"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "names": [
+    "aquatic metagenome",
+    "sludge metagenome"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "177582:17430015",
+   "runs": [
+    "ERR440979",
+    "ERR526383"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "749906",
+    "496924"
+   ],
+   "names": [
+    "gut metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "1839:455844",
+   "runs": [
+    "SRR927286",
+    "SRR945815"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR927286": [
+     1839,
+     114267,
+     114015,
+     129582,
+     104523,
+     813
+    ],
+    "SRR945815": [
+     1839,
+     114267,
+     114015,
+     129582,
+     104523,
+     813
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "1860:473157",
+   "runs": [
+    "SRR927288",
+    "SRR945816"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "187045:18289768",
+   "runs": [
+    "ERR440819",
+    "ERR526401"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "408170",
+    "496924"
+   ],
+   "names": [
+    "human gut metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "191258:98344569",
+   "runs": [
+    "SRR634605",
+    "SRR646612"
+   ],
+   "studies": [
+    "PRJNA183510",
+    "PRJNA183860"
+   ],
+   "taxa": [
+    "938273",
+    "1169740"
+   ],
+   "names": [
+    "hydrocarbon metagenome",
+    "aquatic metagenome"
+   ],
+   "centers": [
+    "University of calgary in Canada",
+    "University of British Columbia"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2013-02-28",
+    "2014-01-21"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR634605": [
+     191258,
+     20795798,
+     28390311,
+     28887492,
+     20767551,
+     268449
+    ],
+    "SRR646612": [
+     191258,
+     20795798,
+     28390311,
+     28887492,
+     20767551,
+     268449
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "197245:19099031",
+   "runs": [
+    "ERR440960",
+    "ERR526323"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "447426",
+    "496924"
+   ],
+   "names": [
+    "human oral metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "1982:1008635",
+   "runs": [
+    "SRR1133375",
+    "SRR628476"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "198584:19243946",
+   "runs": [
+    "ERR440816",
+    "ERR526340"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "408170",
+    "496924"
+   ],
+   "names": [
+    "human gut metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "ERR440816": [
+     198584,
+     4564350,
+     3629001,
+     6643219,
+     4407376,
+     0
+    ],
+    "ERR526340": [
+     198584,
+     4564350,
+     3629001,
+     6643219,
+     4407376,
+     0
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "199836:113815561",
+   "runs": [
+    "SRR634519",
+    "SRR646616"
+   ],
+   "studies": [
+    "PRJNA183510",
+    "PRJNA183860"
+   ],
+   "taxa": [
+    "938273",
+    "1169740"
+   ],
+   "names": [
+    "hydrocarbon metagenome",
+    "aquatic metagenome"
+   ],
+   "centers": [
+    "University of calgary in Canada",
+    "University of British Columbia"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2013-02-28",
+    "2014-01-21"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "200839:19790204",
+   "runs": [
+    "ERR440822",
+    "ERR526358"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "408170",
+    "496924"
+   ],
+   "names": [
+    "human gut metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "200918:110824798",
+   "runs": [
+    "SRR634533",
+    "SRR646613"
+   ],
+   "studies": [
+    "PRJNA183510",
+    "PRJNA183860"
+   ],
+   "taxa": [
+    "938273",
+    "1169740"
+   ],
+   "names": [
+    "hydrocarbon metagenome",
+    "aquatic metagenome"
+   ],
+   "centers": [
+    "University of calgary in Canada",
+    "University of British Columbia"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2013-02-28",
+    "2014-01-21"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "2039:1076851",
+   "runs": [
+    "SRR1133368",
+    "SRR628472"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "2042:504408",
+   "runs": [
+    "SRR927289",
+    "SRR945817"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "2049:525471",
+   "runs": [
+    "SRR927291",
+    "SRR945819"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "206571:111774098",
+   "runs": [
+    "SRR634647",
+    "SRR646615"
+   ],
+   "studies": [
+    "PRJNA183510",
+    "PRJNA183860"
+   ],
+   "taxa": [
+    "938273",
+    "1169740"
+   ],
+   "names": [
+    "hydrocarbon metagenome",
+    "aquatic metagenome"
+   ],
+   "centers": [
+    "University of calgary in Canada",
+    "University of British Columbia"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2013-02-28",
+    "2014-01-21"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR634647": [
+     206571,
+     30448961,
+     25221285,
+     26122831,
+     30244079,
+     563226
+    ],
+    "SRR646615": [
+     206571,
+     30448961,
+     25221285,
+     26122831,
+     30244079,
+     563226
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "2306:1250559",
+   "runs": [
+    "SRR1267913",
+    "SRR628470"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-16",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1267913": [
+     2306,
+     323553,
+     290915,
+     397937,
+     243770,
+     3608
+    ],
+    "SRR628470": [
+     2306,
+     323553,
+     290915,
+     397937,
+     243770,
+     3608
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "237101:23346056",
+   "runs": [
+    "ERR440799",
+    "ERR526338"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "408170",
+    "496924"
+   ],
+   "names": [
+    "human gut metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "23752:2295591",
+   "runs": [
+    "ERR440811",
+    "ERR526381"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "410658",
+    "496924"
+   ],
+   "names": [
+    "soil metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "24603:14227912",
+   "runs": [
+    "SRR1039550",
+    "SRR1161542"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "names": [
+    "aquatic metagenome",
+    "sludge metagenome"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1039550": [
+     24603,
+     3206020,
+     3813348,
+     3700174,
+     3176465,
+     331905
+    ],
+    "SRR1161542": [
+     24603,
+     3206020,
+     3813348,
+     3700174,
+     3176465,
+     331905
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "246604:112146116",
+   "runs": [
+    "SRR070588",
+    "SRR071318"
+   ],
+   "studies": [
+    "PRJNA53779",
+    "PRJNA53745"
+   ],
+   "taxa": [
+    "904352",
+    "904331"
+   ],
+   "names": [
+    "Staphylococcus lugdunensis VCU148",
+    "Staphylococcus epidermidis VCU111"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-11-02",
+    "2010-11-21"
+   ],
+   "tax_relation": "same_genus",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR070588": [
+     246604,
+     36185865,
+     19462284,
+     19976733,
+     35168277,
+     2339373
+    ],
+    "SRR071318": [
+     246604,
+     36185865,
+     19462284,
+     19976733,
+     35168277,
+     2339373
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "249497:145025773",
+   "runs": [
+    "SRR1039547",
+    "SRR1161539"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "names": [
+    "aquatic metagenome",
+    "sludge metagenome"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1039547": [
+     249497,
+     32467232,
+     39514424,
+     37211215,
+     32507219,
+     3325683
+    ],
+    "SRR1161539": [
+     249497,
+     32467232,
+     39514424,
+     37211215,
+     32507219,
+     3325683
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "262516:69350978",
+   "runs": [
+    "SRR000202",
+    "SRR627587"
+   ],
+   "studies": [
+    "PRJNA12857",
+    "PRJNA74629"
+   ],
+   "taxa": [
+    "94289",
+    "1172189"
+   ],
+   "names": [
+    "Sterkiella histriomuscorum",
+    "Oxytricha trifallax"
+   ],
+   "centers": [
+    "WUGSC",
+    "WUGSC"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-02-26",
+    "2012-12-10"
+   ],
+   "tax_relation": "same_higher_depth9",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR000202": [
+     262516,
+     21200112,
+     14136948,
+     14338894,
+     20627589,
+     97499
+    ],
+    "SRR627587": [
+     262516,
+     21200112,
+     14136948,
+     14338894,
+     20627589,
+     97499
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "267706:26329812",
+   "runs": [
+    "ERR440902",
+    "ERR526382"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "408170",
+    "496924"
+   ],
+   "names": [
+    "human gut metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "279499:74069985",
+   "runs": [
+    "SRR000199",
+    "SRR627584"
+   ],
+   "studies": [
+    "PRJNA12857",
+    "PRJNA74629"
+   ],
+   "taxa": [
+    "94289",
+    "1172189"
+   ],
+   "names": [
+    "Sterkiella histriomuscorum",
+    "Oxytricha trifallax"
+   ],
+   "centers": [
+    "WUGSC",
+    "WUGSC"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-02-26",
+    "2012-12-11"
+   ],
+   "tax_relation": "same_higher_depth9"
+  },
+  {
+   "channel": "numeric",
+   "key": "30911:17778066",
+   "runs": [
+    "SRR1039551",
+    "SRR1161543"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "names": [
+    "aquatic metagenome",
+    "sludge metagenome"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "314074:31255798",
+   "runs": [
+    "ERR440805",
+    "ERR526353"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "539655",
+    "496924"
+   ],
+   "names": [
+    "human skin metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "31471:17038477",
+   "runs": [
+    "SRR1021212",
+    "SRR1031053"
+   ],
+   "studies": [
+    "PRJNA207831",
+    "PRJNA207832"
+   ],
+   "taxa": [
+    "155864",
+    "1344576"
+   ],
+   "names": [
+    "Escherichia coli O157:H7 str. EDL933",
+    "Listeria monocytogenes serotype 4b str. NCTC 11994"
+   ],
+   "centers": [
+    "National Institute of Standards and Technology",
+    "National Institute of Standards and Technology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-11-14",
+    "2013-12-07"
+   ],
+   "tax_relation": "same_higher_depth1"
+  },
+  {
+   "channel": "numeric",
+   "key": "3346:881637",
+   "runs": [
+    "SRR000203",
+    "SRR627574"
+   ],
+   "studies": [
+    "PRJNA12857",
+    "PRJNA74629"
+   ],
+   "taxa": [
+    "94289",
+    "1172189"
+   ],
+   "names": [
+    "Sterkiella histriomuscorum",
+    "Oxytricha trifallax"
+   ],
+   "centers": [
+    "WUGSC",
+    "WUGSC"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-02-26",
+    "2012-12-10"
+   ],
+   "tax_relation": "same_higher_depth9"
+  },
+  {
+   "channel": "numeric",
+   "key": "3458:887587",
+   "runs": [
+    "SRR927290",
+    "SRR945818"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR927290": [
+     3458,
+     202572,
+     234563,
+     268497,
+     194452,
+     1335
+    ],
+    "SRR945818": [
+     3458,
+     202572,
+     234563,
+     268497,
+     194452,
+     1335
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "3517:1859932",
+   "runs": [
+    "SRR1133367",
+    "SRR628502"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1133367": [
+     3517,
+     484953,
+     433769,
+     594140,
+     357470,
+     3668
+    ],
+    "SRR628502": [
+     3517,
+     484953,
+     433769,
+     594140,
+     357470,
+     3668
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "35414:20423042",
+   "runs": [
+    "SRR1039546",
+    "SRR1161538"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "names": [
+    "aquatic metagenome",
+    "sludge metagenome"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "3560:1897228",
+   "runs": [
+    "SRR1133366",
+    "SRR628501"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1133366": [
+     3560,
+     492923,
+     450240,
+     606977,
+     356604,
+     4724
+    ],
+    "SRR628501": [
+     3560,
+     492923,
+     450240,
+     606977,
+     356604,
+     4724
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "35962:3163416",
+   "runs": [
+    "ERR440884",
+    "ERR526342"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "539655",
+    "496924"
+   ],
+   "names": [
+    "human skin metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "3781:2025166",
+   "runs": [
+    "SRR1133369",
+    "SRR628473"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1133369": [
+     3781,
+     530768,
+     464009,
+     627243,
+     414006,
+     4264
+    ],
+    "SRR628473": [
+     3781,
+     530768,
+     464009,
+     627243,
+     414006,
+     4264
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "40013:23130571",
+   "runs": [
+    "SRR1039536",
+    "SRR1161534"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "names": [
+    "aquatic metagenome",
+    "sludge metagenome"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "4004:2131398",
+   "runs": [
+    "SRR1267914",
+    "SRR628471"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-16",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1267914": [
+     4004,
+     564096,
+     494071,
+     668974,
+     416032,
+     4241
+    ],
+    "SRR628471": [
+     4004,
+     564096,
+     494071,
+     668974,
+     416032,
+     4241
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "4030:1902116",
+   "runs": [
+    "SRR1021874",
+    "SRR871389"
+   ],
+   "studies": [
+    "PRJNA222380",
+    "PRJNA183180"
+   ],
+   "taxa": [
+    "749906",
+    "1163772"
+   ],
+   "names": [
+    "gut metagenome",
+    "sponge metagenome"
+   ],
+   "centers": [
+    "The University of Auckland",
+    "University of auckland"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-11-13",
+    "2013-06-08"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "4132:2105358",
+   "runs": [
+    "SRR1133370",
+    "SRR628475"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "41734:24014836",
+   "runs": [
+    "SRR1039539",
+    "SRR1161537"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "names": [
+    "aquatic metagenome",
+    "sludge metagenome"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1039539": [
+     41734,
+     5439330,
+     6496594,
+     6205216,
+     5360535,
+     513161
+    ],
+    "SRR1161537": [
+     41734,
+     5439330,
+     6496594,
+     6205216,
+     5360535,
+     513161
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "4173:1080348",
+   "runs": [
+    "SRR927297",
+    "SRR945814"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "names": [
+    "oral metagenome",
+    "human oral metagenome"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR927297": [
+     4173,
+     237803,
+     286323,
+     332506,
+     239043,
+     1365
+    ],
+    "SRR945814": [
+     4173,
+     237803,
+     286323,
+     332506,
+     239043,
+     1365
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "423521:239823677",
+   "runs": [
+    "DRR015113",
+    "SRR824097"
+   ],
+   "studies": [
+    "PRJDB2830",
+    "PRJNA196670"
+   ],
+   "taxa": [
+    "410658",
+    "939928"
+   ],
+   "names": [
+    "soil metagenome",
+    "rhizosphere metagenome"
+   ],
+   "centers": [
+    "NANJING",
+    "Nanjing Agricultural University"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-08-20",
+    "2013-06-11"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "4537:2414573",
+   "runs": [
+    "SRR1133306",
+    "SRR628506"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1133306": [
+     4537,
+     621656,
+     575888,
+     773369,
+     453535,
+     8273
+    ],
+    "SRR628506": [
+     4537,
+     621656,
+     575888,
+     773369,
+     453535,
+     8273
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "46220:4264543",
+   "runs": [
+    "ERR440842",
+    "ERR526370"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "539655",
+    "496924"
+   ],
+   "names": [
+    "human skin metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "4623:2426117",
+   "runs": [
+    "SRR1133333",
+    "SRR628508"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1133333": [
+     4623,
+     626416,
+     559364,
+     772128,
+     482043,
+     4658
+    ],
+    "SRR628508": [
+     4623,
+     626416,
+     559364,
+     772128,
+     482043,
+     4658
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "4907:1295624",
+   "runs": [
+    "SRR000204",
+    "SRR627585"
+   ],
+   "studies": [
+    "PRJNA12857",
+    "PRJNA74629"
+   ],
+   "taxa": [
+    "94289",
+    "1172189"
+   ],
+   "names": [
+    "Sterkiella histriomuscorum",
+    "Oxytricha trifallax"
+   ],
+   "centers": [
+    "WUGSC",
+    "WUGSC"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-02-26",
+    "2012-12-11"
+   ],
+   "tax_relation": "same_higher_depth9",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR000204": [
+     4907,
+     398193,
+     260982,
+     264860,
+     389782,
+     1435
+    ],
+    "SRR627585": [
+     4907,
+     398193,
+     260982,
+     264860,
+     389782,
+     1435
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "4925:1296919",
+   "runs": [
+    "SRR000200",
+    "SRR627572"
+   ],
+   "studies": [
+    "PRJNA12857",
+    "PRJNA74629"
+   ],
+   "taxa": [
+    "94289",
+    "1172189"
+   ],
+   "names": [
+    "Sterkiella histriomuscorum",
+    "Oxytricha trifallax"
+   ],
+   "centers": [
+    "WUGSC",
+    "WUGSC"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-02-26",
+    "2012-12-11"
+   ],
+   "tax_relation": "same_higher_depth9",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR000200": [
+     4925,
+     403375,
+     259831,
+     262634,
+     389876,
+     903
+    ],
+    "SRR627572": [
+     4925,
+     403375,
+     259831,
+     262634,
+     389876,
+     903
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "51574:29713019",
+   "runs": [
+    "SRR1039548",
+    "SRR1161540"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "names": [
+    "aquatic metagenome",
+    "sludge metagenome"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1039548": [
+     51574,
+     6676882,
+     7935223,
+     7581712,
+     6868748,
+     650454
+    ],
+    "SRR1161540": [
+     51574,
+     6676882,
+     7935223,
+     7581712,
+     6868748,
+     650454
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "54218:5267147",
+   "runs": [
+    "ERR440864",
+    "ERR526313"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "410658",
+    "496924"
+   ],
+   "names": [
+    "soil metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "55371:31791031",
+   "runs": [
+    "SRR1039538",
+    "SRR1161536"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "names": [
+    "aquatic metagenome",
+    "sludge metagenome"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1039538": [
+     55371,
+     7264289,
+     8646634,
+     8172980,
+     7020585,
+     686543
+    ],
+    "SRR1161536": [
+     55371,
+     7264289,
+     8646634,
+     8172980,
+     7020585,
+     686543
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "5629:3066330",
+   "runs": [
+    "SRR1133196",
+    "SRR628511"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "5708:3077963",
+   "runs": [
+    "SRR1133362",
+    "SRR628504"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "578739:255964865",
+   "runs": [
+    "SRR063729",
+    "SRR063733"
+   ],
+   "studies": [
+    "PRJNA51081",
+    "PRJNA49437"
+   ],
+   "taxa": [
+    "866779",
+    "768724"
+   ],
+   "names": [
+    "Finegoldia magna SY403409CC001050417",
+    "Peptoniphilus sp. oral taxon 836 str. F0141"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-08-08",
+    "2010-08-08"
+   ],
+   "tax_relation": "same_higher_depth6"
+  },
+  {
+   "channel": "numeric",
+   "key": "578739:255964865",
+   "runs": [
+    "SRR063729",
+    "SRR063735"
+   ],
+   "studies": [
+    "PRJNA51081",
+    "PRJNA49439"
+   ],
+   "taxa": [
+    "866779",
+    "768726"
+   ],
+   "names": [
+    "Finegoldia magna SY403409CC001050417",
+    "Streptococcus mitis bv. 2 str. F0392"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-08-08",
+    "2010-08-08"
+   ],
+   "tax_relation": "same_higher_depth3"
+  },
+  {
+   "channel": "numeric",
+   "key": "578739:255964865",
+   "runs": [
+    "SRR063733",
+    "SRR063735"
+   ],
+   "studies": [
+    "PRJNA49437",
+    "PRJNA49439"
+   ],
+   "taxa": [
+    "768724",
+    "768726"
+   ],
+   "names": [
+    "Peptoniphilus sp. oral taxon 836 str. F0141",
+    "Streptococcus mitis bv. 2 str. F0392"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-08-08",
+    "2010-08-08"
+   ],
+   "tax_relation": "same_higher_depth3"
+  },
+  {
+   "channel": "numeric",
+   "key": "5843:3189053",
+   "runs": [
+    "SRR1133315",
+    "SRR628507"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "591054:318941117",
+   "runs": [
+    "SRR1185515",
+    "SRR593521"
+   ],
+   "studies": [
+    "PRJNA240570",
+    "PRJNA177670"
+   ],
+   "taxa": [
+    "939928",
+    "410658"
+   ],
+   "names": [
+    "rhizosphere metagenome",
+    "soil metagenome"
+   ],
+   "centers": [
+    "njau",
+    "College of Resources and Environmental Sciences, N"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-17",
+    "2012-12-30"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "6054:3291733",
+   "runs": [
+    "SRR1267911",
+    "SRR628509"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-16",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1267911": [
+     6054,
+     845869,
+     788079,
+     1033811,
+     638752,
+     9438
+    ],
+    "SRR628509": [
+     6054,
+     845869,
+     788079,
+     1033811,
+     638752,
+     9438
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "625992:345510177",
+   "runs": [
+    "SRR1185517",
+    "SRR593520"
+   ],
+   "studies": [
+    "PRJNA240570",
+    "PRJNA177670"
+   ],
+   "taxa": [
+    "939928",
+    "410658"
+   ],
+   "names": [
+    "rhizosphere metagenome",
+    "soil metagenome"
+   ],
+   "centers": [
+    "njau",
+    "College of Resources and Environmental Sciences, N"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-17",
+    "2012-12-30"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1185517": [
+     625992,
+     63280401,
+     113952894,
+     84260226,
+     85771848,
+     748776
+    ],
+    "SRR593520": [
+     625992,
+     63280401,
+     113952894,
+     84260226,
+     85771848,
+     748776
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "626894:365164805",
+   "runs": [
+    "SRR060132",
+    "SRR060133"
+   ],
+   "studies": [
+    "PRJNA49443",
+    "PRJNA49619"
+   ],
+   "taxa": [
+    "768728",
+    "784613"
+   ],
+   "names": [
+    "Ligilactobacillus salivarius ACS-116-V-Col5a",
+    "Lactobacillus delbrueckii subsp. bulgaricus PB2003/044-T3-4"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-07-16",
+    "2010-07-16"
+   ],
+   "tax_relation": "same_higher_depth6"
+  },
+  {
+   "channel": "numeric",
+   "key": "6307:3359219",
+   "runs": [
+    "SRR1133363",
+    "SRR628505"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1133363": [
+     6307,
+     837905,
+     811318,
+     1087667,
+     638148,
+     9409
+    ],
+    "SRR628505": [
+     6307,
+     837905,
+     811318,
+     1087667,
+     638148,
+     9409
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "6777:3651268",
+   "runs": [
+    "SRR1133376",
+    "SRR628477"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "6788:3660169",
+   "runs": [
+    "SRR1133253",
+    "SRR628513"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1133253": [
+     6788,
+     958222,
+     863262,
+     1145484,
+     709075,
+     11278
+    ],
+    "SRR628513": [
+     6788,
+     958222,
+     863262,
+     1145484,
+     709075,
+     11278
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "7001:3775619",
+   "runs": [
+    "SRR1267912",
+    "SRR628510"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-16",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1267912": [
+     7001,
+     979980,
+     893503,
+     1207079,
+     714389,
+     8672
+    ],
+    "SRR628510": [
+     7001,
+     979980,
+     893503,
+     1207079,
+     714389,
+     8672
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "70993:6667648",
+   "runs": [
+    "ERR440890",
+    "ERR526400"
+   ],
+   "studies": [
+    "PRJEB5714",
+    "PRJEB6489"
+   ],
+   "taxa": [
+    "539655",
+    "496924"
+   ],
+   "names": [
+    "human skin metagenome",
+    "fish metagenome"
+   ],
+   "centers": [
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+    "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-03-05",
+    "2014-06-07"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "ERR440890": [
+     70993,
+     1453057,
+     1469972,
+     2106236,
+     1638383,
+     0
+    ],
+    "ERR526400": [
+     70993,
+     1453057,
+     1469972,
+     2106236,
+     1638383,
+     0
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "7167:3375455",
+   "runs": [
+    "SRR1021858",
+    "SRR871380"
+   ],
+   "studies": [
+    "PRJNA222380",
+    "PRJNA183180"
+   ],
+   "taxa": [
+    "749906",
+    "1163772"
+   ],
+   "names": [
+    "gut metagenome",
+    "sponge metagenome"
+   ],
+   "centers": [
+    "The University of Auckland",
+    "University of auckland"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-11-13",
+    "2013-06-08"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "7367:3584495",
+   "runs": [
+    "SRR1021853",
+    "SRR871388"
+   ],
+   "studies": [
+    "PRJNA222380",
+    "PRJNA183180"
+   ],
+   "taxa": [
+    "749906",
+    "1163772"
+   ],
+   "names": [
+    "gut metagenome",
+    "sponge metagenome"
+   ],
+   "centers": [
+    "The University of Auckland",
+    "University of auckland"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-11-13",
+    "2013-06-08"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  },
+  {
+   "channel": "numeric",
+   "key": "7664:2023552",
+   "runs": [
+    "SRR000201",
+    "SRR627592"
+   ],
+   "studies": [
+    "PRJNA12857",
+    "PRJNA74629"
+   ],
+   "taxa": [
+    "94289",
+    "1172189"
+   ],
+   "names": [
+    "Sterkiella histriomuscorum",
+    "Oxytricha trifallax"
+   ],
+   "centers": [
+    "WUGSC",
+    "WUGSC"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-02-26",
+    "2012-12-10"
+   ],
+   "tax_relation": "same_higher_depth9"
+  },
+  {
+   "channel": "numeric",
+   "key": "8451:4132339",
+   "runs": [
+    "SRR1021834",
+    "SRR871379"
+   ],
+   "studies": [
+    "PRJNA222380",
+    "PRJNA183180"
+   ],
+   "taxa": [
+    "749906",
+    "1163772"
+   ],
+   "names": [
+    "gut metagenome",
+    "sponge metagenome"
+   ],
+   "centers": [
+    "The University of Auckland",
+    "University of auckland"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-11-13",
+    "2013-06-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1021834": [
+     8451,
+     1008464,
+     885031,
+     1386532,
+     799943,
+     86173
+    ],
+    "SRR871379": [
+     8451,
+     1008464,
+     885031,
+     1386532,
+     799943,
+     86173
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "8593:4065271",
+   "runs": [
+    "SRR1021864",
+    "SRR871384"
+   ],
+   "studies": [
+    "PRJNA222380",
+    "PRJNA183180"
+   ],
+   "taxa": [
+    "749906",
+    "1163772"
+   ],
+   "names": [
+    "gut metagenome",
+    "sponge metagenome"
+   ],
+   "centers": [
+    "The University of Auckland",
+    "University of auckland"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-11-13",
+    "2013-06-08"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1021864": [
+     8593,
+     1019408,
+     834127,
+     1335813,
+     833690,
+     76605
+    ],
+    "SRR871384": [
+     8593,
+     1019408,
+     834127,
+     1335813,
+     833690,
+     76605
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "89661:51764783",
+   "runs": [
+    "SRR1039537",
+    "SRR1161535"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "names": [
+    "aquatic metagenome",
+    "sludge metagenome"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1039537": [
+     89661,
+     11618537,
+     13918451,
+     13432566,
+     11635285,
+     1159944
+    ],
+    "SRR1161535": [
+     89661,
+     11618537,
+     13918451,
+     13432566,
+     11635285,
+     1159944
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "9311:5047813",
+   "runs": [
+    "SRR1133353",
+    "SRR628503"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1133353": [
+     9311,
+     1361936,
+     1148257,
+     1554464,
+     1009343,
+     11057
+    ],
+    "SRR628503": [
+     9311,
+     1361936,
+     1148257,
+     1554464,
+     1009343,
+     11057
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "9445:4516790",
+   "runs": [
+    "SRR1021870",
+    "SRR869811"
+   ],
+   "studies": [
+    "PRJNA222380",
+    "PRJNA183180"
+   ],
+   "taxa": [
+    "749906",
+    "1163772"
+   ],
+   "names": [
+    "gut metagenome",
+    "sponge metagenome"
+   ],
+   "centers": [
+    "The University of Auckland",
+    "University of auckland"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-11-13",
+    "2013-06-05"
+   ],
+   "tax_relation": "metagenome_type_conflict",
+   "confirm": "CONFIRMED",
+   "ncbi_keys": {
+    "SRR1021870": [
+     9445,
+     1120255,
+     971034,
+     1492154,
+     881156,
+     89971
+    ],
+    "SRR869811": [
+     9445,
+     1120255,
+     971034,
+     1492154,
+     881156,
+     89971
+    ]
+   }
+  },
+  {
+   "channel": "numeric",
+   "key": "9505:5134719",
+   "runs": [
+    "SRR1133365",
+    "SRR628500"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "names": [
+    "sediment metagenome",
+    "beach sand metagenome"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "tax_relation": "metagenome_type_conflict"
+  }
+ ]
+}

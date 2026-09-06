@@ -1,0 +1,8 @@
+CONFIRMED  Gossypium barbadense vs G. arboreum (cotton)
+           comp=None reads=2000/2000
+CONFIRMED  Gossypium arboreum vs G. barbadense (cotton)
+           comp=None reads=2000/2000
+CONFIRMED  S. epidermidis IS-250 vs S. aureus IS-91 (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  S. epidermidis IS-250 vs S. aureus IS-99 (JCVI)
+           comp=True reads=2000/2000

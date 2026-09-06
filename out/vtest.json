@@ -1,0 +1,43 @@
+{
+ "report": [
+  {
+   "label": "2014-01",
+   "rows": 28126,
+   "api_count": 28126,
+   "ok": true
+  },
+  {
+   "label": "2014-02",
+   "rows": 33753,
+   "api_count": 33753,
+   "ok": true
+  },
+  {
+   "label": "2014-03",
+   "rows": 27788,
+   "api_count": 27788,
+   "ok": true
+  },
+  {
+   "label": "2014-04",
+   "rows": 48168,
+   "api_count": 48168,
+   "ok": true
+  },
+  {
+   "label": "2014-05",
+   "rows": 19042,
+   "api_count": 19042,
+   "ok": true
+  },
+  {
+   "label": "2014-06",
+   "rows": 28991,
+   "api_count": 28991,
+   "ok": true
+  }
+ ],
+ "bad": [],
+ "n_checked": 6,
+ "n_bad": 0
+}

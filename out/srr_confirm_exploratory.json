@@ -1,0 +1,1510 @@
+{
+ "n_candidates_total": 213,
+ "n_sampled": 25,
+ "confirmed": 21,
+ "refuted": 0,
+ "no_fingerprint": 4,
+ "precision_of_numeric_channel_on_non_ERR": [
+  1.0,
+  0.8453561767357979,
+  0.9999999999999999
+ ],
+ "estimated_true_pairs": 213,
+ "filters": {
+  "require_nonmultiple": true,
+  "min_reads": 1000,
+  "max_group": 40
+ },
+ "results": [
+  {
+   "key": "248172:62553648",
+   "read_count": 248172,
+   "base_count": 62553648,
+   "runs": [
+    "SRR088821",
+    "SRR1264697"
+   ],
+   "studies": [
+    "PRJNA79879",
+    "PRJNA245544"
+   ],
+   "centers": [
+    "Boyce Thompson Institute",
+    "Boyce Thompson Institute"
+   ],
+   "taxa": [
+    "4081",
+    "4081"
+   ],
+   "strategies": [
+    "EST",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2011-01-05",
+    "2014-05-02"
+   ],
+   "ncbi": {
+    "SRR088821": {
+     "comp": [
+      248172,
+      19461123,
+      12275194,
+      13416070,
+      18198981,
+      194968
+     ],
+     "orig": [
+      "b88629a762c69786c35bcbf2f1776f8e"
+     ],
+     "spots": 248172,
+     "alias": "48hai 2"
+    },
+    "SRR1264697": {
+     "comp": [
+      248172,
+      19461123,
+      12275194,
+      13416070,
+      18198981,
+      194968
+     ],
+     "orig": [],
+     "spots": 248172,
+     "alias": "M82-48hai1"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "10051:2545463",
+   "read_count": 10051,
+   "base_count": 2545463,
+   "runs": [
+    "SRR340035",
+    "SRR346354"
+   ],
+   "studies": [
+    "PRJNA72625",
+    "PRJNA80149"
+   ],
+   "centers": [
+    "Alabama A&M University",
+    "UOKNOR"
+   ],
+   "taxa": [
+    "3635",
+    "3635"
+   ],
+   "strategies": [
+    "FL-cDNA",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2011-11-01",
+    "2011-10-25"
+   ],
+   "ncbi": {
+    "SRR340035": {
+     "comp": null,
+     "orig": [
+      "bb1c66a6b28a5a082062b11052db1b7c",
+      "abb8d908b09c8bb763b3ef9cb79e8e46"
+     ],
+     "spots": 10051,
+     "alias": "Gossypium hirsutum cv. 1218"
+    },
+    "SRR346354": {
+     "comp": [
+      10051,
+      656034,
+      610081,
+      681081,
+      598428,
+      40043
+     ],
+     "orig": [
+      "bb1c66a6b28a5a082062b11052db1b7c",
+      "abb8d908b09c8bb763b3ef9cb79e8e46"
+     ],
+     "spots": 10051,
+     "alias": "YT2"
+    }
+   },
+   "verdict": "no_fingerprint"
+  },
+  {
+   "key": "246604:112146116",
+   "read_count": 246604,
+   "base_count": 112146116,
+   "runs": [
+    "SRR070588",
+    "SRR071318"
+   ],
+   "studies": [
+    "PRJNA53779",
+    "PRJNA53745"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "taxa": [
+    "904352",
+    "904331"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-11-02",
+    "2010-11-21"
+   ],
+   "ncbi": {
+    "SRR070588": {
+     "comp": [
+      246604,
+      36185865,
+      19462284,
+      19976733,
+      35168277,
+      2339373
+     ],
+     "orig": [
+      "6963f045c682f57d866c0caa6fa69e23"
+     ],
+     "spots": 246604,
+     "alias": "1127207744056 Staphylococcus lugdunensis VCU148 VCU148-BP3KB-A7NB-01-609 Experiment GK7RZZV01"
+    },
+    "SRR071318": {
+     "comp": [
+      246604,
+      36185865,
+      19462284,
+      19976733,
+      35168277,
+      2339373
+     ],
+     "orig": [
+      "782225d9ef67aeac825b9068c3212d2d"
+     ],
+     "spots": 246604,
+     "alias": "1127258024035 Staphylococcus epidermidis VCU111 VCU111-BP3KB-A8NB-01-604 Experiment GK7RZZV01"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "8821004:1580456701",
+   "read_count": 8821004,
+   "base_count": 1580456701,
+   "runs": [
+    "SRR1182639",
+    "SRR585833"
+   ],
+   "studies": [
+    "PRJNA240064",
+    "PRJNA175445"
+   ],
+   "centers": [
+    "USDA-ARS",
+    "USDA-ARS"
+   ],
+   "taxa": [
+    "7460",
+    "7460"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2014-03-14",
+    "2013-08-12"
+   ],
+   "ncbi": {
+    "SRR1182639": {
+     "comp": [
+      8821004,
+      527850285,
+      258216833,
+      258859780,
+      531504760,
+      4025043
+     ],
+     "orig": [],
+     "spots": 8821004,
+     "alias": "K3_H_3d"
+    },
+    "SRR585833": {
+     "comp": [
+      8821004,
+      527850285,
+      258216833,
+      258859780,
+      531504760,
+      4025043
+     ],
+     "orig": [],
+     "spots": 8821004,
+     "alias": "3dHiFBK3"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "24603:14227912",
+   "read_count": 24603,
+   "base_count": 14227912,
+   "runs": [
+    "SRR1039550",
+    "SRR1161542"
+   ],
+   "studies": [
+    "PRJNA230009",
+    "PRJNA284424"
+   ],
+   "centers": [
+    "majorbio",
+    "majorbio"
+   ],
+   "taxa": [
+    "1169740",
+    "1592332"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-02-25"
+   ],
+   "ncbi": {
+    "SRR1039550": {
+     "comp": [
+      24603,
+      3206020,
+      3813348,
+      3700174,
+      3176465,
+      331905
+     ],
+     "orig": [],
+     "spots": 24603,
+     "alias": "sample9"
+    },
+    "SRR1161542": {
+     "comp": [
+      24603,
+      3206020,
+      3813348,
+      3700174,
+      3176465,
+      331905
+     ],
+     "orig": [],
+     "spots": 24603,
+     "alias": "9~run"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "143760779:7678957873",
+   "read_count": 143760779,
+   "base_count": 7678957873,
+   "runs": [
+    "SRR492421",
+    "SRR507824"
+   ],
+   "studies": [
+    "PRJNA63475",
+    "PRJNA63471"
+   ],
+   "centers": [
+    "GEO",
+    "GEO"
+   ],
+   "taxa": [
+    "10090",
+    "10090"
+   ],
+   "strategies": [
+    "ChIP-Seq",
+    "ChIP-Seq"
+   ],
+   "dates": [
+    "2012-05-07",
+    "2012-06-21"
+   ],
+   "ncbi": {
+    "SRR492421": {
+     "comp": [
+      143760779,
+      2231624139,
+      1628849878,
+      1658226561,
+      2158172651,
+      2084644
+     ],
+     "orig": [
+      "17b1a82c966438e13ee5b05c84b44d44"
+     ],
+     "spots": 143760779,
+     "alias": "GSM923567_2"
+    },
+    "SRR507824": {
+     "comp": [
+      143760779,
+      2231624139,
+      1628849878,
+      1658226561,
+      2158172651,
+      2084644
+     ],
+     "orig": [
+      "77e301ab157025444bf852ba2018891b"
+     ],
+     "spots": 143760779,
+     "alias": "GSM946520_2"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "19212:6843541",
+   "read_count": 19212,
+   "base_count": 6843541,
+   "runs": [
+    "SRR088823",
+    "SRR1264702"
+   ],
+   "studies": [
+    "PRJNA79879",
+    "PRJNA245544"
+   ],
+   "centers": [
+    "Boyce Thompson Institute",
+    "Boyce Thompson Institute"
+   ],
+   "taxa": [
+    "4081",
+    "4081"
+   ],
+   "strategies": [
+    "EST",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2011-01-05",
+    "2014-05-02"
+   ],
+   "ncbi": {
+    "SRR088823": {
+     "comp": [
+      19212,
+      1768494,
+      1578320,
+      1830037,
+      1443341,
+      300197
+     ],
+     "orig": [
+      "5c5676327eee3e918f1eb1e35fd1f9b1"
+     ],
+     "spots": 19212,
+     "alias": "144hai 2"
+    },
+    "SRR1264702": {
+     "comp": [
+      19212,
+      1768494,
+      1578320,
+      1830037,
+      1443341,
+      300197
+     ],
+     "orig": [],
+     "spots": 19212,
+     "alias": "M82-144hai2"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "13796:8177132",
+   "read_count": 13796,
+   "base_count": 8177132,
+   "runs": [
+    "SRR617951",
+    "SRR617983"
+   ],
+   "studies": [
+    "PRJNA181178",
+    "PRJNA181179"
+   ],
+   "centers": [
+    "Department of Animal Science and Technology, Hebei",
+    "College of Life Sciences of Hebei University"
+   ],
+   "taxa": [
+    "410658",
+    "410658"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2013-02-28",
+    "2013-11-22"
+   ],
+   "ncbi": {
+    "SRR617951": {
+     "comp": [
+      13796,
+      1474231,
+      2610989,
+      2057677,
+      1850542,
+      238877
+     ],
+     "orig": [],
+     "spots": 13796,
+     "alias": "HFWANG5"
+    },
+    "SRR617983": {
+     "comp": [
+      13796,
+      1474231,
+      2610989,
+      2057677,
+      1850542,
+      238877
+     ],
+     "orig": [],
+     "spots": 13796,
+     "alias": "hfwang05"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "199836:113815561",
+   "read_count": 199836,
+   "base_count": 113815561,
+   "runs": [
+    "SRR634519",
+    "SRR646616"
+   ],
+   "studies": [
+    "PRJNA183510",
+    "PRJNA183860"
+   ],
+   "centers": [
+    "University of calgary in Canada",
+    "University of British Columbia"
+   ],
+   "taxa": [
+    "938273",
+    "1169740"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2013-02-28",
+    "2014-01-21"
+   ],
+   "ncbi": {
+    "SRR634519": {
+     "comp": [
+      199836,
+      36776266,
+      19785851,
+      20595711,
+      36832089,
+      624988
+     ],
+     "orig": [],
+     "spots": 199836,
+     "alias": "GYSOTSB03.RL11.CG13"
+    },
+    "SRR646616": {
+     "comp": [
+      199836,
+      36776266,
+      19785851,
+      20595711,
+      36832089,
+      624988
+     ],
+     "orig": [],
+     "spots": 199836,
+     "alias": "SJBC"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "60667:26103437",
+   "read_count": 60667,
+   "base_count": 26103437,
+   "runs": [
+    "SRR389263",
+    "SRR516862"
+   ],
+   "studies": [
+    "PRJNA61297",
+    "PRJNA73829"
+   ],
+   "centers": [
+    "PacBio",
+    "PacBio"
+   ],
+   "taxa": [
+    "686",
+    "666"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2012-01-02",
+    "2012-06-29"
+   ],
+   "ncbi": {
+    "SRR389263": {
+     "comp": [
+      60667,
+      10880949,
+      12019348,
+      9333794,
+      8615471,
+      0
+     ],
+     "orig": [
+      "e552fed1dde41dd1a9fc6c476a5f4617"
+     ],
+     "spots": 60667,
+     "alias": "m101111_192649_00127_c000028492550000000115022502211154_s1_p0.bas.h5"
+    },
+    "SRR516862": {
+     "comp": [
+      60667,
+      10880949,
+      12019348,
+      9333794,
+      8615471,
+      0
+     ],
+     "orig": [
+      "e552fed1dde41dd1a9fc6c476a5f4617"
+     ],
+     "spots": 60667,
+     "alias": "m101111_192649_00127_c000028492550000000115022502211154_s1_p0"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "201687:109856067",
+   "read_count": 201687,
+   "base_count": 109856067,
+   "runs": [
+    "SRR037053",
+    "SRR206938"
+   ],
+   "studies": [
+    "PRJNA13648",
+    "PRJNA191820"
+   ],
+   "centers": [
+    "WUGSC",
+    "National Institute of Allergy and Infectious Disea"
+   ],
+   "taxa": [
+    "13249",
+    "13249"
+   ],
+   "strategies": [
+    "FL-cDNA",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2010-04-10",
+    "2012-05-15"
+   ],
+   "ncbi": {
+    "SRR037053": {
+     "comp": [
+      201687,
+      35702125,
+      19957293,
+      21143821,
+      32884638,
+      974938
+     ],
+     "orig": [
+      "c8f0e081da9cb56e1a377ea891d1d18a"
+     ],
+     "spots": 201687,
+     "alias": "47216"
+    },
+    "SRR206938": {
+     "comp": null,
+     "orig": [],
+     "spots": 201687,
+     "alias": "Rp-Rectum"
+    }
+   },
+   "verdict": "no_fingerprint"
+  },
+  {
+   "key": "260446:69733515",
+   "read_count": 260446,
+   "base_count": 69733515,
+   "runs": [
+    "SRR000855",
+    "SRR089562"
+   ],
+   "studies": [
+    "PRJNA74617",
+    "PRJNA60217"
+   ],
+   "centers": [
+    "WUGSC",
+    "WUGSC"
+   ],
+   "taxa": [
+    "502869",
+    "502869"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-02-26",
+    "2011-01-23"
+   ],
+   "ncbi": {
+    "SRR000855": {
+     "comp": [
+      260446,
+      21995217,
+      13481372,
+      13650904,
+      21601951,
+      45855
+     ],
+     "orig": [
+      "423756a5cc565753e6f0b2efef99ddcb"
+     ],
+     "spots": 260446,
+     "alias": "EY1DSAR02"
+    },
+    "SRR089562": {
+     "comp": [
+      260446,
+      21995217,
+      13481372,
+      13650904,
+      21601951,
+      45855
+     ],
+     "orig": [
+      "9c8ed3a63d88ce727ed97280c9b17a38"
+     ],
+     "spots": 260446,
+     "alias": "76443"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "58602670:1858493937",
+   "read_count": 58602670,
+   "base_count": 1858493937,
+   "runs": [
+    "SRR543504",
+    "SRR578255"
+   ],
+   "studies": [
+    "PRJNA173018",
+    "PRJNA176307"
+   ],
+   "centers": [
+    "GEO",
+    "GEO"
+   ],
+   "taxa": [
+    "9606",
+    "9606"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2012-09-03",
+    "2013-02-11"
+   ],
+   "ncbi": {
+    "SRR543504": {
+     "comp": [
+      58602670,
+      501769897,
+      437443972,
+      395053915,
+      524226153,
+      0
+     ],
+     "orig": [],
+     "spots": 58602670,
+     "alias": "GSM987821_r1"
+    },
+    "SRR578255": {
+     "comp": [
+      58602670,
+      501769897,
+      437443972,
+      395053915,
+      524226153,
+      0
+     ],
+     "orig": [],
+     "spots": 58602670,
+     "alias": "GSM1012157_r1"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "8347:1199249",
+   "read_count": 8347,
+   "base_count": 1199249,
+   "runs": [
+    "SRR172885",
+    "SRR494405"
+   ],
+   "studies": [
+    "PRJNA79975",
+    "PRJNA163911"
+   ],
+   "centers": [
+    "Institute of bioorganic chemistry of the Russian A",
+    "Shemyakin-Ovchinnikov Institute of Bioorganic Chem"
+   ],
+   "taxa": [
+    "9606",
+    "9606"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2011-05-01",
+    "2012-05-18"
+   ],
+   "ncbi": {
+    "SRR172885": {
+     "comp": null,
+     "orig": [
+      "3d61bd315f5855864947cea4eacadb80"
+     ],
+     "spots": 8347,
+     "alias": "r_10after_c"
+    },
+    "SRR494405": {
+     "comp": [
+      8347,
+      264313,
+      337713,
+      347123,
+      283091,
+      397
+     ],
+     "orig": [
+      "0d26e47fc37bfbf963788c7b8cd44048"
+     ],
+     "spots": 8347,
+     "alias": "seq4543r"
+    }
+   },
+   "verdict": "no_fingerprint"
+  },
+  {
+   "key": "14937:8135320",
+   "read_count": 14937,
+   "base_count": 8135320,
+   "runs": [
+    "SRR331913",
+    "SRR740812"
+   ],
+   "studies": [
+    "PRJNA185477",
+    "PRJNA189662"
+   ],
+   "centers": [
+    "Catalan Institute for Water Research (ICRA)",
+    "Catalan Institute for Water Research (ICRA)"
+   ],
+   "taxa": [
+    "2",
+    "527639"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2011-09-13",
+    "2013-03-06"
+   ],
+   "ncbi": {
+    "SRR331913": {
+     "comp": null,
+     "orig": [
+      "f190ba0f977a96168007ee71a4c1b016"
+     ],
+     "spots": 14937,
+     "alias": "ripoll1E"
+    },
+    "SRR740812": {
+     "comp": [
+      14937,
+      2137589,
+      1856107,
+      2615782,
+      1554548,
+      31042
+     ],
+     "orig": [
+      "f190ba0f977a96168007ee71a4c1b016"
+     ],
+     "spots": 14937,
+     "alias": "Downstream_biofilm"
+    }
+   },
+   "verdict": "no_fingerprint"
+  },
+  {
+   "key": "60667:49546994",
+   "read_count": 60667,
+   "base_count": 49546994,
+   "runs": [
+    "SRR389262",
+    "SRR516895"
+   ],
+   "studies": [
+    "PRJNA61297",
+    "PRJNA73829"
+   ],
+   "centers": [
+    "PacBio",
+    "PacBio"
+   ],
+   "taxa": [
+    "686",
+    "666"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2012-01-02",
+    "2012-07-02"
+   ],
+   "ncbi": {
+    "SRR389262": {
+     "comp": [
+      60667,
+      21674416,
+      20959832,
+      17012165,
+      18194099,
+      0
+     ],
+     "orig": [
+      "cc3ee718662cd6afe1cc5903d0e12532"
+     ],
+     "spots": 60667,
+     "alias": "m101112_074121_00114_c000000000000000000000000000000000_s1_p0.bas.h5"
+    },
+    "SRR516895": {
+     "comp": [
+      60667,
+      21674416,
+      20959832,
+      17012165,
+      18194099,
+      0
+     ],
+     "orig": [
+      "cc3ee718662cd6afe1cc5903d0e12532"
+     ],
+     "spots": 60667,
+     "alias": "m101112_074121_00114_c000000000000000000000000000000000_s1_p0"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "191258:98344569",
+   "read_count": 191258,
+   "base_count": 98344569,
+   "runs": [
+    "SRR634605",
+    "SRR646612"
+   ],
+   "studies": [
+    "PRJNA183510",
+    "PRJNA183860"
+   ],
+   "centers": [
+    "University of calgary in Canada",
+    "University of British Columbia"
+   ],
+   "taxa": [
+    "938273",
+    "1169740"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2013-02-28",
+    "2014-01-21"
+   ],
+   "ncbi": {
+    "SRR634605": {
+     "comp": [
+      191258,
+      20795798,
+      28390311,
+      28887492,
+      20767551,
+      268449
+     ],
+     "orig": [
+      "49d4ff49f0948dd7385ed8b35a24110c"
+     ],
+     "spots": 191258,
+     "alias": "GYSOTSB01.RL9.CG7"
+    },
+    "SRR646612": {
+     "comp": [
+      191258,
+      20795798,
+      28390311,
+      28887492,
+      20767551,
+      268449
+     ],
+     "orig": [
+      "49d4ff49f0948dd7385ed8b35a24110c"
+     ],
+     "spots": 191258,
+     "alias": "SJBK"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "578739:255964865",
+   "read_count": 578739,
+   "base_count": 255964865,
+   "runs": [
+    "SRR063729",
+    "SRR063733"
+   ],
+   "studies": [
+    "PRJNA51081",
+    "PRJNA49437"
+   ],
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "taxa": [
+    "866779",
+    "768724"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2010-08-08",
+    "2010-08-08"
+   ],
+   "ncbi": {
+    "SRR063729": {
+     "comp": [
+      578739,
+      83238156,
+      45757799,
+      47413971,
+      79403140,
+      2466755
+     ],
+     "orig": [
+      "60387f4bf05008d853e906a38f9b1b2a"
+     ],
+     "spots": 578739,
+     "alias": "Finegoldia magna SY403409CC001050417 HMP116-BP3KB-A3NB-01-595 Experiment GHYYG3201.sff"
+    },
+    "SRR063733": {
+     "comp": [
+      578739,
+      83238156,
+      45757799,
+      47413971,
+      79403140,
+      2466755
+     ],
+     "orig": [
+      "1d1293a4b018a143f4ed6eb10832b624"
+     ],
+     "spots": 578739,
+     "alias": "Peptoniphilus sp. F0141 HMP120-BP3KB-A4NB-01-608 Experiment GHYYG3201.sff"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "4927381:440812541",
+   "read_count": 4927381,
+   "base_count": 440812541,
+   "runs": [
+    "SRR1040516",
+    "SRR1324852"
+   ],
+   "studies": [
+    "PRJNA230239",
+    "PRJNA249058"
+   ],
+   "centers": [
+    "CNRS",
+    "Universit\u00e9 Montpellier 2"
+   ],
+   "taxa": [
+    "66189",
+    "66189"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2014-01-14",
+    "2014-08-12"
+   ],
+   "ncbi": {
+    "SRR1040516": {
+     "comp": [
+      4927381,
+      113916138,
+      110756854,
+      105359875,
+      110765668,
+      14006
+     ],
+     "orig": [
+      "2c36a530dacc72d6c6e77977e35987f5"
+     ],
+     "spots": 4927381,
+     "alias": "GA05F.reads"
+    },
+    "SRR1324852": {
+     "comp": [
+      4927381,
+      113916138,
+      110756854,
+      105359875,
+      110765668,
+      14006
+     ],
+     "orig": [],
+     "spots": 4927381,
+     "alias": "GA05F"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "10778300:1933807457",
+   "read_count": 10778300,
+   "base_count": 1933807457,
+   "runs": [
+    "SRR1182579",
+    "SRR584172"
+   ],
+   "studies": [
+    "PRJNA240064",
+    "PRJNA175445"
+   ],
+   "centers": [
+    "USDA-ARS",
+    "USDA-ARS"
+   ],
+   "taxa": [
+    "7460",
+    "7460"
+   ],
+   "strategies": [
+    "RNA-Seq",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2014-03-11",
+    "2013-08-12"
+   ],
+   "ncbi": {
+    "SRR1182579": {
+     "comp": [
+      10778300,
+      650512508,
+      309727399,
+      311165103,
+      657411932,
+      4990515
+     ],
+     "orig": [
+      "9369da5cef071b907037942a7460c96c"
+     ],
+     "spots": 10778300,
+     "alias": "K14_HP_8d"
+    },
+    "SRR584172": {
+     "comp": [
+      10778300,
+      650512508,
+      309727399,
+      311165103,
+      657411932,
+      4990515
+     ],
+     "orig": [],
+     "spots": 10778300,
+     "alias": "8dHPiFBK14"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "1306:312409",
+   "read_count": 1306,
+   "base_count": 312409,
+   "runs": [
+    "SRR927294",
+    "SRR945822"
+   ],
+   "studies": [
+    "PRJNA173810",
+    "PRJNA213674"
+   ],
+   "centers": [
+    "Max Planck Institute for Evolutionary Anthropology",
+    "Max Planck Institute for Evolutionary Anthropology"
+   ],
+   "taxa": [
+    "1227552",
+    "447426"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2013-09-04",
+    "2014-03-02"
+   ],
+   "ncbi": {
+    "SRR927294": {
+     "comp": [
+      1306,
+      74693,
+      79730,
+      89975,
+      72621,
+      614
+     ],
+     "orig": [
+      "b61a349503ed752cdbf5856d8700a297"
+     ],
+     "spots": 1306,
+     "alias": "Human_SL-73"
+    },
+    "SRR945822": {
+     "comp": [
+      1306,
+      74693,
+      79730,
+      89975,
+      72621,
+      614
+     ],
+     "orig": [
+      "b61a349503ed752cdbf5856d8700a297"
+     ],
+     "spots": 1306,
+     "alias": "SL73"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "60667:21541856",
+   "read_count": 60667,
+   "base_count": 21541856,
+   "runs": [
+    "SRR389280",
+    "SRR516882"
+   ],
+   "studies": [
+    "PRJNA61297",
+    "PRJNA73829"
+   ],
+   "centers": [
+    "PacBio",
+    "PacBio"
+   ],
+   "taxa": [
+    "686",
+    "666"
+   ],
+   "strategies": [
+    "WGS",
+    "WGS"
+   ],
+   "dates": [
+    "2012-01-02",
+    "2012-07-02"
+   ],
+   "ncbi": {
+    "SRR389280": {
+     "comp": [
+      60667,
+      9385711,
+      11292989,
+      8371815,
+      7484733,
+      0
+     ],
+     "orig": [
+      "734d5055f51605edd011e52eca819e5a"
+     ],
+     "spots": 60667,
+     "alias": "m101111_222408_00127_c000028492550000000115022502211156_s1_p0.bas.h5"
+    },
+    "SRR516882": {
+     "comp": [
+      60667,
+      9385711,
+      11292989,
+      8371815,
+      7484733,
+      0
+     ],
+     "orig": [
+      "734d5055f51605edd011e52eca819e5a"
+     ],
+     "spots": 60667,
+     "alias": "m101111_222408_00127_c000028492550000000115022502211156_s1_p0"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "171569:44148792",
+   "read_count": 171569,
+   "base_count": 44148792,
+   "runs": [
+    "SRR088776",
+    "SRR1264695"
+   ],
+   "studies": [
+    "PRJNA79879",
+    "PRJNA245544"
+   ],
+   "centers": [
+    "Boyce Thompson Institute",
+    "Boyce Thompson Institute"
+   ],
+   "taxa": [
+    "4081",
+    "4081"
+   ],
+   "strategies": [
+    "EST",
+    "RNA-Seq"
+   ],
+   "dates": [
+    "2011-01-05",
+    "2014-05-02"
+   ],
+   "ncbi": {
+    "SRR088776": {
+     "comp": [
+      171569,
+      13354700,
+      8847168,
+      10218321,
+      12260817,
+      154062
+     ],
+     "orig": [
+      "6a95cede28a7e45dfea98ac50e8882f9"
+     ],
+     "spots": 171569,
+     "alias": "mock"
+    },
+    "SRR1264695": {
+     "comp": [
+      171569,
+      13354700,
+      8847168,
+      10218321,
+      12260817,
+      154062
+     ],
+     "orig": [],
+     "spots": 171569,
+     "alias": "M82-water1"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "140399478:7469423456",
+   "read_count": 140399478,
+   "base_count": 7469423456,
+   "runs": [
+    "SRR492447",
+    "SRR507860"
+   ],
+   "studies": [
+    "PRJNA63475",
+    "PRJNA63471"
+   ],
+   "centers": [
+    "GEO",
+    "GEO"
+   ],
+   "taxa": [
+    "10090",
+    "10090"
+   ],
+   "strategies": [
+    "ChIP-Seq",
+    "ChIP-Seq"
+   ],
+   "dates": [
+    "2012-05-07",
+    "2012-06-21"
+   ],
+   "ncbi": {
+    "SRR492447": {
+     "comp": [
+      140399478,
+      2160241988,
+      1593472346,
+      1607538447,
+      2105903492,
+      2267183
+     ],
+     "orig": [
+      "688d0a30fffd60d319b2c4e8e21d1035"
+     ],
+     "spots": 140399478,
+     "alias": "GSM923580_2"
+    },
+    "SRR507860": {
+     "comp": [
+      140399478,
+      2160241988,
+      1593472346,
+      1607538447,
+      2105903492,
+      2267183
+     ],
+     "orig": [
+      "70209ff9fa28211bb633a9624836b360"
+     ],
+     "spots": 140399478,
+     "alias": "GSM946538_2"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  },
+  {
+   "key": "1982:1008635",
+   "read_count": 1982,
+   "base_count": 1008635,
+   "runs": [
+    "SRR1133375",
+    "SRR628476"
+   ],
+   "studies": [
+    "PRJNA232457",
+    "PRJNA170912"
+   ],
+   "centers": [
+    "University of Tennessee",
+    "University of Tennessee"
+   ],
+   "taxa": [
+    "749907",
+    "412757"
+   ],
+   "strategies": [
+    "AMPLICON",
+    "AMPLICON"
+   ],
+   "dates": [
+    "2014-05-10",
+    "2012-12-28"
+   ],
+   "ncbi": {
+    "SRR1133375": {
+     "comp": [
+      1982,
+      267591,
+      230334,
+      312287,
+      202709,
+      3642
+     ],
+     "orig": [
+      "57c7479a53067ae89beaa4750af4b6ac"
+     ],
+     "spots": 1982,
+     "alias": "ELM-10-052A"
+    },
+    "SRR628476": {
+     "comp": [
+      1982,
+      267591,
+      230334,
+      312287,
+      202709,
+      3642
+     ],
+     "orig": [],
+     "spots": 1982,
+     "alias": "HOR_10_18A"
+    }
+   },
+   "verdict": "CONFIRMED_identical_composition"
+  }
+ ]
+}

@@ -1,0 +1,7298 @@
+[
+ {
+  "md5": "009f5fbaea29846fcef7fe0d73c198c7",
+  "runs": [
+   "ERR1199118",
+   "ERR1654687",
+   "ERR2707108"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671590",
+   "SAMEA4441658",
+   "SAMEA4798823"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "231053531"
+ },
+ {
+  "md5": "01911909a6660198c89fab67876320ed",
+  "runs": [
+   "ERR1367658",
+   "ERR1465774"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715435"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "345222542"
+ },
+ {
+  "md5": "01dca66db09bd21a80fa93e257225220",
+  "runs": [
+   "ERR1199119",
+   "ERR1654708",
+   "ERR2707226"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671591",
+   "SAMEA4441722",
+   "SAMEA4798942"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "248199449"
+ },
+ {
+  "md5": "01e668bf6c1199e546625bfbd9155f1e",
+  "runs": [
+   "ERR1465879",
+   "ERR552490"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534684",
+   "SAMEA4041366"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "383430687"
+ },
+ {
+  "md5": "02d61b0f7c9be68a6a3b5f9c3ebb0376",
+  "runs": [
+   "ERR1465850",
+   "ERR552904"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534991",
+   "SAMEA4041337"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "193860305"
+ },
+ {
+  "md5": "02f2b8b825c4ea728732c11db388d0f7",
+  "runs": [
+   "ERR1199114",
+   "ERR987748"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512764",
+   "SAMEA3671574"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "311290304"
+ },
+ {
+  "md5": "03478bd1bace4494b3c4593f84eac0a5",
+  "runs": [
+   "ERR2200094",
+   "ERR553243"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535241"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "32093621"
+ },
+ {
+  "md5": "03e9c9395878791b41e7692168cd8f64",
+  "runs": [
+   "ERR1654664",
+   "ERR2707012"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441682",
+   "SAMEA4798727"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "240333075"
+ },
+ {
+  "md5": "0427ecabfb90fa012d7e099669f968e8",
+  "runs": [
+   "ERR1465846",
+   "ERR551368"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533890",
+   "SAMEA4041333"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "304457754"
+ },
+ {
+  "md5": "04e71473e71f7232e577df3bf0bedd3f",
+  "runs": [
+   "ERR1199105",
+   "ERR1654666",
+   "ERR2707020"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671539",
+   "SAMEA4441684",
+   "SAMEA4798735"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "182897156"
+ },
+ {
+  "md5": "05cb69ced31835418e1d56db74b8e1bc",
+  "runs": [
+   "ERR1367669",
+   "ERR1465802"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715581"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "420528300"
+ },
+ {
+  "md5": "089d0fc910c72ff34804e7e9907cbe02",
+  "runs": [
+   "ERR2199778",
+   "ERR553029"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535081"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "40652901"
+ },
+ {
+  "md5": "08daabdc7616284816d05bfba2b7c223",
+  "runs": [
+   "ERR1367636",
+   "ERR1465820"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715626"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "540488582"
+ },
+ {
+  "md5": "098c33f9886a83787284264f9a5eec1d",
+  "runs": [
+   "ERR1367669",
+   "ERR1465802"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715581"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "406991805"
+ },
+ {
+  "md5": "09bc150d9bb930da7c8dfb022f231002",
+  "runs": [
+   "ERR1199109",
+   "ERR1654659",
+   "ERR2706975"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671560",
+   "SAMEA4441699",
+   "SAMEA4798690"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "220117090"
+ },
+ {
+  "md5": "0af231d19bae5c991526be0ea60621d7",
+  "runs": [
+   "ERR1199144",
+   "ERR987715"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512731",
+   "SAMEA3671566"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "340507261"
+ },
+ {
+  "md5": "0af69dc1efedb625a08fb81130d1b4e0",
+  "runs": [
+   "ERR1367619",
+   "ERR1465736"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715607"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "306192398"
+ },
+ {
+  "md5": "0b81e560efd326d0deafdef8f1c2571f",
+  "runs": [
+   "ERR2200011",
+   "ERR552807"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534918"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "37041417"
+ },
+ {
+  "md5": "0c056e61fbfd119db925cf7aca9caa83",
+  "runs": [
+   "ERR2199751",
+   "ERR553355"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535330"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "41749453"
+ },
+ {
+  "md5": "0ebd90625530e1d7dc64c5b184218602",
+  "runs": [
+   "ERR1199116",
+   "ERR987737"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512753",
+   "SAMEA3671588"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "360177434"
+ },
+ {
+  "md5": "0ee5e7cbd5ad31fa56264c7214ce4139",
+  "runs": [
+   "ERR1654691",
+   "ERR2707127"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441673",
+   "SAMEA4798842"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "262661608"
+ },
+ {
+  "md5": "0f642bc36015a612ab40456692328f66",
+  "runs": [
+   "ERR1465876",
+   "ERR552587"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534750",
+   "SAMEA4041363"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "288338059"
+ },
+ {
+  "md5": "129e3074cc742b5a861c4db487d99a0e",
+  "runs": [
+   "ERR1465883",
+   "ERR552656"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534800",
+   "SAMEA4041370"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "355315926"
+ },
+ {
+  "md5": "12aa9b07bb30418511f819a8a962fff3",
+  "runs": [
+   "ERR1367682",
+   "ERR1465941"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715438"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "463490992"
+ },
+ {
+  "md5": "1305331bc9e98f5f638ddd9eedd7c3e8",
+  "runs": [
+   "ERR1465847",
+   "ERR551271"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533821",
+   "SAMEA4041334"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "235485838"
+ },
+ {
+  "md5": "136a041cb10fb7a839c9ab601651b8de",
+  "runs": [
+   "ERR1654700",
+   "ERR2707188"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441702",
+   "SAMEA4798903"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "176959730"
+ },
+ {
+  "md5": "138de0201137a4c8417587852fdeac70",
+  "runs": [
+   "ERR2200047",
+   "ERR551331"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533861"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "36615287"
+ },
+ {
+  "md5": "1431cd6709784316810f65d63b417854",
+  "runs": [
+   "ERR2200046",
+   "ERR551330"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533861"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "10351664"
+ },
+ {
+  "md5": "145e33ab8918c130e06e7988086033f5",
+  "runs": [
+   "ERR1199108",
+   "ERR1654696",
+   "ERR2707161"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671557",
+   "SAMEA4441716",
+   "SAMEA4798876"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "175264598"
+ },
+ {
+  "md5": "17b3eec88163ab1f11bf019f187f7d90",
+  "runs": [
+   "ERR1654679",
+   "ERR2707076"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441694",
+   "SAMEA4798791"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "190538926"
+ },
+ {
+  "md5": "18483129ce01ec55adca23c60f9e543c",
+  "runs": [
+   "ERR1465728",
+   "ERR550802"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533481",
+   "SAMEA4041317"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "286391170"
+ },
+ {
+  "md5": "191ec1b2b0f355736de6d2e4cc0be08a",
+  "runs": [
+   "ERR1199131",
+   "ERR987780"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512796",
+   "SAMEA3671512"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "205233118"
+ },
+ {
+  "md5": "1abf8e94585fd05f14dc040deb577497",
+  "runs": [
+   "ERR2200075",
+   "ERR550977"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533604"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "32337439"
+ },
+ {
+  "md5": "1b4b0a4f43a284004c8c251cf37077a1",
+  "runs": [
+   "ERR1199099",
+   "ERR1654670",
+   "ERR2707038"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671531",
+   "SAMEA4441700",
+   "SAMEA4798753"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "148983807"
+ },
+ {
+  "md5": "1cebe627ad2ab0077d2bd110c1415782",
+  "runs": [
+   "ERR1199099",
+   "ERR1654670",
+   "ERR2707038"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671531",
+   "SAMEA4441700",
+   "SAMEA4798753"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "162662524"
+ },
+ {
+  "md5": "1e56a83adf9f0b3c194b0af156ebc269",
+  "runs": [
+   "ERR1654700",
+   "ERR2707188"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441702",
+   "SAMEA4798903"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "189356071"
+ },
+ {
+  "md5": "1f01a35a06d4fab8355c137853c4976a",
+  "runs": [
+   "ERR2200022",
+   "ERR553222"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535221"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "30033651"
+ },
+ {
+  "md5": "1ffea942a4b45dd722fce2ca68115e00",
+  "runs": [
+   "ERR1199102",
+   "ERR1654655",
+   "ERR2706959"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671535",
+   "SAMEA4441672",
+   "SAMEA4798674"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "179316338"
+ },
+ {
+  "md5": "204ef9dae654035ee79f7294bb8d7ad6",
+  "runs": [
+   "ERR1465886",
+   "ERR551115"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533710",
+   "SAMEA4041373"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "249259523"
+ },
+ {
+  "md5": "2180973bab1b7690870539372c5f8f70",
+  "runs": [
+   "ERR1367652",
+   "ERR1465792"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715554"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "567016732"
+ },
+ {
+  "md5": "21b03ac575253778cac767fa415908c3",
+  "runs": [
+   "ERR2199757",
+   "ERR552497"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534689"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "14012493"
+ },
+ {
+  "md5": "21d79aa97dbd1985a902611eaa4fca75",
+  "runs": [
+   "ERR1465728",
+   "ERR550802"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533481",
+   "SAMEA4041317"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "291697603"
+ },
+ {
+  "md5": "239f8ff0bcfbbb6af688647309797625",
+  "runs": [
+   "ERR1199105",
+   "ERR1654666",
+   "ERR2707020"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671539",
+   "SAMEA4441684",
+   "SAMEA4798735"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "193824899"
+ },
+ {
+  "md5": "23b07e1ab3c4e6ec8941016f9ce89e54",
+  "runs": [
+   "ERR2199997",
+   "ERR552416"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534635"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "48272984"
+ },
+ {
+  "md5": "23bdc6a32ba47dd74504b1e86f5c8068",
+  "runs": [
+   "ERR1465727",
+   "ERR551719"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534143",
+   "SAMEA4041316"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "261262261"
+ },
+ {
+  "md5": "23c8be6c5e513c6f08ad4967040e3189",
+  "runs": [
+   "ERR1199142",
+   "ERR987709"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512725",
+   "SAMEA3671544"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "269681367"
+ },
+ {
+  "md5": "24435d6ab680479c1967bd4865c97414",
+  "runs": [
+   "ERR1367623",
+   "ERR1465823"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715631"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "319189191"
+ },
+ {
+  "md5": "24de7fd9c975a780d1afd16cc9616b39",
+  "runs": [
+   "ERR1465855",
+   "ERR552871"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534972",
+   "SAMEA4041342"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "357855303"
+ },
+ {
+  "md5": "2579be1b1465b79a2a02c53bd93be4d8",
+  "runs": [
+   "ERR1465878",
+   "ERR550901"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB7727"
+  ],
+  "samples": [
+   "SAMEA2533550",
+   "SAMEA4041365"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "46070379"
+ },
+ {
+  "md5": "260140b195596cefdd2d34fabc5de4b9",
+  "runs": [
+   "ERR1199107",
+   "ERR1654653",
+   "ERR2706944"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671550",
+   "SAMEA4441661",
+   "SAMEA4798659"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "177123019"
+ },
+ {
+  "md5": "266e387c8015926f5e802ae24351fe69",
+  "runs": [
+   "ERR1465834",
+   "ERR552016"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534353",
+   "SAMEA4041315"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "119999439"
+ },
+ {
+  "md5": "26ee08f69fd82ed6af94612eb2c9f3d8",
+  "runs": [
+   "ERR1465840",
+   "ERR552698"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534830",
+   "SAMEA4041327"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "112318079"
+ },
+ {
+  "md5": "2738d8f824a7787164375733cf5498bd",
+  "runs": [
+   "ERR1199125",
+   "ERR987785"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512801",
+   "SAMEA3671608"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "448302265"
+ },
+ {
+  "md5": "28fc8fb1edc8d59a25656bb96f45ed5f",
+  "runs": [
+   "ERR1654657",
+   "ERR2706966"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441703",
+   "SAMEA4798681"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "243882883"
+ },
+ {
+  "md5": "2988556001526ad876ba58caedd6c798",
+  "runs": [
+   "ERR1199096",
+   "ERR1654689",
+   "ERR2707123"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671516",
+   "SAMEA4441691",
+   "SAMEA4798838"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "132161241"
+ },
+ {
+  "md5": "2a2517aebc661dffba0d5ef10d9ddd7b",
+  "runs": [
+   "ERR1654683",
+   "ERR2707091"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441698",
+   "SAMEA4798806"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "238083963"
+ },
+ {
+  "md5": "2a4dd798ed72e04626fd8f92ebd5b3f9",
+  "runs": [
+   "ERR1654672",
+   "ERR2707052"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441706",
+   "SAMEA4798767"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "247091007"
+ },
+ {
+  "md5": "2aae295a2eec82d1b9dcb38a89d767b3",
+  "runs": [
+   "ERR2200061",
+   "ERR553330"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535310"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "34697312"
+ },
+ {
+  "md5": "2af89bfc61a72ed025b858ab58277348",
+  "runs": [
+   "ERR1465883",
+   "ERR552656"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534800",
+   "SAMEA4041370"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "346860186"
+ },
+ {
+  "md5": "2b692a222f1aa7f98e6f7d564452b4bb",
+  "runs": [
+   "ERR1654686",
+   "ERR2707104"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441671",
+   "SAMEA4798819"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "252634216"
+ },
+ {
+  "md5": "2b85023e6c5fe7c37906785b72d4d012",
+  "runs": [
+   "ERR2199748",
+   "ERR552078"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534399"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "23380309"
+ },
+ {
+  "md5": "2bca7dc7bb36b7f38f2005fb5118fb12",
+  "runs": [
+   "ERR1199125",
+   "ERR987785"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512801",
+   "SAMEA3671608"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "438600162"
+ },
+ {
+  "md5": "2cd01d95bb618127afd6938e8b1eb193",
+  "runs": [
+   "ERR1465856",
+   "ERR551763"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534177",
+   "SAMEA4041343"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "226159755"
+ },
+ {
+  "md5": "2cd6391f754ef70820beb2493e5589ad",
+  "runs": [
+   "ERR1654676",
+   "ERR2707070"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441686",
+   "SAMEA4798785"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "303333941"
+ },
+ {
+  "md5": "2cd6ce668bf88452fedbcf9a7b34855d",
+  "runs": [
+   "ERR1367618",
+   "ERR1465809"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715596"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "198644832"
+ },
+ {
+  "md5": "2ec0fbc1cdaea407fd5748ed2f35a36c",
+  "runs": [
+   "ERR1654695",
+   "ERR2707148"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441674",
+   "SAMEA4798863"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "218837438"
+ },
+ {
+  "md5": "2f53cb7c93c636bb0dcdef3f49dddfed",
+  "runs": [
+   "ERR1654663",
+   "ERR2707009"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441718",
+   "SAMEA4798724"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "373210107"
+ },
+ {
+  "md5": "2fd5124ef8689211e25f5786d1b4c1d4",
+  "runs": [
+   "ERR1465869",
+   "ERR552512"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534700",
+   "SAMEA4041356"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "282181854"
+ },
+ {
+  "md5": "3126036a1b29c161037c77ce8af6b05d",
+  "runs": [
+   "ERR1465869",
+   "ERR552512"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534700",
+   "SAMEA4041356"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "285025836"
+ },
+ {
+  "md5": "33c3b86f0610c287a437c2f3c61cc7a6",
+  "runs": [
+   "ERR1199129",
+   "ERR987749"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512765",
+   "SAMEA3671462"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "60827687"
+ },
+ {
+  "md5": "33e81150fd9e49e27142622f835c3fe3",
+  "runs": [
+   "ERR1199138",
+   "ERR987727"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512743",
+   "SAMEA3671529"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "250221672"
+ },
+ {
+  "md5": "34136975d387153bac17ded6197c08e6",
+  "runs": [
+   "ERR1367645",
+   "ERR1465795"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715569"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "424066965"
+ },
+ {
+  "md5": "346b198b39ebd6331e838a0284879d97",
+  "runs": [
+   "ERR1367654",
+   "ERR1465803"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715439"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "628428685"
+ },
+ {
+  "md5": "34da9035ab34d2240208187a296a0551",
+  "runs": [
+   "ERR1367634",
+   "ERR1465793"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715558"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "554479045"
+ },
+ {
+  "md5": "35023032a3d3361be58d7271d252bb2b",
+  "runs": [
+   "ERR1199127",
+   "ERR1654704",
+   "ERR2707206"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671615",
+   "SAMEA4441714",
+   "SAMEA4798922"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "300077707"
+ },
+ {
+  "md5": "364d279746390401e46579d41337f7ec",
+  "runs": [
+   "ERR1654694",
+   "ERR2707142"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441712",
+   "SAMEA4798857"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "267159719"
+ },
+ {
+  "md5": "36d2410b4f89e353ee4a5499f64b79a4",
+  "runs": [
+   "ERR2200094",
+   "ERR553243"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535241"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "33221657"
+ },
+ {
+  "md5": "37a8e21642ea6f5d5015ffa00ef94c3b",
+  "runs": [
+   "ERR1654699",
+   "ERR2707183"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441664",
+   "SAMEA4798898"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "163888825"
+ },
+ {
+  "md5": "380dcf70ab2bd516c7e0f4ac5d4ecf29",
+  "runs": [
+   "ERR2199758",
+   "ERR551524"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534000"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "14533999"
+ },
+ {
+  "md5": "3a345044b572f4fec41e1a94e6adf423",
+  "runs": [
+   "ERR2200031",
+   "ERR551206"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533774"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "88117495"
+ },
+ {
+  "md5": "3a810b2c4e90f5bebb9c895305a367cc",
+  "runs": [
+   "ERR1199110",
+   "ERR1654680",
+   "ERR2707077"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671563",
+   "SAMEA4441696",
+   "SAMEA4798792"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "196920111"
+ },
+ {
+  "md5": "3ae5c06045b47c5aaeb3d72818cc1052",
+  "runs": [
+   "ERR1654691",
+   "ERR2707127"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441673",
+   "SAMEA4798842"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "247746053"
+ },
+ {
+  "md5": "3af30c4c2221ddc2811ed2376185aa21",
+  "runs": [
+   "ERR1465879",
+   "ERR552490"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534684",
+   "SAMEA4041366"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "380177375"
+ },
+ {
+  "md5": "3afa871bd541334b3a37f9179f803d2a",
+  "runs": [
+   "ERR1654702",
+   "ERR2707198"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441666",
+   "SAMEA4798913"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "240974502"
+ },
+ {
+  "md5": "3b0f75124b50f5af7b836a55ecce20cc",
+  "runs": [
+   "ERR1367629",
+   "ERR1465828"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715748"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "537770714"
+ },
+ {
+  "md5": "3d34e01663576216307c8e3bc0f78a30",
+  "runs": [
+   "ERR1654695",
+   "ERR2707148"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441674",
+   "SAMEA4798863"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "202327175"
+ },
+ {
+  "md5": "3dabbfc422cf3f05b54583a3b13eacd3",
+  "runs": [
+   "ERR1199144",
+   "ERR987715"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512731",
+   "SAMEA3671566"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "334969881"
+ },
+ {
+  "md5": "3e1d502d6058e70865e2a0f72d24d82b",
+  "runs": [
+   "ERR1654693",
+   "ERR2707132"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441687",
+   "SAMEA4798847"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "221785105"
+ },
+ {
+  "md5": "3e5c5bb659f2604dd0f57e7770bc66f6",
+  "runs": [
+   "ERR1465969",
+   "ERR553131"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB7727"
+  ],
+  "samples": [
+   "SAMEA2535158",
+   "SAMEA4041332"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "141715930"
+ },
+ {
+  "md5": "3e9835c392b10ab729cbbb82489db456",
+  "runs": [
+   "ERR1465731",
+   "ERR550810"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533486",
+   "SAMEA4041320"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "158936796"
+ },
+ {
+  "md5": "3fa0e7316ab471c30ac20a0e41dac1e0",
+  "runs": [
+   "ERR1465860",
+   "ERR551413"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533924",
+   "SAMEA4041347"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "271895367"
+ },
+ {
+  "md5": "3fafd2590247c29b1136b8d571e28410",
+  "runs": [
+   "ERR1199114",
+   "ERR987748"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512764",
+   "SAMEA3671574"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "319397302"
+ },
+ {
+  "md5": "3fbae1c22ee85273f9aa08c5ba55dc8d",
+  "runs": [
+   "ERR2199759",
+   "ERR551525"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534000"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "23120466"
+ },
+ {
+  "md5": "402a2af69fa12a314d4ee04ae43b4d51",
+  "runs": [
+   "ERR2200066",
+   "ERR551622"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534075"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "35930662"
+ },
+ {
+  "md5": "4195eae6c2f0ff601549cb7e4e050360",
+  "runs": [
+   "ERR1654665",
+   "ERR2707016"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441715",
+   "SAMEA4798731"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "266289014"
+ },
+ {
+  "md5": "41d5450c0600fd50090d98e24d87876b",
+  "runs": [
+   "ERR1654676",
+   "ERR2707070"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441686",
+   "SAMEA4798785"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "318649975"
+ },
+ {
+  "md5": "41fd30050a51c747e582a3be73fdb163",
+  "runs": [
+   "ERR2200061",
+   "ERR553330"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535310"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "33438274"
+ },
+ {
+  "md5": "42c1a20aac311ff5a99cfc0a00ef8951",
+  "runs": [
+   "ERR1465891",
+   "ERR551297"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533842",
+   "SAMEA4041378"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "177807616"
+ },
+ {
+  "md5": "430359880a3f4fecc12c47bafc1f9e1f",
+  "runs": [
+   "ERR1465863",
+   "ERR552121"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534426",
+   "SAMEA4041350"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "171237238"
+ },
+ {
+  "md5": "4688305e19df68025308eee477df77a2",
+  "runs": [
+   "ERR2200058",
+   "ERR552488"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534682"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "56133974"
+ },
+ {
+  "md5": "468ff479cd88b120e2ba9e1659eaf0dd",
+  "runs": [
+   "ERR1199104",
+   "ERR1654649",
+   "ERR2706924"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671538",
+   "SAMEA4441669",
+   "SAMEA4798639"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "178491479"
+ },
+ {
+  "md5": "4697936b92ef9d8cf31a8348e132d1b3",
+  "runs": [
+   "ERR2200058",
+   "ERR552488"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534682"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "52235897"
+ },
+ {
+  "md5": "46cfa60447b2bc0fbf00cf4fa7a09bad",
+  "runs": [
+   "ERR1654669",
+   "ERR2707026"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441683",
+   "SAMEA4798741"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "264397786"
+ },
+ {
+  "md5": "476602e0a25e876c8ec5c0e1ee7fc498",
+  "runs": [
+   "ERR2200086",
+   "ERR553289"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535278"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "178965472"
+ },
+ {
+  "md5": "49c93d2eb5e473f946c20bd316c43311",
+  "runs": [
+   "ERR1465729",
+   "ERR550695"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533399",
+   "SAMEA4041318"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "260998089"
+ },
+ {
+  "md5": "49e632349b99c9e84678dda512e9ab18",
+  "runs": [
+   "ERR1199136",
+   "ERR987738"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512754",
+   "SAMEA3671522"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "237385880"
+ },
+ {
+  "md5": "4b7cb1595501f666cd8765153199ced4",
+  "runs": [
+   "ERR1654650",
+   "ERR2706925"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441679",
+   "SAMEA4798640"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "232559673"
+ },
+ {
+  "md5": "4c9008b3b018d493731a382d7f3fab6d",
+  "runs": [
+   "ERR1654677",
+   "ERR2707072"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441707",
+   "SAMEA4798787"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "191074698"
+ },
+ {
+  "md5": "4ca1d82722f6bbb3d5c1f5d6c7a070b3",
+  "runs": [
+   "ERR1199117",
+   "ERR1654705",
+   "ERR2707218"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671589",
+   "SAMEA4441721",
+   "SAMEA4798934"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "236652584"
+ },
+ {
+  "md5": "4e1269c3a0ad8178b50652a99ddec4bb",
+  "runs": [
+   "ERR1465865",
+   "ERR552013"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534351",
+   "SAMEA4041352"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "160947320"
+ },
+ {
+  "md5": "4e6e2d9ab5be2d7c4c13bc0b01f5bd40",
+  "runs": [
+   "ERR1199126",
+   "ERR1654697",
+   "ERR2707168"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671614",
+   "SAMEA4441692",
+   "SAMEA4798883"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "316515986"
+ },
+ {
+  "md5": "4e73636b78ded48ebdbb25a9d1828a7e",
+  "runs": [
+   "ERR1199121",
+   "ERR1654667",
+   "ERR2707022"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671596",
+   "SAMEA4441693",
+   "SAMEA4798737"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "287924266"
+ },
+ {
+  "md5": "50e9d7041468e3bf341aceef2becf268",
+  "runs": [
+   "ERR1199124",
+   "ERR1654701",
+   "ERR2707193"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671606",
+   "SAMEA4441660",
+   "SAMEA4798908"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "271543525"
+ },
+ {
+  "md5": "52e1a5898ab6c0e0be1592ae0e6e50f4",
+  "runs": [
+   "ERR1199093",
+   "ERR1654709"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463"
+  ],
+  "samples": [
+   "SAMEA3671461",
+   "SAMEA4441708"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "53345398"
+ },
+ {
+  "md5": "5335dab94b3ec377a2c1c0a229d92b91",
+  "runs": [
+   "ERR1654685",
+   "ERR2707099"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441711",
+   "SAMEA4798814"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "127197804"
+ },
+ {
+  "md5": "534947a80071876c1056cc15c3c38c67",
+  "runs": [
+   "ERR1465876",
+   "ERR552587"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534750",
+   "SAMEA4041363"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "297865037"
+ },
+ {
+  "md5": "5432657fbc073ba8484da9f78c11786c",
+  "runs": [
+   "ERR1465729",
+   "ERR550695"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533399",
+   "SAMEA4041318"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "270770641"
+ },
+ {
+  "md5": "54e63c51cee98044150182be00e07aee",
+  "runs": [
+   "ERR2199747",
+   "ERR552824"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534929"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "23044764"
+ },
+ {
+  "md5": "560ebf487ca4e244e084d6ba37ce0177",
+  "runs": [
+   "ERR1199130",
+   "ERR987775"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512791",
+   "SAMEA3671465"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "66336487"
+ },
+ {
+  "md5": "56f5dc538f05dab9cd39046c0fdd67fb",
+  "runs": [
+   "ERR1465847",
+   "ERR551271"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533821",
+   "SAMEA4041334"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "229387341"
+ },
+ {
+  "md5": "583055083aeaf8e1ef300044399be882",
+  "runs": [
+   "ERR2199750",
+   "ERR553356"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535330"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "7615572"
+ },
+ {
+  "md5": "58817558f8f9afed17c086769a7c8d3e",
+  "runs": [
+   "ERR1654652",
+   "ERR2706942"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441697",
+   "SAMEA4798657"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "186932574"
+ },
+ {
+  "md5": "59d211afc29127e35970d62793d6ff17",
+  "runs": [
+   "ERR1465838",
+   "ERR551269"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533819",
+   "SAMEA4041325"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "235860259"
+ },
+ {
+  "md5": "5ebdc1b84d9e90fbea5933dbcd487348",
+  "runs": [
+   "ERR1199098",
+   "ERR1654682",
+   "ERR2707084"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671530",
+   "SAMEA4441689",
+   "SAMEA4798799"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "164354160"
+ },
+ {
+  "md5": "5eea8e9aea3e276b5810c567b05b5857",
+  "runs": [
+   "ERR2199757",
+   "ERR552497"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534689"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "14649833"
+ },
+ {
+  "md5": "5f05bbb491c8f11287cfbbcb16360622",
+  "runs": [
+   "ERR1199111",
+   "ERR1654654",
+   "ERR2706948"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671571",
+   "SAMEA4441668",
+   "SAMEA4798663"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "233046308"
+ },
+ {
+  "md5": "5f8b867a16c7982e515f9a9578733080",
+  "runs": [
+   "ERR2200122",
+   "ERR551113"
+  ],
+  "studies": [
+   "PRJEB9545",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533708"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "135995663"
+ },
+ {
+  "md5": "5fcd3d41d20135fc87b4ac466bd3be50",
+  "runs": [
+   "ERR1199103",
+   "ERR1654675",
+   "ERR2707060"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671536",
+   "SAMEA4441681",
+   "SAMEA4798775"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "151228799"
+ },
+ {
+  "md5": "5fd15aa26ec9449c7a9176561c4b5e54",
+  "runs": [
+   "ERR1654679",
+   "ERR2707076"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441694",
+   "SAMEA4798791"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "169079558"
+ },
+ {
+  "md5": "6096bef7b4f9bb970201e0473ef9159c",
+  "runs": [
+   "ERR1654669",
+   "ERR2707026"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441683",
+   "SAMEA4798741"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "278626964"
+ },
+ {
+  "md5": "62486700ea0b96405e188b65f3bf97f5",
+  "runs": [
+   "ERR1199138",
+   "ERR987727"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512743",
+   "SAMEA3671529"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "247882689"
+ },
+ {
+  "md5": "62bdee8e0a8de1e28a4a2c75fa63364c",
+  "runs": [
+   "ERR1199107",
+   "ERR1654653",
+   "ERR2706944"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671550",
+   "SAMEA4441661",
+   "SAMEA4798659"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "187068644"
+ },
+ {
+  "md5": "633248aab1aa4f29014491dee33b23d0",
+  "runs": [
+   "ERR1367653",
+   "ERR1465799"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715576"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "460968041"
+ },
+ {
+  "md5": "64b2dd3726b429be4eb76fde6d28d999",
+  "runs": [
+   "ERR1654652",
+   "ERR2706942"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441697",
+   "SAMEA4798657"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "198115298"
+ },
+ {
+  "md5": "65fb36623a34208c94b450a9f87a930c",
+  "runs": [
+   "ERR1199128",
+   "ERR1654673",
+   "ERR2707053"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671618",
+   "SAMEA4441675",
+   "SAMEA4798768"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "297601162"
+ },
+ {
+  "md5": "66f24cf14ce101d3a86f81ef1726511f",
+  "runs": [
+   "ERR1465843",
+   "ERR552167"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534458",
+   "SAMEA4041330"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "196588015"
+ },
+ {
+  "md5": "67d0ff89678d331b3352300a6db41891",
+  "runs": [
+   "ERR1465862",
+   "ERR552168"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534460",
+   "SAMEA4041349"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "300716142"
+ },
+ {
+  "md5": "682090569190e00775af904f906fd01c",
+  "runs": [
+   "ERR1199141",
+   "ERR987723"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512739",
+   "SAMEA3671542"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "247609223"
+ },
+ {
+  "md5": "68ca9699389aa8785d7546780f47a1f3",
+  "runs": [
+   "ERR1199118",
+   "ERR1654687",
+   "ERR2707108"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671590",
+   "SAMEA4441658",
+   "SAMEA4798823"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "245408521"
+ },
+ {
+  "md5": "69f3afe5040a0fffa13555d482212bc6",
+  "runs": [
+   "ERR1199128",
+   "ERR1654673",
+   "ERR2707053"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671618",
+   "SAMEA4441675",
+   "SAMEA4798768"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "313286442"
+ },
+ {
+  "md5": "6a0f2203817bb973dfb2e2c070d38828",
+  "runs": [
+   "ERR1199126",
+   "ERR1654697",
+   "ERR2707168"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671614",
+   "SAMEA4441692",
+   "SAMEA4798883"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "294725248"
+ },
+ {
+  "md5": "6a3e74ce9c6b4f5b2f9540f07adf38f9",
+  "runs": [
+   "ERR1465845",
+   "ERR553130"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB7727"
+  ],
+  "samples": [
+   "SAMEA2535158",
+   "SAMEA4041332"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "41661670"
+ },
+ {
+  "md5": "6b17eca7b2d21612eea0a63b180534e5",
+  "runs": [
+   "ERR1465878",
+   "ERR550901"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB7727"
+  ],
+  "samples": [
+   "SAMEA2533550",
+   "SAMEA4041365"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "38508519"
+ },
+ {
+  "md5": "6b43ec1ce11b07c9a92c3c08262b6806",
+  "runs": [
+   "ERR2199758",
+   "ERR551524"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534000"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "14061417"
+ },
+ {
+  "md5": "6bc542db762dc430f8db2f5810328f37",
+  "runs": [
+   "ERR1465870",
+   "ERR553039"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535089",
+   "SAMEA4041357"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "252411510"
+ },
+ {
+  "md5": "6ce4f0a37ea0aa82944b92df104e9ad1",
+  "runs": [
+   "ERR2200064",
+   "ERR553205"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535210"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "36341102"
+ },
+ {
+  "md5": "6d78db8e327ae0622669dcced9252281",
+  "runs": [
+   "ERR1199139",
+   "ERR987741"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512757",
+   "SAMEA3671533"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "262660829"
+ },
+ {
+  "md5": "701f881b1a3fd06b58a357b7b56cbe62",
+  "runs": [
+   "ERR1199135",
+   "ERR987703"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512719",
+   "SAMEA3671521"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "229218832"
+ },
+ {
+  "md5": "703b2a022b73269906d928aa66e1acd9",
+  "runs": [
+   "ERR1465839",
+   "ERR552031"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534364",
+   "SAMEA4041326"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "340936799"
+ },
+ {
+  "md5": "7097fa72a27f4595fc364d1fd2075c1c",
+  "runs": [
+   "ERR2199811",
+   "ERR553285"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535274"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "42821621"
+ },
+ {
+  "md5": "70e3c280278980fea33d57c1b2c22a96",
+  "runs": [
+   "ERR1465723",
+   "ERR553239"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535238",
+   "SAMEA4041312"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "162924451"
+ },
+ {
+  "md5": "713e19b66e968cc7e0b7e6d777f1edcb",
+  "runs": [
+   "ERR2200048",
+   "ERR552421"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534638"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "60259840"
+ },
+ {
+  "md5": "73269b280e5fe9ee93510c7c47c2f761",
+  "runs": [
+   "ERR1465863",
+   "ERR552121"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534426",
+   "SAMEA4041350"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "152127208"
+ },
+ {
+  "md5": "741306acdb59e72aefa8ea388fd50126",
+  "runs": [
+   "ERR1465983",
+   "ERR550902"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB7727"
+  ],
+  "samples": [
+   "SAMEA2533550",
+   "SAMEA4041365"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "168582550"
+ },
+ {
+  "md5": "7423000ed6afc4538c8d919d5129c89a",
+  "runs": [
+   "ERR1654661",
+   "ERR2706993"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441713",
+   "SAMEA4798708"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "337373585"
+ },
+ {
+  "md5": "74c05490f6b94168bcd331380f119c9f",
+  "runs": [
+   "ERR1465841",
+   "ERR552185"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534471",
+   "SAMEA4041328"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "151793609"
+ },
+ {
+  "md5": "74c8f78281306556de90b3adf2e99e8c",
+  "runs": [
+   "ERR1465853",
+   "ERR550936"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533575",
+   "SAMEA4041340"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "318176989"
+ },
+ {
+  "md5": "758a03282e0c9db5053a49cc9560510f",
+  "runs": [
+   "ERR1199095",
+   "ERR987745"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512761",
+   "SAMEA3671490"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "136756311"
+ },
+ {
+  "md5": "76291b0a54ad69e220a398349bbd759b",
+  "runs": [
+   "ERR1654702",
+   "ERR2707198"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441666",
+   "SAMEA4798913"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "224388380"
+ },
+ {
+  "md5": "77da9db0fe48a37f6a3bcbbcb58cb873",
+  "runs": [
+   "ERR2199811",
+   "ERR553285"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535274"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "47718409"
+ },
+ {
+  "md5": "78c4eef858c88717b49b0be3d7136767",
+  "runs": [
+   "ERR1465983",
+   "ERR550902"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB7727"
+  ],
+  "samples": [
+   "SAMEA2533550",
+   "SAMEA4041365"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "144862762"
+ },
+ {
+  "md5": "7989bd1772c77f87433875d770b5829c",
+  "runs": [
+   "ERR1199141",
+   "ERR987723"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512739",
+   "SAMEA3671542"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "252782038"
+ },
+ {
+  "md5": "79b5b009de40d6eab8059443e950fd73",
+  "runs": [
+   "ERR1199143",
+   "ERR987769"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512785",
+   "SAMEA3671559"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "291853017"
+ },
+ {
+  "md5": "7a9a3c60d8c3a020bf0cd325be73b182",
+  "runs": [
+   "ERR2199968",
+   "ERR552696"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534828"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "32250015"
+ },
+ {
+  "md5": "7b11a57d1f7dbef7720314197d6ae251",
+  "runs": [
+   "ERR1654694",
+   "ERR2707142"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441712",
+   "SAMEA4798857"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "288798600"
+ },
+ {
+  "md5": "7be26a46fd3dec5fafaf9826bce9d30a",
+  "runs": [
+   "ERR1465836",
+   "ERR551085"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533687",
+   "SAMEA4041323"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "336393681"
+ },
+ {
+  "md5": "7c042fa93e3e7294421c518df1b1ee56",
+  "runs": [
+   "ERR1367682",
+   "ERR1465941"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715438"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "441180051"
+ },
+ {
+  "md5": "7d3359aa2d559e48d89a9d82cbf2e09b",
+  "runs": [
+   "ERR2200060",
+   "ERR553329"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535310"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "19344904"
+ },
+ {
+  "md5": "7efb3c624aa0e6426bd571561a989570",
+  "runs": [
+   "ERR1654674",
+   "ERR2707057"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441690",
+   "SAMEA4798772"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "273525170"
+ },
+ {
+  "md5": "7f3573a27861e1583cf8d6ef62b7e0d5",
+  "runs": [
+   "ERR1654668",
+   "ERR2707024"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441685",
+   "SAMEA4798739"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "412100692"
+ },
+ {
+  "md5": "7f463e5fc400cb4bd1e0fbfbf101fcb7",
+  "runs": [
+   "ERR2199750",
+   "ERR553356"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535330"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "7083885"
+ },
+ {
+  "md5": "7f7f5825f36be6a3a640f9db5ef5f848",
+  "runs": [
+   "ERR1199115",
+   "ERR1654707",
+   "ERR2707224"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671582",
+   "SAMEA4441704",
+   "SAMEA4798940"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "225407240"
+ },
+ {
+  "md5": "814b35f269cd242f014d802588c532d9",
+  "runs": [
+   "ERR1465889",
+   "ERR551058"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533667",
+   "SAMEA4041376"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "330726228"
+ },
+ {
+  "md5": "81cf3cb1e4bd2ceb5b4b53835b285c8a",
+  "runs": [
+   "ERR1465834",
+   "ERR552016"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534353",
+   "SAMEA4041315"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "126471293"
+ },
+ {
+  "md5": "81e1a0f5cb96ec3fa6e1e6da9340fcd6",
+  "runs": [
+   "ERR2199767",
+   "ERR552119"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534425"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "83452288"
+ },
+ {
+  "md5": "835cccb0f0c6a1063a5140c94cfc9a39",
+  "runs": [
+   "ERR1465885",
+   "ERR553087"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9545"
+  ],
+  "samples": [
+   "SAMEA2535127",
+   "SAMEA4041372"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "219927974"
+ },
+ {
+  "md5": "852927e4f3ea631fcd2011ae29830acf",
+  "runs": [
+   "ERR1199112",
+   "ERR1654662",
+   "ERR2707008"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671572",
+   "SAMEA4441667",
+   "SAMEA4798723"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "243708945"
+ },
+ {
+  "md5": "85a06da0d2ae5a96af8be635a218ded7",
+  "runs": [
+   "ERR2200122",
+   "ERR551113"
+  ],
+  "studies": [
+   "PRJEB9545",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533708"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "153720032"
+ },
+ {
+  "md5": "86c3a0ebeb2774c721ba9635a8173921",
+  "runs": [
+   "ERR1367634",
+   "ERR1465793"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715558"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "526216450"
+ },
+ {
+  "md5": "871457e6e13296b27eb86d20a546abe6",
+  "runs": [
+   "ERR1367627",
+   "ERR1465827"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715741"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "430781703"
+ },
+ {
+  "md5": "87f5687466e6b924734da168a828fd32",
+  "runs": [
+   "ERR1367629",
+   "ERR1465828"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715748"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "556633254"
+ },
+ {
+  "md5": "883018058c663b11e6a4c4731bd57b25",
+  "runs": [
+   "ERR1465881",
+   "ERR550631"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2533353",
+   "SAMEA4041368"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "292947216"
+ },
+ {
+  "md5": "889641abddc0ac1ccd53c7cae27c85a9",
+  "runs": [
+   "ERR1465967",
+   "ERR551130"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533723",
+   "SAMEA4041329"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "87514668"
+ },
+ {
+  "md5": "88efb193a20b84459cd59e244a2f7156",
+  "runs": [
+   "ERR1465723",
+   "ERR553239"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535238",
+   "SAMEA4041312"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "160953675"
+ },
+ {
+  "md5": "8996e95a531cac48d7ff6abeb18be4d8",
+  "runs": [
+   "ERR2200048",
+   "ERR552421"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534638"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "55384219"
+ },
+ {
+  "md5": "89d679e6b2f2fb7380187a2a9e0e97be",
+  "runs": [
+   "ERR1465726",
+   "ERR552017"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534353",
+   "SAMEA4041315"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "99338052"
+ },
+ {
+  "md5": "8adab85720d2b713124b7a3dd63d5a7c",
+  "runs": [
+   "ERR1465839",
+   "ERR552031"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534364",
+   "SAMEA4041326"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "353456792"
+ },
+ {
+  "md5": "8b9b8da790abf788b1a37f44f1bc14cf",
+  "runs": [
+   "ERR2199768",
+   "ERR551897"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534272"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "41990949"
+ },
+ {
+  "md5": "8c37c87853a718a7aca6456939748edc",
+  "runs": [
+   "ERR1199140",
+   "ERR987725"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512741",
+   "SAMEA3671540"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "264643944"
+ },
+ {
+  "md5": "8d6a6ea2c74de00a09f5488ada4d7d6b",
+  "runs": [
+   "ERR1199111",
+   "ERR1654654",
+   "ERR2706948"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671571",
+   "SAMEA4441668",
+   "SAMEA4798663"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "219727121"
+ },
+ {
+  "md5": "8eff83ef126df6e2dab92983785622d2",
+  "runs": [
+   "ERR1465864",
+   "ERR550666"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2533378",
+   "SAMEA4041351"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "265549128"
+ },
+ {
+  "md5": "9065c997450e113c5838e6f14966e3f9",
+  "runs": [
+   "ERR1199100",
+   "ERR1654678",
+   "ERR2707074"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671532",
+   "SAMEA4441659",
+   "SAMEA4798789"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "144779064"
+ },
+ {
+  "md5": "91761a61a1ebeb9df4a4c31d5266ceea",
+  "runs": [
+   "ERR1199123",
+   "ERR1654706",
+   "ERR2707223"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671601",
+   "SAMEA4441719",
+   "SAMEA4798939"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "288969082"
+ },
+ {
+  "md5": "923b8cc1233a62e830977558a698ce0e",
+  "runs": [
+   "ERR1654668",
+   "ERR2707024"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441685",
+   "SAMEA4798739"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "391553221"
+ },
+ {
+  "md5": "929a223dfa10d3b10d0e684582163c05",
+  "runs": [
+   "ERR1199134",
+   "ERR987759"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512775",
+   "SAMEA3671519"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "207666522"
+ },
+ {
+  "md5": "92b7a2debc2bc67e7f6ce71d1bf8a8e5",
+  "runs": [
+   "ERR1654690",
+   "ERR2707124"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441705",
+   "SAMEA4798839"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "211256882"
+ },
+ {
+  "md5": "92c748fe656e269edd57d8fa388527ce",
+  "runs": [
+   "ERR1199109",
+   "ERR1654659",
+   "ERR2706975"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671560",
+   "SAMEA4441699",
+   "SAMEA4798690"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "207654189"
+ },
+ {
+  "md5": "92e474f0089c5f876bf57effa89b9e94",
+  "runs": [
+   "ERR1199134",
+   "ERR987759"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512775",
+   "SAMEA3671519"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "202587587"
+ },
+ {
+  "md5": "93838ce11202de967d321655c167ae08",
+  "runs": [
+   "ERR1199132",
+   "ERR987765"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512781",
+   "SAMEA3671513"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "252703272"
+ },
+ {
+  "md5": "940b8eeb007d45597ba17adf76f03435",
+  "runs": [
+   "ERR1199098",
+   "ERR1654682",
+   "ERR2707084"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671530",
+   "SAMEA4441689",
+   "SAMEA4798799"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "145674050"
+ },
+ {
+  "md5": "947fc29b9ef5e06ee693d1602d9b93ac",
+  "runs": [
+   "ERR1199094",
+   "ERR987763"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512779",
+   "SAMEA3671467"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "72849694"
+ },
+ {
+  "md5": "948b0060102e51dac9742d82212cc144",
+  "runs": [
+   "ERR1465842",
+   "ERR551131"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533723",
+   "SAMEA4041329"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "69650870"
+ },
+ {
+  "md5": "9514aaaae9cadc20c780e6442118c61f",
+  "runs": [
+   "ERR2199768",
+   "ERR551897"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534272"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "39732003"
+ },
+ {
+  "md5": "951ae92f76222f26f70a69f87d87c0d3",
+  "runs": [
+   "ERR1654703",
+   "ERR2707200"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441663",
+   "SAMEA4798915"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "219284842"
+ },
+ {
+  "md5": "96d36e2bd459a1d6d29a4b9d4f63063f",
+  "runs": [
+   "ERR1654657",
+   "ERR2706966"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441703",
+   "SAMEA4798681"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "229630273"
+ },
+ {
+  "md5": "9702042d05729ff95a68e4a3607da5fa",
+  "runs": [
+   "ERR1465885",
+   "ERR553087"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9545"
+  ],
+  "samples": [
+   "SAMEA2535127",
+   "SAMEA4041372"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "263112015"
+ },
+ {
+  "md5": "979e222bb0ebaf9cbc38c9387435c779",
+  "runs": [
+   "ERR2200030",
+   "ERR551205"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533774"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "34060355"
+ },
+ {
+  "md5": "99ad4804ce30a33935f4550ac2283b50",
+  "runs": [
+   "ERR2199748",
+   "ERR552078"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534399"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "24320023"
+ },
+ {
+  "md5": "9b6f21f195ae15972a9462fb9e20b591",
+  "runs": [
+   "ERR2200086",
+   "ERR553289"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535278"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "185209002"
+ },
+ {
+  "md5": "9b9eda69192c69ba23ca1bd4d239b933",
+  "runs": [
+   "ERR1367619",
+   "ERR1465736"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715607"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "291763996"
+ },
+ {
+  "md5": "9c476597ce054044bd325a7076e01d8c",
+  "runs": [
+   "ERR1199136",
+   "ERR987738"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512754",
+   "SAMEA3671522"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "234108123"
+ },
+ {
+  "md5": "9c58198479e699120668fc628388b076",
+  "runs": [
+   "ERR1465849",
+   "ERR553360"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2535334",
+   "SAMEA4041336"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "143695922"
+ },
+ {
+  "md5": "9ca47f29f796312124ae50961451b8ca",
+  "runs": [
+   "ERR1199093",
+   "ERR1654709"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463"
+  ],
+  "samples": [
+   "SAMEA3671461",
+   "SAMEA4441708"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "51874899"
+ },
+ {
+  "md5": "9dec89ad4e36dfe489a0630acfc46c53",
+  "runs": [
+   "ERR1199122",
+   "ERR1654651",
+   "ERR2706926"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671599",
+   "SAMEA4441677",
+   "SAMEA4798641"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "355730189"
+ },
+ {
+  "md5": "9ec571a9ef431eebe9c74d6a0d19cb5e",
+  "runs": [
+   "ERR1199133",
+   "ERR987705"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512721",
+   "SAMEA3671515"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "195677697"
+ },
+ {
+  "md5": "9efe4767a434a35f5e57e734026eaa24",
+  "runs": [
+   "ERR1199117",
+   "ERR1654705",
+   "ERR2707218"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671589",
+   "SAMEA4441721",
+   "SAMEA4798934"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "253488925"
+ },
+ {
+  "md5": "9fd97a33a5a28868ce0833f2d3bff9c7",
+  "runs": [
+   "ERR1465866",
+   "ERR551229"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533790",
+   "SAMEA4041353"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "237780467"
+ },
+ {
+  "md5": "a01fbd85d8b1e7b7b98de80e35cea638",
+  "runs": [
+   "ERR2200095",
+   "ERR551921"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534291"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "36187865"
+ },
+ {
+  "md5": "a2b8b7ac597190aa0118f0a3924a839e",
+  "runs": [
+   "ERR1465868",
+   "ERR551395"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533912",
+   "SAMEA4041355"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "411045530"
+ },
+ {
+  "md5": "a2fb4a4924a7967e2b1155930e8e8c63",
+  "runs": [
+   "ERR1654703",
+   "ERR2707200"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441663",
+   "SAMEA4798915"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "234193628"
+ },
+ {
+  "md5": "a311b0b1daab49c84903f87e6cefd3b4",
+  "runs": [
+   "ERR1199137",
+   "ERR987786"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512802",
+   "SAMEA3671528"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "252308740"
+ },
+ {
+  "md5": "a3a524d4f0ae8ca1773240d9ab35b035",
+  "runs": [
+   "ERR1654658",
+   "ERR2706968"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441717",
+   "SAMEA4798683"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "236789718"
+ },
+ {
+  "md5": "a3d4c333d321ae2df520d1875abac688",
+  "runs": [
+   "ERR1465868",
+   "ERR551395"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533912",
+   "SAMEA4041355"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "373383010"
+ },
+ {
+  "md5": "a4115d321e891203d69d575d1087f8e4",
+  "runs": [
+   "ERR2200047",
+   "ERR551331"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533861"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "39188562"
+ },
+ {
+  "md5": "a4338c24d546172ba6dd154294d44884",
+  "runs": [
+   "ERR1199121",
+   "ERR1654667",
+   "ERR2707022"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671596",
+   "SAMEA4441693",
+   "SAMEA4798737"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "303855276"
+ },
+ {
+  "md5": "a603b6ca1f70cb330bd54c8e37ff2a25",
+  "runs": [
+   "ERR1654699",
+   "ERR2707183"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441664",
+   "SAMEA4798898"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "150832442"
+ },
+ {
+  "md5": "a67d462468d0373fd1909a0e92122ff5",
+  "runs": [
+   "ERR1367654",
+   "ERR1465803"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715439"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "603632765"
+ },
+ {
+  "md5": "a72b1c4970ca01ca14ca1c2f0c56b7f4",
+  "runs": [
+   "ERR1465880",
+   "ERR552014"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534352",
+   "SAMEA4041367"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "378751020"
+ },
+ {
+  "md5": "a77e016e2aff4ea90edc0b840b744c88",
+  "runs": [
+   "ERR1367636",
+   "ERR1465820"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715626"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "564704217"
+ },
+ {
+  "md5": "a82bc769466dca0c64cf72bb6d607813",
+  "runs": [
+   "ERR2199767",
+   "ERR552119"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534425"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "78246544"
+ },
+ {
+  "md5": "a8b56607c770d12778378572a9cf19b5",
+  "runs": [
+   "ERR1199132",
+   "ERR987765"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512781",
+   "SAMEA3671513"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "256682832"
+ },
+ {
+  "md5": "a91e85870a6bd948d3b0a60c63863192",
+  "runs": [
+   "ERR1199101",
+   "ERR1654643"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463"
+  ],
+  "samples": [
+   "SAMEA3671534",
+   "SAMEA4441662"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "171793095"
+ },
+ {
+  "md5": "a94b2340ac199726971f07a1f50d2f4c",
+  "runs": [
+   "ERR1199133",
+   "ERR987705"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512721",
+   "SAMEA3671515"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "201228803"
+ },
+ {
+  "md5": "a97cc7c3ed5e0683f7a45087c68207e1",
+  "runs": [
+   "ERR1199115",
+   "ERR1654707",
+   "ERR2707224"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671582",
+   "SAMEA4441704",
+   "SAMEA4798940"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "241006406"
+ },
+ {
+  "md5": "a9ce0928c306399b2beb64b801dc7003",
+  "runs": [
+   "ERR2200046",
+   "ERR551330"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533861"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "10131230"
+ },
+ {
+  "md5": "aa4e9eea18596c2274ba30e8ef506fd9",
+  "runs": [
+   "ERR1465725",
+   "ERR551098"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533700",
+   "SAMEA4041314"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "377542008"
+ },
+ {
+  "md5": "aab7c52dfc464075822c56bf6b6c07cc",
+  "runs": [
+   "ERR2199805",
+   "ERR552289"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534544"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "52008825"
+ },
+ {
+  "md5": "ab5023e6031abe38902edc34dcab17e7",
+  "runs": [
+   "ERR1654681",
+   "ERR2707083"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441676",
+   "SAMEA4798798"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "235627962"
+ },
+ {
+  "md5": "ab6a07594c2da1058fd0b4e242f2e66f",
+  "runs": [
+   "ERR1654684",
+   "ERR2707095"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441695",
+   "SAMEA4798810"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "302583700"
+ },
+ {
+  "md5": "ac1580307281909aef9293e5008cb22e",
+  "runs": [
+   "ERR1199120",
+   "ERR1654688",
+   "ERR2707109"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671594",
+   "SAMEA4441670",
+   "SAMEA4798824"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "257861267"
+ },
+ {
+  "md5": "accd8ac834ea95b4ee81a7589afdcb0f",
+  "runs": [
+   "ERR1465838",
+   "ERR551269"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533819",
+   "SAMEA4041325"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "231608420"
+ },
+ {
+  "md5": "ad52435ac5984ce5dba3e4535dd1f2e7",
+  "runs": [
+   "ERR1199120",
+   "ERR1654688",
+   "ERR2707109"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671594",
+   "SAMEA4441670",
+   "SAMEA4798824"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "242766515"
+ },
+ {
+  "md5": "ad7318b20cfb59b9ea86f46e73ca2a2e",
+  "runs": [
+   "ERR1465862",
+   "ERR552168"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534460",
+   "SAMEA4041349"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "305948211"
+ },
+ {
+  "md5": "ad83bf52a6db09c908b59d682cf98429",
+  "runs": [
+   "ERR1465856",
+   "ERR551763"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534177",
+   "SAMEA4041343"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "224988770"
+ },
+ {
+  "md5": "ad95db24c66f16c2324b261d7f66582f",
+  "runs": [
+   "ERR1465864",
+   "ERR550666"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2533378",
+   "SAMEA4041351"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "267899747"
+ },
+ {
+  "md5": "ae037c55be30a04726884bf5b3c2eb84",
+  "runs": [
+   "ERR1199116",
+   "ERR987737"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512753",
+   "SAMEA3671588"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "367291965"
+ },
+ {
+  "md5": "aed187597a8ed4a36f8b2970ab5ddd39",
+  "runs": [
+   "ERR1465855",
+   "ERR552871"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534972",
+   "SAMEA4041342"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "348992629"
+ },
+ {
+  "md5": "aef644c3aaeca3ae4aa15a0dd00c4098",
+  "runs": [
+   "ERR2199988",
+   "ERR550637"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533358"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "58666955"
+ },
+ {
+  "md5": "b05dd13693e893db443fe677c703735a",
+  "runs": [
+   "ERR1465846",
+   "ERR551368"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533890",
+   "SAMEA4041333"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "297277346"
+ },
+ {
+  "md5": "b06779ddd95931d7267cbcc14fee1f4e",
+  "runs": [
+   "ERR1367643",
+   "ERR1465800"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715579"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "490780130"
+ },
+ {
+  "md5": "b07167c95be42d4ff04056679ad80295",
+  "runs": [
+   "ERR1465727",
+   "ERR551719"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534143",
+   "SAMEA4041316"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "268355661"
+ },
+ {
+  "md5": "b207cbf57c374b1db8c880039b79fd3a",
+  "runs": [
+   "ERR1199101",
+   "ERR1654643"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463"
+  ],
+  "samples": [
+   "SAMEA3671534",
+   "SAMEA4441662"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "152106567"
+ },
+ {
+  "md5": "b289ed12814a6b08ead5c00c7e160768",
+  "runs": [
+   "ERR1199110",
+   "ERR1654680",
+   "ERR2707077"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671563",
+   "SAMEA4441696",
+   "SAMEA4798792"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "184909009"
+ },
+ {
+  "md5": "b34a73c69ca2393fa55bd0e1eec91b2b",
+  "runs": [
+   "ERR1654656",
+   "ERR2706960"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441720",
+   "SAMEA4798675"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "160432703"
+ },
+ {
+  "md5": "b592256f97ea3dcac4383e9c93a8bc6d",
+  "runs": [
+   "ERR1654665",
+   "ERR2707016"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441715",
+   "SAMEA4798731"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "251175246"
+ },
+ {
+  "md5": "b641534cc354b7dd1232c46ed7bc3e03",
+  "runs": [
+   "ERR1654658",
+   "ERR2706968"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441717",
+   "SAMEA4798683"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "222483899"
+ },
+ {
+  "md5": "b65f5f4a38c941122d6ae8fa345005e0",
+  "runs": [
+   "ERR1367651",
+   "ERR1465768"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715502"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "390860477"
+ },
+ {
+  "md5": "b681e0e9d1d419d84bf510029933c46c",
+  "runs": [
+   "ERR1654656",
+   "ERR2706960"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441720",
+   "SAMEA4798675"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "169619599"
+ },
+ {
+  "md5": "b6841fe8249dfa8b76f0349c660eeea2",
+  "runs": [
+   "ERR1465842",
+   "ERR551131"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533723",
+   "SAMEA4041329"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "70836036"
+ },
+ {
+  "md5": "b6dfab14fbab431d87f60a3118689560",
+  "runs": [
+   "ERR1199124",
+   "ERR1654701",
+   "ERR2707193"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671606",
+   "SAMEA4441660",
+   "SAMEA4798908"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "293317472"
+ },
+ {
+  "md5": "b7506b39ca46adf5e3e791e2498575f8",
+  "runs": [
+   "ERR2199994",
+   "ERR551970"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534323"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "49916634"
+ },
+ {
+  "md5": "b7db0e440089ae22974d04f314dc1d9c",
+  "runs": [
+   "ERR1199113",
+   "ERR1654644",
+   "ERR2706919"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671573",
+   "SAMEA4441688",
+   "SAMEA4798634"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "240965359"
+ },
+ {
+  "md5": "b838584bce361cf2a5b86bced9b23c12",
+  "runs": [
+   "ERR2200060",
+   "ERR553329"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535310"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "19461829"
+ },
+ {
+  "md5": "b84f45b0602f05fcb79cda0d244e7cb5",
+  "runs": [
+   "ERR1199106",
+   "ERR1654671",
+   "ERR2707051"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671545",
+   "SAMEA4441709",
+   "SAMEA4798766"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "152018096"
+ },
+ {
+  "md5": "b975e35fcc5c17d8243a946ffc93f19a",
+  "runs": [
+   "ERR1654692",
+   "ERR2707129"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441665",
+   "SAMEA4798844"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "264862246"
+ },
+ {
+  "md5": "b9ee9483c4681dbac1f4df61361a145b",
+  "runs": [
+   "ERR1199130",
+   "ERR987775"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512791",
+   "SAMEA3671465"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "68308325"
+ },
+ {
+  "md5": "ba9974f7f27482ecd33036db7808aa6a",
+  "runs": [
+   "ERR1654664",
+   "ERR2707012"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441682",
+   "SAMEA4798727"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "224991177"
+ },
+ {
+  "md5": "bab65db38d4727285846ed2ccf172d5f",
+  "runs": [
+   "ERR1465866",
+   "ERR551229"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533790",
+   "SAMEA4041353"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "233285412"
+ },
+ {
+  "md5": "bc0dbe28c0724021d1921e4e9cb1fb8d",
+  "runs": [
+   "ERR1199139",
+   "ERR987741"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512757",
+   "SAMEA3671533"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "259389390"
+ },
+ {
+  "md5": "bd71b0c4a4341f5ebadb4e95c0ee20bb",
+  "runs": [
+   "ERR1654698",
+   "ERR2707174"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441701",
+   "SAMEA4798889"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "213397587"
+ },
+ {
+  "md5": "bdedd20bca6f3dd7bb273e40fa1d6a7d",
+  "runs": [
+   "ERR1199112",
+   "ERR1654662",
+   "ERR2707008"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671572",
+   "SAMEA4441667",
+   "SAMEA4798723"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "229474815"
+ },
+ {
+  "md5": "bec03a0a2853083bee01b9e9f546237c",
+  "runs": [
+   "ERR1465889",
+   "ERR551058"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533667",
+   "SAMEA4041376"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "332734440"
+ },
+ {
+  "md5": "c1ff9932172edcf13fe13252e9d19d7c",
+  "runs": [
+   "ERR1465967",
+   "ERR551130"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533723",
+   "SAMEA4041329"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "85912347"
+ },
+ {
+  "md5": "c244e1d3bad20ab3c125388c696fcfdd",
+  "runs": [
+   "ERR1465731",
+   "ERR550810"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533486",
+   "SAMEA4041320"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "163476202"
+ },
+ {
+  "md5": "c37701127c5c0ab70175c20836c7f00d",
+  "runs": [
+   "ERR1199119",
+   "ERR1654708",
+   "ERR2707226"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671591",
+   "SAMEA4441722",
+   "SAMEA4798942"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "265259483"
+ },
+ {
+  "md5": "c3df7dc6e85a65d319fa403649fb34d8",
+  "runs": [
+   "ERR1654684",
+   "ERR2707095"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441695",
+   "SAMEA4798810"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "286133561"
+ },
+ {
+  "md5": "c579bd4454606c18b15bb255ceb05b15",
+  "runs": [
+   "ERR2200095",
+   "ERR551921"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534291"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "34843427"
+ },
+ {
+  "md5": "c62f1f1c4e35db51c878ccb5f117d2bc",
+  "runs": [
+   "ERR1465873",
+   "ERR551752"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534167",
+   "SAMEA4041360"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "150714551"
+ },
+ {
+  "md5": "c675a7970fdf15462e6863448ad3f132",
+  "runs": [
+   "ERR1654683",
+   "ERR2707091"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441698",
+   "SAMEA4798806"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "225824368"
+ },
+ {
+  "md5": "c71ec69d1fdf537bda6f34fdba16a400",
+  "runs": [
+   "ERR2199793",
+   "ERR553060"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535106"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "33862480"
+ },
+ {
+  "md5": "c866e10de350d40e4ec95edb217471be",
+  "runs": [
+   "ERR1654677",
+   "ERR2707072"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441707",
+   "SAMEA4798787"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "178728583"
+ },
+ {
+  "md5": "c8baffeda9ca4bcc90d441f38a10ab29",
+  "runs": [
+   "ERR1654686",
+   "ERR2707104"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441671",
+   "SAMEA4798819"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "268168326"
+ },
+ {
+  "md5": "c9619019461aacfec65682cc6265d369",
+  "runs": [
+   "ERR1465969",
+   "ERR553131"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB7727"
+  ],
+  "samples": [
+   "SAMEA2535158",
+   "SAMEA4041332"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "160412957"
+ },
+ {
+  "md5": "c9cf6e49bf8b66dadb029fed65ac4714",
+  "runs": [
+   "ERR1199106",
+   "ERR1654671",
+   "ERR2707051"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671545",
+   "SAMEA4441709",
+   "SAMEA4798766"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "161152207"
+ },
+ {
+  "md5": "cac6ee2be078d19e2a5b63b4ebcebe85",
+  "runs": [
+   "ERR2200075",
+   "ERR550977"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533604"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "33162983"
+ },
+ {
+  "md5": "cc652700fca0ca5d25fc8616bf00e587",
+  "runs": [
+   "ERR1367653",
+   "ERR1465799"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715576"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "476052311"
+ },
+ {
+  "md5": "ccc776260f3411785303bb982407450c",
+  "runs": [
+   "ERR1199142",
+   "ERR987709"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512725",
+   "SAMEA3671544"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "273038410"
+ },
+ {
+  "md5": "ce450b65eecf1168989a7734d37e33a3",
+  "runs": [
+   "ERR1654660",
+   "ERR2706990"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441678",
+   "SAMEA4798705"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "323809046"
+ },
+ {
+  "md5": "cf1f892cbd602496a16c11dd49e08800",
+  "runs": [
+   "ERR2200031",
+   "ERR551206"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533774"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "88211879"
+ },
+ {
+  "md5": "cf8a0fa847cc2eda4be7f0b4e1d72ca7",
+  "runs": [
+   "ERR1654672",
+   "ERR2707052"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441706",
+   "SAMEA4798767"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "261184489"
+ },
+ {
+  "md5": "d0d5b41d5d17b43d8dfa7126725a0f84",
+  "runs": [
+   "ERR1654690",
+   "ERR2707124"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441705",
+   "SAMEA4798839"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "195342465"
+ },
+ {
+  "md5": "d2d770f7405774cf0b63631ffb59e221",
+  "runs": [
+   "ERR1465853",
+   "ERR550936"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533575",
+   "SAMEA4041340"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "317517101"
+ },
+ {
+  "md5": "d33851de31b18f5b93c50a9c2a9ad44b",
+  "runs": [
+   "ERR1465849",
+   "ERR553360"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2535334",
+   "SAMEA4041336"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "141795270"
+ },
+ {
+  "md5": "d39ce809a16e6fd0603a6a90358049aa",
+  "runs": [
+   "ERR1465841",
+   "ERR552185"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534471",
+   "SAMEA4041328"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "163329959"
+ },
+ {
+  "md5": "d43820cee6c7c96cb77663a42b48abf3",
+  "runs": [
+   "ERR1367627",
+   "ERR1465827"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715741"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "448602720"
+ },
+ {
+  "md5": "d4f5ae863995dd7b153a80363f0d7f14",
+  "runs": [
+   "ERR1654693",
+   "ERR2707132"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441687",
+   "SAMEA4798847"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "206573032"
+ },
+ {
+  "md5": "d5e941e30a9dee683872705f7c2e4c7f",
+  "runs": [
+   "ERR1465840",
+   "ERR552698"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534830",
+   "SAMEA4041327"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "104787355"
+ },
+ {
+  "md5": "d66247490c507fbd78d3bd207a459f07",
+  "runs": [
+   "ERR1199103",
+   "ERR1654675",
+   "ERR2707060"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671536",
+   "SAMEA4441681",
+   "SAMEA4798775"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "161810226"
+ },
+ {
+  "md5": "d701a9605e2f99c4bd76b0de291b2d91",
+  "runs": [
+   "ERR1367643",
+   "ERR1465800"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715579"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "505195227"
+ },
+ {
+  "md5": "d71a906104c508299302189cf7b9eb03",
+  "runs": [
+   "ERR1654692",
+   "ERR2707129"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441665",
+   "SAMEA4798844"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "279783182"
+ },
+ {
+  "md5": "d9836ec7fd2df1b26e1aedb8610914f3",
+  "runs": [
+   "ERR2199778",
+   "ERR553029"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535081"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "42439674"
+ },
+ {
+  "md5": "db289c372622634757b8b11750740ce9",
+  "runs": [
+   "ERR1367660",
+   "ERR1465830"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715805"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "410119908"
+ },
+ {
+  "md5": "dbaef08ec61d5d57674dccffffdd8df4",
+  "runs": [
+   "ERR2199968",
+   "ERR552696"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534828"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "30224734"
+ },
+ {
+  "md5": "dc3c04f7c4e1f43277ec117101da5528",
+  "runs": [
+   "ERR1465881",
+   "ERR550631"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2533353",
+   "SAMEA4041368"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "247272144"
+ },
+ {
+  "md5": "ddc84c5468dc02f018fda627b090eee6",
+  "runs": [
+   "ERR1199113",
+   "ERR1654644",
+   "ERR2706919"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671573",
+   "SAMEA4441688",
+   "SAMEA4798634"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "255988645"
+ },
+ {
+  "md5": "de413936dbfd3114151a0268710e3d67",
+  "runs": [
+   "ERR2199988",
+   "ERR550637"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533358"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "55017845"
+ },
+ {
+  "md5": "df04e4b13ddca317716be03433b4d0d0",
+  "runs": [
+   "ERR1465886",
+   "ERR551115"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533710",
+   "SAMEA4041373"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "241464876"
+ },
+ {
+  "md5": "df581b2c7ea38120bde371f316ecfcc0",
+  "runs": [
+   "ERR1199131",
+   "ERR987780"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512796",
+   "SAMEA3671512"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "201154696"
+ },
+ {
+  "md5": "df8870d506a97befeec86f6a0b08a07c",
+  "runs": [
+   "ERR1465891",
+   "ERR551297"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533842",
+   "SAMEA4041378"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "171295027"
+ },
+ {
+  "md5": "e02c7b33480e87232cd8cecbfdf1c46f",
+  "runs": [
+   "ERR2200022",
+   "ERR553222"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535221"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "28141758"
+ },
+ {
+  "md5": "e1731c78ac5f9708fe61a099032d1180",
+  "runs": [
+   "ERR2199805",
+   "ERR552289"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534544"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "54620748"
+ },
+ {
+  "md5": "e21f1c07f0187454c36b1f7ec605429d",
+  "runs": [
+   "ERR1654681",
+   "ERR2707083"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441676",
+   "SAMEA4798798"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "209035130"
+ },
+ {
+  "md5": "e3b841418b8484a699a06f810a1842eb",
+  "runs": [
+   "ERR1367651",
+   "ERR1465768"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715502"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "405128471"
+ },
+ {
+  "md5": "e3e119d33757de7d1c73b99411e84adf",
+  "runs": [
+   "ERR1465880",
+   "ERR552014"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534352",
+   "SAMEA4041367"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "366872768"
+ },
+ {
+  "md5": "e44cc207ca94547ede1535e0cdf5a408",
+  "runs": [
+   "ERR1465865",
+   "ERR552013"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534351",
+   "SAMEA4041352"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "166668841"
+ },
+ {
+  "md5": "e47b941fbaa91973ac17624b41f43a40",
+  "runs": [
+   "ERR1367658",
+   "ERR1465774"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715435"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "319097502"
+ },
+ {
+  "md5": "e543f35197ff94b3fab8e2d69d2755d3",
+  "runs": [
+   "ERR1465850",
+   "ERR552904"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534991",
+   "SAMEA4041337"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "197190122"
+ },
+ {
+  "md5": "e5ba1a3862c7119e45a74b8169299096",
+  "runs": [
+   "ERR1367623",
+   "ERR1465823"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715631"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "332438598"
+ },
+ {
+  "md5": "e6063c469ed73dc6d540bf82e65a53a2",
+  "runs": [
+   "ERR1199100",
+   "ERR1654678",
+   "ERR2707074"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671532",
+   "SAMEA4441659",
+   "SAMEA4798789"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "156798097"
+ },
+ {
+  "md5": "e61b7ff26bc90c8432c0fe35b611d277",
+  "runs": [
+   "ERR1367660",
+   "ERR1465830"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715805"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "440876748"
+ },
+ {
+  "md5": "e6d992bf4b00a954658f3fbab9cefee7",
+  "runs": [
+   "ERR1199096",
+   "ERR1654689",
+   "ERR2707123"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671516",
+   "SAMEA4441691",
+   "SAMEA4798838"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "122373482"
+ },
+ {
+  "md5": "e7040f25414524ea482d201456baa83f",
+  "runs": [
+   "ERR2199751",
+   "ERR553355"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535330"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "36947989"
+ },
+ {
+  "md5": "e7aea696e093dff5ee3697223d0d2641",
+  "runs": [
+   "ERR1654663",
+   "ERR2707009"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441718",
+   "SAMEA4798724"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "394103085"
+ },
+ {
+  "md5": "e84f7cd1831e45f01bbee41e32bdf0bb",
+  "runs": [
+   "ERR1465725",
+   "ERR551098"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533700",
+   "SAMEA4041314"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "361376133"
+ },
+ {
+  "md5": "e892359ad18f2bf1b5c123c25b09f539",
+  "runs": [
+   "ERR2199766",
+   "ERR552120"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534425"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "6461806"
+ },
+ {
+  "md5": "e8aa9b05f7575abdfe8c88edecf122a0",
+  "runs": [
+   "ERR1654674",
+   "ERR2707057"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441690",
+   "SAMEA4798772"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "255118272"
+ },
+ {
+  "md5": "e8dbe10ec1f6a8e29ffc5f2173e39ad7",
+  "runs": [
+   "ERR1199135",
+   "ERR987703"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512719",
+   "SAMEA3671521"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "230910648"
+ },
+ {
+  "md5": "e9949658d6f563999e721444ab4726b7",
+  "runs": [
+   "ERR1465873",
+   "ERR551752"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534167",
+   "SAMEA4041360"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "155279657"
+ },
+ {
+  "md5": "ea7fcf91744b86ff2e6a068a73164b1a",
+  "runs": [
+   "ERR2199793",
+   "ERR553060"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535106"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "32390967"
+ },
+ {
+  "md5": "eb5610846f6ce966bef30cef61b87417",
+  "runs": [
+   "ERR1199122",
+   "ERR1654651",
+   "ERR2706926"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671599",
+   "SAMEA4441677",
+   "SAMEA4798641"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "337351534"
+ },
+ {
+  "md5": "eb98b3a0505bf315c86dcebfd8475e0c",
+  "runs": [
+   "ERR2199994",
+   "ERR551970"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534323"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "53537368"
+ },
+ {
+  "md5": "eba9a7eb971266c27ec4885b502b66b5",
+  "runs": [
+   "ERR2200030",
+   "ERR551205"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533774"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "31953494"
+ },
+ {
+  "md5": "ebb38ea4517453c7191869c02872fd9e",
+  "runs": [
+   "ERR1367652",
+   "ERR1465792"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715554"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "597014802"
+ },
+ {
+  "md5": "ebf1ae2e3f894f9d71cbdb0270f28b4e",
+  "runs": [
+   "ERR1199127",
+   "ERR1654704",
+   "ERR2707206"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671615",
+   "SAMEA4441714",
+   "SAMEA4798922"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "320587994"
+ },
+ {
+  "md5": "ed2a0ed8ec9264e3ab8a1e56fe8ea9d7",
+  "runs": [
+   "ERR1654685",
+   "ERR2707099"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441711",
+   "SAMEA4798814"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "135638516"
+ },
+ {
+  "md5": "ed5f9f21a9ce6affcacc70674d46cf44",
+  "runs": [
+   "ERR1465845",
+   "ERR553130"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB7727"
+  ],
+  "samples": [
+   "SAMEA2535158",
+   "SAMEA4041332"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "50284565"
+ },
+ {
+  "md5": "ef8c9b25ac6c9c9aa14d439d8e864bd6",
+  "runs": [
+   "ERR1465843",
+   "ERR552167"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534458",
+   "SAMEA4041330"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "196711058"
+ },
+ {
+  "md5": "f18b7be41a7a881c3d7e36e1ca2a430c",
+  "runs": [
+   "ERR1367618",
+   "ERR1465809"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715596"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "188293486"
+ },
+ {
+  "md5": "f1b69b1c391ab97daca26d848f0322e9",
+  "runs": [
+   "ERR1654661",
+   "ERR2706993"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441713",
+   "SAMEA4798708"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "318289824"
+ },
+ {
+  "md5": "f1d21e21e08c8363acdd83eb224cf46a",
+  "runs": [
+   "ERR1199104",
+   "ERR1654649",
+   "ERR2706924"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671538",
+   "SAMEA4441669",
+   "SAMEA4798639"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "189164486"
+ },
+ {
+  "md5": "f2a76532963b0d3095e33967b19d2fd6",
+  "runs": [
+   "ERR1199095",
+   "ERR987745"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512761",
+   "SAMEA3671490"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "130324738"
+ },
+ {
+  "md5": "f38a80bc3b272538110605bc6a8d04af",
+  "runs": [
+   "ERR1199145",
+   "ERR987781"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512797",
+   "SAMEA3671581"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "387230580"
+ },
+ {
+  "md5": "f47c7bd240e2b850e2122971c50ed2a9",
+  "runs": [
+   "ERR1199140",
+   "ERR987725"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512741",
+   "SAMEA3671540"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "262258695"
+ },
+ {
+  "md5": "f4fe385ecf6b6e3fcb5b31d512e8325d",
+  "runs": [
+   "ERR2199997",
+   "ERR552416"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534635"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "45387306"
+ },
+ {
+  "md5": "f5b552766d06fda62f7d0e09d7c50fcb",
+  "runs": [
+   "ERR2200064",
+   "ERR553205"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535210"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "35235632"
+ },
+ {
+  "md5": "f63f8c5d16a992f435c191ce1ece324a",
+  "runs": [
+   "ERR2199759",
+   "ERR551525"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534000"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "24308501"
+ },
+ {
+  "md5": "f6bcb8f3e456813836cd43fcbe41f445",
+  "runs": [
+   "ERR1367645",
+   "ERR1465795"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB12179"
+  ],
+  "samples": [
+   "SAMEA3715569"
+  ],
+  "centers": [
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "438165910"
+ },
+ {
+  "md5": "f734b0a90120d6fe93d19af3bff6b1c7",
+  "runs": [
+   "ERR1199108",
+   "ERR1654696",
+   "ERR2707161"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671557",
+   "SAMEA4441716",
+   "SAMEA4798876"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "187805361"
+ },
+ {
+  "md5": "f7c1f93dfc3a30b78a1ec0d654c62b7e",
+  "runs": [
+   "ERR2199766",
+   "ERR552120"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534425"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "6249166"
+ },
+ {
+  "md5": "f91127dde6ffef092123cfaefb07dcf0",
+  "runs": [
+   "ERR1465870",
+   "ERR553039"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2535089",
+   "SAMEA4041357"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "256264713"
+ },
+ {
+  "md5": "f98aebc93c6e4ee04cda0b063a94f63f",
+  "runs": [
+   "ERR1199129",
+   "ERR987749"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512765",
+   "SAMEA3671462"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "61242115"
+ },
+ {
+  "md5": "fa85f3314d919a77feb8453d0ffd8af4",
+  "runs": [
+   "ERR2200011",
+   "ERR552807"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534918"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "39145182"
+ },
+ {
+  "md5": "fa860b3f456adaef00636a154602c5b4",
+  "runs": [
+   "ERR1199137",
+   "ERR987786"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512802",
+   "SAMEA3671528"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "250184135"
+ },
+ {
+  "md5": "fae5fc61130ba7daaa2b0ca34ab98401",
+  "runs": [
+   "ERR1199123",
+   "ERR1654706",
+   "ERR2707223"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671601",
+   "SAMEA4441719",
+   "SAMEA4798939"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "270714147"
+ },
+ {
+  "md5": "fb28de2ff513ed73417420f7308f3586",
+  "runs": [
+   "ERR1465860",
+   "ERR551413"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533924",
+   "SAMEA4041347"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "266483700"
+ },
+ {
+  "md5": "fbdd1bc797bdbd4284ecf6c1b5ad8e09",
+  "runs": [
+   "ERR1654650",
+   "ERR2706925"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441679",
+   "SAMEA4798640"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "246772428"
+ },
+ {
+  "md5": "fd3f939c4cc8be34775c82fe4ae99225",
+  "runs": [
+   "ERR2199747",
+   "ERR552824"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534929"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "24174347"
+ },
+ {
+  "md5": "fd591e1696ad404b60f45ca431512ce3",
+  "runs": [
+   "ERR2200066",
+   "ERR551622"
+  ],
+  "studies": [
+   "PRJEB6273",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2534075"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB"
+  ],
+  "bytes": "37551012"
+ },
+ {
+  "md5": "fd878225ed9c366f3ed908d64213eef6",
+  "runs": [
+   "ERR1199145",
+   "ERR987781"
+  ],
+  "studies": [
+   "PRJEB10533",
+   "PRJEB11460"
+  ],
+  "samples": [
+   "SAMEA3512797",
+   "SAMEA3671581"
+  ],
+  "centers": [
+   "Institute of Tropical Medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "392077445"
+ },
+ {
+  "md5": "fdc4ec43333608310afc885550ba0d9a",
+  "runs": [
+   "ERR1654660",
+   "ERR2706990"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441678",
+   "SAMEA4798705"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "306268718"
+ },
+ {
+  "md5": "fe97b71220c7999022b6f700fe187ba4",
+  "runs": [
+   "ERR1199102",
+   "ERR1654655",
+   "ERR2706959"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA3671535",
+   "SAMEA4441672",
+   "SAMEA4798674"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "189948485"
+ },
+ {
+  "md5": "fe9d7adf0b7db2a9decfed1fc54243bf",
+  "runs": [
+   "ERR1465836",
+   "ERR551085"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB9680"
+  ],
+  "samples": [
+   "SAMEA2533687",
+   "SAMEA4041323"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "332338159"
+ },
+ {
+  "md5": "ff426a45b6b15ab429c41c04986d20ba",
+  "runs": [
+   "ERR1654698",
+   "ERR2707174"
+  ],
+  "studies": [
+   "PRJEB15463",
+   "PRJEB27847"
+  ],
+  "samples": [
+   "SAMEA4441701",
+   "SAMEA4798889"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "Institute of tropical medicine"
+  ],
+  "bytes": "230686482"
+ },
+ {
+  "md5": "ff944c677674a5b258b8076a37e82225",
+  "runs": [
+   "ERR1465726",
+   "ERR552017"
+  ],
+  "studies": [
+   "PRJEB11460",
+   "PRJEB6273"
+  ],
+  "samples": [
+   "SAMEA2534353",
+   "SAMEA4041315"
+  ],
+  "centers": [
+   "FORSCHUNGSZENTRUM BORSTEL;FZB",
+   "UNIVERSITY OF BASEL"
+  ],
+  "bytes": "104495194"
+ }
+]

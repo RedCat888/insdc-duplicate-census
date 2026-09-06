@@ -1,0 +1,86 @@
+[
+ {
+  "runs": [
+   "SRR543504",
+   "SRR578255"
+  ],
+  "gsm": [
+   "GSM987821",
+   "GSM1012157"
+  ],
+  "geo": [
+   {
+    "gsm": "GSM987821",
+    "gse": "GSE40176",
+    "title": "RNA sequencing of circulating tumour cells implicates WNT signaling in pancreatic cancer metastasis",
+    "pubmedids": [
+     "22763454"
+    ],
+    "taxon": "Homo sapiens; Mus musculus",
+    "n_samples": 44
+   },
+   {
+    "gsm": "GSM1012157",
+    "gse": "GSE41245",
+    "title": "Circulating Breast Tumor Cells Exhibit Dynamic Changes in Epithelial and Mesenchymal Cell Composition",
+    "pubmedids": [
+     "23372014"
+    ],
+    "taxon": "Homo sapiens",
+    "n_samples": 30
+   }
+  ],
+  "same_series": false,
+  "different_papers": true,
+  "pmids": [
+   [
+    "22763454"
+   ],
+   [
+    "23372014"
+   ]
+  ]
+ },
+ {
+  "runs": [
+   "SRR492421",
+   "SRR507824"
+  ],
+  "gsm": [
+   "GSM923567",
+   "GSM946520"
+  ],
+  "geo": [
+   {
+    "gsm": "GSM923567",
+    "gse": "GSE51338",
+    "title": "Dynamic shifts in occupancy by TAL1 are guided by GATA factors and drive large-scale reprogramming of gene expression during hematopoiesis",
+    "pubmedids": [
+     "25319994"
+    ],
+    "taxon": "Mus musculus",
+    "n_samples": 81
+   },
+   {
+    "gsm": "GSM946520",
+    "gse": "GSE51338",
+    "title": "Dynamic shifts in occupancy by TAL1 are guided by GATA factors and drive large-scale reprogramming of gene expression during hematopoiesis",
+    "pubmedids": [
+     "25319994"
+    ],
+    "taxon": "Mus musculus",
+    "n_samples": 81
+   }
+  ],
+  "same_series": true,
+  "different_papers": false,
+  "pmids": [
+   [
+    "25319994"
+   ],
+   [
+    "25319994"
+   ]
+  ]
+ }
+]

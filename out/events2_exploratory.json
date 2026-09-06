@@ -1,5 +1,5 @@
 {
-  "label": "EXPLORATORY (post-Amendment-2)",
+  "label": "EXPLORATORY v3",
   "n_runs_with_key": 278484,
   "n_md5_keys": 308473,
   "n_groups_multi_run": 622,
@@ -19,6 +19,8 @@
   ],
   "redundant_bytes": 700729408814,
   "redundant_TB": 0.701,
+  "redundant_cross_study_TB": 0.2148,
+  "redundant_within_study_TB": 0.4859,
   "bytes_in_dup_groups_TB": 1.399,
   "n_events": 12,
   "n_studies_involved": 27,

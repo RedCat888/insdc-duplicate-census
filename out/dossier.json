@@ -1,0 +1,163 @@
+[
+ {
+  "kind": "file identity",
+  "evidence": "downloaded both files, hashed locally",
+  "detail": "['ERR248843', 'ERR338688']",
+  "result": "identical",
+  "note": "pilot (all from one event - superseded)"
+ },
+ {
+  "kind": "file identity",
+  "evidence": "downloaded both files, hashed locally",
+  "detail": "['ERR248826', 'ERR338671']",
+  "result": "identical",
+  "note": "pilot (all from one event - superseded)"
+ },
+ {
+  "kind": "file identity",
+  "evidence": "downloaded both files, hashed locally",
+  "detail": "['ERR248859', 'ERR338648']",
+  "result": "identical",
+  "note": "pilot (all from one event - superseded)"
+ },
+ {
+  "kind": "file identity",
+  "evidence": "downloaded both files, hashed locally",
+  "detail": "['ERR248866', 'ERR338655']",
+  "result": "identical",
+  "note": "pilot (all from one event - superseded)"
+ },
+ {
+  "kind": "file identity",
+  "evidence": "downloaded both files, hashed locally",
+  "detail": "['ERR248833', 'ERR338678']",
+  "result": "identical",
+  "note": "pilot (all from one event - superseded)"
+ },
+ {
+  "kind": "file identity",
+  "evidence": "downloaded both files, hashed locally",
+  "detail": "['ERR248871', 'ERR338660']",
+  "result": "identical",
+  "note": "pilot (all from one event - superseded)"
+ },
+ {
+  "kind": "file identity",
+  "evidence": "downloaded both files, hashed locally",
+  "detail": "['ERR037074', 'ERR186225']",
+  "result": "identical",
+  "note": "event-stratified"
+ },
+ {
+  "kind": "file identity",
+  "evidence": "downloaded both files, hashed locally",
+  "detail": "['ERR022895', 'ERR037360']",
+  "result": "identical",
+  "note": "event-stratified"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR064495', 'SRR064997']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR090137', 'SRR090151', 'SRR090234']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR064494', 'SRR065000']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR090139', 'SRR090222', 'SRR090228']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR070588', 'SRR071318']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR064493', 'SRR064999']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR063729', 'SRR063733', 'SRR063735']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR060132', 'SRR060133']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR089838', 'SRR089848', 'SRR090117']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR090138', 'SRR090152', 'SRR090235']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR407427', 'SRR547765']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "['SRR064498', 'SRR065001']",
+  "result": "CONFIRMED identical",
+  "note": "JCVI/HMP isolates"
+ },
+ {
+  "kind": "run identity",
+  "evidence": "NCBI exact A/C/G/T/N + spot count",
+  "detail": "random sample of 25 non-ERR cross-study candidates",
+  "result": "21 confirmed / 0 refuted / 4 no fingerprint",
+  "note": "numeric channel, high-entropy stratum"
+ },
+ {
+  "kind": "publication impact",
+  "evidence": "SRA alias -> GSM -> GSE -> PubMed",
+  "detail": "['SRR543504', 'SRR578255'] -> ['GSM987821', 'GSM1012157']",
+  "result": "different papers [['22763454'], ['23372014']]",
+  "note": ""
+ },
+ {
+  "kind": "publication impact",
+  "evidence": "SRA alias -> GSM -> GSE -> PubMed",
+  "detail": "['SRR492421', 'SRR507824'] -> ['GSM923567', 'GSM946520']",
+  "result": "same series [['25319994'], ['25319994']]",
+  "note": ""
+ }
+]

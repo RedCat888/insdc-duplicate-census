@@ -1,0 +1,21 @@
+CONFIRMED  Gossypium barbadense vs G. arboreum (cotton)
+           comp=None reads=2000/2000
+CONFIRMED  Gossypium arboreum vs G. barbadense (cotton)
+           comp=None reads=2000/2000
+CONFIRMED  S. epidermidis IS-250 vs S. aureus IS-91 (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  S. epidermidis IS-250 vs S. aureus IS-99 (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  S. lugdunensis VCU148 vs S. epidermidis VCU111 (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  Sterkiella histriomuscorum vs Oxytricha trifallax (WUGSC)
+           comp=True reads=2000/2000
+d50d444155d5c55d52c84
+CONFIRMED  S. epidermidis IS-250 vs S. aureus IS-99
+           comp=True reads=2000/2000 md5a=d0ed6c485e9d50d444155d5c55d52c84 md5b=d0ed6c485e9d50d444155d5c55d52c84
+CONFIRMED  S. lugdunensis VCU148 vs S. epidermidis VCU111
+           comp=True reads=2000/2000 md5a=48a22e68b205fd7cbb4e0272a5c8fb6e md5b=48a22e68b205fd7cbb4e0272a5c8fb6e
+CONFIRMED  Sterkiella histriomuscorum vs Oxytricha trifallax
+           comp=True reads=2000/2000 md5a=79ade84947ac4130f1316da35ffed6fd md5b=79ade84947ac4130f1316da35ffed6fd
+CONFIRMED  E. coli O157:H7 EDL933 vs Listeria monocytogenes NCTC 11994
+           comp=True reads=2000/2000 md5a=ce127e9bfde090ecb917d7d00211d08b md5b=ce127e9bfde090ecb917d7d00211d08b

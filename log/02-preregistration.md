@@ -130,3 +130,28 @@ two Complete Genomics artifacts - and keeps all 178 others (share distribution: 
 share >= 0.5, 80 at 0.1-0.5, 2 below 0.1).
 
 Thresholds were chosen from the exploratory share distribution and are now frozen.
+
+---
+# DEVIATION NOTICE — recorded 2026-09-06, at the time it happened
+
+I said held-out data would not be read until the pipeline was frozen. The pipeline WAS frozen
+first (params.py FROZEN=True, Amendments 1-2 derived from exploratory data only, no threshold
+changed afterwards). But I then ran the frozen pipeline on a partially downloaded `--set all`
+key stream as a performance smoke test, and I looked at its output. That output included
+held-out data. Specifically I saw, before the final held-out run:
+  - 142 events / 11,362 multi-run groups / 3.99 TB redundant on partial data;
+  - the 9-study Mycobacterium tuberculosis event (Borstel / Institute of Tropical Medicine /
+    Basel) and the 10-study DTU Escherichia coli event;
+  - the list of studies with within-study sample duplication;
+  - the SRR-side case studies (JCVI isolates, CTC donors, cotton, wheat/potato).
+
+What this costs and what it does not:
+- The preregistered quantitative hypotheses H1-H3 are still evaluated on the held-out split
+  with thresholds fixed in advance, and no threshold was altered after seeing held-out output.
+- The qualitative CASES (TB, CTC donors, JCVI isolates) are NOT confirmations of a prior
+  prediction. They are exploratory discoveries in held-out data and are reported as such.
+  Their evidential weight comes from direct verification of the underlying data - downloading
+  files and hashing them, comparing exact base composition, comparing read sequences - not
+  from the holdout, which is a weaker standard for a claim about specific records anyway.
+- Anything framed as "we predicted X and held-out data confirmed it" would be false for those
+  cases, and is not claimed.

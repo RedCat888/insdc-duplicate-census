@@ -51,3 +51,60 @@
   /vol1/run/ERR208/ERR208589/ESJK8KC01.sff - same filename, same md5, same byte count.
   The file is stored twice. This also makes redundant storage bytes a computable quantity.
 - ENA holds 1,083,428 studies and 43,824,523 read_runs.
+- **The most important methodological correction of the project: an md5 match is a FILE, not a RUN.**
+  I ran run-level NCBI composition confirmation on the md5-channel pair ERR016531 / ERR024102
+  and it came back REFUTED, which briefly looked like the whole approach was broken. It was
+  not. ERR016531 (Triticum aestivum, U. Liverpool, PRJEB2264) submits TWO SFF files
+  (`library06_GBSKQZK01.sff`, 1,695,787,424 B and `library06_GBSKQZK02.sff`, 2,167,347,440 B).
+  ERR024102 (Solanum phureja, U. Dundee, PRJEB2338) submits ONE file, `GBSKQZK02.sff`,
+  2,167,347,440 B, md5 aab383dc74a0d6ff3ab7531cc0416648 - byte-identical to the wheat run's
+  second file. So the RUNS legitimately differ in content (1,222,730 vs 672,776 reads) while
+  the FILE is shared. Same 454 region GBSKQZK02 sitting inside a wheat genome project and a
+  potato genome project.
+  Consequence for the pipeline: md5-channel claims are file-level and are exact by
+  construction (128-bit digest plus identical byte count); they must be verified by
+  downloading/range-checking the FILES. Numeric-channel claims are run-level and are verified
+  by NCBI run composition. Mixing the two produces false refutations.
+  This also means `MIN_SHARE_OF_RUN = 0.10` is doing real work but is not a duplicate-run
+  test, and I should not describe md5 events as "duplicate runs".
+- **Verification must not be size-biased.** The first event-stratified verification run
+  attempted 10 events, verified 2/2, and SKIPPED 8 purely because the files exceeded a 120 MB
+  cap - i.e. it silently sampled only small datasets. Fixed by adding a read-level fallback
+  (compare the first 2000 sequences from ENA's FASTQ, headers ignored), which costs the same
+  for a 200 GB run as for a 2 MB one.
+- **NCBI taxdump download failed twice** (truncated at 1.2-1.6 MB of ~65 MB, under bandwidth
+  contention with 10 parallel ENA pulls, `tar: Damaged tar archive`). Abandoned it and used
+  ENA's taxonomy REST API with a local JSON cache instead - only a few thousand tax_ids
+  actually appear in duplicate pairs, so per-id lookup is cheaper anyway.
+- **SILENT DATA TRUNCATION - the worst bug of the project, caught late.** `pull_one.sh` piped
+  `curl` into `gzip` and accepted the chunk if `gzcat` could read it. A truncated HTTP response
+  still produces a perfectly valid gzip stream, so short downloads passed the integrity check
+  silently. Detected only because the reported monthly run counts started clustering
+  suspiciously near round numbers (144,991 / 134,991 / 149,994 / 124,991). Checked directly:
+  2020-08 held 144,991 rows against ENA's own count of 250,426 for the same window - 42%
+  of the month missing, with no error anywhere. 2019-03 (185,986) and 2012 (157,674) were
+  exact, so the corruption is intermittent, not systematic, which is exactly what makes it
+  dangerous.
+  Fix: `pull_one.sh` now queries `ENA .../count` for the same date window and refuses any
+  chunk whose row count does not match exactly; `src/validate_chunks.py` re-checks every
+  chunk on disk against the API and lists the bad ones for re-download. Any result computed
+  before this validation is not trustworthy and is recomputed.
+- **Second integrity problem, found while fixing the first.** The original `pull_ena.sh`
+  fetched 2010-2013 as ANNUAL files and hardcoded February as 29 days. Consequences:
+  (a) non-leap Februaries (2015, 2017, 2018) queried `first_public <= YYYY-02-29`, which ENA
+  accepted and which pulled March-1 runs in as well, so those chunks were supersets and their
+  March-1 rows also appeared in the March chunk; (b) once the chunk list was regenerated at
+  monthly granularity, the leftover annual files 2010-2013 no longer matched any chunk label
+  and would have been globbed by `build_keys.py` ALONGSIDE the new monthly files, counting
+  every 2010-2013 run twice.
+  Both fixed by deleting the legacy files and regenerating `chunks.txt` from
+  `calendar.monthrange`, with 10-day slices from 2019 on (where monthly responses exceed
+  ~200k rows and were the ones that truncated). Validation of the final state is by
+  `src/validate_chunks.py`, which now also reports files on disk that are not in chunks.txt.
+- **Scope of the damage.** Validation of the 101 chunks present at the time: 64 OK, 37 bad.
+  Truncation was concentrated from 2019 onward and was severe (2020-02 held 132,635 of
+  422,278 runs, 69% missing). The exploratory results reported in Amendments 1-2 were computed
+  partly from the un-validated annual 2010-2013 files, so they are being RECOMPUTED on
+  validated data before anything is reported. The verified individual cases (the JCVI
+  isolates, the wheat/potato file, the CTC donor pair) do not depend on metadata
+  completeness at all - each was checked by fetching the actual data - so they stand.
