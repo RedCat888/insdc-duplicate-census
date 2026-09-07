@@ -4,3 +4,5 @@ w2014-06-01 OK 29366
 w2019-08-11 OK 23872
 w2022-11-16 OK 55817
 w2021-04-21 OK 54508
+curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)
+curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)

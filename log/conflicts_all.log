@@ -1,0 +1,31 @@
+cross-study candidate pairs: 701 (md5 228, numeric 473)
+pairs whose two deposits declare different biological identities: 189
+  confirmed 24 / refuted 0 / no-fp 1  (25/60)
+  confirmed 47 / refuted 0 / no-fp 3  (50/60)
+{
+  "n_candidate_pairs": 701,
+  "tax_relation_counts": {
+    "same_taxid": 465,
+    "metagenome_type_conflict": 133,
+    "same_higher_depth7": 1,
+    "metagenome_vs_organism": 38,
+    "same_species": 35,
+    "same_genus": 6,
+    "unknown": 9,
+    "refinement": 3,
+    "same_higher_depth9": 6,
+    "same_higher_depth1": 1,
+    "same_higher_depth6": 2,
+    "same_higher_depth3": 2
+  },
+  "n_identity_conflicts": 189,
+  "n_numeric_conflicts": 132,
+  "n_numeric_confirmed": 57,
+  "n_numeric_refuted": 0,
+  "n_numeric_no_fingerprint": 3,
+  "numeric_confirmation_rate": [
+    1.0,
+    0.936858991216536,
+    0.9999999999999999
+  ]
+}

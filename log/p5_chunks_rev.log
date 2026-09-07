@@ -8,3 +8,4 @@ skip w2026-09-06
 skip w2026-09-11
 skip w2026-09-26
 w2026-07-21 OK 46341
+curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)

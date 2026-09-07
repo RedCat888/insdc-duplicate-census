@@ -1,0 +1,196 @@
+{
+  "n_numeric_groups_multi_run": 13754,
+  "n_numeric_groups_cross_study": 7543,
+  "n_numeric_pairs": 66193,
+  "n_md5_pairs": 2208,
+  "labelled_region": "both runs ERR (submitted_md5 present for 100% of ERR)",
+  "all_pairs": {
+    "tp": 2083,
+    "fp": 17610,
+    "fn": 125,
+    "precision": [
+      0.10577362514599097,
+      0.10155475584642243,
+      0.11014627138831962
+    ],
+    "recall": [
+      0.9433876811594203,
+      0.9329556693367466,
+      0.952279512061415
+    ]
+  },
+  "cross_study_pairs": {
+    "tp": 225,
+    "fp": 5884,
+    "fn": 0,
+    "precision": [
+      0.0368309052218039,
+      0.032391388906668386,
+      0.04185257645307529
+    ],
+    "recall": [
+      1.0,
+      0.9832128424202591,
+      0.9999999999999998
+    ]
+  },
+  "example_fp_cross_study": [
+    {
+      "pair": [
+        "ERR12417504",
+        "ERR671767"
+      ],
+      "a": {
+        "study_accession": "PRJEB2141",
+        "read_count": "20",
+        "base_count": "3000",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      },
+      "b": {
+        "study_accession": "PRJEB6893",
+        "read_count": "20",
+        "base_count": "3000",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "POOLCLONE"
+      }
+    },
+    {
+      "pair": [
+        "ERR3353085",
+        "ERR671763"
+      ],
+      "a": {
+        "study_accession": "PRJEB2136",
+        "read_count": "14",
+        "base_count": "2100",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      },
+      "b": {
+        "study_accession": "PRJEB6893",
+        "read_count": "14",
+        "base_count": "2100",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "POOLCLONE"
+      }
+    },
+    {
+      "pair": [
+        "ERR12417612",
+        "ERR698286"
+      ],
+      "a": {
+        "study_accession": "PRJEB2141",
+        "read_count": "8",
+        "base_count": "1200",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      },
+      "b": {
+        "study_accession": "PRJEB6893",
+        "read_count": "8",
+        "base_count": "1200",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "POOLCLONE"
+      }
+    },
+    {
+      "pair": [
+        "ERR17745583",
+        "ERR17746069"
+      ],
+      "a": {
+        "study_accession": "PRJEB124233",
+        "read_count": "90",
+        "base_count": "27090",
+        "center_name": "ETH Zurich;Food Systems Biotechnology;Annina Meyer;ETHZ-FSB-AM",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB124238",
+        "read_count": "90",
+        "base_count": "27090",
+        "center_name": "ETH Zurich;Food Systems Biotechnology;Annina Meyer;ETHZ-FSB-AM",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR12417518",
+        "ERR698421"
+      ],
+      "a": {
+        "study_accession": "PRJEB2141",
+        "read_count": "10",
+        "base_count": "1500",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      },
+      "b": {
+        "study_accession": "PRJEB6893",
+        "read_count": "10",
+        "base_count": "1500",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "POOLCLONE"
+      }
+    },
+    {
+      "pair": [
+        "ERR345148",
+        "ERR450697"
+      ],
+      "a": {
+        "study_accession": "PRJEB4630",
+        "read_count": "2",
+        "base_count": "200",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB5758",
+        "read_count": "2",
+        "base_count": "200",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR200328",
+        "ERR338178"
+      ],
+      "a": {
+        "study_accession": "PRJEB2846",
+        "read_count": "1150743",
+        "base_count": "230148600",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      },
+      "b": {
+        "study_accession": "PRJEB3259",
+        "read_count": "1150743",
+        "base_count": "230148600",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      }
+    },
+    {
+      "pair": [
+        "ERR12417409",
+        "ERR671520"
+      ],
+      "a": {
+        "study_accession": "PRJEB2141",
+        "read_count": "8",
+        "base_count": "1200",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
+      },
+      "b": {
+        "study_accession": "PRJEB6893",
+        "read_count": "8",
+        "base_count": "1200",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "POOLCLONE"
+      

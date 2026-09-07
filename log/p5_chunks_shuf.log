@@ -4,3 +4,4 @@ skip w2019-08-11
 skip w2022-11-16
 skip w2021-04-21
 skip w2019-11-06
+curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)

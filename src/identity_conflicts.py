@@ -114,8 +114,23 @@ def main():
     for c in conflicts:
         if c["channel"] == "md5": c["confirm"] = "EXACT_md5"
 
+    # collapse to the honest unit: one re-deposit of a whole study produces dozens of
+    # conflicting pairs but is ONE event (Amendment 1).
+    by_studypair = collections.Counter(tuple(sorted(c["studies"])) for c in conflicts)
+    by_relation_sp = collections.defaultdict(set)
+    for c in conflicts:
+        by_relation_sp[c["tax_relation"]].add(tuple(sorted(c["studies"])))
+    organism_sp = {sp for r, sps in by_relation_sp.items()
+                   if not r.startswith("metagenome") for sp in sps}
+    metagenome_sp = {sp for r, sps in by_relation_sp.items()
+                     if r.startswith("metagenome") for sp in sps}
     res = dict(n_candidate_pairs=len(cands), tax_relation_counts=dict(rel),
                n_identity_conflicts=len(conflicts),
+               n_conflicting_study_pairs=len(by_studypair),
+               n_organism_level_study_pairs=len(organism_sp),
+               n_metagenome_level_study_pairs=len(metagenome_sp),
+               study_pairs_by_relation={r: len(sps) for r, sps in by_relation_sp.items()},
+               top_study_pairs=[[list(k), v] for k, v in by_studypair.most_common(15)],
                n_numeric_conflicts=len(need), n_numeric_confirmed=conf,
                n_numeric_refuted=ref, n_numeric_no_fingerprint=unk,
                numeric_confirmation_rate=wilson(conf, conf+ref) if conf+ref else None,

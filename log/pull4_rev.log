@@ -7,3 +7,4 @@ w2026-08-06 OK 66208
 w2026-08-21 OK 54078
 w2026-08-16 OK 70721
 w2026-08-11 OK 80529
+curl: (92) HTTP/2 stream 1 was not closed cleanly: INTERNAL_ERROR (err 2)

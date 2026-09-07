@@ -1,0 +1,33 @@
+{
+  "label": "all",
+  "n_md5_keys": 522738,
+  "n_groups_multi_run": 4122,
+  "groups_same_study_same_sample": 3297,
+  "groups_same_study_different_samples": 424,
+  "groups_cross_study": 401,
+  "n_studies_with_duplicate_samples": 23,
+  "n_runs_in_duplicate_sample_pairs": 450,
+  "n_runs_with_key": 412439,
+  "frac_runs_in_duplicate_sample_pairs": [
+    0.0010910704370828172,
+    0.0009948560127938074,
+    0.0011965787966787106
+  ]
+}
+
+top affected studies:
+  PRJEB6072     runs= 122 samples= 122 Homo sapiens               HUBRECHT INSTITUTE, UTRECHT, THE NETHERL
+  PRJEB3197     runs= 112 samples= 112 Canis lupus                European Bioinformatics Institute;Prince
+  PRJEB107617   runs=  68 samples=  68 synthetic metagenome       WAGENINGEN UNIVERSITY, LABORATORY OF MIC
+  PRJEB6521     runs=  42 samples=  42 Homo sapiens               ExpKirUU
+  PRJEB51827    runs=  24 samples=  12 Triticum aestivum          Earlham Institute
+  PRJEB8503     runs=  24 samples=  24 Homo sapiens               AstraZeneca;AZ
+  PRJEB104715   runs=  14 samples=   6 bovine metagenome          Scotland's Rural College;SRUC-DRIC
+  PRJEB7116     runs=   8 samples=   8 Campylobacter              CENTRE FOR GENOMIC RESEARCH (CGR)
+  PRJEB27123    runs=   4 samples=   4 human oral metagenome      Department of Dental Medicine (DENTMED),
+  PRJEB2869     runs=   4 samples=   4                            BGI-SHENZHEN
+  PRJEB123735   runs=   4 samples=   2 Arabidopsis thaliana       Gregor Mendel Institute for Molecular Pl
+  PRJEB108934   runs=   2 samples=   2 Mus musculus               Universidad de Oviedo;UNIOVI
+  PRJEB1326     runs=   2 samples=   2 Geobacter sulfurreducens P University of Massachusetts;UMASS
+  PRJEB34513    runs=   2 samples=   2 Klebsiella pneumoniae      LONDON SCHOOL OF HYGIENE AND TROPICAL ME
+  PRJEB71327    runs=   2 samples=   2 Severe acute respiratory s NORWEGIAN INSTITUTE OF PUBLIC HEALTH
