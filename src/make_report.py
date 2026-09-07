@@ -47,6 +47,11 @@ if ev_all:
     A(f"- Runs carrying a usable submitter checksum (the exact channel): "
       f"**{num(ev_all['n_runs_with_key'])}**; distinct checksums **{num(ev_all['n_md5_keys'])}**.")
 
+cvv = cv or {}
+if cvv.get("archive_total"):
+    A(f"- Coverage: **{num(cvv.get('rows_total'))}** runs in verified windows out of "
+      f"**{num(cvv.get('archive_total'))}** in the whole archive "
+      f"(**{100*(cvv.get('coverage') or 0):.2f}%**).")
 A("")
 A("## Result 1 — the census (exact channel, complete for ENA-submitted runs)")
 for lab, d in (("exploratory (first_public < 2014-09-01)", ev_ex),

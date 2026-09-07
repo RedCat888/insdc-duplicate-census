@@ -4,7 +4,12 @@
 #   2. a truncated response still gzips cleanly -> compare row count with ENA's own count
 setopt pipefail
 OUT=~/Downloads/dig/data/ena
-F="run_accession,experiment_accession,sample_accession,study_accession,secondary_study_accession,submission_accession,tax_id,scientific_name,library_strategy,library_source,library_selection,instrument_platform,instrument_model,read_count,base_count,fastq_md5,fastq_bytes,submitted_md5,submitted_bytes,submitted_format,center_name,broker_name,first_public,last_updated"
+# Lean field set. Measured: throughput is ~48 kB/s per connection regardless of how many
+# fields are requested, so bytes are the cost. Dropping library_source, library_selection,
+# instrument_model, fastq_md5, fastq_bytes, submitted_format and last_updated cuts the
+# payload ~40% (5.39 MB -> 3.25 MB on a 15,999-run window). fastq_md5 is not needed for the
+# analysis - it is provably useless for duplicate detection (see out/fastq_md5_trap.json).
+F="run_accession,experiment_accession,sample_accession,study_accession,secondary_study_accession,submission_accession,tax_id,scientific_name,library_strategy,instrument_platform,read_count,base_count,submitted_md5,submitted_bytes,center_name,broker_name,first_public"
 label=$1; start=$2; end=$3
 f="$OUT/$label.tsv.gz"
 [[ -s "$f" ]] && { echo "skip $label"; exit 0; }

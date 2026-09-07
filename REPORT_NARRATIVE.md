@@ -96,6 +96,9 @@ the Basel record, under an internal identifier, would be missed.
   together by a single downstream comparative-genomics paper (PMID 35638832), and the
   component also contains the data behind PMID 27194683 — a paper titled "Standard Genotyping
   Overestimates Transmission of *Mycobacterium tuberculosis*".
+- **This is against stated policy, not merely untidy.** NCBI's SRA submission standards
+  (NCBI Insights, 29 June 2026, "Standards for SRA Data Submission", section 5) state:
+  "Duplicate submissions are not permitted; reference the existing accession instead."
 - **Reference collections inherit the error permanently.** Once public, INSDC records are not
   withdrawn; ENA's documented remedy (cancelling an object) applies only before release.
 

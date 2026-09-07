@@ -1,11 +1,21 @@
 #!/bin/zsh
 set -e
 cd ~/Downloads/dig
-echo "=== [A] fill any missing windows, splitting stubborn ones into days ==="
-python3 src/pull_fill.py 2>&1 | tail -30
-
-echo "=== [B] validate every file on disk against ENA's own counts ==="
-python3 src/validate_chunks.py --chunks src/chunks_final.txt --out out/chunk_validation_final.json 2>&1 | tail -8
+echo "=== [A] validate every file on disk against ENA's own counts, and measure coverage ==="
+python3 src/validate_chunks.py --only-present --out out/chunk_validation_final.json 2>&1 | tail -8
+python3 - <<'PY2'
+import json, os
+d=json.load(open(os.path.expanduser("~/Downloads/dig/out/chunk_validation_final.json")))
+bad=d.get("bad") or []
+if bad:
+    # a window that does not match its own count is removed from the analysis entirely,
+    # rather than being analysed as if complete
+    for lab in bad:
+        p=os.path.expanduser(f"~/Downloads/dig/data/ena/{lab}.tsv.gz")
+        if os.path.exists(p): os.rename(p, p+".REJECTED")
+    print(f"quarantined {len(bad)} windows that failed their count check")
+print("coverage:", d.get("coverage"), "rows:", d.get("rows_total"), "of", d.get("archive_total"))
+PY2
 
 echo "=== [C] build key streams ==="
 for S in exploratory heldout all; do

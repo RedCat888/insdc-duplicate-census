@@ -1,0 +1,10 @@
+{
+ "window": "2013-05-01..2013-06-01",
+ "runs": 15999,
+ "runs_with_fastq_md5": 14409,
+ "distinct_fastq_md5": 22044,
+ "fastq_md5_collisions": 0,
+ "runs_with_submitted_md5": 6648,
+ "distinct_submitted_md5": 7490,
+ "submitted_md5_collisions": 0
+}

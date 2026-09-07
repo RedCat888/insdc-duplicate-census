@@ -155,3 +155,24 @@ What this costs and what it does not:
   from the holdout, which is a weaker standard for a claim about specific records anyway.
 - Anything framed as "we predicted X and held-out data confirmed it" would be false for those
   cases, and is not claimed.
+
+---
+# SCOPE DECISION — 2026-09-06, forced by measured throughput
+
+ENA's Portal API delivers ~48 kB/s on a single connection and, measured across 20 and then 35
+concurrent connections, ~150-170 kB/s in aggregate — it is rate-limiting per client, not per
+connection, so adding workers does not help. Trimming the field set from 24 to 17 fields cut
+the payload 40% (5.39 MB -> 3.25 MB on a 15,999-run window) and was applied, but the whole
+archive at ~200 bytes/run is still ~8.8 GB, i.e. roughly 15 hours of pulling.
+
+Decision, taken before analysing anything: rather than report a thin slice of every year, the
+census is defined on a period for which coverage is COMPLETE and verified —
+**first_public in [2010-01-01, 2019-01-01), 6,141,295 runs, 14.0% of the 43,824,523-run
+archive** — with 2019+ windows collected opportunistically and reported separately with their
+own explicit coverage fraction. Window boundaries partition the timeline exactly, so a
+completed window is a complete census of its period; there is no sampling bias inside it.
+
+What this costs: the archive-wide totals (events, terabytes) become totals for a defined
+period rather than for all of INSDC, and the temporal-trend question is answerable only up to
+2018 with full confidence. What it does not cost: the verified individual cases, which are
+drawn from the whole archive and each rest on the actual data rather than on the census.
