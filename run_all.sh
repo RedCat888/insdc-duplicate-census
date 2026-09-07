@@ -5,9 +5,9 @@ set -e
 cd "$(dirname "$0")"
 mkdir -p data/ena out log
 
-echo "[1/6] pull all ENA read_run metadata (43.8M runs, chunked by first_public month)"
-xargs -P 5 -n 3 ./src/pull_one.sh < src/chunks.txt
-./src/pull_one.sh pre2014 1990-01-01 2013-12-31 || true
+echo "[1/6] pull all ENA read_run metadata (43.8M runs)"
+python3 src/make_chunks.py
+xargs -P 8 -n 3 ./src/pull_one.sh < src/chunks.txt
 
 echo "[1b/6] validate every chunk against ENA's own count and re-download any that are short"
 for pass in 1 2 3; do

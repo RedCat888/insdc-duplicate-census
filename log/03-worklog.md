@@ -108,3 +108,24 @@
   validated data before anything is reported. The verified individual cases (the JCVI
   isolates, the wheat/potato file, the CTC donor pair) do not depend on metadata
   completeness at all - each was checked by fetching the actual data - so they stand.
+- **THIRD and worst data bug: ENA's `<=` on a date is exclusive.**
+  `first_public>=2010-10-18 AND first_public<=2010-10-18` returns **0**, even though
+  DRR000006 has `first_public = 2010-10-18`. `>=2010-10-18 AND <=2010-10-19` returns 151, and
+  `>=2010-10-18 AND <2010-10-19` returns the same 151. So `<=E` behaves as `<E`: the interval
+  is half-open [S, E).
+  Consequences, all silent:
+   1. Every window I fetched was missing the runs released on its final day. Measured:
+      Jan-2012 `[01-01,01-31]` = 10,350; Feb-2012 `[02-01,02-29]` = 7,155; the combined
+      window `[01-01,02-29]` = 17,793, which is 288 more than the sum - those 288 are the
+      Jan-31 runs that neither window contained.
+   2. The 10-day slices lost day 10, day 20 and the month's last day.
+   3. My "fix" of splitting stubborn windows into single days was worthless: `[d,d]` is empty
+      by construction, so 172 daily chunks came back "OK 0" and PASSED validation, because
+      the count endpoint uses the same semantics and also returns 0. Validating a query
+      against the same query's count cannot catch a wrong query.
+  Fix: windows are now half-open and expressed as consecutive boundaries,
+  `>=start_i AND <=start_{i+1}`, which under the observed semantics partitions the timeline
+  exactly. Monthly to 2018, 5-day slices from 2019. The new acceptance test is global and
+  independent of the window semantics: **the sum of all window row counts must equal ENA's
+  count for the whole archive (43,824,523)**. Per-window count agreement is necessary but,
+  as bug 3 shows, nowhere near sufficient.

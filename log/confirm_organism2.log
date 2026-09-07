@@ -6,3 +6,20 @@ CONFIRMED  S. epidermidis IS-250 vs S. aureus IS-91 (JCVI)
            comp=True reads=2000/2000
 CONFIRMED  S. epidermidis IS-250 vs S. aureus IS-99 (JCVI)
            comp=True reads=2000/2000
+CONFIRMED  S. lugdunensis VCU148 vs S. epidermidis VCU111 (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  Sterkiella histriomuscorum vs Oxytricha trifallax (WUGSC)
+           comp=True reads=2000/2000
+CONFIRMED  E. coli O157:H7 EDL933 vs Listeria monocytogenes NCTC 11994 (NIST)
+           comp=True reads=2000/2000
+CONFIRMED  Finegoldia magna vs Peptoniphilus sp. (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  Finegoldia magna vs Streptococcus mitis (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  Peptoniphilus sp. vs Streptococcus mitis (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  Ligilactobacillus salivarius vs Lactobacillus delbrueckii (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  Triticum aestivum (Liverpool) vs Solanum phureja (Dundee) - shared 454 region GBSKQZK02
+
+run-level CONFIRMED 11/11; file-level CONFIRMED 1/1

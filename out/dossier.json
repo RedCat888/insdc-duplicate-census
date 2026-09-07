@@ -147,6 +147,90 @@
   "note": "numeric channel, high-entropy stratum"
  },
  {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "Gossypium barbadense vs G. arboreum (cotton)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "Gossypium arboreum vs G. barbadense (cotton)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "S. epidermidis IS-250 vs S. aureus IS-91 (JCVI)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "S. epidermidis IS-250 vs S. aureus IS-99 (JCVI)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "S. lugdunensis VCU148 vs S. epidermidis VCU111 (JCVI)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "Sterkiella histriomuscorum vs Oxytricha trifallax (WUGSC)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "E. coli O157:H7 EDL933 vs Listeria monocytogenes NCTC 11994 (NIST)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "Finegoldia magna vs Peptoniphilus sp. (JCVI)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "Finegoldia magna vs Streptococcus mitis (JCVI)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "Peptoniphilus sp. vs Streptococcus mitis (JCVI)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (run)",
+  "evidence": "NCBI composition + ENA read comparison",
+  "detail": "Ligilactobacillus salivarius vs Lactobacillus delbrueckii (JCVI)",
+  "result": "CONFIRMED",
+  "note": "reads 2000/2000"
+ },
+ {
+  "kind": "organism conflict (file)",
+  "evidence": "HTTP range check of both files",
+  "detail": "Triticum aestivum (Liverpool) vs Solanum phureja (Dundee) - shared 454 region GBSKQZK02",
+  "result": "CONFIRMED",
+  "note": ""
+ },
+ {
   "kind": "publication impact",
   "evidence": "SRA alias -> GSM -> GSE -> PubMed",
   "detail": "['SRR543504', 'SRR578255'] -> ['GSM987821', 'GSM1012157']",

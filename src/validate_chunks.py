@@ -55,6 +55,16 @@ def main():
     print(f"\nchecked {len(report)}  ok {len(report)-len(bad)}  BAD {len(bad)}")
     print("rows in verified chunks:", f"{tot:,}")
     if bad: print("bad labels:", " ".join(bad))
+    # GLOBAL acceptance test. Per-window agreement is not sufficient: a wrong query is
+    # validated against its own wrong count. The union must equal the whole archive.
+    whole = api_count("1990-01-01", "2030-01-01")
+    print(f"archive total per ENA: {whole:,}" if whole else "archive total: UNAVAILABLE")
+    if whole:
+        print(f"coverage: {tot:,} / {whole:,} = {100.0*tot/whole:.4f}%  (shortfall {whole-tot:,})")
+    js = json.load(open(a.out)) if os.path.exists(a.out) else {}
+    js.update(dict(rows_total=tot, archive_total=whole,
+                   coverage=(tot/whole if whole else None)))
+    json.dump(js, open(a.out, "w"), indent=1)
 
 if __name__ == "__main__":
     main()

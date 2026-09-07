@@ -10,12 +10,26 @@ CONFIRMED  S. lugdunensis VCU148 vs S. epidermidis VCU111 (JCVI)
            comp=True reads=2000/2000
 CONFIRMED  Sterkiella histriomuscorum vs Oxytricha trifallax (WUGSC)
            comp=True reads=2000/2000
-d50d444155d5c55d52c84
-CONFIRMED  S. epidermidis IS-250 vs S. aureus IS-99
-           comp=True reads=2000/2000 md5a=d0ed6c485e9d50d444155d5c55d52c84 md5b=d0ed6c485e9d50d444155d5c55d52c84
-CONFIRMED  S. lugdunensis VCU148 vs S. epidermidis VCU111
-           comp=True reads=2000/2000 md5a=48a22e68b205fd7cbb4e0272a5c8fb6e md5b=48a22e68b205fd7cbb4e0272a5c8fb6e
-CONFIRMED  Sterkiella histriomuscorum vs Oxytricha trifallax
-           comp=True reads=2000/2000 md5a=79ade84947ac4130f1316da35ffed6fd md5b=79ade84947ac4130f1316da35ffed6fd
-CONFIRMED  E. coli O157:H7 EDL933 vs Listeria monocytogenes NCTC 11994
-           comp=True reads=2000/2000 md5a=ce127e9bfde090ecb917d7d00211d08b md5b=ce127e9bfde090ecb917d7d00211d08b
+CONFIRMED  E. coli O157:H7 EDL933 vs Listeria monocytogenes NCTC 11994 (NIST)
+           comp=True reads=2000/2000
+CONFIRMED  Finegoldia magna vs Peptoniphilus sp. (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  Finegoldia magna vs Streptococcus mitis (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  Peptoniphilus sp. vs Streptococcus mitis (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  Ligilactobacillus salivarius vs Lactobacillus delbrueckii (JCVI)
+           comp=True reads=2000/2000
+CONFIRMED  Triticum aestivum (Liverpool) vs Solanum phureja (Dundee) - shared 454 region GBSKQZK02
+
+run-level CONFIRMED 11/11; file-level CONFIRMED 1/1
+7d7d00211d08b md5b=ce127e9bfde090ecb917d7d00211d08b
+CONFIRMED  Finegoldia magna vs Peptoniphilus sp.
+           comp=True reads=2000/2000 md5a=48f306757802578ae33349e79ef47e97 md5b=48f306757802578ae33349e79ef47e97
+CONFIRMED  Finegoldia magna vs Streptococcus mitis
+           comp=True reads=2000/2000 md5a=48f306757802578ae33349e79ef47e97 md5b=48f306757802578ae33349e79ef47e97
+CONFIRMED  Peptoniphilus sp. vs Streptococcus mitis
+           comp=True reads=2000/2000 md5a=48f306757802578ae33349e79ef47e97 md5b=48f306757802578ae33349e79ef47e97
+CONFIRMED  Ligilactobacillus salivarius vs Lactobacillus delbrueckii
+           comp=True reads=2000/2000 md5a=7e2243f6a62850d62588d92c0698527c md5b=7e2243f6a62850d62588d92c0698527c
+CONFIRMED: 11 / 12

@@ -1,0 +1,340 @@
+{
+ "run_level": [
+  {
+   "runs": [
+    "SRR340034",
+    "SRR346135"
+   ],
+   "ncbi_key_a": null,
+   "ncbi_key_b": [
+    13162,
+    827544,
+    656238,
+    757678,
+    679155,
+    54100
+   ],
+   "composition_match": null,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "b3414ed0d6540daf0b831254bcca6100",
+   "read_md5_b": "b3414ed0d6540daf0b831254bcca6100",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "Gossypium barbadense vs G. arboreum (cotton)"
+  },
+  {
+   "runs": [
+    "SRR340033",
+    "SRR346324"
+   ],
+   "ncbi_key_a": null,
+   "ncbi_key_b": [
+    14031,
+    913251,
+    737022,
+    812734,
+    705693,
+    56482
+   ],
+   "composition_match": null,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "ceab43b51a51389caa6e2a4aee63688b",
+   "read_md5_b": "ceab43b51a51389caa6e2a4aee63688b",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "Gossypium arboreum vs G. barbadense (cotton)"
+  },
+  {
+   "runs": [
+    "SRR090139",
+    "SRR090222"
+   ],
+   "ncbi_key_a": [
+    1517589,
+    227588346,
+    118939247,
+    127179998,
+    222012959,
+    5781125
+   ],
+   "ncbi_key_b": [
+    1517589,
+    227588346,
+    118939247,
+    127179998,
+    222012959,
+    5781125
+   ],
+   "composition_match": true,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "d0ed6c485e9d50d444155d5c55d52c84",
+   "read_md5_b": "d0ed6c485e9d50d444155d5c55d52c84",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "S. epidermidis IS-250 vs S. aureus IS-91 (JCVI)"
+  },
+  {
+   "runs": [
+    "SRR090139",
+    "SRR090228"
+   ],
+   "ncbi_key_a": [
+    1517589,
+    227588346,
+    118939247,
+    127179998,
+    222012959,
+    5781125
+   ],
+   "ncbi_key_b": [
+    1517589,
+    227588346,
+    118939247,
+    127179998,
+    222012959,
+    5781125
+   ],
+   "composition_match": true,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "d0ed6c485e9d50d444155d5c55d52c84",
+   "read_md5_b": "d0ed6c485e9d50d444155d5c55d52c84",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "S. epidermidis IS-250 vs S. aureus IS-99 (JCVI)"
+  },
+  {
+   "runs": [
+    "SRR070588",
+    "SRR071318"
+   ],
+   "ncbi_key_a": [
+    246604,
+    36185865,
+    19462284,
+    19976733,
+    35168277,
+    2339373
+   ],
+   "ncbi_key_b": [
+    246604,
+    36185865,
+    19462284,
+    19976733,
+    35168277,
+    2339373
+   ],
+   "composition_match": true,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "48a22e68b205fd7cbb4e0272a5c8fb6e",
+   "read_md5_b": "48a22e68b205fd7cbb4e0272a5c8fb6e",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "S. lugdunensis VCU148 vs S. epidermidis VCU111 (JCVI)"
+  },
+  {
+   "runs": [
+    "SRR000202",
+    "SRR627587"
+   ],
+   "ncbi_key_a": [
+    262516,
+    21200112,
+    14136948,
+    14338894,
+    20627589,
+    97499
+   ],
+   "ncbi_key_b": [
+    262516,
+    21200112,
+    14136948,
+    14338894,
+    20627589,
+    97499
+   ],
+   "composition_match": true,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "79ade84947ac4130f1316da35ffed6fd",
+   "read_md5_b": "79ade84947ac4130f1316da35ffed6fd",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "Sterkiella histriomuscorum vs Oxytricha trifallax (WUGSC)"
+  },
+  {
+   "runs": [
+    "SRR1021212",
+    "SRR1031053"
+   ],
+   "ncbi_key_a": [
+    31471,
+    3851589,
+    4819931,
+    4432011,
+    4051253,
+    9577
+   ],
+   "ncbi_key_b": [
+    31471,
+    3851589,
+    4819931,
+    4432011,
+    4051253,
+    9577
+   ],
+   "composition_match": true,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "ce127e9bfde090ecb917d7d00211d08b",
+   "read_md5_b": "ce127e9bfde090ecb917d7d00211d08b",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "E. coli O157:H7 EDL933 vs Listeria monocytogenes NCTC 11994 (NIST)"
+  },
+  {
+   "runs": [
+    "SRR063729",
+    "SRR063733"
+   ],
+   "ncbi_key_a": [
+    578739,
+    83238156,
+    45757799,
+    47413971,
+    79403140,
+    2466755
+   ],
+   "ncbi_key_b": [
+    578739,
+    83238156,
+    45757799,
+    47413971,
+    79403140,
+    2466755
+   ],
+   "composition_match": true,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "48f306757802578ae33349e79ef47e97",
+   "read_md5_b": "48f306757802578ae33349e79ef47e97",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "Finegoldia magna vs Peptoniphilus sp. (JCVI)"
+  },
+  {
+   "runs": [
+    "SRR063729",
+    "SRR063735"
+   ],
+   "ncbi_key_a": [
+    578739,
+    83238156,
+    45757799,
+    47413971,
+    79403140,
+    2466755
+   ],
+   "ncbi_key_b": [
+    578739,
+    83238156,
+    45757799,
+    47413971,
+    79403140,
+    2466755
+   ],
+   "composition_match": true,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "48f306757802578ae33349e79ef47e97",
+   "read_md5_b": "48f306757802578ae33349e79ef47e97",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "Finegoldia magna vs Streptococcus mitis (JCVI)"
+  },
+  {
+   "runs": [
+    "SRR063733",
+    "SRR063735"
+   ],
+   "ncbi_key_a": [
+    578739,
+    83238156,
+    45757799,
+    47413971,
+    79403140,
+    2466755
+   ],
+   "ncbi_key_b": [
+    578739,
+    83238156,
+    45757799,
+    47413971,
+    79403140,
+    2466755
+   ],
+   "composition_match": true,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "48f306757802578ae33349e79ef47e97",
+   "read_md5_b": "48f306757802578ae33349e79ef47e97",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "Peptoniphilus sp. vs Streptococcus mitis (JCVI)"
+  },
+  {
+   "runs": [
+    "SRR060132",
+    "SRR060133"
+   ],
+   "ncbi_key_a": [
+    626894,
+    100421039,
+    82851182,
+    84179366,
+    98805954,
+    1414840
+   ],
+   "ncbi_key_b": [
+    626894,
+    100421039,
+    82851182,
+    84179366,
+    98805954,
+    1414840
+   ],
+   "composition_match": true,
+   "reads_compared": 2000,
+   "reads_identical_in_position": 2000,
+   "read_md5_a": "7e2243f6a62850d62588d92c0698527c",
+   "read_md5_b": "7e2243f6a62850d62588d92c0698527c",
+   "read_match": true,
+   "verdict": "CONFIRMED",
+   "label": "Ligilactobacillus salivarius vs Lactobacillus delbrueckii (JCVI)"
+  }
+ ],
+ "file_level": [
+  {
+   "label": "Triticum aestivum (Liverpool) vs Solanum phureja (Dundee) - shared 454 region GBSKQZK02",
+   "a": {
+    "size": 2167347440,
+    "head_md5": "a6f705fa7439fa43f0499352d15f03e0",
+    "tail_md5": "8f5d9048aa6c51ff87494423a974bb44",
+    "head_bytes": 5000000,
+    "tail_bytes": 5000000
+   },
+   "b": {
+    "size": 2167347440,
+    "head_md5": "a6f705fa7439fa43f0499352d15f03e0",
+    "tail_md5": "8f5d9048aa6c51ff87494423a974bb44",
+    "head_bytes": 5000000,
+    "tail_bytes": 5000000
+   },
+   "verdict": "CONFIRMED"
+  }
+ ]
+}
