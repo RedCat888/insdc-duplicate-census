@@ -32,7 +32,11 @@ def main():
     for f in sorted(glob.glob(os.path.join(a.datadir, "*.tsv.gz"))):
         try:
             fh = gzip.open(f, "rt", newline="")
-            rdr = csv.DictReader(fh, delimiter="\t")
+            # QUOTE_NONE: ENA's TSV is not quoted, and a stray double quote in a
+            # field (e.g. center_name '"George Mason University') otherwise makes
+            # csv swallow every following line until it finds a closing quote,
+            # silently merging thousands of records.
+            rdr = csv.DictReader(fh, delimiter="\t", quoting=csv.QUOTE_NONE)
             for r in rdr:
                 stats["rows"] += 1
                 fp = (r.get("first_public") or "").strip()
@@ -46,7 +50,8 @@ def main():
                     stats["dropped_no_study"] = stats.get("dropped_no_study",0)+1
                     continue
                 stats["kept"] += 1
-                meta = "\t".join((r.get(c) or "").replace("\t"," ") for c in COLS)
+                meta = "\t".join((r.get(c) or "").replace("\t"," ").replace("\r"," ").replace("\n"," ")
+                                  for c in COLS)
 
                 md5s  = [x.strip() for x in (r.get("submitted_md5")   or "").split(";")]
                 bytez = [x.strip() for x in (r.get("submitted_bytes") or "").split(";")]

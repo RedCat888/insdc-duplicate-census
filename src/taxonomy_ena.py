@@ -8,7 +8,7 @@ Classifies a pair of tax_ids as:
 so that a benign strain-label difference ("Vibrio cholerae" vs "Vibrio cholerae O1 biovar El
 Tor" -> same_species) is not counted as a cross-species conflict.
 """
-import os, json, time, urllib.request, threading
+import os, json, time, urllib.request, urllib.error, threading
 
 CACHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "taxcache.json")
 _lock = threading.Lock()
@@ -30,14 +30,20 @@ def rec(tid, retries=3):
     d = None
     for k in range(retries):
         try:
-            with urllib.request.urlopen(u, timeout=45) as r:
+            with urllib.request.urlopen(u, timeout=30) as r:
                 d = json.load(r)
             break
+        except urllib.error.HTTPError as e:
+            # A 404 is a definitive answer: this tax_id has no ENA record. Retrying it three
+            # times with backoff cost ~6 s per unknown id and stalled the whole conflict pass.
+            if e.code in (400, 404):
+                break
+            time.sleep(0.5*(k+1))
         except Exception:
-            time.sleep(1.0*(k+1))
+            time.sleep(0.5*(k+1))
     with _lock:
         _cache[tid] = d
-        if len(_cache) % 200 == 0: _save()
+        if len(_cache) % 500 == 0: _save()
     return d
 
 def lineage_ranks(d):

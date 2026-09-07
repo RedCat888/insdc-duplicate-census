@@ -1,0 +1,175 @@
+cross-study candidate pairs: 25186 (md5 12991, numeric 12195)
+pairs whose two deposits declare different biological identities: 4328
+  confirmed 25 / refuted 0 / no-fp 0  (25/150)
+  confirmed 50 / refuted 0 / no-fp 0  (50/150)
+  confirmed 75 / refuted 0 / no-fp 0  (75/150)
+  confirmed 98 / refuted 2 / no-fp 0  (100/150)
+  confirmed 121 / refuted 2 / no-fp 2  (125/150)
+  confirmed 146 / refuted 2 / no-fp 2  (150/150)
+{
+  "n_candidate_pairs": 25186,
+  "tax_relation_counts": {
+    "same_taxid": 20214,
+    "refinement": 170,
+    "metagenome_type_conflict": 2664,
+    "metagenome_vs_organism": 1266,
+    "same_genus": 291,
+    "unknown": 68,
+    "same_species": 406,
+    "same_higher_depth6": 5,
+    "same_higher_depth9": 33,
+    "same_higher_depth15": 1,
+    "same_higher_depth8": 2,
+    "same_higher_depth1": 50,
+    "same_higher_depth7": 1,
+    "same_higher_depth3": 4,
+    "disjoint": 2,
+    "same_higher_depth14": 2,
+    "same_higher_depth2": 5,
+    "same_higher_depth11": 1,
+    "same_higher_depth4": 1
+  },
+  "n_identity_conflicts": 4328,
+  "n_conflicting_study_pairs": 278,
+  "n_organism_level_study_pairs": 67,
+  "n_metagenome_level_study_pairs": 211,
+  "study_pairs_by_relation": {
+    "metagenome_type_conflict": 160,
+    "metagenome_vs_organism": 53,
+    "same_genus": 33,
+    "same_higher_depth6": 5,
+    "same_higher_depth9": 5,
+    "same_higher_depth15": 1,
+    "same_higher_depth8": 2,
+    "same_higher_depth1": 11,
+    "same_higher_depth7": 1,
+    "same_higher_depth3": 3,
+    "disjoint": 2,
+    "same_higher_depth14": 1,
+    "same_higher_depth2": 4,
+    "same_higher_depth11": 1,
+    "same_higher_depth4": 1
+  },
+  "top_study_pairs": [
+    [
+      [
+        "PRJEB11983",
+        "PRJEB18736"
+      ],
+      360
+    ],
+    [
+      [
+        "PRJEB19518",
+        "PRJEB8105"
+      ],
+      358
+    ],
+    [
+      [
+        "PRJEB17632",
+        "PRJEB24041"
+      ],
+      344
+    ],
+    [
+      [
+        "PRJEB14739",
+        "PRJEB20123"
+      ],
+      280
+    ],
+    [
+      [
+        "PRJEB17632",
+        "PRJEB8347"
+      ],
+      265
+    ],
+    [
+      [
+        "PRJEB24041",
+        "PRJEB8347"
+      ],
+      132
+    ],
+    [
+      [
+        "PRJEB25037",
+        "PRJNA417326"
+      ],
+      104
+    ],
+    [
+      [
+        "PRJEB19944",
+        "PRJEB20115"
+      ],
+      102
+    ],
+    [
+      [
+        "PRJEB22043",
+        "PRJEB27065"
+      ],
+      102
+    ],
+    [
+      [
+        "PRJNA388333",
+        "PRJNA436081"
+      ],
+      100
+    ],
+    [
+      [
+        "PRJNA471110",
+        "PRJNA472141"
+      ],
+      70
+    ],
+    [
+      [
+        "PRJEB6070",
+        "PRJEB8347"
+      ],
+      66
+    ],
+    [
+      [
+        "PRJEB15463",
+        "PRJEB27847"
+      ],
+      61
+    ],
+    [
+      [
+        "PRJEB10321",
+        "PRJEB12360"
+      ],
+      59
+    ],
+    [
+      [
+        "PRJEB1720",
+        "PRJEB4562"
+      ],
+      56
+    ]
+  ],
+  "n_numeric_conflicts": 2440,
+  "n_numeric_confirmed": 146,
+  "n_numeric_refuted": 2,
+  "n_numeric_no_fingerprint": 2,
+  "numeric_confirmation_rate": [
+    0.9864864864864865,
+    0.9520703803910141,
+    0.9962863281789694
+  ]
+}
+folded in 13 confirmations
+organism-level conflict pairs: 398 distinct study-pairs: 67
+confirmation status: {'EXACT_md5': 204, None: 169, 'CONFIRMED': 24, 'no_fingerprint': 1}
+REPORT.md assembled:      303 lines
+wrote $SCRATCH/duplicate-deposits.html 18350 bytes
+CONFLICTS_DONE

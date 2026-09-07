@@ -1,33 +1,33 @@
 {
   "label": "all",
-  "n_md5_keys": 522738,
-  "n_groups_multi_run": 4122,
-  "groups_same_study_same_sample": 3297,
-  "groups_same_study_different_samples": 424,
-  "groups_cross_study": 401,
-  "n_studies_with_duplicate_samples": 23,
-  "n_runs_in_duplicate_sample_pairs": 450,
-  "n_runs_with_key": 412439,
+  "n_md5_keys": 2628784,
+  "n_groups_multi_run": 22315,
+  "groups_same_study_same_sample": 3949,
+  "groups_same_study_different_samples": 1165,
+  "groups_cross_study": 17201,
+  "n_studies_with_duplicate_samples": 129,
+  "n_runs_in_duplicate_sample_pairs": 1474,
+  "n_runs_with_key": 1873023,
   "frac_runs_in_duplicate_sample_pairs": [
-    0.0010910704370828172,
-    0.0009948560127938074,
-    0.0011965787966787106
+    0.0007869631072336005,
+    0.0007478142633063204,
+    0.0008281597347376383
   ]
 }
 
 top affected studies:
+  PRJEB27984    runs= 192 samples= 192 Mus musculus               European Bioinformatics Institute;Karoli
+  PRJEB19206    runs= 156 samples= 156 Campylobacter coli         UNIVERSITY OF ABERDEEN
   PRJEB6072     runs= 122 samples= 122 Homo sapiens               HUBRECHT INSTITUTE, UTRECHT, THE NETHERL
   PRJEB3197     runs= 112 samples= 112 Canis lupus                European Bioinformatics Institute;Prince
+  PRJEB13000    runs=  78 samples=  78 Homo sapiens               European Bioinformatics Institute;WIS
   PRJEB107617   runs=  68 samples=  68 synthetic metagenome       WAGENINGEN UNIVERSITY, LABORATORY OF MIC
+  PRJEB9654     runs=  54 samples=  54 soil metagenome            NEIKER TECNALIA
   PRJEB6521     runs=  42 samples=  42 Homo sapiens               ExpKirUU
+  PRJEB28662    runs=  40 samples=  40 Mus musculus               DEPARTMENT OF MOLECULAR MEDICINE AND MED
+  PRJEB20096    runs=  40 samples=  40 Bacteria ambigua           Unite de Recherche sur les Maladies Infe
+  PRJEB10821    runs=  34 samples=  34 uncultured bacterium       BIGELOW LABORATORY FOR OCEAN SCIENCES
+  PRJEB18915    runs=  25 samples=  17 Homo sapiens               Wageningen University;WUR
   PRJEB51827    runs=  24 samples=  12 Triticum aestivum          Earlham Institute
   PRJEB8503     runs=  24 samples=  24 Homo sapiens               AstraZeneca;AZ
-  PRJEB104715   runs=  14 samples=   6 bovine metagenome          Scotland's Rural College;SRUC-DRIC
-  PRJEB7116     runs=   8 samples=   8 Campylobacter              CENTRE FOR GENOMIC RESEARCH (CGR)
-  PRJEB27123    runs=   4 samples=   4 human oral metagenome      Department of Dental Medicine (DENTMED),
-  PRJEB2869     runs=   4 samples=   4                            BGI-SHENZHEN
-  PRJEB123735   runs=   4 samples=   2 Arabidopsis thaliana       Gregor Mendel Institute for Molecular Pl
-  PRJEB108934   runs=   2 samples=   2 Mus musculus               Universidad de Oviedo;UNIOVI
-  PRJEB1326     runs=   2 samples=   2 Geobacter sulfurreducens P University of Massachusetts;UMASS
-  PRJEB34513    runs=   2 samples=   2 Klebsiella pneumoniae      LONDON SCHOOL OF HYGIENE AND TROPICAL ME
-  PRJEB71327    runs=   2 samples=   2 Severe acute respiratory s NORWEGIAN INSTITUTE OF PUBLIC HEALTH
+  PRJEB22684    runs=  18 samples=  18 Homo sapiens               Department of Biosciences and Nutrition;

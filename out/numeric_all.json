@@ -1,198 +1,198 @@
 {
-  "n_numeric_groups_multi_run": 13754,
-  "n_numeric_groups_cross_study": 7543,
-  "n_numeric_pairs": 66193,
-  "n_md5_pairs": 2208,
+  "n_numeric_groups_multi_run": 214173,
+  "n_numeric_groups_cross_study": 152504,
+  "n_numeric_pairs": 621559,
+  "n_md5_pairs": 16306,
   "labelled_region": "both runs ERR (submitted_md5 present for 100% of ERR)",
   "all_pairs": {
-    "tp": 2083,
-    "fp": 17610,
-    "fn": 125,
+    "tp": 12378,
+    "fp": 161450,
+    "fn": 3926,
     "precision": [
-      0.10577362514599097,
-      0.10155475584642243,
-      0.11014627138831962
+      0.0712083208689049,
+      0.07000878867454605,
+      0.07242680524255826
     ],
     "recall": [
-      0.9433876811594203,
-      0.9329556693367466,
-      0.952279512061415
+      0.7592001962708538,
+      0.7525764326257227,
+      0.7657018415512842
     ]
   },
   "cross_study_pairs": {
-    "tp": 225,
-    "fp": 5884,
+    "tp": 9428,
+    "fp": 93436,
     "fn": 0,
     "precision": [
-      0.0368309052218039,
-      0.032391388906668386,
-      0.04185257645307529
+      0.09165500077772593,
+      0.08990691067900021,
+      0.09343359016805945
     ],
     "recall": [
       1.0,
-      0.9832128424202591,
-      0.9999999999999998
+      0.9995926988426098,
+      1.0
     ]
   },
   "example_fp_cross_study": [
     {
       "pair": [
-        "ERR12417504",
-        "ERR671767"
+        "ERR2829969",
+        "ERR345392"
       ],
       "a": {
-        "study_accession": "PRJEB2141",
-        "read_count": "20",
-        "base_count": "3000",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "WGS"
+        "study_accession": "PRJEB29078",
+        "read_count": "13",
+        "base_count": "1300",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "OTHER"
       },
       "b": {
-        "study_accession": "PRJEB6893",
-        "read_count": "20",
-        "base_count": "3000",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "POOLCLONE"
-      }
-    },
-    {
-      "pair": [
-        "ERR3353085",
-        "ERR671763"
-      ],
-      "a": {
-        "study_accession": "PRJEB2136",
-        "read_count": "14",
-        "base_count": "2100",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "WGS"
-      },
-      "b": {
-        "study_accession": "PRJEB6893",
-        "read_count": "14",
-        "base_count": "2100",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "POOLCLONE"
-      }
-    },
-    {
-      "pair": [
-        "ERR12417612",
-        "ERR698286"
-      ],
-      "a": {
-        "study_accession": "PRJEB2141",
-        "read_count": "8",
-        "base_count": "1200",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "WGS"
-      },
-      "b": {
-        "study_accession": "PRJEB6893",
-        "read_count": "8",
-        "base_count": "1200",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "POOLCLONE"
-      }
-    },
-    {
-      "pair": [
-        "ERR17745583",
-        "ERR17746069"
-      ],
-      "a": {
-        "study_accession": "PRJEB124233",
-        "read_count": "90",
-        "base_count": "27090",
-        "center_name": "ETH Zurich;Food Systems Biotechnology;Annina Meyer;ETHZ-FSB-AM",
-        "library_strategy": "AMPLICON"
-      },
-      "b": {
-        "study_accession": "PRJEB124238",
-        "read_count": "90",
-        "base_count": "27090",
-        "center_name": "ETH Zurich;Food Systems Biotechnology;Annina Meyer;ETHZ-FSB-AM",
-        "library_strategy": "AMPLICON"
-      }
-    },
-    {
-      "pair": [
-        "ERR12417518",
-        "ERR698421"
-      ],
-      "a": {
-        "study_accession": "PRJEB2141",
-        "read_count": "10",
-        "base_count": "1500",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "WGS"
-      },
-      "b": {
-        "study_accession": "PRJEB6893",
-        "read_count": "10",
-        "base_count": "1500",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "POOLCLONE"
-      }
-    },
-    {
-      "pair": [
-        "ERR345148",
-        "ERR450697"
-      ],
-      "a": {
         "study_accession": "PRJEB4630",
-        "read_count": "2",
-        "base_count": "200",
-        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
-        "library_strategy": "AMPLICON"
-      },
-      "b": {
-        "study_accession": "PRJEB5758",
-        "read_count": "2",
-        "base_count": "200",
+        "read_count": "13",
+        "base_count": "1300",
         "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
         "library_strategy": "AMPLICON"
       }
     },
     {
       "pair": [
-        "ERR200328",
-        "ERR338178"
+        "ERR2057253",
+        "ERR3082473"
       ],
       "a": {
-        "study_accession": "PRJEB2846",
-        "read_count": "1150743",
-        "base_count": "230148600",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "WGS"
+        "study_accession": "PRJEB11419",
+        "read_count": "134",
+        "base_count": "20100",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
       },
       "b": {
-        "study_accession": "PRJEB3259",
-        "read_count": "1150743",
-        "base_count": "230148600",
+        "study_accession": "PRJEB2136",
+        "read_count": "134",
+        "base_count": "20100",
         "center_name": "Wellcome Sanger Institute;SC",
         "library_strategy": "WGS"
       }
     },
     {
       "pair": [
-        "ERR12417409",
-        "ERR671520"
+        "ERR2166914",
+        "ERR2734009"
+      ],
+      "a": {
+        "study_accession": "PRJEB22907",
+        "read_count": "31",
+        "base_count": "4650",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB28175",
+        "read_count": "31",
+        "base_count": "4650",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR12417355",
+        "ERR2916526"
       ],
       "a": {
         "study_accession": "PRJEB2141",
-        "read_count": "8",
-        "base_count": "1200",
+        "read_count": "38",
+        "base_count": "5700",
         "center_name": "Wellcome Sanger Institute;SC",
         "library_strategy": "WGS"
       },
       "b": {
-        "study_accession": "PRJEB6893",
-        "read_count": "8",
-        "base_count": "1200",
+        "study_accession": "PRJEB2136",
+        "read_count": "38",
+        "base_count": "5700",
         "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "POOLCLONE"
+        "library_strategy": "WGS"
+      }
+    },
+    {
+      "pair": [
+        "ERR2108303",
+        "ERR2165365"
+      ],
+      "a": {
+        "study_accession": "PRJEB22286",
+        "read_count": "19",
+        "base_count": "2850",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB22907",
+        "read_count": "19",
+        "base_count": "2850",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR1085005",
+        "ERR344909"
+      ],
+      "a": {
+        "study_accession": "PRJEB11472",
+        "read_count": "14",
+        "base_count": "1400",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB4630",
+        "read_count": "14",
+        "base_count": "1400",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR2272497",
+        "ERR2280109"
+      ],
+      "a": {
+        "study_accession": "PRJEB24652",
+        "read_count": "19",
+        "base_count": "2850",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB24771",
+        "read_count": "19",
+        "base_count": "2850",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR17739544",
+        "ERR2623275"
+      ],
+      "a": {
+        "study_accession": "PRJEB58050",
+        "read_count": "2",
+        "base_count": "500",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB27192",
+        "read_count": "2",
+        "base_count": "500",
+        "center_name": "Wellcome Sanger Institute;SC",
+        "library_strategy": "WGS"
       }
     }
   ],
@@ -200,10 +200,13 @@
   "oversized_numeric_keys": [
     {
       "key": "100000000:10100000000",
-      "n_runs": 86,
+      "n_runs": 103,
       "note": "oversized, pairs not expanded",
       "studies": [
-        "PRJNA208503"
+        "PRJEB7110",
+        "PRJNA208503",
+        "PRJNA281501",
+        "PRJNA281741"
       ]
     },
     {
@@ -216,197 +219,250 @@
     },
     {
       "key": "10000000:1500000000",
-      "n_runs": 78,
+      "n_runs": 80,
       "note": "oversized, pairs not expanded",
       "studies": [
         "PRJEB61522",
-        "PRJEB83802"
+        "PRJEB83802",
+        "PRJNA239644",
+        "PRJNA253238"
       ]
     },
     {
-      "key": "16000000:3200000000",
-      "n_runs": 153,
+      "key": "1000000:202000000",
+      "n_runs": 224,
       "note": "oversized, pairs not expanded",
       "studies": [
-        "PRJEB7172",
-        "PRJNA178784"
+        "PRJNA253820",
+        "PRJNA352795",
+        "PRJNA445436"
       ]
     },
     {
-      "key": "16000000:576000000",
-      "n_runs": 841,
+      "key": "10000:2000000",
+      "n_runs": 144,
       "note": "oversized, pairs not expanded",
       "studies": [
-        "PRJNA152609",
-        "PRJNA189955",
-        "PRJNA203121",
-        "PRJNA34535",
-        "PRJNA63443",
-        "PRJNA63447",
-        "PRJNA63471"
+        "PRJEB9337"
       ]
     },
     {
-      "key": "1:50",
-      "n_runs": 89,
+      "key": "10:1000",
+      "n_runs": 97,
       "note": "oversized, pairs not expanded",
       "studies": [
-        "PRJEB2926",
-        "PRJNA880618"
+        "PRJEB11472",
+        "PRJEB11485",
+        "PRJEB11486",
+        "PRJEB11983",
+        "PRJEB13802",
+        "PRJEB14720",
+        "PRJEB14798",
+        "PRJEB14801"
       ]
     },
     {
-      "key": "24489796:1200000004",
-      "n_runs": 79,
+      "key": "10:1500",
+      "n_runs": 249,
       "note": "oversized, pairs not expanded",
       "studies": [
-        "PRJNA230561",
-        "PRJNA236349"
+        "PRJEB10073",
+        "PRJEB11170",
+        "PRJEB11419",
+        "PRJEB12981",
+        "PRJEB14460",
+        "PRJEB14530",
+        "PRJEB14727",
+        "PRJEB17694"
       ]
     },
     {
-      "key": "2611112:470000160",
-      "n_runs": 74,
+      "key": "10:5000",
+      "n_runs": 177,
       "note": "oversized, pairs not expanded",
       "studies": [
-        "PRJNA168337"
+        "PRJEB15671",
+        "PRJEB5871",
+        "PRJEB6313",
+        "PRJEB9723",
+        "PRJNA284506",
+        "PRJNA347322",
+        "PRJNA354974",
+        "PRJNA382889"
       ]
     },
     {
-      "key": "2933334:528000120",
-      "n_runs": 107,
+      "key": "11:1100",
+      "n_runs": 80,
       "note": "oversized, pairs not expanded",
       "studies": [
-        "PRJNA187550"
+        "PRJEB11472",
+        "PRJEB11485",
+        "PRJEB11486",
+        "PRJEB11983",
+        "PRJEB14786",
+        "PRJEB14798",
+        "PRJEB14801",
+        "PRJEB14812"
       ]
     },
     {
-      "key": "2:300",
-      "n_runs": 225,
-      "note": "oversized, pairs not expanded",
-      "studies": [
-        "PRJEB2136",
-        "PRJEB2141",
-        "PRJEB30951",
-        "PRJEB6893",
-        "PRJNA505664"
-      ]
-    },
-    {
-      "key": "4000000:144000000",
-      "n_runs": 330,
-      "note": "oversized, pairs not expanded",
-      "studies": [
-        "PRJNA175822",
-        "PRJNA175842",
-        "PRJNA178579",
-        "PRJNA186696",
-        "PRJNA34535",
-        "PRJNA63471"
-      ]
-    },
-    {
-      "key": "4000000:200000000",
-      "n_runs": 270,
-      "note": "oversized, pairs not expanded",
-      "studies": [
-        "PRJNA182732",
-        "PRJNA205296",
-        "PRJNA211259",
-        "PRJNA219406"
-      ]
-    },
-    {
-      "key": "4000000:204000000",
-      "n_runs": 732,
-      "note": "oversized, pairs not expanded",
-      "studies": [
-        "PRJEB4011",
-        "PRJNA138597",
-        "PRJNA151499",
-        "PRJNA1515518",
-        "PRJNA177076",
-        "PRJNA211259",
-        "PRJNA219406",
-        "PRJNA238231"
-      ]
-    },
-    {
-      "key": "4000000:208000000",
-      "n_runs": 100,
-      "note": "oversized, pairs not expanded",
-      "studies": [
-        "PRJNA1515518",
-        "PRJNA179206"
-      ]
-    },
-    {
-      "key": "4000000:236000000",
-      "n_runs": 86,
-      "note": "oversized, pairs not expanded",
-      "studies": [
-        "PRJNA179206"
-      ]
-    },
-    {
-      "key": "4000000:304000000",
-      "n_runs": 837,
-      "note": "oversized, pairs not expanded",
-      "studies": [
-        "PRJNA177678",
-        "PRJNA206070",
-        "PRJNA471725",
-        "PRJNA545971",
-        "PRJNA545973"
-      ]
-    },
-    {
-      "key": "4000000:400000000",
-      "n_runs": 192,
-      "note": "oversized, pairs not expanded",
-      "studies": [
-        "PRJEB7565",
-        "PRJNA171703",
-        "PRJNA20583",
-        "PRJNA229675",
-        "PRJNA517420"
-      ]
-    },
-    {
-      "key": "4000000:404000000",
+      "key": "11:1650",
       "n_runs": 81,
       "note": "oversized, pairs not expanded",
       "studies": [
-        "PRJEB4978",
-        "PRJEB5853",
-        "PRJEB5867",
-        "PRJNA196121",
-        "PRJNA235153"
+        "PRJEB11170",
+        "PRJEB11419",
+        "PRJEB14460",
+        "PRJEB14530",
+        "PRJEB17694",
+        "PRJEB18947",
+        "PRJEB20486",
+        "PRJEB22267"
       ]
     },
     {
-      "key": "4000000:784000000",
-      "n_runs": 801,
+      "key": "11:5500",
+      "n_runs": 190,
       "note": "oversized, pairs not expanded",
       "studies": [
-        "PRJEB7446"
+        "PRJEB15671",
+        "PRJEB6313",
+        "PRJNA362643",
+        "PRJNA454490",
+        "PRJNA492899"
       ]
     },
     {
-      "key": "4000000:800000000",
-      "n_runs": 563,
+      "key": "12:1200",
+      "n_runs": 71,
       "note": "oversized, pairs not expanded",
       "studies": [
-        "PRJNA173077",
-        "PRJNA192697",
-        "PRJNA215145",
-        "PRJNA215146",
-        "PRJNA224158",
-        "PRJNA231727",
-        "PRJNA232723",
-        "PRJNA246234"
+        "PRJEB11472",
+        "PRJEB11485",
+        "PRJEB11486",
+        "PRJEB11983",
+        "PRJEB13802",
+        "PRJEB14798",
+        "PRJEB15144",
+        "PRJEB15194"
+      ]
+    },
+    {
+      "key": "12:1800",
+      "n_runs": 204,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJDB4972",
+        "PRJEB11170",
+        "PRJEB11419",
+        "PRJEB14460",
+        "PRJEB14674",
+        "PRJEB17694",
+        "PRJEB18133",
+        "PRJEB18568"
+      ]
+    },
+    {
+      "key": "12:6000",
+      "n_runs": 144,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB15671",
+        "PRJEB6313",
+        "PRJNA294421",
+        "PRJNA347322",
+        "PRJNA492899",
+        "PRJNA517146",
+        "PRJNA545347"
+      ]
+    },
+    {
+      "key": "13:1950",
+      "n_runs": 70,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB10073",
+        "PRJEB11419",
+        "PRJEB14460",
+        "PRJEB14674",
+        "PRJEB17694",
+        "PRJEB18736",
+        "PRJEB18947",
+        "PRJEB22286"
+      ]
+    },
+    {
+      "key": "13:6500",
+      "n_runs": 148,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB15671",
+        "PRJEB6313",
+        "PRJNA1372499",
+        "PRJNA1390442",
+        "PRJNA217938",
+        "PRJNA362643",
+        "PRJNA374960",
+        "PRJNA492899"
+      ]
+    },
+    {
+      "key": "14:2100",
+      "n_runs": 187,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB11419",
+        "PRJEB14460",
+        "PRJEB15612",
+        "PRJEB18947",
+        "PRJEB20486",
+        "PRJEB2136",
+        "PRJEB2141",
+        "PRJEB22267"
+      ]
+    },
+    {
+      "key": "14:7000",
+      "n_runs": 97,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB6313",
+        "PRJNA393088",
+        "PRJNA397167",
+        "PRJNA492899"
+      ]
+    },
+    {
+      "key": "15:2250",
+      "n_runs": 68,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB11419",
+        "PRJEB14460",
+        "PRJEB20486",
+        "PRJEB22907",
+        "PRJEB22938",
+        "PRJEB24771",
+        "PRJEB24881",
+        "PRJEB27575"
+      ]
+    },
+    {
+      "key": "15:7500",
+      "n_runs": 112,
+      "note": "oversized, pairs not expanded",
+      "studies": [
+        "PRJEB15671",
+        "PRJEB32101",
+        "PRJNA1372499",
+        "PRJNA217938",
+        "PRJNA347322",
+        "PRJNA350002",
+        "PRJNA397167",
+        "PRJNA454490"
       ]
     }
   ],
-  "n_oversized_numeric_keys": 26
+  "n_oversized_numeric_keys": 156
 }

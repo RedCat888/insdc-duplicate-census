@@ -1,0 +1,36 @@
+=== rebuilding key streams with the csv-quoting fix ===
+  exploratory rows	6827778
+  exploratory kept	821315
+  exploratory dropped_no_study	26871
+  exploratory dropped_low_share	17050
+  exploratory md5_parts	312613
+  exploratory dropped_degen	0
+  exploratory dropped_small	46782
+  exploratory no_md5	538077
+  exploratory bad_files	0
+  exploratory num_keys	735557
+  heldout rows	6827778
+  heldout kept	5967854
+  heldout dropped_no_study	11738
+  heldout dropped_low_share	436985
+  heldout md5_parts	2339433
+  heldout dropped_degen	0
+  heldout dropped_small	302751
+  heldout no_md5	4355060
+  heldout bad_files	0
+  heldout num_keys	5349708
+  all rows	6827778
+  all kept	6789169
+  all dropped_no_study	38609
+  all dropped_low_share	454035
+  all md5_parts	2652046
+  all dropped_degen	0
+  all dropped_small	349533
+  all no_md5	4893137
+  all bad_files	0
+  all num_keys	6085265
+=== event census ===
+=== within-study ===
+=== numeric channel ===
+=== identity conflicts ===
+cross-study candidate pairs: 25186 (md5 12991, numeric 12195)

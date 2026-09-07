@@ -17,12 +17,19 @@ def wilson(k, n, z=1.96):
     h = z*math.sqrt(p*(1-p)/n + z*z/(4*n*n)) / d
     return (p, max(0.0, c-h), min(1.0, c+h))
 
+MALFORMED = [0]
+
 def groups(path, keycol=0, metastart=1):
-    """Yield (key, [rowdicts]) from a key-sorted TSV."""
+    """Yield (key, [rowdicts]) from a key-sorted TSV.
+    Lines with too few fields are skipped and counted in MALFORMED rather than producing a
+    partial rowdict (which used to surface as a KeyError deep in an analysis)."""
     cur, buf = None, []
-    with open(path) as fh:
+    with open(path, errors="replace") as fh:
         for line in fh:
             p = line.rstrip("\n").split("\t")
+            if len(p) < metastart + len(COLS):
+                MALFORMED[0] += 1
+                continue
             k = p[keycol]
             meta = p[metastart:]
             d = dict(zip(COLS, meta[-len(COLS):]))

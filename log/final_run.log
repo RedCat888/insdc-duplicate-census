@@ -1,0 +1,44 @@
+=== [A] validate every file on disk against ENA's own counts, and measure coverage ===
+
+checked 132  ok 132  BAD 0
+rows in verified chunks: 6,827,778
+archive total per ENA: 43,824,523
+coverage: 6,827,778 / 43,824,523 = 15.5798%  (shortfall 36,996,745)
+coverage: 0.15579811330747398 rows: 6827778 of 43824523
+=== [C] build key streams ===
+  exploratory rows	6788960
+  exploratory kept	821315
+  exploratory dropped_no_study	26871
+  exploratory dropped_low_share	17050
+  exploratory md5_parts	312613
+  exploratory dropped_degen	0
+  exploratory dropped_small	46782
+  exploratory no_md5	538077
+  exploratory bad_files	0
+  exploratory num_keys	735557
+  heldout rows	6788960
+  heldout kept	5929140
+  heldout dropped_no_study	11634
+  heldout dropped_low_share	436269
+  heldout md5_parts	2337936
+  heldout dropped_degen	0
+  heldout dropped_small	302501
+  heldout no_md5	4317680
+  heldout bad_files	0
+  heldout num_keys	5314838
+  all rows	6788960
+  all kept	6750455
+  all dropped_no_study	38505
+  all dropped_low_share	453319
+  all md5_parts	2650549
+  all dropped_degen	0
+  all dropped_small	349283
+  all no_md5	4855757
+  all bad_files	0
+  all num_keys	6050395
+=== [D] event census: exploratory (seen) then HELD OUT then all ===
+  exploratory -> out/events2_exploratory.json
+  heldout -> out/events2_heldout.json
+  all -> out/events2_all.json
+=== [E] within-study sample duplication ===
+=== [F] numeric channel calibration against md5 truth ===

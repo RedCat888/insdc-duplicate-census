@@ -10,9 +10,11 @@ behind published *Nature* and *Science* papers; the checksum field that would re
 
 ## Why nobody has looked
 ENA regenerates FASTQ from its archived object and writes the run accession into every read
-header, so two byte-identical datasets receive *different* `fastq_md5`. Measured directly:
-across all 138,552 checksum-bearing runs released in 2012, there were 138,552 distinct
-`fastq_md5` values — not one collision. The one field that does work, `submitted_md5` (the
+header, so two byte-identical datasets receive *different* `fastq_md5`. Measured directly on a freshly fetched window
+(`first_public` in [2013-05-01, 2013-06-01), 15,999 runs): 14,409 runs carry a
+`fastq_md5`, yielding 22,044 distinct checksum values and
+**0 collisions**. The raw window is kept at
+`out/window_2013-05_allfields.tsv` so the count can be recomputed. The one field that does work, `submitted_md5` (the
 checksum of the file as the submitter uploaded it), is present for 100% of ENA-submitted (ERR)
 runs and ~0% of SRR/DRR, and is not what anyone reaches for.
 Demonstrated on a single pair: ERR011033 and ERR208589 share `submitted_md5`
@@ -24,7 +26,21 @@ Demonstrated on a single pair: ERR011033 and ERR208589 share `submitted_md5`
 Every case below was checked against the actual data, not the metadata: by downloading both
 files and hashing them locally, by comparing NCBI's exact A/C/G/T/N base composition, by
 comparing the first 2,000 read sequences with headers ignored, or by HTTP range-checking
-multi-gigabyte files. 12 of 12 organism-level conflicts confirmed, 0 refuted.
+multi-gigabyte files.
+
+At full scale the census finds 4,328 cross-study pairs whose two deposits declare
+different biological identities, collapsing to **278 distinct study-pairs** — of which
+**67 are organism-level** (different species or wider) and 211 are environment-label conflicts
+between two different metagenome types. A seeded random sample of 150 of the pairs that
+needed confirmation was checked against NCBI's exact base composition:
+**146 confirmed, 2 refuted, 2 with no fingerprint available** — a confirmation rate of
+98.6% [95.2, 99.6]. The two refutations matter: the check discriminates rather
+than rubber-stamps. Twelve organism-level conflicts were additionally confirmed exhaustively,
+by read-sequence comparison as well as composition, and all twelve held.
+
+Broken down by how far apart the two declared identities are, the 67 organism-level study-pairs
+include 33 that name two different species of the same genus and
+37 that disagree at genus level or above.
 
 **1. Two named *Staphylococcus* isolates with the same reads (JCVI, public since 2010).**
 `SRR070588` is deposited as *Staphylococcus lugdunensis* VCU148 (BioProject PRJNA53779,

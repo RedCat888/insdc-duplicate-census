@@ -1,0 +1,14 @@
+543 windows still missing
+xargs: ./src/pull_one.sh: terminated with signal 15; aborting
+xargs: ./src/pull_one.sh: terminated with signal 15; aborting
+xargs: ./src/pull_one.sh: terminated with signal 15; aborting
+xargs: ./src/pull_one.sh: terminated with signal 15; aborting
+xargs: ./src/pull_one.sh: terminated with signal 15; aborting
+w2019-01-21 OK 12308
+w2019-01-16 OK 19878
+w2019-01-11 OK 19528
+xargs: ./src/pull_one.sh: terminated with signal 15; aborting
+xargs: ./src/pull_one.sh: terminated with signal 15; aborting
+xargs: ./src/pull_one.sh: terminated with signal 15; aborting
+xargs: ./src/pull_one.sh: terminated with signal 15; aborting
+TODO2_DONE

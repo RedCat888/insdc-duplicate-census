@@ -40,3 +40,11 @@ single collision. The signal lives only in `submitted_md5`, which is present for
 3. `log/03-worklog.md` — what failed, including a false refutation that took an hour to
    understand.
 4. `REPORT.md` — the finding.
+
+## Superseded files kept for the record
+- `src/pull_ena.sh` — the original puller. Kept because three data-integrity bugs are described
+  against it in `log/03-worklog.md`; `src/pull_one.sh` is the one that is actually used.
+- `src/taxonomy.py` — NCBI-taxdump-based resolver, abandoned when the taxdump download kept
+  truncating. `src/taxonomy_ena.py` (ENA REST + local cache) replaced it.
+- `src/verify_download.py` — the first, size-biased verification pass; `src/verify_events.py`
+  replaced it with event-stratified sampling and a read-level fallback.

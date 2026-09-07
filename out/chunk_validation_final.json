@@ -313,6 +313,12 @@
    "ok": true
   },
   {
+   "label": "w2014-04-01",
+   "rows": 55181,
+   "api_count": 55181,
+   "ok": true
+  },
+  {
    "label": "w2014-05-01",
    "rows": 19486,
    "api_count": 19486,
@@ -322,6 +328,30 @@
    "label": "w2014-06-01",
    "rows": 29366,
    "api_count": 29366,
+   "ok": true
+  },
+  {
+   "label": "w2014-07-01",
+   "rows": 46675,
+   "api_count": 46675,
+   "ok": true
+  },
+  {
+   "label": "w2014-08-01",
+   "rows": 52715,
+   "api_count": 52715,
+   "ok": true
+  },
+  {
+   "label": "w2014-09-01",
+   "rows": 43665,
+   "api_count": 43665,
+   "ok": true
+  },
+  {
+   "label": "w2014-10-01",
+   "rows": 53423,
+   "api_count": 53423,
    "ok": true
   },
   {
@@ -340,6 +370,306 @@
    "label": "w2015-01-01",
    "rows": 20705,
    "api_count": 20705,
+   "ok": true
+  },
+  {
+   "label": "w2015-02-01",
+   "rows": 40335,
+   "api_count": 40335,
+   "ok": true
+  },
+  {
+   "label": "w2015-03-01",
+   "rows": 108292,
+   "api_count": 108292,
+   "ok": true
+  },
+  {
+   "label": "w2015-04-01",
+   "rows": 30746,
+   "api_count": 30746,
+   "ok": true
+  },
+  {
+   "label": "w2015-05-01",
+   "rows": 40735,
+   "api_count": 40735,
+   "ok": true
+  },
+  {
+   "label": "w2015-06-01",
+   "rows": 145414,
+   "api_count": 145414,
+   "ok": true
+  },
+  {
+   "label": "w2015-07-01",
+   "rows": 43464,
+   "api_count": 43464,
+   "ok": true
+  },
+  {
+   "label": "w2015-08-01",
+   "rows": 36300,
+   "api_count": 36300,
+   "ok": true
+  },
+  {
+   "label": "w2015-09-01",
+   "rows": 42970,
+   "api_count": 42970,
+   "ok": true
+  },
+  {
+   "label": "w2015-10-01",
+   "rows": 70262,
+   "api_count": 70262,
+   "ok": true
+  },
+  {
+   "label": "w2015-11-01",
+   "rows": 90571,
+   "api_count": 90571,
+   "ok": true
+  },
+  {
+   "label": "w2015-12-01",
+   "rows": 55638,
+   "api_count": 55638,
+   "ok": true
+  },
+  {
+   "label": "w2016-01-01",
+   "rows": 71086,
+   "api_count": 71086,
+   "ok": true
+  },
+  {
+   "label": "w2016-02-01",
+   "rows": 74499,
+   "api_count": 74499,
+   "ok": true
+  },
+  {
+   "label": "w2016-03-01",
+   "rows": 82293,
+   "api_count": 82293,
+   "ok": true
+  },
+  {
+   "label": "w2016-04-01",
+   "rows": 68793,
+   "api_count": 68793,
+   "ok": true
+  },
+  {
+   "label": "w2016-05-01",
+   "rows": 100345,
+   "api_count": 100345,
+   "ok": true
+  },
+  {
+   "label": "w2016-06-01",
+   "rows": 126460,
+   "api_count": 126460,
+   "ok": true
+  },
+  {
+   "label": "w2016-07-01",
+   "rows": 103156,
+   "api_count": 103156,
+   "ok": true
+  },
+  {
+   "label": "w2016-08-01",
+   "rows": 167301,
+   "api_count": 167301,
+   "ok": true
+  },
+  {
+   "label": "w2016-09-01",
+   "rows": 107231,
+   "api_count": 107231,
+   "ok": true
+  },
+  {
+   "label": "w2016-10-01",
+   "rows": 99936,
+   "api_count": 99936,
+   "ok": true
+  },
+  {
+   "label": "w2016-11-01",
+   "rows": 72906,
+   "api_count": 72906,
+   "ok": true
+  },
+  {
+   "label": "w2016-12-01",
+   "rows": 69052,
+   "api_count": 69052,
+   "ok": true
+  },
+  {
+   "label": "w2017-01-01",
+   "rows": 82683,
+   "api_count": 82683,
+   "ok": true
+  },
+  {
+   "label": "w2017-02-01",
+   "rows": 88808,
+   "api_count": 88808,
+   "ok": true
+  },
+  {
+   "label": "w2017-03-01",
+   "rows": 89438,
+   "api_count": 89438,
+   "ok": true
+  },
+  {
+   "label": "w2017-04-01",
+   "rows": 86564,
+   "api_count": 86564,
+   "ok": true
+  },
+  {
+   "label": "w2017-05-01",
+   "rows": 94823,
+   "api_count": 94823,
+   "ok": true
+  },
+  {
+   "label": "w2017-06-01",
+   "rows": 88396,
+   "api_count": 88396,
+   "ok": true
+  },
+  {
+   "label": "w2017-07-01",
+   "rows": 88226,
+   "api_count": 88226,
+   "ok": true
+  },
+  {
+   "label": "w2017-08-01",
+   "rows": 58519,
+   "api_count": 58519,
+   "ok": true
+  },
+  {
+   "label": "w2017-09-01",
+   "rows": 43519,
+   "api_count": 43519,
+   "ok": true
+  },
+  {
+   "label": "w2017-10-01",
+   "rows": 94889,
+   "api_count": 94889,
+   "ok": true
+  },
+  {
+   "label": "w2017-11-01",
+   "rows": 203814,
+   "api_count": 203814,
+   "ok": true
+  },
+  {
+   "label": "w2017-12-01",
+   "rows": 227022,
+   "api_count": 227022,
+   "ok": true
+  },
+  {
+   "label": "w2018-01-01",
+   "rows": 111676,
+   "api_count": 111676,
+   "ok": true
+  },
+  {
+   "label": "w2018-02-01",
+   "rows": 127154,
+   "api_count": 127154,
+   "ok": true
+  },
+  {
+   "label": "w2018-03-01",
+   "rows": 235076,
+   "api_count": 235076,
+   "ok": true
+  },
+  {
+   "label": "w2018-04-01",
+   "rows": 140228,
+   "api_count": 140228,
+   "ok": true
+  },
+  {
+   "label": "w2018-05-01",
+   "rows": 129442,
+   "api_count": 129442,
+   "ok": true
+  },
+  {
+   "label": "w2018-06-01",
+   "rows": 182916,
+   "api_count": 182916,
+   "ok": true
+  },
+  {
+   "label": "w2018-07-01",
+   "rows": 157563,
+   "api_count": 157563,
+   "ok": true
+  },
+  {
+   "label": "w2018-08-01",
+   "rows": 167091,
+   "api_count": 167091,
+   "ok": true
+  },
+  {
+   "label": "w2018-09-01",
+   "rows": 228595,
+   "api_count": 228595,
+   "ok": true
+  },
+  {
+   "label": "w2018-10-01",
+   "rows": 162785,
+   "api_count": 162785,
+   "ok": true
+  },
+  {
+   "label": "w2018-11-01",
+   "rows": 167157,
+   "api_count": 167157,
+   "ok": true
+  },
+  {
+   "label": "w2018-12-01",
+   "rows": 226725,
+   "api_count": 226725,
+   "ok": true
+  },
+  {
+   "label": "w2019-01-11",
+   "rows": 19528,
+   "api_count": 19528,
+   "ok": true
+  },
+  {
+   "label": "w2019-01-16",
+   "rows": 19878,
+   "api_count": 19878,
+   "ok": true
+  },
+  {
+   "label": "w2019-01-21",
+   "rows": 12308,
+   "api_count": 12308,
    "ok": true
   },
   {
@@ -464,9 +794,9 @@
   }
  ],
  "bad": [],
- "n_checked": 77,
+ "n_checked": 132,
  "n_bad": 0,
- "rows_total": 1393511,
+ "rows_total": 6827778,
  "archive_total": 43824523,
- "coverage": 0.031797516655229764
+ "coverage": 0.15579811330747398
 }

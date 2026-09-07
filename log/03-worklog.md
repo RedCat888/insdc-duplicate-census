@@ -129,3 +129,41 @@
   independent of the window semantics: **the sum of all window row counts must equal ENA's
   count for the whole archive (43,824,523)**. Per-window count agreement is necessary but,
   as bug 3 shows, nowhere near sufficient.
+- **Transient truncation is real but retries fix it.** Five census windows failed their count
+  check on the first pass: one with `curl rc=92` (HTTP/2 stream error), one 7% short
+  (155,394 of 167,301), and three short by exactly 5 rows. The "exactly 5" pattern looked
+  systematic and worth checking before loosening the acceptance rule, so w2018-07-01 was
+  re-fetched cleanly and counted three ways: 157,563 from the count endpoint, 157,563 newlines
+  after the header, 157,563 parsed CSV rows, 157,563 distinct run accessions. It was transient
+  loss, not an endpoint disagreement. The strict equality check stays; failures are retried.
+- **Two workers fetched the same five windows simultaneously** after the 2019+ queue resumed on
+  the PRE_DONE marker while a targeted retry was already running. Harmless (temp files are
+  PID-unique and either copy is valid) but it halved the useful bandwidth, so the duplicates
+  were killed. Worth noting because throughput, not compute, was the binding constraint on this
+  whole project: ENA delivers ~48 kB/s per connection and ~150-170 kB/s in aggregate no matter
+  how many connections are opened.
+- **FOURTH silent-corruption bug, and the subtlest: a stray double quote made csv swallow rows.**
+  ENA emits some `center_name` values that begin with a lone `"` — e.g. the raw row for
+  SRR1979557 ends `...\t"George Mason University\t\t2015-06-05\n`. Python's `csv.DictReader`
+  treats `"` as a quote character by default even with `delimiter='\t'`, so it opened a quoted
+  field and kept consuming *following lines* looking for a closing quote, merging many source
+  records into one. 1,820 of 6,827,910 downloaded lines (0.027%) contain a double quote, and
+  the damage propagated far past them: 38,894 of 6,089,213 numeric key lines (0.64%) came out
+  with the wrong number of fields, which is how it was found - `numeric_channel.py` died with
+  `KeyError: 'run_accession'`.
+  Why this one is dangerous: a merged record can still produce a *well-formed* output line
+  with silently wrong values. The md5 key stream had 0 malformed lines, which proves nothing
+  about whether its records were mis-parsed. So the fix is applied and EVERY analysis is
+  recomputed, not just the one that crashed.
+  Fix: `csv.DictReader(..., quoting=csv.QUOTE_NONE)`, newline/CR stripped from field values,
+  and `census.groups()` now skips and counts short lines instead of yielding a partial row
+  that explodes several stages later.
+- **Taxonomy resolution stalled on 404s.** `identity_conflicts.py` sat at 0% CPU for ~40 minutes
+  after the "4,328 conflicting pairs" line. Cause: `taxonomy_ena.rec()` retried three times with
+  backoff on ANY exception, and an unknown tax_id returns HTTP 404 — a definitive answer — so
+  every unknown id cost ~6 s. Fixed by breaking immediately on 400/404: a known id now resolves
+  from cache in 0.0 s and an unknown one costs 0.51 s. Lookup rate went from ~1 per 6 s to ~4/s.
+- **NCBI rate-limits hard under sustained per-run XML fetching**, exactly as in the earlier OEIS
+  work. The 150-pair confirmation sample slowed from ~25 pairs per 30 s to ~25 pairs per 15 min
+  partway through. It was left to finish rather than killed, because `identity_conflicts.py`
+  only writes its results at the end — a design flaw worth fixing before any larger sample.

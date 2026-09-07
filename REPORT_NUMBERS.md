@@ -3,37 +3,37 @@
 Generated 2026-09-06 from the result files in `out/`. Every figure below is read from those files by `src/make_report.py`.
 
 ## Data completeness
-- Windows checked against ENA's own counts: **77**, passing exactly: **77**, failing: **0**.
-- Runs carrying a usable submitter checksum (the exact channel): **412,439**; distinct checksums **522,738**.
-- Coverage: **1,393,511** runs in verified windows out of **43,824,523** in the whole archive (**3.18%**).
+- Windows checked against ENA's own counts: **132**, passing exactly: **132**, failing: **0**.
+- Runs carrying a usable submitter checksum (the exact channel): **1,873,023**; distinct checksums **2,628,784**.
+- Coverage: **6,827,778** runs in verified windows out of **43,824,523** in the whole archive (**15.58%**).
 
 ## Result 1 — the census (exact channel, complete for ENA-submitted runs)
-- **exploratory (first_public < 2014-09-01)**: 251,040 checksum-bearing runs -> 649 files present under more than one run; 177 of those span more than one study; **12 duplication events** over 26 studies; 227 runs (0.0904% [0.0794, 0.1030] of checksum-bearing runs).
-  - redundant storage: **0.662 TB** total (0.2134 TB across studies, 0.4484 TB within a study).
-  - events spanning more than one institution (normalised names): 2; more than one taxon: 2; largest event: 4 studies / 64 shared files.
-  - null test (study labels permuted, sizes preserved): observed 178 of 649 duplicate groups span studies; under permutation 645.2. Duplicates are far more concentrated inside single studies than chance, so the cross-study set is a genuine tail rather than an artefact of study sizes.
-- **HELD OUT (first_public >= 2014-09-01)**: 161,399 checksum-bearing runs -> 3,281 files present under more than one run; 31 of those span more than one study; **3 duplication events** over 7 studies; 32 runs (0.0198% [0.0140, 0.0280] of checksum-bearing runs).
-  - redundant storage: **4.461 TB** total (0.0013 TB across studies, 4.4602 TB within a study).
-  - events spanning more than one institution (normalised names): 0; more than one taxon: 0; largest event: 3 studies / 28 shared files.
-  - null test (study labels permuted, sizes preserved): observed 31 of 3,281 duplicate groups span studies; under permutation 3249.0. Duplicates are far more concentrated inside single studies than chance, so the cross-study set is a genuine tail rather than an artefact of study sizes.
-- **whole archive**: 412,439 checksum-bearing runs -> 4,122 files present under more than one run; 400 of those span more than one study; **17 duplication events** over 37 studies; 451 runs (0.1093% [0.0997, 0.1199] of checksum-bearing runs).
-  - redundant storage: **5.126 TB** total (0.2176 TB across studies, 4.9086 TB within a study).
-  - events spanning more than one institution (normalised names): 2; more than one taxon: 2; largest event: 4 studies / 190 shared files.
-  - null test (study labels permuted, sizes preserved): observed 401 of 4,122 duplicate groups span studies; under permutation 4106.6. Duplicates are far more concentrated inside single studies than chance, so the cross-study set is a genuine tail rather than an artefact of study sizes.
+- **exploratory (first_public < 2014-09-01)**: 281,702 checksum-bearing runs -> 653 files present under more than one run; 177 of those span more than one study; **12 duplication events** over 27 studies; 229 runs (0.0813% [0.0714, 0.0925] of checksum-bearing runs).
+  - redundant storage: **0.701 TB** total (0.2148 TB across studies, 0.4861 TB within a study).
+  - events spanning more than one institution (normalised names): 2; more than one taxon: 2; largest event: 5 studies / 64 shared files.
+  - null test (study labels permuted, sizes preserved): observed 178 of 653 duplicate groups span studies; under permutation 650.0. Duplicates are far more concentrated inside single studies than chance, so the cross-study set is a genuine tail rather than an artefact of study sizes.
+- **HELD OUT (first_public >= 2014-09-01)**: 1,591,321 checksum-bearing runs -> 17,067 files present under more than one run; 12,322 of those span more than one study; **179 duplication events** over 441 studies; 15,888 runs (0.9984% [0.9831, 1.0140] of checksum-bearing runs).
+  - redundant storage: **9.769 TB** total (3.5417 TB across studies, 6.2277 TB within a study).
+  - events spanning more than one institution (normalised names): 28; more than one taxon: 53; largest event: 10 studies / 2,058 shared files.
+  - null test (study labels permuted, sizes preserved): observed 12,322 of 17,067 duplicate groups span studies; under permutation 16966.6. Duplicates are far more concentrated inside single studies than chance, so the cross-study set is a genuine tail rather than an artefact of study sizes.
+- **whole archive**: 1,873,023 checksum-bearing runs -> 22,315 files present under more than one run; 17,200 of those span more than one study; **201 duplication events** over 507 studies; 25,082 runs (1.3391% [1.3228, 1.3557] of checksum-bearing runs).
+  - redundant storage: **10.826 TB** total (4.1151 TB across studies, 6.7105 TB within a study).
+  - events spanning more than one institution (normalised names): 31; more than one taxon: 59; largest event: 20 studies / 5,628 shared files.
+  - null test (study labels permuted, sizes preserved): observed 17,201 of 22,315 duplicate groups span studies; under permutation 22215.8. Duplicates are far more concentrated inside single studies than chance, so the cross-study set is a genuine tail rather than an artefact of study sizes.
 
 ## Result 2 — within-study sample duplication
-- 424 checksum groups join runs that sit in the SAME study under DIFFERENT BioSample accessions, across **23 studies** and 450 runs (0.1091% [0.0995, 0.1197] of checksum-bearing runs).
+- 1,165 checksum groups join runs that sit in the SAME study under DIFFERENT BioSample accessions, across **129 studies** and 1,474 runs (0.0787% [0.0748, 0.0828] of checksum-bearing runs).
+  - `PRJEB27984`: 192 runs / 192 BioSamples involved — Mus musculus, European Bioinformatics Institute;Karolinska Institu
+  - `PRJEB19206`: 156 runs / 156 BioSamples involved — Campylobacter coli, UNIVERSITY OF ABERDEEN
   - `PRJEB6072`: 122 runs / 122 BioSamples involved — Homo sapiens, HUBRECHT INSTITUTE, UTRECHT, THE NETHERLANDS
   - `PRJEB3197`: 112 runs / 112 BioSamples involved — Canis lupus, European Bioinformatics Institute;Princeton Universi
+  - `PRJEB13000`: 78 runs / 78 BioSamples involved — Homo sapiens, European Bioinformatics Institute;WIS
   - `PRJEB107617`: 68 runs / 68 BioSamples involved — synthetic metagenome, WAGENINGEN UNIVERSITY, LABORATORY OF MICROBIOLOGY
+  - `PRJEB9654`: 54 runs / 54 BioSamples involved — soil metagenome, NEIKER TECNALIA
   - `PRJEB6521`: 42 runs / 42 BioSamples involved — Homo sapiens, ExpKirUU
-  - `PRJEB51827`: 24 runs / 12 BioSamples involved — Triticum aestivum, Earlham Institute
-  - `PRJEB8503`: 24 runs / 24 BioSamples involved — Homo sapiens, AstraZeneca;AZ
-  - `PRJEB104715`: 14 runs / 6 BioSamples involved — bovine metagenome, Scotland's Rural College;SRUC-DRIC
-  - `PRJEB7116`: 8 runs / 8 BioSamples involved — Campylobacter, CENTRE FOR GENOMIC RESEARCH (CGR)
 
 ## Result 3 — the numeric channel, calibrated not assumed
-- Against the ERR labelled region (where submitter checksums give ground truth), cross-study pairs: precision 3.6831% [3.2391, 4.1853], recall 100.0000% [98.3213, 100.0000] (TP 225, FP 5,884, FN 0).
+- Against the ERR labelled region (where submitter checksums give ground truth), cross-study pairs: precision 9.1655% [8.9907, 9.3434], recall 100.0000% [99.9593, 100.0000] (TP 9,428, FP 93,436, FN 0).
 - It is therefore used only to generate candidates; every claim from it is confirmed against NCBI's exact base composition or by comparing reads.
 
 ## Result 4 — individually verified cases

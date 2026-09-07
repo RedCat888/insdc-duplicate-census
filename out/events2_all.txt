@@ -1,75 +1,87 @@
 {
   "label": "all",
-  "n_runs_with_key": 412439,
-  "n_md5_keys": 522738,
-  "n_groups_multi_run": 4122,
-  "n_groups_cross_study": 400,
+  "n_runs_with_key": 1873023,
+  "n_md5_keys": 2628784,
+  "n_groups_multi_run": 22315,
+  "n_groups_cross_study": 17200,
   "n_groups_same_submission_dropped": 1,
-  "n_runs_in_dup_group": 4360,
-  "n_runs_in_cross_study_event": 451,
+  "n_runs_in_dup_group": 30938,
+  "n_runs_in_cross_study_event": 25082,
   "frac_runs_in_dup_group": [
-    0.01057126023484685,
-    0.010263659697971493,
-    0.010887978105117485
+    0.016517682911528584,
+    0.01633613862759364,
+    0.016701210451258986
   ],
   "frac_runs_in_cross_study_event": [
-    0.0010934950380541123,
-    0.0009971689461068865,
-    0.0011991150201414924
+    0.013391186333536748,
+    0.013227567604389402,
+    0.01355680114344179
   ],
-  "redundant_bytes": 5126161458679,
-  "redundant_TB": 5.126,
-  "redundant_cross_study_TB": 0.2176,
-  "redundant_within_study_TB": 4.9086,
-  "bytes_in_dup_groups_TB": 9.903,
-  "n_events": 17,
-  "n_studies_involved": 37,
-  "events_cross_center": 2,
-  "events_cross_taxon": 2,
-  "events_cross_strategy": 2,
-  "events_cross_platform": 0,
-  "largest_event_studies": 4,
-  "largest_event_files": 190,
+  "redundant_bytes": 10825600264571,
+  "redundant_TB": 10.826,
+  "redundant_cross_study_TB": 4.1151,
+  "redundant_within_study_TB": 6.7105,
+  "bytes_in_dup_groups_TB": 20.977,
+  "n_events": 201,
+  "n_studies_involved": 507,
+  "events_cross_center": 31,
+  "events_cross_taxon": 59,
+  "events_cross_strategy": 24,
+  "events_cross_platform": 1,
+  "largest_event_studies": 20,
+  "largest_event_files": 5628,
   "event_size_hist": {
-    "2": 15,
-    "3": 1,
-    "4": 1
+    "10": 2,
+    "4": 7,
+    "3": 21,
+    "2": 160,
+    "9": 1,
+    "6": 4,
+    "5": 5,
+    "8": 1
   },
   "group_size_hist": {
-    "2": 4107,
-    "3": 3,
-    "4": 12
+    "2": 21632,
+    "3": 634,
+    "4": 43,
+    "5": 3,
+    "6": 2,
+    "10": 1
   },
   "shuffle_null": {
-    "observed_cross_study_groups": 401,
+    "observed_cross_study_groups": 17201,
     "null_draws": [
-      4111,
-      4109,
-      4113,
-      4100,
-      4100
+      22205,
+      22222,
+      22205,
+      22218,
+      22229
     ],
-    "null_mean": 4106.6,
-    "n_multi_run_groups": 4122
+    "null_mean": 22215.8,
+    "n_multi_run_groups": 22315
   },
   "events_by_year_of_last_deposit": {
     "2010": 1,
     "2011": 3,
     "2012": 3,
     "2013": 4,
-    "2014": 3,
-    "2015": 1,
-    "2019": 1,
-    "2021": 1
+    "2014": 10,
+    "2015": 17,
+    "2016": 34,
+    "2017": 41,
+    "2018": 78,
+    "2019": 8,
+    "2021": 1,
+    "2026": 1
   },
   "frac_events_cross_center": [
-    0.11764705882352941,
-    0.03287908001292092,
-    0.3433684249770991
+    0.15422885572139303,
+    0.11082992909236608,
+    0.21059696856904644
   ],
   "frac_events_cross_taxon": [
-    0.11764705882352941,
-    0.03287908001292092,
-    0.3433684249770991
+    0.2935323383084577,
+    0.23492218431930822,
+    0.3598866826295928
   ]
 }

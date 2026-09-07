@@ -10,6 +10,8 @@ python3 src/make_report.py > /dev/null
   echo; echo "---"; echo
   cat REPORT_CRITICISM.md
   echo; echo "---"; echo
+  cat log/05-hypothesis-verdict.md
+  echo; echo "---"; echo
   echo "## Reproducing this"
   echo '```bash'
   echo './run_all.sh'

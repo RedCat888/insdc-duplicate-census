@@ -1,0 +1,6 @@
+attempt: 3 census windows still missing
+w2015-06-01 OK 145414
+w2018-12-01 OK 226725
+w2018-09-01 OK 228595
+attempt: 0 census windows still missing
+./src/pull_until_complete.sh:16: bad math expression: operator expected at `0'

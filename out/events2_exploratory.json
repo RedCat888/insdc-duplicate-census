@@ -1,54 +1,54 @@
 {
   "label": "exploratory",
-  "n_runs_with_key": 251040,
-  "n_md5_keys": 277436,
-  "n_groups_multi_run": 649,
+  "n_runs_with_key": 281702,
+  "n_md5_keys": 311957,
+  "n_groups_multi_run": 653,
   "n_groups_cross_study": 177,
   "n_groups_same_submission_dropped": 1,
-  "n_runs_in_dup_group": 849,
-  "n_runs_in_cross_study_event": 227,
+  "n_runs_in_dup_group": 857,
+  "n_runs_in_cross_study_event": 229,
   "frac_runs_in_dup_group": [
-    0.003381931166347992,
-    0.0031622978484913975,
-    0.0036167634865865786
+    0.0030422219224570646,
+    0.0028455136314912634,
+    0.0032524841602591796
   ],
   "frac_runs_in_cross_study_event": [
-    0.0009042383683875079,
-    0.0007940499319719268,
-    0.0010297016370050195
+    0.00081291577624582,
+    0.0007142575354503346,
+    0.000925188765616359
   ],
-  "redundant_bytes": 661741542361,
-  "redundant_TB": 0.662,
-  "redundant_cross_study_TB": 0.2134,
-  "redundant_within_study_TB": 0.4484,
-  "bytes_in_dup_groups_TB": 1.323,
+  "redundant_bytes": 700857285094,
+  "redundant_TB": 0.701,
+  "redundant_cross_study_TB": 0.2148,
+  "redundant_within_study_TB": 0.4861,
+  "bytes_in_dup_groups_TB": 1.399,
   "n_events": 12,
-  "n_studies_involved": 26,
+  "n_studies_involved": 27,
   "events_cross_center": 2,
   "events_cross_taxon": 2,
   "events_cross_strategy": 1,
   "events_cross_platform": 0,
-  "largest_event_studies": 4,
+  "largest_event_studies": 5,
   "largest_event_files": 64,
   "event_size_hist": {
     "2": 11,
-    "4": 1
+    "5": 1
   },
   "group_size_hist": {
-    "2": 648,
-    "3": 1
+    "2": 650,
+    "3": 3
   },
   "shuffle_null": {
     "observed_cross_study_groups": 178,
     "null_draws": [
-      645,
-      640,
-      648,
-      647,
-      646
+      653,
+      653,
+      649,
+      651,
+      644
     ],
-    "null_mean": 645.2,
-    "n_multi_run_groups": 649
+    "null_mean": 650.0,
+    "n_multi_run_groups": 653
   },
   "events_by_year_of_last_deposit": {
     "2010": 1,

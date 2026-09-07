@@ -1,19 +1,48 @@
 {
   "label": "all",
-  "n_md5_keys": 522738,
-  "n_groups_multi_run": 4122,
-  "groups_same_study_same_sample": 3297,
-  "groups_same_study_different_samples": 424,
-  "groups_cross_study": 401,
-  "n_studies_with_duplicate_samples": 23,
-  "n_runs_in_duplicate_sample_pairs": 450,
-  "n_runs_with_key": 412439,
+  "n_md5_keys": 2628784,
+  "n_groups_multi_run": 22315,
+  "groups_same_study_same_sample": 3949,
+  "groups_same_study_different_samples": 1165,
+  "groups_cross_study": 17201,
+  "n_studies_with_duplicate_samples": 129,
+  "n_runs_in_duplicate_sample_pairs": 1474,
+  "n_runs_with_key": 1873023,
   "frac_runs_in_duplicate_sample_pairs": [
-    0.0010910704370828172,
-    0.0009948560127938074,
-    0.0011965787966787106
+    0.0007869631072336005,
+    0.0007478142633063204,
+    0.0008281597347376383
   ],
   "top_studies": [
+    {
+      "study": "PRJEB27984",
+      "dup_groups": 96,
+      "samples_involved": 192,
+      "runs_involved": 192,
+      "organisms": [
+        "Mus musculus"
+      ],
+      "centers": [
+        "European Bioinformatics Institute;Karolinska Institutet;Department of Cell and Molecular Biology"
+      ],
+      "date_first": "2018-11-30",
+      "date_last": "2018-11-30"
+    },
+    {
+      "study": "PRJEB19206",
+      "dup_groups": 155,
+      "samples_involved": 156,
+      "runs_involved": 156,
+      "organisms": [
+        "Campylobacter coli",
+        "Campylobacter jejuni"
+      ],
+      "centers": [
+        "UNIVERSITY OF ABERDEEN"
+      ],
+      "date_first": "2017-01-31",
+      "date_last": "2017-02-01"
+    },
     {
       "study": "PRJEB6072",
       "dup_groups": 122,
@@ -48,6 +77,20 @@
       "date_last": "2013-04-26"
     },
     {
+      "study": "PRJEB13000",
+      "dup_groups": 78,
+      "samples_involved": 78,
+      "runs_involved": 78,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "centers": [
+        "European Bioinformatics Institute;WIS"
+      ],
+      "date_first": "2016-04-18",
+      "date_last": "2016-04-18"
+    },
+    {
       "study": "PRJEB107617",
       "dup_groups": 66,
       "samples_involved": 68,
@@ -62,6 +105,20 @@
       "date_last": "2026-07-24"
     },
     {
+      "study": "PRJEB9654",
+      "dup_groups": 27,
+      "samples_involved": 54,
+      "runs_involved": 54,
+      "organisms": [
+        "soil metagenome"
+      ],
+      "centers": [
+        "NEIKER TECNALIA"
+      ],
+      "date_first": "2015-07-03",
+      "date_last": "2016-06-28"
+    },
+    {
       "study": "PRJEB6521",
       "dup_groups": 42,
       "samples_involved": 42,
@@ -74,6 +131,62 @@
       ],
       "date_first": "2014-06-19",
       "date_last": "2014-06-19"
+    },
+    {
+      "study": "PRJEB28662",
+      "dup_groups": 40,
+      "samples_involved": 40,
+      "runs_involved": 40,
+      "organisms": [
+        "Mus musculus"
+      ],
+      "centers": [
+        "DEPARTMENT OF MOLECULAR MEDICINE AND MEDICAL BIOTECHNOLOGY"
+      ],
+      "date_first": "2018-09-23",
+      "date_last": "2018-09-23"
+    },
+    {
+      "study": "PRJEB20096",
+      "dup_groups": 40,
+      "samples_involved": 40,
+      "runs_involved": 40,
+      "organisms": [
+        "Bacteria ambigua"
+      ],
+      "centers": [
+        "Unite de Recherche sur les Maladies Infectieuses et Tropicales Emergentes (URMITE) CNRS;Faculte de Medecine;Universite de la Mediterranee;Marseille;France;URMITE"
+      ],
+      "date_first": "2018-08-18",
+      "date_last": "2018-08-18"
+    },
+    {
+      "study": "PRJEB10821",
+      "dup_groups": 16,
+      "samples_involved": 34,
+      "runs_involved": 34,
+      "organisms": [
+        "uncultured bacterium"
+      ],
+      "centers": [
+        "BIGELOW LABORATORY FOR OCEAN SCIENCES"
+      ],
+      "date_first": "2016-03-16",
+      "date_last": "2016-03-16"
+    },
+    {
+      "study": "PRJEB18915",
+      "dup_groups": 8,
+      "samples_involved": 17,
+      "runs_involved": 25,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "centers": [
+        "Wageningen University;WUR"
+      ],
+      "date_first": "2017-03-09",
+      "date_last": "2017-03-09"
     },
     {
       "study": "PRJEB51827",
@@ -104,6 +217,54 @@
       "date_last": "2015-04-16"
     },
     {
+      "study": "PRJEB22684",
+      "dup_groups": 18,
+      "samples_involved": 18,
+      "runs_involved": 18,
+      "organisms": [
+        "Homo sapiens",
+        "synthetic construct"
+      ],
+      "centers": [
+        "Department of Biosciences and Nutrition;Karolinska Institutet;Sweden;KI-BN"
+      ],
+      "date_first": "2018-09-23",
+      "date_last": "2018-09-23"
+    },
+    {
+      "study": "PRJEB17508",
+      "dup_groups": 8,
+      "samples_involved": 17,
+      "runs_involved": 17,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "centers": [
+        "AP-HP and Paris Cite Sorbonne University"
+      ],
+      "date_first": "2016-12-30",
+      "date_last": "2016-12-30"
+    },
+    {
+      "study": "PRJEB9777",
+      "dup_groups": 16,
+      "samples_involved": 16,
+      "runs_involved": 16,
+      "organisms": [
+        "Medicago ciliaris",
+        "Medicago granadensis",
+        "Medicago muricoleptis",
+        "Medicago popovii",
+        "Melilotus albus",
+        "Melilotus elegans"
+      ],
+      "centers": [
+        "Center of Marine Sciences - University of Algarve;Faro;Portugal;CCMAR"
+      ],
+      "date_first": "2015-09-01",
+      "date_last": "2017-10-27"
+    },
+    {
       "study": "PRJEB104715",
       "dup_groups": 14,
       "samples_involved": 6,
@@ -117,6 +278,161 @@
       ],
       "date_first": "2026-08-13",
       "date_last": "2026-08-13"
+    },
+    {
+      "study": "PRJEB14808",
+      "dup_groups": 14,
+      "samples_involved": 4,
+      "runs_involved": 14,
+      "organisms": [
+        "Drosophila melanogaster"
+      ],
+      "centers": [
+        "European Bioinformatics Institute;Max Planck Institute for Molecular Biomedicine"
+      ],
+      "date_first": "2017-04-06",
+      "date_last": "2017-04-06"
+    },
+    {
+      "study": "PRJEB12948",
+      "dup_groups": 6,
+      "samples_involved": 13,
+      "runs_involved": 13,
+      "organisms": [
+        "bovine gut metagenome"
+      ],
+      "centers": [
+        "Institute of Biological;Environmental and Rural Sciences;Aberystwyth University;United Kingdom;IBERS"
+      ],
+      "date_first": "2016-05-07",
+      "date_last": "2016-05-07"
+    },
+    {
+      "study": "PRJEB30314",
+      "dup_groups": 12,
+      "samples_involved": 12,
+      "runs_involved": 12,
+      "organisms": [
+        "Bacteroides fragilis",
+        "Clostridioides difficile"
+      ],
+      "centers": [
+        "European Bioinformatics Institute;UNIVERSITY OF WARWICK"
+      ],
+      "date_first": "2018-12-16",
+      "date_last": "2018-12-16"
+    },
+    {
+      "study": "PRJEB6180",
+      "dup_groups": 12,
+      "samples_involved": 2,
+      "runs_involved": 12,
+      "organisms": [
+        "Oryza sativa"
+      ],
+      "centers": [
+        "Beijing Genome Institute;BGI"
+      ],
+      "date_first": "2014-09-30",
+      "date_last": "2014-09-30"
+    },
+    {
+      "study": "PRJEB19204",
+      "dup_groups": 6,
+      "samples_involved": 12,
+      "runs_involved": 12,
+      "organisms": [
+        "Hirundo rustica"
+      ],
+      "centers": [
+        "Department of Zoology"
+      ],
+      "date_first": "2017-06-15",
+      "date_last": "2017-06-15"
+    },
+    {
+      "study": "PRJEB26088",
+      "dup_groups": 6,
+      "samples_involved": 12,
+      "runs_involved": 12,
+      "organisms": [
+        "soil metagenome"
+      ],
+      "centers": [
+        "University of Chinese Academy of Sciences"
+      ],
+      "date_first": "2018-08-31",
+      "date_last": "2018-08-31"
+    },
+    {
+      "study": "PRJEB23144",
+      "dup_groups": 5,
+      "samples_involved": 10,
+      "runs_involved": 10,
+      "organisms": [
+        "Fusarium aff. graminearum"
+      ],
+      "centers": [
+        "University of Basel;Agroscope"
+      ],
+      "date_first": "2018-08-07",
+      "date_last": "2018-08-07"
+    },
+    {
+      "study": "PRJEB18719",
+      "dup_groups": 10,
+      "samples_involved": 10,
+      "runs_involved": 10,
+      "organisms": [
+        "Ovis aries"
+      ],
+      "centers": [
+        "ZHE JIANG UNIVERSITY"
+      ],
+      "date_first": "2018-04-29",
+      "date_last": "2018-04-29"
+    },
+    {
+      "study": "PRJEB15863",
+      "dup_groups": 10,
+      "samples_involved": 10,
+      "runs_involved": 10,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "centers": [
+        "Candiolo Cancer Institute"
+      ],
+      "date_first": "2016-11-25",
+      "date_last": "2016-11-25"
+    },
+    {
+      "study": "PRJEB19310",
+      "dup_groups": 1,
+      "samples_involved": 10,
+      "runs_involved": 10,
+      "organisms": [
+        "human metagenome"
+      ],
+      "centers": [
+        "Instituto de Agroquimica y Tecnologia de Alimentos (IATA);The Spanish National Research Council (CSIC);IATA-CSIC"
+      ],
+      "date_first": "2017-04-01",
+      "date_last": "2017-04-01"
+    },
+    {
+      "study": "PRJEB18068",
+      "dup_groups": 6,
+      "samples_involved": 9,
+      "runs_involved": 9,
+      "organisms": [
+        "metagenome"
+      ],
+      "centers": [
+        "Royal Netherlands Institute for Sea Research;NIOZ"
+      ],
+      "date_first": "2017-05-30",
+      "date_last": "2017-05-30"
     },
     {
       "study": "PRJEB7116",
@@ -133,6 +449,118 @@
       "date_last": "2014-12-05"
     },
     {
+      "study": "PRJEB14077",
+      "dup_groups": 6,
+      "samples_involved": 6,
+      "runs_involved": 6,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "centers": [
+        "European Bioinformatics Institute;University of Michigan"
+      ],
+      "date_first": "2017-04-27",
+      "date_last": "2018-01-09"
+    },
+    {
+      "study": "PRJEB23297",
+      "dup_groups": 6,
+      "samples_involved": 6,
+      "runs_involved": 6,
+      "organisms": [
+        "uncultured bacterium"
+      ],
+      "centers": [
+        "faculty of chemistry;biotechnology and food science (ikbm);norwegian university of life sciences (nmbu);norway;DEPARTMENT OF CHEMISTRY;BIOTECHNOLOGY AND FOOD SCIENCE (IKBM);NORWEGIAN UNIVERSITY OF LIFE SCIENCES (NMBU);NORWAY"
+      ],
+      "date_first": "2017-11-06",
+      "date_last": "2017-11-06"
+    },
+    {
+      "study": "PRJEB27269",
+      "dup_groups": 3,
+      "samples_involved": 6,
+      "runs_involved": 6,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "centers": [
+        "European Bioinformatics Institute;CNRS UMR 9198 - The Institute for Integrative Biology of the Cell (I2BC)"
+      ],
+      "date_first": "2018-06-22",
+      "date_last": "2018-10-16"
+    },
+    {
+      "study": "PRJEB19025",
+      "dup_groups": 3,
+      "samples_involved": 6,
+      "runs_involved": 6,
+      "organisms": [
+        "Enterococcus faecium"
+      ],
+      "centers": [
+        "UMC Utrecht"
+      ],
+      "date_first": "2017-01-18",
+      "date_last": "2017-01-18"
+    },
+    {
+      "study": "PRJEB6345",
+      "dup_groups": 3,
+      "samples_involved": 6,
+      "runs_involved": 6,
+      "organisms": [
+        "human gut metagenome"
+      ],
+      "centers": [
+        "IMPERIAL COLLEGE"
+      ],
+      "date_first": "2014-10-07",
+      "date_last": "2016-02-03"
+    },
+    {
+      "study": "PRJEB8654",
+      "dup_groups": 1,
+      "samples_involved": 6,
+      "runs_involved": 6,
+      "organisms": [
+        "bioreactor metagenome"
+      ],
+      "centers": [
+        "WDRC KAUST"
+      ],
+      "date_first": "2015-11-20",
+      "date_last": "2015-11-20"
+    },
+    {
+      "study": "PRJEB23075",
+      "dup_groups": 1,
+      "samples_involved": 6,
+      "runs_involved": 6,
+      "organisms": [
+        "bioreactor metagenome"
+      ],
+      "centers": [
+        "Universidad Nacional Mayor de San Marcos"
+      ],
+      "date_first": "2018-04-27",
+      "date_last": "2018-04-27"
+    },
+    {
+      "study": "PRJEB22757",
+      "dup_groups": 2,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "centers": [
+        "IMPERIAL CENTRE FOR TRANSLATIONAL AND EXPERIMENTAL MEDICINE"
+      ],
+      "date_first": "2017-10-10",
+      "date_last": "2017-10-10"
+    },
+    {
       "study": "PRJEB27123",
       "dup_groups": 4,
       "samples_involved": 4,
@@ -145,6 +573,63 @@
       ],
       "date_first": "2019-09-30",
       "date_last": "2019-09-30"
+    },
+    {
+      "study": "PRJEB28216",
+      "dup_groups": 2,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "metagenome"
+      ],
+      "centers": [
+        "UC BERKELEY"
+      ],
+      "date_first": "2018-10-14",
+      "date_last": "2018-10-14"
+    },
+    {
+      "study": "PRJEB26090",
+      "dup_groups": 2,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "Cricetulus griseus"
+      ],
+      "centers": [
+        "UNIVERSITI KEBANGSAAN MALAYSIA"
+      ],
+      "date_first": "2018-06-16",
+      "date_last": "2018-06-16"
+    },
+    {
+      "study": "PRJEB25722",
+      "dup_groups": 4,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "Sus scrofa",
+        "gut metagenome"
+      ],
+      "centers": [
+        "COST Action"
+      ],
+      "date_first": "2018-06-13",
+      "date_last": "2018-06-13"
+    },
+    {
+      "study": "PRJNA357261",
+      "dup_groups": 2,
+      "samples_involved": 2,
+      "runs_involved": 4,
+      "organisms": [
+        "Mus musculus"
+      ],
+      "centers": [
+        "GEO"
+      ],
+      "date_first": "2017-12-01",
+      "date_last": "2018-04-18"
     },
     {
       "study": "PRJEB2869",
@@ -162,6 +647,48 @@
       "date_last": "2012-09-28"
     },
     {
+      "study": "PRJEB24136",
+      "dup_groups": 2,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "Rattus norvegicus"
+      ],
+      "centers": [
+        "UNSW Australia, School of BABS"
+      ],
+      "date_first": "2018-01-18",
+      "date_last": "2018-01-18"
+    },
+    {
+      "study": "PRJEB8079",
+      "dup_groups": 2,
+      "samples_involved": 2,
+      "runs_involved": 4,
+      "organisms": [
+        "Triticum dicoccoides"
+      ],
+      "centers": [
+        "Hikmet Budak"
+      ],
+      "date_first": "2015-07-02",
+      "date_last": "2015-07-02"
+    },
+    {
+      "study": "PRJEB15639",
+      "dup_groups": 2,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "synthetic construct"
+      ],
+      "centers": [
+        "Department of Biosciences and Nutrition;Karolinska Institutet;Sweden;KI-BN"
+      ],
+      "date_first": "2017-07-04",
+      "date_last": "2017-07-04"
+    },
+    {
       "study": "PRJEB123735",
       "dup_groups": 2,
       "samples_involved": 2,
@@ -176,172 +703,172 @@
       "date_last": "2026-08-13"
     },
     {
-      "study": "PRJEB108934",
-      "dup_groups": 1,
-      "samples_involved": 2,
-      "runs_involved": 2,
-      "organisms": [
-        "Mus musculus"
-      ],
-      "centers": [
-        "Universidad de Oviedo;UNIOVI"
-      ],
-      "date_first": "2026-08-18",
-      "date_last": "2026-08-18"
-    },
-    {
-      "study": "PRJEB1326",
-      "dup_groups": 1,
-      "samples_involved": 2,
-      "runs_involved": 2,
-      "organisms": [
-        "Geobacter sulfurreducens PCA"
-      ],
-      "centers": [
-        "University of Massachusetts;UMASS"
-      ],
-      "date_first": "2013-03-13",
-      "date_last": "2013-03-15"
-    },
-    {
-      "study": "PRJEB34513",
+      "study": "PRJEB10418",
       "dup_groups": 2,
-      "samples_involved": 2,
-      "runs_involved": 2,
+      "samples_involved": 4,
+      "runs_involved": 4,
       "organisms": [
-        "Klebsiella pneumoniae"
+        "marine metagenome"
       ],
       "centers": [
-        "LONDON SCHOOL OF HYGIENE AND TROPICAL MEDICINE"
+        "J CRAIG VENTER INSTITUTE"
       ],
-      "date_first": "2019-09-23",
-      "date_last": "2019-09-23"
+      "date_first": "2015-08-22",
+      "date_last": "2015-08-22"
     },
     {
-      "study": "PRJEB71327",
+      "study": "PRJEB16306",
+      "dup_groups": 4,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "HIV-1 vector pNL4-3"
+      ],
+      "centers": [
+        "European Bioinformatics Institute;UCSF"
+      ],
+      "date_first": "2016-10-30",
+      "date_last": "2016-10-30"
+    },
+    {
+      "study": "PRJEB23635",
       "dup_groups": 2,
-      "samples_involved": 2,
-      "runs_involved": 2,
-      "organisms": [
-        "Severe acute respiratory syndrome coronavirus 2"
-      ],
-      "centers": [
-        "NORWEGIAN INSTITUTE OF PUBLIC HEALTH"
-      ],
-      "date_first": "2024-01-09",
-      "date_last": "2024-01-09"
-    },
-    {
-      "study": "PRJEB5481",
-      "dup_groups": 2,
-      "samples_involved": 2,
-      "runs_involved": 2,
-      "organisms": [
-        "Listeria monocytogenes"
-      ],
-      "centers": [
-        "University Hospital Muenster;IFH_MS"
-      ],
-      "date_first": "2014-06-17",
-      "date_last": "2014-06-17"
-    },
-    {
-      "study": "PRJEB55522",
-      "dup_groups": 2,
-      "samples_involved": 2,
-      "runs_involved": 2,
-      "organisms": [
-        "sediment metagenome"
-      ],
-      "centers": [
-        "CENTRE FOR GEOGENETICS"
-      ],
-      "date_first": "2022-11-18",
-      "date_last": "2022-11-18"
-    },
-    {
-      "study": "PRJEB30317",
-      "dup_groups": 1,
-      "samples_involved": 2,
-      "runs_involved": 2,
-      "organisms": [
-        "Salmonella enterica subsp. enterica"
-      ],
-      "centers": [
-        "ROBERT KOCH-INSTITUTE"
-      ],
-      "date_first": "2019-06-06",
-      "date_last": "2019-06-06"
-    },
-    {
-      "study": "PRJEB7473",
-      "dup_groups": 1,
-      "samples_involved": 2,
-      "runs_involved": 2,
+      "samples_involved": 4,
+      "runs_involved": 4,
       "organisms": [
         "Homo sapiens"
       ],
       "centers": [
-        "University of Cyprus"
+        "HARVARD MEDICAL SCHOOL, DEPARTMENT OF GENETICS"
       ],
-      "date_first": "2014-12-31",
-      "date_last": "2014-12-31"
+      "date_first": "2018-02-16",
+      "date_last": "2018-02-16"
     },
     {
-      "study": "PRJEB1527",
+      "study": "PRJEB19229",
+      "dup_groups": 4,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "Klebsiella pneumoniae"
+      ],
+      "centers": [
+        "Saolta"
+      ],
+      "date_first": "2017-08-29",
+      "date_last": "2017-09-12"
+    },
+    {
+      "study": "PRJEB7456",
+      "dup_groups": 4,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "Saccharomyces cerevisiae"
+      ],
+      "centers": [
+        "MRC LABORATORY OF MOLECULAR BIOLOGY, CAMBRIDGE"
+      ],
+      "date_first": "2014-10-08",
+      "date_last": "2014-10-08"
+    },
+    {
+      "study": "PRJEB23569",
+      "dup_groups": 2,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "centers": [
+        "European Bioinformatics Institute;Institute of Molecular Biology (IMB)"
+      ],
+      "date_first": "2018-06-27",
+      "date_last": "2018-06-27"
+    },
+    {
+      "study": "PRJEB1683",
+      "dup_groups": 2,
+      "samples_involved": 4,
+      "runs_involved": 4,
+      "organisms": [
+        "Sus scrofa"
+      ],
+      "centers": [
+        "Wageningen University;WUR"
+      ],
+      "date_first": "2014-06-26",
+      "date_last": "2014-07-07"
+    },
+    {
+      "study": "PRJEB9031",
+      "dup_groups": 1,
+      "samples_involved": 3,
+      "runs_involved": 3,
+      "organisms": [
+        "uncultured bacterium"
+      ],
+      "centers": [
+        "VTT Technical Research Centre of Finland;VTT"
+      ],
+      "date_first": "2015-06-01",
+      "date_last": "2015-06-01"
+    },
+    {
+      "study": "PRJEB15075",
+      "dup_groups": 3,
+      "samples_involved": 3,
+      "runs_involved": 3,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "centers": [
+        "KU LEUVEN - UNIVERSITY OF LEUVEN"
+      ],
+      "date_first": "2016-11-30",
+      "date_last": "2016-11-30"
+    },
+    {
+      "study": "PRJEB21596",
+      "dup_groups": 3,
+      "samples_involved": 3,
+      "runs_involved": 3,
+      "organisms": [
+        "Homo sapiens"
+      ],
+      "centers": [
+        "UZ KU Leuven"
+      ],
+      "date_first": "2017-11-30",
+      "date_last": "2017-11-30"
+    },
+    {
+      "study": "PRJEB17637",
       "dup_groups": 2,
       "samples_involved": 2,
-      "runs_involved": 2,
+      "runs_involved": 3,
       "organisms": [
-        "Escherichia coli"
+        "metagenome"
       ],
       "centers": [
-        "Deep Seq department;Centre for Genetics and Genomics;The University of Nottingham;United Kingdom;DPSQ"
+        "LSA-DISTAL-UNIBO"
       ],
-      "date_first": "2013-06-30",
-      "date_last": "2013-06-30"
+      "date_first": "2017-01-02",
+      "date_last": "2018-03-29"
     },
     {
-      "study": "PRJEB20791",
+      "study": "PRJEB11431",
       "dup_groups": 1,
       "samples_involved": 2,
       "runs_involved": 2,
       "organisms": [
-        "Mus musculus"
+        "bacterial mixed DNA library"
       ],
       "centers": [
-        "Centrum Medyczne Ksztalcenia Podyplomowego"
+        "Institute of Ecology, University Jena"
       ],
-      "date_first": "2021-04-22",
-      "date_last": "2021-04-22"
-    },
-    {
-      "study": "PRJEB56639",
-      "dup_groups": 1,
-      "samples_involved": 2,
-      "runs_involved": 2,
-      "organisms": [
-        "viral metagenome"
-      ],
-      "centers": [
-        "UNIVERSITY OF LEICESTER"
-      ],
-      "date_first": "2024-01-07",
-      "date_last": "2024-01-07"
-    },
-    {
-      "study": "PRJEB7833",
-      "dup_groups": 1,
-      "samples_involved": 2,
-      "runs_involved": 2,
-      "organisms": [
-        "Mus musculus"
-      ],
-      "centers": [
-        "Max Planck Institute for Evolutionary Biology;Ploen;Germany;MPI-EVB"
-      ],
-      "date_first": "2014-11-22",
-      "date_last": "2014-11-22"
+      "date_first": "2016-04-06",
+      "date_last": "2016-04-06"
     }
   ]
 }

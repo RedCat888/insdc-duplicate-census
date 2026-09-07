@@ -1,196 +1,187 @@
 {
-  "n_numeric_groups_multi_run": 13754,
-  "n_numeric_groups_cross_study": 7543,
-  "n_numeric_pairs": 66193,
-  "n_md5_pairs": 2208,
+  "n_numeric_groups_multi_run": 214173,
+  "n_numeric_groups_cross_study": 152504,
+  "n_numeric_pairs": 621559,
+  "n_md5_pairs": 16306,
   "labelled_region": "both runs ERR (submitted_md5 present for 100% of ERR)",
   "all_pairs": {
-    "tp": 2083,
-    "fp": 17610,
-    "fn": 125,
+    "tp": 12378,
+    "fp": 161450,
+    "fn": 3926,
     "precision": [
-      0.10577362514599097,
-      0.10155475584642243,
-      0.11014627138831962
+      0.0712083208689049,
+      0.07000878867454605,
+      0.07242680524255826
     ],
     "recall": [
-      0.9433876811594203,
-      0.9329556693367466,
-      0.952279512061415
+      0.7592001962708538,
+      0.7525764326257227,
+      0.7657018415512842
     ]
   },
   "cross_study_pairs": {
-    "tp": 225,
-    "fp": 5884,
+    "tp": 9428,
+    "fp": 93436,
     "fn": 0,
     "precision": [
-      0.0368309052218039,
-      0.032391388906668386,
-      0.04185257645307529
+      0.09165500077772593,
+      0.08990691067900021,
+      0.09343359016805945
     ],
     "recall": [
       1.0,
-      0.9832128424202591,
-      0.9999999999999998
+      0.9995926988426098,
+      1.0
     ]
   },
   "example_fp_cross_study": [
     {
       "pair": [
-        "ERR12417504",
-        "ERR671767"
+        "ERR2829969",
+        "ERR345392"
       ],
       "a": {
-        "study_accession": "PRJEB2141",
-        "read_count": "20",
-        "base_count": "3000",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "WGS"
+        "study_accession": "PRJEB29078",
+        "read_count": "13",
+        "base_count": "1300",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "OTHER"
       },
       "b": {
-        "study_accession": "PRJEB6893",
-        "read_count": "20",
-        "base_count": "3000",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "POOLCLONE"
-      }
-    },
-    {
-      "pair": [
-        "ERR3353085",
-        "ERR671763"
-      ],
-      "a": {
-        "study_accession": "PRJEB2136",
-        "read_count": "14",
-        "base_count": "2100",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "WGS"
-      },
-      "b": {
-        "study_accession": "PRJEB6893",
-        "read_count": "14",
-        "base_count": "2100",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "POOLCLONE"
-      }
-    },
-    {
-      "pair": [
-        "ERR12417612",
-        "ERR698286"
-      ],
-      "a": {
-        "study_accession": "PRJEB2141",
-        "read_count": "8",
-        "base_count": "1200",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "WGS"
-      },
-      "b": {
-        "study_accession": "PRJEB6893",
-        "read_count": "8",
-        "base_count": "1200",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "POOLCLONE"
-      }
-    },
-    {
-      "pair": [
-        "ERR17745583",
-        "ERR17746069"
-      ],
-      "a": {
-        "study_accession": "PRJEB124233",
-        "read_count": "90",
-        "base_count": "27090",
-        "center_name": "ETH Zurich;Food Systems Biotechnology;Annina Meyer;ETHZ-FSB-AM",
-        "library_strategy": "AMPLICON"
-      },
-      "b": {
-        "study_accession": "PRJEB124238",
-        "read_count": "90",
-        "base_count": "27090",
-        "center_name": "ETH Zurich;Food Systems Biotechnology;Annina Meyer;ETHZ-FSB-AM",
-        "library_strategy": "AMPLICON"
-      }
-    },
-    {
-      "pair": [
-        "ERR12417518",
-        "ERR698421"
-      ],
-      "a": {
-        "study_accession": "PRJEB2141",
-        "read_count": "10",
-        "base_count": "1500",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "WGS"
-      },
-      "b": {
-        "study_accession": "PRJEB6893",
-        "read_count": "10",
-        "base_count": "1500",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "POOLCLONE"
-      }
-    },
-    {
-      "pair": [
-        "ERR345148",
-        "ERR450697"
-      ],
-      "a": {
         "study_accession": "PRJEB4630",
-        "read_count": "2",
-        "base_count": "200",
-        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
-        "library_strategy": "AMPLICON"
-      },
-      "b": {
-        "study_accession": "PRJEB5758",
-        "read_count": "2",
-        "base_count": "200",
+        "read_count": "13",
+        "base_count": "1300",
         "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
         "library_strategy": "AMPLICON"
       }
     },
     {
       "pair": [
-        "ERR200328",
-        "ERR338178"
+        "ERR2057253",
+        "ERR3082473"
       ],
       "a": {
-        "study_accession": "PRJEB2846",
-        "read_count": "1150743",
-        "base_count": "230148600",
-        "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "WGS"
+        "study_accession": "PRJEB11419",
+        "read_count": "134",
+        "base_count": "20100",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
       },
       "b": {
-        "study_accession": "PRJEB3259",
-        "read_count": "1150743",
-        "base_count": "230148600",
+        "study_accession": "PRJEB2136",
+        "read_count": "134",
+        "base_count": "20100",
         "center_name": "Wellcome Sanger Institute;SC",
         "library_strategy": "WGS"
       }
     },
     {
       "pair": [
-        "ERR12417409",
-        "ERR671520"
+        "ERR2166914",
+        "ERR2734009"
+      ],
+      "a": {
+        "study_accession": "PRJEB22907",
+        "read_count": "31",
+        "base_count": "4650",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB28175",
+        "read_count": "31",
+        "base_count": "4650",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR12417355",
+        "ERR2916526"
       ],
       "a": {
         "study_accession": "PRJEB2141",
-        "read_count": "8",
-        "base_count": "1200",
+        "read_count": "38",
+        "base_count": "5700",
         "center_name": "Wellcome Sanger Institute;SC",
         "library_strategy": "WGS"
       },
       "b": {
-        "study_accession": "PRJEB6893",
-        "read_count": "8",
-        "base_count": "1200",
+        "study_accession": "PRJEB2136",
+        "read_count": "38",
+        "base_count": "5700",
         "center_name": "Wellcome Sanger Institute;SC",
-        "library_strategy": "POOLCLONE"
-      
+        "library_strategy": "WGS"
+      }
+    },
+    {
+      "pair": [
+        "ERR2108303",
+        "ERR2165365"
+      ],
+      "a": {
+        "study_accession": "PRJEB22286",
+        "read_count": "19",
+        "base_count": "2850",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB22907",
+        "read_count": "19",
+        "base_count": "2850",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR1085005",
+        "ERR344909"
+      ],
+      "a": {
+        "study_accession": "PRJEB11472",
+        "read_count": "14",
+        "base_count": "1400",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB4630",
+        "read_count": "14",
+        "base_count": "1400",
+        "center_name": "Colorado Center for Microbial Ecology;University of Colorado at Boulder;CCME-COLORADO",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR2272497",
+        "ERR2280109"
+      ],
+      "a": {
+        "study_accession": "PRJEB24652",
+        "read_count": "19",
+        "base_count": "2850",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      },
+      "b": {
+        "study_accession": "PRJEB24771",
+        "read_count": "19",
+        "base_count": "2850",
+        "center_name": "University of California San Diego Microbiome Initiative;UCSDMI",
+        "library_strategy": "AMPLICON"
+      }
+    },
+    {
+      "pair": [
+        "ERR17739544",
+        "ERR2623275"
+      ],
+      "a": {
+        "study_accession": "PRJEB58050",
+        "read_count": "2",
+        "base_count": "500",
+        "center_name": "University of California San Diego Micr
