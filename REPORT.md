@@ -175,7 +175,7 @@ Generated 2026-09-06 from the result files in `out/`. Every figure below is read
 - It is therefore used only to generate candidates; every claim from it is confirmed against NCBI's exact base composition or by comparing reads.
 
 ## Result 4 — individually verified cases
-- 35 verification rows in `out/dossier.json`.
+- 36 verification rows in `out/dossier.json`.
   - file identity: ['ERR248843', 'ERR338688'] -> **identical** (downloaded both files, hashed locally)
   - file identity: ['ERR248826', 'ERR338671'] -> **identical** (downloaded both files, hashed locally)
   - file identity: ['ERR248859', 'ERR338648'] -> **identical** (downloaded both files, hashed locally)
@@ -209,6 +209,7 @@ Generated 2026-09-06 from the result files in `out/`. Every figure below is read
   - organism conflict (run): Peptoniphilus sp. vs Streptococcus mitis (JCVI) -> **CONFIRMED** (NCBI composition + ENA read comparison)
   - organism conflict (run): Ligilactobacillus salivarius vs Lactobacillus delbrueckii (JCVI) -> **CONFIRMED** (NCBI composition + ENA read comparison)
   - organism conflict (file): Triticum aestivum (Liverpool) vs Solanum phureja (Dundee) - shared 454 region GBSKQZK02 -> **CONFIRMED** (HTTP range check of both files)
+  - event-stratified sample: 20 of 201 events sampled (seeded) -> **18 verified by the harness; the 2 others were 1 untestable (no FASTQ, read_count 0) and 1 file-level match confirmed by range check -> 19/19 testable confirmed, 0 refuted** (random sample of events; download+hash, or first 2,000 reads for large files)
   - publication impact: ['SRR543504', 'SRR578255'] -> ['GSM987821', 'GSM1012157'] -> **different papers [['22763454'], ['23372014']]** (SRA alias -> GSM -> GSE -> PubMed)
   - publication impact: ['SRR492421', 'SRR507824'] -> ['GSM923567', 'GSM946520'] -> **same series [['25319994'], ['25319994']]** (SRA alias -> GSM -> GSE -> PubMed)
 - organism-level conflicts confirmed at run level: 11/11

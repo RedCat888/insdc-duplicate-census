@@ -189,3 +189,31 @@
   verified in 90 s, where the previous version ran 3 h 18 m and wrote nothing. Partial results
   are therefore usable at any moment, and whatever this run reaches is reported as a partial
   sample with its own n rather than as a completed check.
+
+## Event-stratified verification: completed, and its two "failures" are not failures
+
+The pass finished: **20 events sampled at random from the 201, 18 marked verified**. Both
+non-verifying cases were investigated rather than reported as a bare ratio, and neither
+refutes anything.
+
+1. **PRJEB19032 / PRJEB19033 (ERR1797987) — untestable, not refuted.** The run has
+   `read_count = 0` and ENA has generated no FASTQ for it, so the read-level comparison could
+   not run at all. The harness recorded `identical_verified = False`, conflating "could not
+   test" with "tested and refuted". That is a counting bug in the harness, not a finding.
+
+2. **PRJEB15111 / PRJEB21528 — the file-vs-run distinction again.** The read-level test gave
+   0/2000 matching reads, but the md5 event never claimed the RUNS were identical. Both runs
+   submit two files; **file 0 is byte-identical** (md5 41388c88ba54b6fe68677115680a3d7c,
+   2,709,108,614 bytes in both) while file 1 differs in size (2,859,925,013 vs 680,165,774).
+   Independently checked by HTTP range request rather than trusting the metadata: same size,
+   same MD5 of the first 5 MB, same MD5 of the last 5 MB. The file-level claim is CONFIRMED.
+   Worth noting what the two filenames are:
+   `140118_I175_FCH7NBRADXX_L1_RSZAXPI001572-93_1.fq.gz` in PRJEB15111 and
+   `N1308.clean.trim.rmhost.rmhost.1.fq.gz` in PRJEB21528 — the second name asserts the data
+   was cleaned, trimmed and host-depleted, and the bytes are identical to the first.
+
+**Corrected accounting: 19 of 19 testable events confirmed at the level the claim is made,
+0 refuted, 1 untestable.** This is the SECOND time a run-level test was applied to a
+file-level claim (the first was wheat/potato, ERR016531/ERR024102). The lesson did not stick
+the first time because the read-level fallback was added later and inherited the confusion.
+Anyone extending this should make the harness carry the claim type with the claim.

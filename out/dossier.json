@@ -231,6 +231,13 @@
   "note": ""
  },
  {
+  "kind": "event-stratified sample",
+  "evidence": "random sample of events; download+hash, or first 2,000 reads for large files",
+  "detail": "20 of 201 events sampled (seeded)",
+  "result": "18 verified by the harness; the 2 others were 1 untestable (no FASTQ, read_count 0) and 1 file-level match confirmed by range check -> 19/19 testable confirmed, 0 refuted",
+  "note": "see log/03-worklog.md for both investigations"
+ },
+ {
   "kind": "publication impact",
   "evidence": "SRA alias -> GSM -> GSE -> PubMed",
   "detail": "['SRR543504', 'SRR578255'] -> ['GSM987821', 'GSM1012157']",

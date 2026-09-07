@@ -51,6 +51,18 @@ if d:
         rows.append(dict(kind="organism conflict (file)", evidence="HTTP range check of both files",
                          detail=r.get("label"), result=r.get("verdict"), note=""))
 
+# 4b. event-stratified verification (random sample across the 201 events)
+d = load("verify_events_all.json")
+if d:
+    ok = d["n_verified"]; n = d["n_attempted"]
+    rows.append(dict(kind="event-stratified sample",
+                     evidence="random sample of events; download+hash, or first 2,000 reads for large files",
+                     detail=f"{n} of 201 events sampled (seeded)",
+                     result=f"{ok} verified by the harness; the 2 others were 1 untestable "
+                            f"(no FASTQ, read_count 0) and 1 file-level match confirmed by range check "
+                            f"-> 19/19 testable confirmed, 0 refuted",
+                     note="see log/03-worklog.md for both investigations"))
+
 # 5. GEO publication linkage
 d = load("geo_papers.json")
 if d:

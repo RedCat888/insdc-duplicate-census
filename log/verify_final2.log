@@ -1,1 +1,22 @@
 {"event_studies": ["PRJEB2326", "PRJEB2329"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB2356", "PRJEB2592"], "identical_verified": true, "ena_field_correct": true}
+{"event_studies": ["PRJEB12805", "PRJEB12820"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB12255", "PRJEB12256"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB19032", "PRJEB19033"], "method": "read_level_first2000", "reads_compared": null, "reads_identical_in_position": null, "identical_verified": false}
+{"event_studies": ["PRJEB8115", "PRJEB8633"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB16771", "PRJEB17637", "PRJEB9092"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB14005", "PRJEB14008", "PRJEB14119", "PRJEB14122", "PRJEB14309", "PRJEB14310", "PRJEB15408", "PRJEB25886"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB6874", "PRJEB9004", "PRJEB9031", "PRJEB9112", "PRJEB9160"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB15111", "PRJEB21528"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 0, "identical_verified": false}
+{"event_studies": ["PRJEB13054", "PRJEB14205", "PRJEB14230"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB1051", "PRJEB21297"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB27505", "PRJEB30317"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB10910", "PRJEB12143", "PRJEB14111", "PRJEB16678", "PRJEB32261"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB1680", "PRJEB6487"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB2155", "PRJEB2316"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB12099", "PRJEB26048"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB14134", "PRJEB25507"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB4709", "PRJEB6970"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}
+{"event_studies": ["PRJEB10902", "PRJEB10920"], "identical_verified": true, "ena_field_correct": true}
+
+VERIFIED IDENTICAL 18/20  (skipped: 0 too big, 23 no usable pair)

@@ -24,11 +24,504 @@
       "reads_identical_in_position": 2000,
       "identical_verified": true,
       "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB2356",
+        "PRJEB2592"
+      ],
+      "target_md5": "153a83039d269e9a01fbf4f49c2bf522",
+      "files": [
+        {
+          "run": "ERR022895",
+          "study": "PRJEB2356",
+          "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR022/ERR022895/C18.sff",
+          "claimed_md5": "153a83039d269e9a01fbf4f49c2bf522",
+          "computed_md5": "153a83039d269e9a01fbf4f49c2bf522",
+          "bytes": 23737520,
+          "secs": 74.4,
+          "matches_ena": true
+        },
+        {
+          "run": "ERR037360",
+          "study": "PRJEB2592",
+          "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR037/ERR037360/C_0.sff",
+          "claimed_md5": "153a83039d269e9a01fbf4f49c2bf522",
+          "computed_md5": "153a83039d269e9a01fbf4f49c2bf522",
+          "bytes": 23737520,
+          "secs": 65.9,
+          "matches_ena": true
+        }
+      ],
+      "max_bytes": 23737520,
+      "method": "full_file_md5",
+      "identical_verified": true,
+      "ena_field_correct": true
+    },
+    {
+      "event_studies": [
+        "PRJEB12805",
+        "PRJEB12820"
+      ],
+      "target_md5": "7d1d8274a0bd6823931814a6cecd604e",
+      "files": [
+        {
+          "run": "ERR1278113",
+          "study": "PRJEB12805",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR1288682",
+          "study": "PRJEB12820",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 4260876897,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB12255",
+        "PRJEB12256"
+      ],
+      "target_md5": "1f5b962258128d6de2bc005b9ac2ad47",
+      "files": [
+        {
+          "run": "ERR1197992",
+          "study": "PRJEB12255",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR1198002",
+          "study": "PRJEB12256",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 2572627699,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB19032",
+        "PRJEB19033"
+      ],
+      "target_md5": "43a81ba000e94bba0bbd09bb3bb206bf",
+      "files": [],
+      "max_bytes": 1472690882,
+      "method": "read_level_first2000",
+      "error": "no fastq for ERR1797987",
+      "identical_verified": false,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB8115",
+        "PRJEB8633"
+      ],
+      "target_md5": "50185c1f502c958ee803bee2bb384fb2",
+      "files": [
+        {
+          "run": "ERR713608",
+          "study": "PRJEB8115",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR768119",
+          "study": "PRJEB8633",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 2017187536,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB16771",
+        "PRJEB17637",
+        "PRJEB9092"
+      ],
+      "target_md5": "af1ca6095ea2188fd69a2d2826a9b7a5",
+      "files": [
+        {
+          "run": "ERR1719712",
+          "study": "PRJEB16771",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR1719983",
+          "study": "PRJEB17637",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 131854791,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB14005",
+        "PRJEB14008",
+        "PRJEB14119",
+        "PRJEB14122",
+        "PRJEB14309",
+        "PRJEB14310",
+        "PRJEB15408",
+        "PRJEB25886"
+      ],
+      "target_md5": "c1b8bdb37b0c7baa3c7624bcb628f999",
+      "files": [
+        {
+          "run": "ERR1418286",
+          "study": "PRJEB14005",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR1443005",
+          "study": "PRJEB14310",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 3902872494,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB6874",
+        "PRJEB9004",
+        "PRJEB9031",
+        "PRJEB9112",
+        "PRJEB9160"
+      ],
+      "target_md5": "07665e249ff47c3c775250390574b4de",
+      "files": [
+        {
+          "run": "ERR571287",
+          "study": "PRJEB6874",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR842802",
+          "study": "PRJEB9004",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 45667200,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB15111",
+        "PRJEB21528"
+      ],
+      "target_md5": "41388c88ba54b6fe68677115680a3d7c",
+      "files": [
+        {
+          "run": "ERR1578692",
+          "study": "PRJEB15111",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR2017516",
+          "study": "PRJEB21528",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 2709108614,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 0,
+      "identical_verified": false,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB13054",
+        "PRJEB14205",
+        "PRJEB14230"
+      ],
+      "target_md5": "8c8ff7ae6828b5164c0ad7cf7eaab1a8",
+      "files": [
+        {
+          "run": "ERR1328052",
+          "study": "PRJEB13054",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR1433247",
+          "study": "PRJEB14230",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 1812493753,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB1051",
+        "PRJEB21297"
+      ],
+      "target_md5": "682a3a8cc3e0c10d74ee2bb5dc55c052",
+      "files": [
+        {
+          "run": "ERR2008239",
+          "study": "PRJEB21297",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR305628",
+          "study": "PRJEB1051",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 1113896248,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB27505",
+        "PRJEB30317"
+      ],
+      "target_md5": "59ad0000f8d72866c6a42d55b5a9e0ca",
+      "files": [
+        {
+          "run": "ERR2683793",
+          "study": "PRJEB27505",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR3264016",
+          "study": "PRJEB30317",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 66550227,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB10910",
+        "PRJEB12143",
+        "PRJEB14111",
+        "PRJEB16678",
+        "PRJEB32261"
+      ],
+      "target_md5": "614dd1eee79ae9c6a1c10cf5f0000358",
+      "files": [
+        {
+          "run": "ERR1019571",
+          "study": "PRJEB10910",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR1191536",
+          "study": "PRJEB12143",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 2155790666,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB1680",
+        "PRJEB6487"
+      ],
+      "target_md5": "182f8976b0e59c0e640b5028dd2741e5",
+      "files": [
+        {
+          "run": "ERR246398",
+          "study": "PRJEB1680",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR526256",
+          "study": "PRJEB6487",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 184052665,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB2155",
+        "PRJEB2316"
+      ],
+      "target_md5": "663ae14e81b6de8812f4d8c75e786a6c",
+      "files": [
+        {
+          "run": "ERR012001",
+          "study": "PRJEB2155",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR022045",
+          "study": "PRJEB2316",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 1063050640,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB12099",
+        "PRJEB26048"
+      ],
+      "target_md5": "9e35f241b814d88b23ddf935f7c3bb02",
+      "files": [
+        {
+          "run": "ERR1202024",
+          "study": "PRJEB12099",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR2521562",
+          "study": "PRJEB26048",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 109681234,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB14134",
+        "PRJEB25507"
+      ],
+      "target_md5": "ca20004e4418b647e51452094120f51b",
+      "files": [
+        {
+          "run": "ERR1885293",
+          "study": "PRJEB14134",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR2576232",
+          "study": "PRJEB25507",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 802418583,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB4709",
+        "PRJEB6970"
+      ],
+      "target_md5": "5d5e9af6ce7558d02ea4a8494726d5ca",
+      "files": [
+        {
+          "run": "ERR351276",
+          "study": "PRJEB4709",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR579120",
+          "study": "PRJEB6970",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 331865313,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    },
+    {
+      "event_studies": [
+        "PRJEB10902",
+        "PRJEB10920"
+      ],
+      "target_md5": "68ceb7576f5d03f0f864fc1afc99fb2f",
+      "files": [
+        {
+          "run": "ERR1019454",
+          "study": "PRJEB10902",
+          "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR101/ERR1019454/1-II-2-1-1.join.fq.gz",
+          "claimed_md5": "68ceb7576f5d03f0f864fc1afc99fb2f",
+          "computed_md5": "68ceb7576f5d03f0f864fc1afc99fb2f",
+          "bytes": 8584163,
+          "secs": 22.7,
+          "matches_ena": true
+        },
+        {
+          "run": "ERR1022045",
+          "study": "PRJEB10920",
+          "url": "ftp.sra.ebi.ac.uk/vol1/run/ERR102/ERR1022045/1-II-2-1-1.join.fq.gz",
+          "claimed_md5": "68ceb7576f5d03f0f864fc1afc99fb2f",
+          "computed_md5": "68ceb7576f5d03f0f864fc1afc99fb2f",
+          "bytes": 8584163,
+          "secs": 36.8,
+          "matches_ena": true
+        }
+      ],
+      "max_bytes": 8584163,
+      "method": "full_file_md5",
+      "identical_verified": true,
+      "ena_field_correct": true
     }
   ],
   "skipped_too_big": 0,
-  "skipped_no_pair": 0,
-  "n_verified": 1,
-  "n_attempted": 1,
-  "complete": false
+  "skipped_no_pair": 23,
+  "n_verified": 18,
+  "n_attempted": 20,
+  "complete": true
 }
