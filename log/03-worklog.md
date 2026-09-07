@@ -182,6 +182,10 @@
   comparison (12/12), a seeded random sample of 150 identity-conflict pairs checked against
   NCBI composition (146 confirmed / 2 refuted / 2 no fingerprint), and one multi-GB file pair
   range-checked at both ends.
-  To pick it up later: `python3 src/verify_events.py --events out/events2_all.jsonl --n 20
-  --maxbytes 40000000 --out out/verify_events_all.json`. Fix worth making first: write results
-  incrementally so a long run can be interrupted without losing everything.
+  **Fixed and restarted.** Three changes: per-download timeout cut from 1800 s to 300 s (a
+  single stalled transfer could previously block for half an hour), `filereport` probes per
+  event cut from 24 runs to 10, and results now serialised to disk after EVERY event with a
+  `complete` flag, so an interrupted run keeps everything it has done. Effect: the first event
+  verified in 90 s, where the previous version ran 3 h 18 m and wrote nothing. Partial results
+  are therefore usable at any moment, and whatever this run reaches is reported as a partial
+  sample with its own n rather than as a completed check.

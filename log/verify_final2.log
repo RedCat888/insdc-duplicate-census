@@ -1,0 +1,1 @@
+{"event_studies": ["PRJEB2326", "PRJEB2329"], "method": "read_level_first2000", "reads_compared": 2000, "reads_identical_in_position": 2000, "identical_verified": true}

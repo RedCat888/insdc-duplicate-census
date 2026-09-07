@@ -29,7 +29,7 @@ def hash_url(url, cap):
     if not url.startswith("http"): url = "https://" + url
     h = hashlib.md5(); n = 0
     req = urllib.request.Request(url, headers={"User-Agent": "dup-census/1.0"})
-    with urllib.request.urlopen(req, timeout=1800) as r:
+    with urllib.request.urlopen(req, timeout=300) as r:
         while True:
             b = r.read(1 << 20)
             if not b: break
@@ -53,10 +53,10 @@ def main():
         if len(out) >= a.n: break
         # find two runs in different studies sharing a checksum
         reports = {}
-        for run in e["runs"][:24]:
+        for run in e["runs"][:10]:
             fr = filereport(run)
             if fr and fr.get("submitted_md5"): reports[run] = fr
-            if len(reports) >= 12: break
+            if len(reports) >= 6: break
         bym = {}
         for run, fr in reports.items():
             for i, m in enumerate(fr["submitted_md5"].split(";")):
@@ -97,7 +97,11 @@ def main():
                 rec["ena_field_correct"] = None
             out.append(rec)
             print(json.dumps({k: rec.get(k) for k in
-                  ("event_studies","method","reads_compared","reads_identical_in_position","identical_verified")}))
+                  ("event_studies","method","reads_compared","reads_identical_in_position","identical_verified")}),
+                  flush=True)
+            json.dump(dict(results=out, skipped_too_big=skipped_big, skipped_no_pair=skipped_meta,
+                           n_verified=sum(1 for r in out if r["identical_verified"]),
+                           n_attempted=len(out), complete=False), open(a.out, "w"), indent=2)
             continue
         rec["method"] = "full_file_md5"
         okhash = []
@@ -116,10 +120,16 @@ def main():
         rec["identical_verified"] = (len(okhash) == 2 and okhash[0] and okhash[0] == okhash[1])
         rec["ena_field_correct"] = all(f.get("matches_ena") for f in rec["files"] if "computed_md5" in f)
         out.append(rec)
-        print(json.dumps({k: rec[k] for k in ("event_studies","identical_verified","ena_field_correct")}))
+        print(json.dumps({k: rec[k] for k in ("event_studies","identical_verified","ena_field_correct")}),
+              flush=True)
+        # incremental write: this pass previously ran >3 h and produced nothing because
+        # results were only serialised at the end
+        json.dump(dict(results=out, skipped_too_big=skipped_big, skipped_no_pair=skipped_meta,
+                       n_verified=sum(1 for r in out if r["identical_verified"]),
+                       n_attempted=len(out), complete=False), open(a.out, "w"), indent=2)
     json.dump(dict(results=out, skipped_too_big=skipped_big, skipped_no_pair=skipped_meta,
                    n_verified=sum(1 for r in out if r["identical_verified"]),
-                   n_attempted=len(out)), open(a.out, "w"), indent=2)
+                   n_attempted=len(out), complete=True), open(a.out, "w"), indent=2)
     print(f"\nVERIFIED IDENTICAL {sum(1 for r in out if r['identical_verified'])}/{len(out)}"
           f"  (skipped: {skipped_big} too big, {skipped_meta} no usable pair)")
 

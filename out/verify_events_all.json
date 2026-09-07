@@ -1,0 +1,34 @@
+{
+  "results": [
+    {
+      "event_studies": [
+        "PRJEB2326",
+        "PRJEB2329"
+      ],
+      "target_md5": "1941aa8c021515dff40cdfaae42139ff",
+      "files": [
+        {
+          "run": "ERR022116",
+          "study": "PRJEB2326",
+          "n_reads": 2000
+        },
+        {
+          "run": "ERR022296",
+          "study": "PRJEB2329",
+          "n_reads": 2000
+        }
+      ],
+      "max_bytes": 1859487862,
+      "method": "read_level_first2000",
+      "reads_compared": 2000,
+      "reads_identical_in_position": 2000,
+      "identical_verified": true,
+      "ena_field_correct": null
+    }
+  ],
+  "skipped_too_big": 0,
+  "skipped_no_pair": 0,
+  "n_verified": 1,
+  "n_attempted": 1,
+  "complete": false
+}
