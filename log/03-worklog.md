@@ -167,3 +167,21 @@
   work. The 150-pair confirmation sample slowed from ~25 pairs per 30 s to ~25 pairs per 15 min
   partway through. It was left to finish rather than killed, because `identity_conflicts.py`
   only writes its results at the end — a design flaw worth fixing before any larger sample.
+- **Event-stratified verification pass: STARTED, NOT FINISHED at time of reporting.**
+  `src/verify_events.py --events out/events2_all.jsonl --n 20` samples 20 of the 201
+  duplication events at random and checks each by downloading both submitted files and hashing
+  them locally, falling back to comparing the first 2,000 read sequences when a file exceeds
+  the size cap (so the sample is not biased toward small datasets). It ran for over two hours
+  without completing: each event needs up to 24 `filereport` calls to find a pair sharing a
+  checksum, and then tens of MB of downloads, against an API that delivers ~150 kB/s.
+  It writes `out/verify_events_all.json` only on completion, so it was left running rather
+  than killed. **No number from this pass is used anywhere in the report.**
+  The verification actually reported rests on: 8 pairs downloaded and hashed in full (8/8
+  identical, and ENA's `submitted_md5` matched the bytes fetched in every case), 12
+  organism-level conflicts confirmed exhaustively by NCBI composition *and* read-sequence
+  comparison (12/12), a seeded random sample of 150 identity-conflict pairs checked against
+  NCBI composition (146 confirmed / 2 refuted / 2 no fingerprint), and one multi-GB file pair
+  range-checked at both ends.
+  To pick it up later: `python3 src/verify_events.py --events out/events2_all.jsonl --n 20
+  --maxbytes 40000000 --out out/verify_events_all.json`. Fix worth making first: write results
+  incrementally so a long run can be interrupted without losing everything.
