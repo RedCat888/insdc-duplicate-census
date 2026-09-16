@@ -66,7 +66,7 @@ Measured on one fresh window (15,999 runs): 22,044 distinct `fastq_md5` values, 
 ## How the pipeline works
 
 ```mermaid
-flowchart LR
+flowchart TB
     A[ENA Portal API<br/>43.8M read_run rows<br/>monthly windows] --> B[validate every window<br/>against ENA's own count<br/>re-pull short ones]
     B --> C[key streams<br/>submitted_md5 · read+base count<br/>exploratory / held-out split]
     C --> D[events2.py<br/>cross-study duplication events<br/>permutation null]
