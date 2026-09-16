@@ -11,3 +11,6 @@ __pycache__/
 .venv/
 .secrets/
 outreach/
+out/efetch_multi.jsonl
+out/efetch_multi.jsonl.failed
+data/stat/
