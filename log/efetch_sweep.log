@@ -130,3 +130,5 @@ wanted=491634 already=0 todo=491634
 [20:42:57] batches=1170/2459 runs=269847 failed=0 rate=160/s
 [20:43:09] batches=1180/2459 runs=272283 failed=0 rate=160/s
 [20:43:21] batches=1190/2459 runs=274653 failed=0 rate=161/s
+[20:43:38] batches=1200/2459 runs=276939 failed=0 rate=160/s
+[20:43:50] batches=1210/2459 runs=279008 failed=0 rate=160/s
