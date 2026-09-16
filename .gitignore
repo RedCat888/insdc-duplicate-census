@@ -5,3 +5,7 @@ probe/*.tsv
 probe/*.gz
 probe/*.xml
 probe/*.csv
+
+__pycache__/
+*.pyc
+.venv/
