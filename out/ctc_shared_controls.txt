@@ -1,0 +1,26 @@
+Content-identical run pairs between GSE40174 (Yu et al. Nature 2012) and GSE41245 (Yu et al. Science 2013)
+
+GSM987819: blood from healthy human donor 1 processed by EpCAM CTC-Chip
+GSM1012159: blood draw 1 from healthy human donor 8 processed by EPCAM CTC chip
+
+GSM987820: blood from healthy human donor 1 processed by IgG CTC-Chip
+GSM1012160: blood draw 1 from healthy human donor 8 processed by IgG CTC chip
+
+GSM987821: blood from healthy human donor 2 processed by EpCAM CTC-Chip
+GSM1012157: blood draw 1 from healthy human donor 7 processed by EPCAM CTC chip
+
+GSM987822: blood from healthy human donor 2 processed by IgG CTC-Chip
+GSM1012158: blood draw 1 from healthy human donor 7 processed by IgG CTC chip
+
+GSM987823: blood from healthy human donor 3 processed by EpCAM CTC-Chip
+GSM1012153: blood draw 1 from healthy human donor 5 processed by EPCAM CTC chip
+
+GSM987824: blood from healthy human donor 3 processed by IgG CTC-Chip
+GSM1012154: blood draw 1 from healthy human donor 5 processed by IgG CTC chip
+
+GSM987825: blood from healthy human donor 4 processed by EpCAM CTC-Chip
+GSM1012151: blood draw 1 from healthy human donor 4 processed by EPCAM CTC chip
+
+GSM987826: blood from healthy human donor 4 processed by IgG CTC-Chip
+GSM1012152: blood draw 1 from healthy human donor 4 processed by IgG CTC chip
+

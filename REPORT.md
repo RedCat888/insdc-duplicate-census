@@ -76,7 +76,18 @@ to the wheat run's `library06_GBSKQZK02.sff`: same 2,167,347,440 bytes, same
 and last 5 MB fetched by range request. The same physical 454 region output sits inside a
 wheat genome project and a potato genome project.
 
-**5. One library, two healthy donors, two journals.** `SRR543504` and `SRR578255` are both
+**5. Four healthy donors deposited twice, across two journals.** *(Revised 2026-09-15 —
+the earlier version of this section described a single pair; the full comparison of both
+series is in `log/07-organism-conflict-audit.md`.)* Comparing all 62 runs of SRP014893
+(GSE40174) and SRP015945 (GSE41245) by exact base composition gives **eight** content-identical
+run pairs, not one, in a systematic pattern: the *Nature* study's healthy donors 1, 2, 3, 4 are
+the *Science* study's donors 8, 7, 5, 4, each on both the EpCAM and IgG chips. The most likely
+reading is reuse of healthy-donor controls across two studies, deposited as new BioSamples
+rather than by reference to the existing GEO samples; the consequence is that anyone pooling
+both series double-counts four donors. The authors have been asked to confirm; no claim about
+disclosure is made here. The original single-pair description follows.
+
+**5a. The pair as first found.** `SRR543504` and `SRR578255` are both
 58,602,670 reads / 1,858,493,937 bases with identical NCBI composition, and their first 2,000
 reads are identical (sequence-MD5 `6088b8b35f0043e91708a10f21a4fce7` for both).
 `SRR543504` → SRX178476 → SAMN01120345 → GSM987821, in GSE40176, described as
@@ -107,11 +118,17 @@ the Basel record, under an internal identifier, would be missed.
   "duplicate", "redundant", "identical" and "same data" appear zero times in that paper.
 - **In pathogen genomics a duplicate is indistinguishable from a transmission event.**
   Identical genomes give a SNP distance of zero, which is the strongest possible evidence of
-  recent transmission. The nine-study *M. tuberculosis* component above spans Borstel, the
-  Institute of Tropical Medicine and Basel; at least seven of its nine studies are cited
-  together by a single downstream comparative-genomics paper (PMID 35638832), and the
-  component also contains the data behind PMID 27194683 — a paper titled "Standard Genotyping
-  Overestimates Transmission of *Mycobacterium tuberculosis*".
+  recent transmission. In the nine-study *M. tuberculosis* component above (Basel,
+  Forschungszentrum Borstel and the Institute of Tropical Medicine), **260 shared-file groups
+  place the same sequencing data under different BioSample accessions** — 290 runs under 282
+  distinct BioSamples — so a pipeline that de-duplicates by BioSample, which is standard, sees
+  independent isolates (`log/08-tb-component.md`). A further 104 groups sit under a single
+  BioSample and are discoverable from the metadata.
+  **What is not yet shown:** that any *published* transmission cluster contains such a pair.
+  Eight of the nine studies are cited together by Tomasi et al., *Microbiol Spectr* 2022
+  (PMID 35638832), but that is a toxin-antitoxin study, not a transmission analysis. The
+  preregistered test of the consequence is specified in `log/08-tb-component.md` and has not
+  been run. Until it is, the risk stated here is mechanistic, not demonstrated.
 - **This is against stated policy, not merely untidy.** NCBI's SRA submission standards
   (NCBI Insights, 29 June 2026, "Standards for SRA Data Submission", section 5) state:
   "Duplicate submissions are not permitted; reference the existing accession instead."

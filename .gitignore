@@ -9,3 +9,5 @@ probe/*.csv
 __pycache__/
 *.pyc
 .venv/
+.secrets/
+outreach/

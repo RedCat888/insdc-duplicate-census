@@ -107,11 +107,17 @@ the Basel record, under an internal identifier, would be missed.
   "duplicate", "redundant", "identical" and "same data" appear zero times in that paper.
 - **In pathogen genomics a duplicate is indistinguishable from a transmission event.**
   Identical genomes give a SNP distance of zero, which is the strongest possible evidence of
-  recent transmission. The nine-study *M. tuberculosis* component above spans Borstel, the
-  Institute of Tropical Medicine and Basel; at least seven of its nine studies are cited
-  together by a single downstream comparative-genomics paper (PMID 35638832), and the
-  component also contains the data behind PMID 27194683 — a paper titled "Standard Genotyping
-  Overestimates Transmission of *Mycobacterium tuberculosis*".
+  recent transmission. In the nine-study *M. tuberculosis* component above (Basel,
+  Forschungszentrum Borstel and the Institute of Tropical Medicine), **260 shared-file groups
+  place the same sequencing data under different BioSample accessions** — 290 runs under 282
+  distinct BioSamples — so a pipeline that de-duplicates by BioSample, which is standard, sees
+  independent isolates (`log/08-tb-component.md`). A further 104 groups sit under a single
+  BioSample and are discoverable from the metadata.
+  **What is not yet shown:** that any *published* transmission cluster contains such a pair.
+  Eight of the nine studies are cited together by Tomasi et al., *Microbiol Spectr* 2022
+  (PMID 35638832), but that is a toxin-antitoxin study, not a transmission analysis. The
+  preregistered test of the consequence is specified in `log/08-tb-component.md` and has not
+  been run. Until it is, the risk stated here is mechanistic, not demonstrated.
 - **This is against stated policy, not merely untidy.** NCBI's SRA submission standards
   (NCBI Insights, 29 June 2026, "Standards for SRA Data Submission", section 5) state:
   "Duplicate submissions are not permitted; reference the existing accession instead."

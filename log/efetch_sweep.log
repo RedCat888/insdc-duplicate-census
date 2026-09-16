@@ -1,0 +1,124 @@
+wanted=491634 already=0 todo=491634
+[20:15:07] batches=10/2459 runs=2175 failed=0 rate=134/s
+[20:15:13] batches=20/2459 runs=4728 failed=0 rate=205/s
+[20:15:26] batches=30/2459 runs=6820 failed=0 rate=189/s
+[20:15:37] batches=40/2459 runs=8820 failed=0 rate=187/s
+[20:15:51] batches=50/2459 runs=10851 failed=0 rate=179/s
+[20:16:03] batches=60/2459 runs=12857 failed=0 rate=176/s
+[20:16:15] batches=70/2459 runs=14857 failed=0 rate=175/s
+[20:16:27] batches=80/2459 runs=16857 failed=0 rate=173/s
+[20:16:38] batches=90/2459 runs=18838 failed=0 rate=175/s
+[20:16:49] batches=100/2459 runs=20838 failed=0 rate=176/s
+[20:17:01] batches=110/2459 runs=22838 failed=0 rate=175/s
+[20:17:12] batches=120/2459 runs=24838 failed=0 rate=175/s
+[20:17:23] batches=130/2459 runs=26838 failed=0 rate=176/s
+[20:17:35] batches=140/2459 runs=28841 failed=0 rate=176/s
+[20:17:47] batches=150/2459 runs=30841 failed=0 rate=175/s
+[20:17:59] batches=160/2459 runs=32841 failed=0 rate=174/s
+[20:18:10] batches=170/2459 runs=34841 failed=0 rate=175/s
+[20:18:22] batches=180/2459 runs=36841 failed=0 rate=174/s
+[20:18:33] batches=190/2459 runs=38841 failed=0 rate=174/s
+[20:18:44] batches=200/2459 runs=40848 failed=0 rate=175/s
+[20:18:55] batches=210/2459 runs=43189 failed=0 rate=177/s
+[20:19:04] batches=220/2459 runs=45119 failed=0 rate=178/s
+[20:19:14] batches=230/2459 runs=47167 failed=0 rate=179/s
+[20:19:23] batches=240/2459 runs=49167 failed=0 rate=181/s
+[20:19:32] batches=250/2459 runs=51167 failed=0 rate=181/s
+[20:19:42] batches=260/2459 runs=53168 failed=0 rate=183/s
+[20:19:50] batches=270/2459 runs=55168 failed=0 rate=184/s
+[20:20:00] batches=280/2459 runs=57163 failed=0 rate=185/s
+[20:20:11] batches=290/2459 runs=59158 failed=0 rate=185/s
+[20:20:20] batches=300/2459 runs=61223 failed=0 rate=186/s
+[20:20:28] batches=310/2459 runs=63317 failed=0 rate=187/s
+[20:20:39] batches=320/2459 runs=65345 failed=0 rate=188/s
+[20:20:48] batches=330/2459 runs=67384 failed=0 rate=188/s
+[20:20:56] batches=340/2459 runs=69384 failed=0 rate=190/s
+[20:21:07] batches=350/2459 runs=71396 failed=0 rate=190/s
+[20:21:17] batches=360/2459 runs=73396 failed=0 rate=190/s
+[20:21:27] batches=370/2459 runs=75397 failed=0 rate=190/s
+[20:21:37] batches=380/2459 runs=77975 failed=0 rate=192/s
+[20:21:47] batches=390/2459 runs=79977 failed=0 rate=192/s
+[20:21:56] batches=400/2459 runs=81977 failed=0 rate=193/s
+[20:22:05] batches=410/2459 runs=83977 failed=0 rate=193/s
+[20:22:15] batches=420/2459 runs=86142 failed=0 rate=194/s
+[20:22:25] batches=430/2459 runs=88163 failed=0 rate=194/s
+[20:22:33] batches=440/2459 runs=90164 failed=0 rate=195/s
+[20:22:42] batches=450/2459 runs=92187 failed=0 rate=195/s
+[20:22:52] batches=460/2459 runs=94260 failed=0 rate=195/s
+[20:23:00] batches=470/2459 runs=96272 failed=0 rate=197/s
+[20:23:10] batches=480/2459 runs=98276 failed=0 rate=196/s
+[20:23:21] batches=490/2459 runs=100435 failed=0 rate=196/s
+[20:23:29] batches=500/2459 runs=102435 failed=0 rate=197/s
+  XML parse error: mismatched tag: line 3, column 2064417
+[20:23:41] batches=510/2459 runs=104230 failed=0 rate=196/s
+  retry 1/5 after HTTPError: HTTP Error 502: Bad Gateway (sleep 3s)
+[20:23:54] batches=520/2459 runs=106232 failed=0 rate=195/s
+[20:24:04] batches=530/2459 runs=108307 failed=0 rate=196/s
+[20:24:15] batches=540/2459 runs=110367 failed=0 rate=196/s
+[20:24:26] batches=550/2459 runs=112367 failed=0 rate=195/s
+  retry 1/5 after HTTPError: HTTP Error 502: Bad Gateway (sleep 3s)
+  retry 1/5 after HTTPError: HTTP Error 502: Bad Gateway (sleep 3s)
+[20:24:41] batches=560/2459 runs=115543 failed=0 rate=196/s
+[20:24:52] batches=570/2459 runs=117846 failed=0 rate=196/s
+[20:25:03] batches=580/2459 runs=119846 failed=0 rate=196/s
+[20:25:11] batches=590/2459 runs=121846 failed=0 rate=196/s
+[20:25:21] batches=600/2459 runs=123846 failed=0 rate=196/s
+[20:25:31] batches=610/2459 runs=125846 failed=0 rate=196/s
+  XML parse error: not well-formed (invalid token): line 3, column 1681827
+[20:25:42] batches=620/2459 runs=127646 failed=0 rate=196/s
+[20:25:52] batches=630/2459 runs=129648 failed=0 rate=196/s
+[20:26:00] batches=640/2459 runs=131648 failed=0 rate=197/s
+[20:26:09] batches=650/2459 runs=133648 failed=0 rate=197/s
+[20:26:19] batches=660/2459 runs=135652 failed=0 rate=197/s
+[20:26:30] batches=670/2459 runs=137689 failed=0 rate=197/s
+[20:26:37] batches=680/2459 runs=139701 failed=0 rate=198/s
+[20:26:48] batches=690/2459 runs=141688 failed=0 rate=197/s
+[20:26:57] batches=700/2459 runs=143689 failed=0 rate=198/s
+[20:27:06] batches=710/2459 runs=145690 failed=0 rate=198/s
+[20:27:16] batches=720/2459 runs=147693 failed=0 rate=198/s
+[20:27:25] batches=730/2459 runs=149695 failed=0 rate=198/s
+[20:27:35] batches=740/2459 runs=151695 failed=0 rate=198/s
+[20:27:45] batches=750/2459 runs=153736 failed=0 rate=198/s
+[20:27:53] batches=760/2459 runs=155731 failed=0 rate=199/s
+[20:28:03] batches=770/2459 runs=157731 failed=0 rate=199/s
+[20:28:13] batches=780/2459 runs=159731 failed=0 rate=199/s
+[20:28:21] batches=790/2459 runs=161734 failed=0 rate=199/s
+  retry 1/5 after HTTPError: HTTP Error 502: Bad Gateway (sleep 3s)
+[20:28:30] batches=800/2459 runs=163794 failed=0 rate=200/s
+[20:29:32] batches=810/2459 runs=169817 failed=0 rate=193/s
+[20:30:02] batches=820/2459 runs=174110 failed=0 rate=191/s
+[20:30:32] batches=830/2459 runs=176259 failed=0 rate=187/s
+[20:31:02] batches=840/2459 runs=181021 failed=0 rate=186/s
+  retry 1/5 after HTTPError: HTTP Error 502: Bad Gateway (sleep 3s)
+[20:31:30] batches=850/2459 runs=188698 failed=0 rate=189/s
+[20:31:50] batches=860/2459 runs=190700 failed=0 rate=187/s
+[20:32:10] batches=870/2459 runs=195706 failed=0 rate=188/s
+[20:32:30] batches=880/2459 runs=198781 failed=0 rate=188/s
+[20:32:43] batches=890/2459 runs=201131 failed=0 rate=188/s
+[20:32:58] batches=900/2459 runs=203820 failed=0 rate=187/s
+[20:33:12] batches=910/2459 runs=206261 failed=0 rate=187/s
+[20:33:29] batches=920/2459 runs=208665 failed=0 rate=186/s
+[20:33:41] batches=930/2459 runs=210752 failed=0 rate=186/s
+[20:33:55] batches=940/2459 runs=213181 failed=0 rate=186/s
+[20:34:30] batches=950/2459 runs=216786 failed=0 rate=184/s
+[20:34:55] batches=960/2459 runs=219115 failed=0 rate=182/s
+[20:35:14] batches=970/2459 runs=221543 failed=0 rate=181/s
+[20:35:34] batches=980/2459 runs=224182 failed=0 rate=180/s
+[20:35:53] batches=990/2459 runs=226105 failed=0 rate=179/s
+[20:36:11] batches=1000/2459 runs=228486 failed=0 rate=178/s
+[20:36:32] batches=1010/2459 runs=231219 failed=0 rate=178/s
+[20:36:55] batches=1020/2459 runs=233568 failed=0 rate=176/s
+[20:37:08] batches=1030/2459 runs=236398 failed=0 rate=177/s
+[20:37:17] batches=1040/2459 runs=238687 failed=0 rate=177/s
+[20:37:33] batches=1050/2459 runs=240788 failed=0 rate=177/s
+[20:37:48] batches=1060/2459 runs=243651 failed=0 rate=177/s
+[20:38:04] batches=1070/2459 runs=246037 failed=0 rate=177/s
+[20:38:19] batches=1080/2459 runs=248429 failed=0 rate=176/s
+[20:38:34] batches=1090/2459 runs=251722 failed=0 rate=177/s
+  XML parse error: not well-formed (invalid token): line 9, column 315007
+  XML parse error: not well-formed (invalid token): line 3, column 102192
+  XML parse error: not well-formed (invalid token): line 55, column 637618
+[20:38:47] batches=1100/2459 runs=253754 failed=0 rate=177/s
+[20:39:09] batches=1110/2459 runs=256370 failed=0 rate=176/s
+  retry 1/5 after HTTPError: HTTP Error 502: Bad Gateway (sleep 3s)
+  retry 1/5 after IncompleteRead: IncompleteRead(6549892 bytes read) (sleep 3s)

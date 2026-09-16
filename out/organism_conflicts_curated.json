@@ -1,0 +1,1367 @@
+{
+ "summary": {
+  "study_pairs_total": 67,
+  "by_category_study_pairs": {
+   "REFINEMENT": 14,
+   "PLACEHOLDER": 11,
+   "MISATTR_ADJ": 15,
+   "MISATTR_UNADJ": 19,
+   "FILE_MIX": 1,
+   "HOST_ASSOC": 2,
+   "MIXTURE": 5
+  },
+  "by_category_run_pairs": {
+   "REFINEMENT": 193,
+   "PLACEHOLDER": 106,
+   "MISATTR_ADJ": 23,
+   "MISATTR_UNADJ": 68,
+   "FILE_MIX": 1,
+   "HOST_ASSOC": 2,
+   "MIXTURE": 5
+  },
+  "genuine_conflict_study_pairs": 40,
+  "not_conflicts": 27
+ },
+ "rows": [
+  {
+   "studies": [
+    "PRJEB2264",
+    "PRJEB2338"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Triticum aestivum",
+    "Solanum phureja"
+   ],
+   "tax_relation": "same_higher_depth7",
+   "centers": [
+    "University of Liverpool;UOL_CGR",
+    "University of Dundee;DUNDEE"
+   ],
+   "category": "FILE_MIX",
+   "note": "potato SFF GBSKQZK02 sits inside the wheat run; STAT of wheat run: S. tuberosum 46% + Aegilops 35%",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA282814",
+    "PRJNA319039"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Microplitis demolitor",
+    "Bracoviriform demolitoris"
+   ],
+   "tax_relation": "disjoint",
+   "centers": [
+    "University of Georgia - UGA (GA)",
+    ""
+   ],
+   "category": "HOST_ASSOC",
+   "note": "Microplitis demolitor wasp vs its integrated bracovirus; STAT: wasp 92%, bracovirus 7%",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA290648",
+    "PRJNA312233"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Aphanizomenon flos-aquae UKL13-PB",
+    "Hyphomonadaceae bacterium UKL13-1"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "",
+    ""
+   ],
+   "category": "HOST_ASSOC",
+   "note": "Aphanizomenon UKL13-PB vs co-isolate Hyphomonadaceae UKL13-1 (same culture)",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJEB13242",
+    "PRJEB14753"
+   ],
+   "n_run_pairs": 6,
+   "names": [
+    "Mus musculus",
+    "Homo sapiens"
+   ],
+   "tax_relation": "same_higher_depth9",
+   "centers": [
+    "BAYLOR COLLEGE OF ME",
+    "BAYLOR COLLEGE OF ME"
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Homo sapiens' record holds Mus musculus 95% (Baylor)",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "6/6"
+  },
+  {
+   "studies": [
+    "PRJNA317585",
+    "PRJNA337915"
+   ],
+   "n_run_pairs": 3,
+   "names": [
+    "Acinetobacter baumannii",
+    "Staphylococcus aureus"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "",
+    ""
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Acinetobacter baumannii' record holds S. aureus 95%",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "3/3"
+  },
+  {
+   "studies": [
+    "PRJNA324615",
+    "PRJNA84221"
+   ],
+   "n_run_pairs": 2,
+   "names": [
+    "Pelosinus fermentans DSM 17108",
+    "Acetivibrio thermocellus DSM 2360"
+   ],
+   "tax_relation": "same_higher_depth3",
+   "centers": [
+    "",
+    ""
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Pelosinus fermentans' record holds Acetivibrio (Ruminiclostridium) thermocellus 98%",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "2/2"
+  },
+  {
+   "studies": [
+    "PRJEB23728",
+    "PRJEB23778"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Salmonella enterica",
+    "Escherichia coli"
+   ],
+   "tax_relation": "same_higher_depth6",
+   "centers": [
+    "IZSLT (Istituto Zooprofilattico Sperimentale del Lazio e la Toscana)",
+    "IZSLT (Istituto Zooprofilattico Sperimentale del Lazio e la Toscana)"
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Salmonella enterica' record holds E. coli 16% / Salmonella 0% (IZSLT)",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA53793",
+    "PRJNA53813"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Staphylococcus epidermidis IS-250",
+    "Staphylococcus aureus subsp. aureus IS-91"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'S. epidermidis IS-250' record holds S. aureus 77%",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA53795",
+    "PRJNA53813"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Staphylococcus epidermidis IS-250",
+    "Staphylococcus aureus subsp. aureus IS-99"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'S. epidermidis IS-250' record holds S. aureus 77%",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA10769",
+    "PRJNA12555"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Bos taurus",
+    "Zea mays"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "",
+    ""
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Zea mays' record holds Bos taurus 15% / Zea 0%",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA308790",
+    "PRJNA339509"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Apis mellifera",
+    "Apis cerana"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "",
+    "SUB1784624"
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Apis cerana' record holds Apis mellifera 66%",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA487114",
+    "PRJNA487138"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Abies homolepis",
+    "Gallus gallus"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "SUB4431897",
+    "SUB4433080"
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Abies homolepis' (fir) record holds Gallus gallus 45%",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA53745",
+    "PRJNA53779"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Staphylococcus lugdunensis VCU148",
+    "Staphylococcus epidermidis VCU111"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "SRR071318 'S. epidermidis VCU111' holds S. lugdunensis 98%; VCU148 record correct",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA246441",
+    "PRJNA302243"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Hippocampus kelloggi",
+    "Hippocampus erectus"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "HUAZHONG Agricultural University",
+    ""
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Hippocampus kelloggi' record holds H. erectus 35%",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA321068",
+    "PRJNA339810"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Primates",
+    "Anopheles sinensis"
+   ],
+   "tax_relation": "same_higher_depth2",
+   "centers": [
+    "",
+    "SUB1883772"
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Primates' record holds Anopheles 68%",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA268581",
+    "PRJNA318866"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Mesorhizobium hungaricum",
+    "Enteractinococcus helveticum"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "UASWS",
+    ""
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Enteractinococcus helveticum' record holds Mesorhizobium 70%",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA324120",
+    "PRJNA328794"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Salmonella enterica",
+    "Escherichia coli"
+   ],
+   "tax_relation": "same_higher_depth6",
+   "centers": [
+    "",
+    ""
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Salmonella enterica' record holds E. coli 12% / Salmonella 0%",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA324120",
+    "PRJNA330858"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Salmonella enterica",
+    "Escherichia coli"
+   ],
+   "tax_relation": "same_higher_depth6",
+   "centers": [
+    "",
+    ""
+   ],
+   "category": "MISATTR_ADJ",
+   "note": "'Salmonella enterica' record holds E. coli 12% / Salmonella 0%",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA436448",
+    "PRJNA470955"
+   ],
+   "n_run_pairs": 23,
+   "names": [
+    "Homo sapiens",
+    "Arabidopsis thaliana"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "SUB3743374",
+    "SUB4023145"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Homo sapiens vs Arabidopsis thaliana \u2014 SNU/IBS genome-editing projects, 23 small runs; STAT: Chordata",
+   "stat_verdict": "untestable (no species-level claim on either side)",
+   "stat_verdict_n": "14/23"
+  },
+  {
+   "studies": [
+    "PRJNA436188",
+    "PRJNA436448"
+   ],
+   "n_run_pairs": 16,
+   "names": [
+    "Homo sapiens",
+    "Mus musculus"
+   ],
+   "tax_relation": "same_higher_depth9",
+   "centers": [
+    "SUB3743374",
+    "SUB3743738"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Mus vs Homo \u2014 same submitter group, 16 runs; STAT partially human",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "12/16"
+  },
+  {
+   "studies": [
+    "PRJNA436188",
+    "PRJNA470898"
+   ],
+   "n_run_pairs": 8,
+   "names": [
+    "Mus musculus",
+    "Brassica napus"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "SUB3743738",
+    "SUB4022655"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Mus vs Brassica napus \u2014 same group, 8 runs; STAT: Solanaceae",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "8/8"
+  },
+  {
+   "studies": [
+    "PRJNA436448",
+    "PRJNA436750"
+   ],
+   "n_run_pairs": 4,
+   "names": [
+    "Homo sapiens",
+    "Mus musculus"
+   ],
+   "tax_relation": "same_higher_depth9",
+   "centers": [
+    "SUB3743374",
+    "SUB3905584"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Homo vs Mus \u2014 same group, 4 runs",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "2/4"
+  },
+  {
+   "studies": [
+    "PRJNA451048",
+    "PRJNA470899"
+   ],
+   "n_run_pairs": 3,
+   "names": [
+    "Mus musculus",
+    "Arabidopsis thaliana"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "SUB3906125",
+    "SUB4039555"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Mus vs Arabidopsis \u2014 same group, 3 runs",
+   "stat_verdict": "untestable (no species-level claim on either side)",
+   "stat_verdict_n": "3/3"
+  },
+  {
+   "studies": [
+    "PRJEB21445",
+    "PRJEB33681"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Rattus norvegicus",
+    "Mus musculus"
+   ],
+   "tax_relation": "same_higher_depth15",
+   "centers": [
+    "INSTITUTO DE AGROQUIMICA Y TECNOLOGIA DE ALIMENTOS",
+    "INSTITUTO DE AGROQUIMICA Y TECNOLOGIA DE ALIMENTOS"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Rattus vs Mus as host of microbiome amplicon data",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJEB19502",
+    "PRJEB24580"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Bos taurus",
+    "Mus musculus"
+   ],
+   "tax_relation": "same_higher_depth8",
+   "centers": [
+    "KYUNG HEE UNIV.",
+    "Chungnam National University;KYUNG HEE UNIVERSITY"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Bos taurus vs Mus musculus as host of microbiome amplicon data",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJEB17923",
+    "PRJEB19110"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Picea wilsonii",
+    "Picea sitchensis"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "Umea Plant Science Centre;UPSC",
+    "Umea Plant Science Centre;UPSC"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Picea wilsonii vs P. sitchensis; file-level, different spot counts",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJEB7570",
+    "PRJEB7572"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Bacillus sp. DSM 5850",
+    "bacterium EM-17"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "Universidad de La Frontera",
+    "Universidad de La Frontera"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Bacillus sp. DSM 5850 vs bacterium EM-17",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJEB15412",
+    "PRJEB9777"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Medicago prostrata",
+    "Medicago radiata"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "UNIVERSITY OF GOTHENBURG",
+    "Center of Marine Sciences - University of Algarve;Faro;Portugal;CCMAR"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Medicago prostrata vs M. radiata",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA357678",
+    "PRJNA399227"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Mus musculus",
+    "Homo sapiens"
+   ],
+   "tax_relation": "same_higher_depth9",
+   "centers": [
+    "",
+    "SUB2985877"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Mus vs Homo; STAT: Esox lucius 100% (a third organism \u2014 likely reference artefact on tiny run)",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA72625",
+    "PRJNA80143"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Gossypium barbadense",
+    "Gossypium arboreum"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "Alabama A&M University",
+    "UOKNOR"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "as above",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA72625",
+    "PRJNA80145"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Gossypium arboreum",
+    "Gossypium barbadense"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "Alabama A&M University",
+    "UOKNOR"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Gossypium arboreum vs G. barbadense; read-identical (confirmed); no cotton reference in STAT",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA282184",
+    "PRJNA282185"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Solanum lycopersicum",
+    "Solanum habrochaites"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "College of Life Science, Northeast Agricultural Un",
+    "College of Life Science, Northeast Agricultural Un"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Solanum lycopersicum vs S. habrochaites; STAT ambiguous (S. pennellii 11%, lycopersicum 9%)",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA310178",
+    "PRJNA310407"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Acidobacterium capsulatum",
+    "Segatella albensis"
+   ],
+   "tax_relation": "same_higher_depth2",
+   "centers": [
+    "",
+    ""
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Acidobacterium capsulatum vs Segatella albensis; STAT resolves neither",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA281676",
+    "PRJNA315910"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Synodontis nigriventris",
+    "Synodontis eupterus"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "southwest university",
+    ""
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Synodontis nigriventris vs S. eupterus (catfish)",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA392566",
+    "PRJNA392571"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Lactarius sp. orange rll-107",
+    "Lactifluus echinatus"
+   ],
+   "tax_relation": "same_higher_depth8",
+   "centers": [
+    "Kunming University of Science and Technology",
+    "Kunming University of Science and Technology"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Lactarius sp. vs Lactifluus echinatus (fungi)",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA408223",
+    "PRJNA413737"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Actinidia arguta",
+    "Actinidia chinensis"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "Chinese academy of agricultural sciences",
+    "bmk"
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Actinidia arguta vs A. chinensis (kiwifruit)",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA295128",
+    "PRJNA298670"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Dendrobium densiflorum",
+    "Eulophia picta"
+   ],
+   "tax_relation": "same_higher_depth11",
+   "centers": [
+    "University of North Bengal",
+    ""
+   ],
+   "category": "MISATTR_UNADJ",
+   "note": "Dendrobium densiflorum vs Eulophia picta (orchids)",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA207831",
+    "PRJNA207832"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Escherichia coli O157:H7 str. EDL933",
+    "Listeria monocytogenes serotype 4b str. NCTC 11994"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "National Institute of Standards and Technology",
+    "National Institute of Standards and Technology"
+   ],
+   "category": "MIXTURE",
+   "note": "NIST CCQM reference run: STAT Listeria 19% + E. coli 10%; filed under each organism",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA49437",
+    "PRJNA51081"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Finegoldia magna SY403409CC001050417",
+    "Peptoniphilus sp. oral taxon 836 str. F0141"
+   ],
+   "tax_relation": "same_higher_depth6",
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "category": "MIXTURE",
+   "note": "JCVI 454 pool: Finegoldia 30% + S. mitis 16% (+Peptoniphilus); filed under each of 3 organisms",
+   "stat_verdict": "species-level reads support both (mixture)",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA49439",
+    "PRJNA51081"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Finegoldia magna SY403409CC001050417",
+    "Streptococcus mitis bv. 2 str. F0392"
+   ],
+   "tax_relation": "same_higher_depth3",
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "category": "MIXTURE",
+   "note": "as above",
+   "stat_verdict": "species-level reads support both (mixture)",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA49437",
+    "PRJNA49439"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Peptoniphilus sp. oral taxon 836 str. F0141",
+    "Streptococcus mitis bv. 2 str. F0392"
+   ],
+   "tax_relation": "same_higher_depth3",
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "category": "MIXTURE",
+   "note": "as above",
+   "stat_verdict": "species-level reads support both (mixture)",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA49443",
+    "PRJNA49619"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Ligilactobacillus salivarius ACS-116-V-Col5a",
+    "Lactobacillus delbrueckii subsp. bulgaricus PB2003/044-T3-4"
+   ],
+   "tax_relation": "same_higher_depth6",
+   "centers": [
+    "JCVI",
+    "JCVI"
+   ],
+   "category": "MIXTURE",
+   "note": "JCVI: L. delbrueckii 57% + L. salivarius 21% (STAT uses pre-2020 genus name)",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJEB10578",
+    "PRJEB10590"
+   ],
+   "n_run_pairs": 23,
+   "names": [
+    "Bacteria aborigena",
+    "Bacteria ambigua"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "Unite de Recherche sur les Maladies Infectieuses et Tropicales Emergentes (URMITE) CNRS;Faculte de Medecine;Universite de la Mediterranee;Marseille;France;URMITE",
+    "Unite de Recherche sur les Maladies Infectieuses et Tropicales Emergentes (URMITE) CNRS;Faculte de Medecine;Universite de la Mediterranee;Marseille;France;URMITE"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "'Bacteria aborigena' vs 'Bacteria ambigua' \u2014 provisional culturomics names, one submitter",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "23/23"
+  },
+  {
+   "studies": [
+    "PRJEB10590",
+    "PRJEB7053"
+   ],
+   "n_run_pairs": 23,
+   "names": [
+    "Bacteria aborigena",
+    "Bacteria ambigua"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "Unite de Recherche sur les Maladies Infectieuses et Tropicales Emergentes (URMITE) CNRS;Faculte de Medecine;Universite de la Mediterranee;Marseille;France;URMITE",
+    "Unite de Recherche sur les Maladies Infectieuses et Tropicales Emergentes (URMITE) CNRS;Faculte de Medecine;Universite de la Mediterranee;Marseille;France;URMITE"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "as above",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "23/23"
+  },
+  {
+   "studies": [
+    "PRJEB10590",
+    "PRJEB9815"
+   ],
+   "n_run_pairs": 18,
+   "names": [
+    "Bacteria aborigena",
+    "Bacteria ambigua"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "Unite de Recherche sur les Maladies Infectieuses et Tropicales Emergentes (URMITE) CNRS;Faculte de Medecine;Universite de la Mediterranee;Marseille;France;URMITE",
+    "Unite de Recherche sur les Maladies Infectieuses et Tropicales Emergentes (URMITE) CNRS;Faculte de Medecine;Universite de la Mediterranee;Marseille;France;URMITE"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "as above",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "18/18"
+  },
+  {
+   "studies": [
+    "PRJEB20096",
+    "PRJEB7053"
+   ],
+   "n_run_pairs": 16,
+   "names": [
+    "Bacteria aetolus",
+    "Bacteria aborigena"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "Unite de Recherche sur les Maladies Infectieuses et Tropicales Emergentes (URMITE) CNRS;Faculte de Medecine;Universite de la Mediterranee;Marseille;France;URMITE",
+    "Unite de Recherche sur les Maladies Infectieuses et Tropicales Emergentes (URMITE) CNRS;Faculte de Medecine;Universite de la Mediterranee;Marseille;France;URMITE"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "'Bacteria aetolus' vs 'Bacteria aborigena' \u2014 as above",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "16/16"
+  },
+  {
+   "studies": [
+    "PRJNA381824",
+    "PRJNA412964"
+   ],
+   "n_run_pairs": 9,
+   "names": [
+    "Chryseolinea",
+    "Luedemannella"
+   ],
+   "tax_relation": "same_higher_depth1",
+   "centers": [
+    "SUB3054666",
+    "SUB3100896"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "genus-only labels Chryseolinea vs Luedemannella; STAT resolves neither",
+   "stat_verdict": "untestable (no species-level claim on either side)",
+   "stat_verdict_n": "9/9"
+  },
+  {
+   "studies": [
+    "PRJEB9004",
+    "PRJEB9031"
+   ],
+   "n_run_pairs": 5,
+   "names": [
+    "uncultured archaeon",
+    "uncultured bacterium"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "VTT Technical Research Centre of Finland;VTT",
+    "VTT Technical Research Centre of Finland;VTT"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "uncultured archaeon vs uncultured bacterium (VTT; same amplicon file per primer target)",
+   "stat_verdict": "untestable (no species-level claim on either side)",
+   "stat_verdict_n": "5/5"
+  },
+  {
+   "studies": [
+    "PRJEB18457",
+    "PRJEB21687"
+   ],
+   "n_run_pairs": 5,
+   "names": [
+    "uncultured bacterium",
+    "uncultured archaeon"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "VTT Technical Research Centre of Finland;VTT",
+    "VTT Technical Research Centre of Finland;VTT"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "uncultured bacterium vs uncultured archaeon (VTT)",
+   "stat_verdict": "untestable (no species-level claim on either side)",
+   "stat_verdict_n": "5/5"
+  },
+  {
+   "studies": [
+    "PRJEB9004",
+    "PRJEB9160"
+   ],
+   "n_run_pairs": 3,
+   "names": [
+    "uncultured archaeon",
+    "uncultured bacterium"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "VTT Technical Research Centre of Finland;VTT",
+    "VTT Technical Research Centre of Finland;VTT"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "uncultured archaeon vs uncultured bacterium (VTT)",
+   "stat_verdict": "untestable (no species-level claim on either side)",
+   "stat_verdict_n": "3/3"
+  },
+  {
+   "studies": [
+    "PRJEB9004",
+    "PRJEB9112"
+   ],
+   "n_run_pairs": 2,
+   "names": [
+    "uncultured archaeon",
+    "uncultured fungus"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "VTT Technical Research Centre of Finland;VTT",
+    "VTT Technical Research Centre of Finland;VTT"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "uncultured archaeon vs uncultured fungus (VTT); STAT: Sarocladium 77%",
+   "stat_verdict": "untestable (no species-level claim on either side)",
+   "stat_verdict_n": "2/2"
+  },
+  {
+   "studies": [
+    "PRJEB6874",
+    "PRJEB9004"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "uncultured methanogenic archaeon",
+    "uncultured archaeon"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "VTT Technical Research Centre of Finland;VTT",
+    "VTT Technical Research Centre of Finland;VTT"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "uncultured methanogenic archaeon vs uncultured archaeon (VTT)",
+   "stat_verdict": "untestable (no species-level claim on either side)",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA342241",
+    "PRJNA342756"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Rinodina archaea",
+    "Steroidobacter"
+   ],
+   "tax_relation": "disjoint",
+   "centers": [
+    "",
+    "novogene"
+   ],
+   "category": "PLACEHOLDER",
+   "note": "lichen Rinodina archaea vs Steroidobacter (lichen-associated bacterium); STAT: mostly unassigned",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJEB15463",
+    "PRJEB27847"
+   ],
+   "n_run_pairs": 61,
+   "names": [
+    "Mycobacterium tuberculosis complex sp.",
+    "Mycobacterium tuberculosis"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "FORSCHUNGSZENTRUM BORSTEL;FZB",
+    "Institute of tropical medicine"
+   ],
+   "category": "REFINEMENT",
+   "note": "M. tuberculosis vs M. tuberculosis complex sp.",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "61/61"
+  },
+  {
+   "studies": [
+    "PRJEB11460",
+    "PRJEB9680"
+   ],
+   "n_run_pairs": 40,
+   "names": [
+    "Mycobacterium tuberculosis",
+    "Mycobacterium tuberculosis complex sp."
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "UNIVERSITY OF BASEL",
+    "FORSCHUNGSZENTRUM BORSTEL;FZB"
+   ],
+   "category": "REFINEMENT",
+   "note": "M. tuberculosis vs MTBC sp.",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "40/40"
+  },
+  {
+   "studies": [
+    "PRJEB11460",
+    "PRJEB15463"
+   ],
+   "n_run_pairs": 30,
+   "names": [
+    "Mycobacterium tuberculosis",
+    "Mycobacterium tuberculosis complex sp."
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "UNIVERSITY OF BASEL",
+    "FORSCHUNGSZENTRUM BORSTEL;FZB"
+   ],
+   "category": "REFINEMENT",
+   "note": "M. tuberculosis vs MTBC sp.",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "30/30"
+  },
+  {
+   "studies": [
+    "PRJEB11460",
+    "PRJEB6273"
+   ],
+   "n_run_pairs": 15,
+   "names": [
+    "Mycobacterium tuberculosis",
+    "Mycobacterium tuberculosis complex sp."
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "UNIVERSITY OF BASEL",
+    "FORSCHUNGSZENTRUM BORSTEL;FZB"
+   ],
+   "category": "REFINEMENT",
+   "note": "M. tuberculosis vs MTBC sp.",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "15/15"
+  },
+  {
+   "studies": [
+    "PRJEB11460",
+    "PRJEB9545"
+   ],
+   "n_run_pairs": 11,
+   "names": [
+    "Mycobacterium tuberculosis",
+    "Mycobacterium tuberculosis complex sp."
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "UNIVERSITY OF BASEL",
+    "FORSCHUNGSZENTRUM BORSTEL;FZB"
+   ],
+   "category": "REFINEMENT",
+   "note": "M. tuberculosis vs MTBC sp.",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "11/11"
+  },
+  {
+   "studies": [
+    "PRJEB11460",
+    "PRJEB7727"
+   ],
+   "n_run_pairs": 9,
+   "names": [
+    "Mycobacterium tuberculosis",
+    "Mycobacterium tuberculosis complex sp."
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "UNIVERSITY OF BASEL",
+    "FORSCHUNGSZENTRUM BORSTEL;FZB"
+   ],
+   "category": "REFINEMENT",
+   "note": "M. tuberculosis vs MTBC sp.",
+   "stat_verdict": "species-level reads support A only",
+   "stat_verdict_n": "9/9"
+  },
+  {
+   "studies": [
+    "PRJNA300644",
+    "PRJNA433223"
+   ],
+   "n_run_pairs": 9,
+   "names": [
+    "Saccharum officinarum",
+    "Saccharum hybrid cultivar"
+   ],
+   "tax_relation": "same_higher_depth14",
+   "centers": [
+    "",
+    "SUB3611343"
+   ],
+   "category": "REFINEMENT",
+   "note": "Saccharum officinarum vs Saccharum hybrid cultivar",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "9/9"
+  },
+  {
+   "studies": [
+    "PRJEB22358",
+    "PRJNA302362"
+   ],
+   "n_run_pairs": 6,
+   "names": [
+    "Mycobacterium tuberculosis complex sp.",
+    "Mycobacterium tuberculosis"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "FORSCHUNGSZENTRUM BORSTEL;FZB",
+    ""
+   ],
+   "category": "REFINEMENT",
+   "note": "M. tuberculosis vs MTBC sp.",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "6/6"
+  },
+  {
+   "studies": [
+    "PRJNA12857",
+    "PRJNA74629"
+   ],
+   "n_run_pairs": 6,
+   "names": [
+    "Sterkiella histriomuscorum",
+    "Oxytricha trifallax"
+   ],
+   "tax_relation": "same_higher_depth9",
+   "centers": [
+    "WUGSC",
+    "WUGSC"
+   ],
+   "category": "REFINEMENT",
+   "note": "Oxytricha trifallax = Sterkiella histriomuscorum (synonym)",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "6/6"
+  },
+  {
+   "studies": [
+    "PRJNA486431",
+    "PRJNA510231"
+   ],
+   "n_run_pairs": 2,
+   "names": [
+    "Colon",
+    "Homo sapiens"
+   ],
+   "tax_relation": "same_higher_depth2",
+   "centers": [
+    "SUB4409403",
+    "SUB4924610"
+   ],
+   "category": "REFINEMENT",
+   "note": "'Colon' (tissue placeholder) vs Homo sapiens; STAT: human",
+   "stat_verdict": "species-level reads support B only",
+   "stat_verdict_n": "2/2"
+  },
+  {
+   "studies": [
+    "PRJEB11563",
+    "PRJEB12660"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Bos indicus",
+    "Bos taurus"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "NDDB",
+    "Banaras Hindu University Varanasi;U.P.;India;AAU;India"
+   ],
+   "category": "REFINEMENT",
+   "note": "Bos indicus vs Bos taurus \u2014 subspecies-level in common usage; microbiome amplicon",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJEB11576",
+    "PRJEB12660"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Bos indicus gudali",
+    "Bos taurus"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "Banaras Hindu University Varanasi;U.P.;India;AAU;India",
+    "Banaras Hindu University Varanasi;U.P.;India;AAU;India"
+   ],
+   "category": "REFINEMENT",
+   "note": "Bos indicus gudali vs Bos taurus \u2014 as above",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJEB14646",
+    "PRJNA326914"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Chryseobacterium sp. 113(2015)",
+    "Chryseobacterium sp. CBo1"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "UNIVERISTY OF LIVERPOOL,",
+    ""
+   ],
+   "category": "REFINEMENT",
+   "note": "Chryseobacterium sp. 113 vs sp. CBo1 \u2014 strain-level, both unnamed",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  },
+  {
+   "studies": [
+    "PRJNA545208",
+    "PRJNA545783"
+   ],
+   "n_run_pairs": 1,
+   "names": [
+    "Bambusa pervariabilis",
+    "Bambusa pervariabilis x Bambusa grandis"
+   ],
+   "tax_relation": "same_genus",
+   "centers": [
+    "SUB5699361",
+    "SUB5681156"
+   ],
+   "category": "REFINEMENT",
+   "note": "Bambusa pervariabilis vs its hybrid",
+   "stat_verdict": "species-level reads support neither",
+   "stat_verdict_n": "1/1"
+  }
+ ]
+}
