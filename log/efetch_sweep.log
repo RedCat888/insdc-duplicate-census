@@ -122,3 +122,8 @@ wanted=491634 already=0 todo=491634
 [20:39:09] batches=1110/2459 runs=256370 failed=0 rate=176/s
   retry 1/5 after HTTPError: HTTP Error 502: Bad Gateway (sleep 3s)
   retry 1/5 after IncompleteRead: IncompleteRead(6549892 bytes read) (sleep 3s)
+[20:39:30] batches=1120/2459 runs=258477 failed=0 rate=175/s
+[20:39:45] batches=1130/2459 runs=260714 failed=0 rate=174/s
+[20:41:05] batches=1140/2459 runs=263296 failed=0 rate=167/s
+[20:42:15] batches=1150/2459 runs=265601 failed=0 rate=161/s
+[20:42:40] batches=1160/2459 runs=267807 failed=0 rate=160/s
