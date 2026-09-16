@@ -115,8 +115,10 @@ the Basel record, under an internal identifier, would be missed.
 - **This is against stated policy, not merely untidy.** NCBI's SRA submission standards
   (NCBI Insights, 29 June 2026, "Standards for SRA Data Submission", section 5) state:
   "Duplicate submissions are not permitted; reference the existing accession instead."
-- **Reference collections inherit the error permanently.** Once public, INSDC records are not
-  withdrawn; ENA's documented remedy (cancelling an object) applies only before release.
+- **Reference collections inherit the error indefinitely.** ENA's stated policy is that released
+  data "should remain public"; cancellation applies only before release, and suppression of a
+  public record happens only on the submitter's request to the helpdesk. Neither archive detects
+  duplicates itself or links a copy to its original, so absent submitter action the error persists.
 
 ## What would show this is wrong
 - If the read data behind a claimed duplicate differed — different composition, different

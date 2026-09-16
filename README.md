@@ -40,6 +40,10 @@ Every case in the report was checked against the **actual data**, not the metada
 | **5** | `SRR543504` is *"healthy human donor 2"* (Yu *et al.*, **Nature** 2012); `SRR578255` is *"healthy human donor 7"* (Yu *et al.*, **Science** 2013) | One library: 58,602,670 reads, identical composition, identical first 2,000 reads |
 | **6** | One *M. tuberculosis* isolate deposited as three isolates by Basel, Borstel, and the Institute of Tropical Medicine | Same file at three FTP paths, same checksum, three BioSamples |
 
+## What was already known, and what wasn't
+
+That sequencing repositories accumulate duplicates is established. Gabdank *et al.* ([*Database* 2018](https://doi.org/10.1093/database/bay008)) describe how the ENCODE portal prevents duplication *within its own submissions*, including the observation that a FASTQ's MD5 changes when its representation changes; NCBI's SRA submission standards prohibit duplicate submissions outright; ENA's curation team has written about the cost of post-deposition cleanup. What none of them do is measure the phenomenon across INSDC as a whole, using the one content-identity signal the archives already publish — and then ask how many of the duplicates declare **incompatible biological identities**. That combination is the contribution here.
+
 ## Why it was invisible
 
 ```
@@ -61,7 +65,7 @@ Measured on one fresh window (15,999 runs): 22,044 distinct `fastq_md5` values, 
 - **Pooled analyses count the same data twice.** ENA's own curation paper (*Database* 2016) tabulates two studies side-by-side as independent; they share 56 byte-identical files.
 - **In pathogen genomics a duplicate is indistinguishable from a transmission event.** Identical genomes give a SNP distance of zero — the strongest evidence of recent transmission. The nine-study *M. tuberculosis* component here includes data behind a paper titled *"Standard Genotyping Overestimates Transmission of M. tuberculosis"*.
 - **It is against stated policy.** NCBI SRA submission standards: *"Duplicate submissions are not permitted; reference the existing accession instead."*
-- **Public INSDC records are never withdrawn.** Reference collections inherit the error permanently.
+- **Corrections after release are rare and never automatic.** ENA's stated policy is that released data "should remain public"; suppression of a public record is possible only on the submitter's request to the helpdesk, and neither archive detects duplicates itself or links a copy back to its original. Absent submitter action, reference collections inherit the error indefinitely.
 
 ## How the pipeline works
 

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "Same bytes, different organism: a checksum census of duplicate raw-read deposits in the INSDC sequence archives"
+authors:
+  - family-names: Ansari
+    given-names: Armaan
+date-released: 2026-09-15
+version: "1.0"
+repository-code: "https://github.com/RedCat888/insdc-duplicate-census"
+license: MIT
+keywords:
+  - INSDC
+  - ENA
+  - SRA
+  - data integrity
+  - duplicate detection
+  - sequencing archives
